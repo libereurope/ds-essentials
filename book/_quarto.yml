@@ -17,12 +17,12 @@ book:
         - python.qmd
     - iiif.qmd
     - lod.qmd
-    - part: "ADDITIONAL RESOURCES"
+    - part: "**ADDITIONAL RESOURCES**"
       chapters:
         - competency-frameworks.qmd
         - networks.qmd
         - reports.qmd
-    - part: "ABOUT"
+    - part: "**ABOUT**"
       chapters:
         - acknowledgements.qmd
         - contributing.qmd
@@ -31,7 +31,8 @@ book:
     - references.qmd
   sidebar:
     logo: images/liber-logo.jpg
-  repo-url: https://github.com/nehamoopen/liber-learning-hub
+    collapse-level: 1
+  repo-url: https://github.com/libereurope/ds-essentials
   repo-actions: [edit]
   comments: 
     utterances:
