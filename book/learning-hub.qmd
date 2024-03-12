@@ -1,6 +1,6 @@
-# LEARNING HUB
+# LEARNING HUB {.unnumbered}
 
-On this learning hub, you can learn about the following topics:
+In this book, you can learn about the following topics:
 
 - Automatic Text Transcription
 - Linked Open Data

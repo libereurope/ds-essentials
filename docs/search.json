@@ -32,7 +32,7 @@
     "href": "learning-hub.html",
     "title": "LEARNING HUB",
     "section": "",
-    "text": "On this learning hub, you can learn about the following topics:\n\nAutomatic Text Transcription\nLinked Open Data\nWorking with APIs\nIIIF\nCrowdsourcing & Citizen Science in the cultural heritage context\nData Visualisation\nDigital Mapping\nText Encoding Initiative\nProgramming in Python\nNetwork Analysis\nDatabase design\nData Science Fundamentals\nDigital Scholarship Project Management, Evaluation and Assessment\nDigital Storytelling\nMachine Learning and AI in Libraries Literacies\nOpen Access, Open Data & Copyright\nResearch Data Management\nWikimedia\nClimate Change and Sustainability\n3D Modelling\nCultural Competency & Ethics"
+    "text": "In this book, you can learn about the following topics:\n\nAutomatic Text Transcription\nLinked Open Data\nWorking with APIs\nIIIF\nCrowdsourcing & Citizen Science in the cultural heritage context\nData Visualisation\nDigital Mapping\nText Encoding Initiative\nProgramming in Python\nNetwork Analysis\nDatabase design\nData Science Fundamentals\nDigital Scholarship Project Management, Evaluation and Assessment\nDigital Storytelling\nMachine Learning and AI in Libraries Literacies\nOpen Access, Open Data & Copyright\nResearch Data Management\nWikimedia\nClimate Change and Sustainability\n3D Modelling\nCultural Competency & Ethics"
   },
   {
     "objectID": "llms.html#overview",
@@ -61,6 +61,76 @@
     "title": "Understanding Large Language Models",
     "section": "Recommended Reading/Further Learning",
     "text": "Recommended Reading/Further Learning\n\n40 Best ChatGPT Prompts You Simply Have To Try in 2023 (tech.co)\nA Tech Librarian Explains How to Build AI Literacy - Choice 360\nChatGPT: Implications for academic libraries | Cox | College & Research Libraries News (acrl.org)\nUsing GPT on Library Collections (Matt Miller)\nhttps://programminghistorian.org/en/lessons/interrogating-national-narrative-gpt\nWelcome | Learn Prompting: Your Guide to Communicating with AI\n\n\n\n\nGuide Element\nDescription\n\n\n\n\nBasic Guide Metadata |\n\n\n\nTopic title:\nUnderstanding Large Language Models through an introduction to ChatGPT\n\n\nTopic summary:\nA brief introduction to Large Language models (LLMS) by way of ChatGPT, this guide will demystify both through hands-on activities, and explore potential challenges and opportunities for current and future library services.\n\n\nAuthor(s):\nNora McGregor\n\n\nDate first published:\n16/10/2023\n\n\nDate last reviewed/Reviewed By:\n\n\n\nDate last modified:\n\n\n\nDOI:\n\n\n\nHow to cite:\n\n\n\nLearner/Skill level:\nEasy\n\n\nTopics covered\nMachine learning and AI in Libraries literacies (From controlled category tags)\n\n\nGuide Content Blocks |\n\n\n\nLearning objectives\nThis guide aims to:\n\nIntroduce [topic] and its importance in the context of library work\nOutline how these technologies are being used in libraries\nShowcase different tools & technologies relevant to [topic] through hands-on activities\nDemonstrate how [topic] can be used for [outcome]\n\n\n\nPre-requisites & set-up:\nNo previous knowledge is required. You’ll need a browser and to create a login to chatgpt. ChatGPT (openai. com)\n\n\nI: Introduction to the topic\n\n\n\nII: Relevance to the Library Sector\n\n\n\nIII: Hands-on activity and other self-guided tutorial(s)\n\n\n\nIV: Recommended Reading & Further Learning\nThis section should include reference to:\n\nRecommended reading\nNetworks/Organisations?\nAdvanced tutorials/courses/learning?"
+  },
+  {
+    "objectID": "getting-started-with-programming.html#introduction",
+    "href": "getting-started-with-programming.html#introduction",
+    "title": "Getting Started With Programming",
+    "section": "Introduction",
+    "text": "Introduction\naergergdfvdf"
+  },
+  {
+    "objectID": "getting-started-with-programming.html#relevance-to-the-library-sector",
+    "href": "getting-started-with-programming.html#relevance-to-the-library-sector",
+    "title": "Getting Started With Programming",
+    "section": "Relevance to the Library Sector",
+    "text": "Relevance to the Library Sector\naergaergaerg"
+  },
+  {
+    "objectID": "getting-started-with-programming.html#hands-on-exercises-self-guided-tutorials",
+    "href": "getting-started-with-programming.html#hands-on-exercises-self-guided-tutorials",
+    "title": "Getting Started With Programming",
+    "section": "Hands-On Exercises & Self-Guided Tutorials",
+    "text": "Hands-On Exercises & Self-Guided Tutorials\naergeargaerg"
+  },
+  {
+    "objectID": "getting-started-with-programming.html#recommended-reading-further-resources",
+    "href": "getting-started-with-programming.html#recommended-reading-further-resources",
+    "title": "Getting Started With Programming",
+    "section": "Recommended Reading & Further Resources",
+    "text": "Recommended Reading & Further Resources\nragergeargaergaer"
+  },
+  {
+    "objectID": "r.html",
+    "href": "r.html",
+    "title": "R",
+    "section": "",
+    "text": "All things R :)"
+  },
+  {
+    "objectID": "python.html",
+    "href": "python.html",
+    "title": "Python",
+    "section": "",
+    "text": "All things Python :)"
+  },
+  {
+    "objectID": "iiif.html#introduction",
+    "href": "iiif.html#introduction",
+    "title": "IIIF",
+    "section": "Introduction",
+    "text": "Introduction\nsdfajsdhflakjhfalkejrhf"
+  },
+  {
+    "objectID": "iiif.html#relevance-to-the-library-sector",
+    "href": "iiif.html#relevance-to-the-library-sector",
+    "title": "IIIF",
+    "section": "Relevance to the Library Sector",
+    "text": "Relevance to the Library Sector\nwerw4rwerw34rw"
+  },
+  {
+    "objectID": "iiif.html#hands-on-activities-self-guided-tutorials",
+    "href": "iiif.html#hands-on-activities-self-guided-tutorials",
+    "title": "IIIF",
+    "section": "Hands-On Activities & Self-Guided Tutorials",
+    "text": "Hands-On Activities & Self-Guided Tutorials\ndfgdfgdfgdfg"
+  },
+  {
+    "objectID": "iiif.html#recommended-reading-further-reading",
+    "href": "iiif.html#recommended-reading-further-reading",
+    "title": "IIIF",
+    "section": "Recommended Reading & Further Reading",
+    "text": "Recommended Reading & Further Reading\n34hjdhfbkajdhbgksjehrger"
   },
   {
     "objectID": "lod.html#getting-started",

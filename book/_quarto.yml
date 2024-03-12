@@ -9,10 +9,14 @@ book:
   chapters:
     - index.qmd
     - introduction.qmd
-    - part: learning-hub.qmd
+    - learning-hub.qmd
+    - llms.qmd
+    - part: getting-started-with-programming.qmd
       chapters:
-        - llms.qmd
-        - lod.qmd
+        - r.qmd
+        - python.qmd
+    - iiif.qmd
+    - lod.qmd
     - part: "ADDITIONAL RESOURCES"
       chapters:
         - competency-frameworks.qmd
@@ -31,7 +35,7 @@ book:
   repo-actions: [edit]
   comments: 
     utterances:
-      repo: nehamoopen/liber-learning-hub
+      repo: libereurope/ds-essentials
 
 bibliography: references.bib
 
