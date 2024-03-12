@@ -1,1 +1,1 @@
-# liber-learning-hub
+# Digital Scholarship and Data Science Essentials for Library Professionals
