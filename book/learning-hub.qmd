@@ -1,0 +1,25 @@
+# LEARNING HUB
+
+On this learning hub, you can learn about the following topics:
+
+- Automatic Text Transcription
+- Linked Open Data
+- Working with APIs
+- IIIF
+- Crowdsourcing & Citizen Science in the cultural heritage context
+- Data Visualisation
+- Digital Mapping
+- Text Encoding Initiative
+- Programming in Python
+- Network Analysis
+- Database design
+- Data Science Fundamentals
+- Digital Scholarship Project Management, Evaluation and Assessment
+- Digital Storytelling
+- Machine Learning and AI in Libraries Literacies
+- Open Access, Open Data & Copyright
+- Research Data Management
+- Wikimedia
+- Climate Change and Sustainability
+- 3D Modelling
+- Cultural Competency & Ethics

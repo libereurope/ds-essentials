@@ -1,0 +1,23 @@
+# Welcome! {.unnumbered}
+
+This self-guided training resource is an an open, online and collaboratively curated learning hub which aims to help librarians who want to develop the skills and the knowledge needed to work with digital collections and with data. 
+
+## Purpose of this guide
+
+Over the past few decades, numerous free training materials have became available on topics relevant to digital scholarship, such as programming in Python, data modelling, network analysis and Machine Learning. For librarians who are relatively new to the field, however, it can be difficult to navigate this wealth of resources. This training resource has been developed to make it easier for librarians to find the most relevant and the most useful training materials. It presents a series of guides, or curricula, on selected topics, containing recommendations for specific learning activities. We did not develop new learning materials for this training resource. The aim was first and foremost to provide guidance on the use of materials made available elsewhere.  Ultimately, our aim is to remove all the barriers that librarians may encounter during their learning process.
+
+## Intended audience
+
+Each guide on this resource follows a fixed structure, consisting of three components. It contains instructions, firstly, for learners who are relatively new to a topic and who aim to started in a certain field. Secondly, the guides also contains pointers for more advanced learners, and for people who need more in-depth discussions of specific tools, methods or technologies. Thirdly, each guide also contains a section bringing together cookbooks or GKLAM workbenches, to provide concrete examples of how the technologies can be applied within a library context
+
+These guides will be useful for the various roles and positions within academic libraries:
+
+- Project managers
+- Developers
+- Subject librarians
+- System librarians
+- Managers
+- Information specialists
+
+
+

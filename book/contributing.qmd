@@ -1,0 +1,7 @@
+# Contributing {.unnumbered}
+
+In order to contribute to the book, you can refer to the **chapter template** that is provided in this section. The chapter template provides an outline on how to structure your contribution, so all chapters and content in the learning hub can be aligned.
+
+It is possible to submit your contribution as a Word document. However, a document following Markdown syntax would be even better. The submission will then be (manually) incorporated into the book by the maintainers.
+
+Alternatively. you could make a 'pull request' on GitHub. This means writing your chapter directly on GitHub (using Markdown syntax) and requesting a review and eventual merge of your contribution. Once merged, the book will automatically be updated GitHub.

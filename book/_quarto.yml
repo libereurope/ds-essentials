@@ -1,0 +1,42 @@
+project:
+  type: book
+  output-dir: ../docs
+
+book:
+  title: "Digital Scholarship & Data Science Essentials for Library Professionals"
+  author: Data Science in Libraries WG<br>Digital Scholarship & Digital Cultural Heritage WG
+  date: last-modified
+  chapters:
+    - index.qmd
+    - introduction.qmd
+    - part: learning-hub.qmd
+      chapters:
+        - llms.qmd
+        - lod.qmd
+    - part: "ADDITIONAL RESOURCES"
+      chapters:
+        - competency-frameworks.qmd
+        - networks.qmd
+        - reports.qmd
+    - part: "ABOUT"
+      chapters:
+        - acknowledgements.qmd
+        - contributing.qmd
+        - chapter-template.qmd
+        - contact.qmd
+    - references.qmd
+  sidebar:
+    logo: images/liber-logo.jpg
+  repo-url: https://github.com/nehamoopen/liber-learning-hub
+  repo-actions: [edit]
+  comments: 
+    utterances:
+      repo: nehamoopen/liber-learning-hub
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+
+

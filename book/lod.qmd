@@ -1,0 +1,35 @@
+# Linked Open Data {.unnumbered}
+
+## Getting Started
+
+The first sections of the introductory course about Linked Open Data in cultural heritage collections, developed at Leiden University, explains the basic principles of Linked Open Data (LOD):
+
+-   [[Basic principles]{.underline}](https://unloch.github.io/lod/notebooks/1%20Basic_principles.html)
+
+A good introduction to the basic principles of Linked Open Data can also be found at the Programming historian:
+
+-   [[Introduction to Linked Data]{.underline}](https://programminghistorian.org/en/lessons/intro-to-linked-data)
+
+## Advanced
+
+The course about Linked Open Data in cultural heritage collections, developed at Leiden University also includes [[a tutorial about a number of tools that can be used to create and to publish LOD]{.underline}](https://unloch.github.io/lod/notebooks/2%20Creating_LOD.html). More specifically, it contains discussions of the LDwizard and CLARIAH Data Legend tool 'COW'.
+
+To be able to retrieve and analyse Linked Open Data, you need to know how to build SPARQL queries. The following courses can be helpful:
+
+-   [[Introduction to SPARQL]{.underline}](https://unloch.github.io/lod/notebooks/3%20SPARQL_queries.html)
+
+-   [[Using SPARQL to access Linked Open Data]{.underline}](http://programminghistorian.org/en/lessons/retired/graph-databases-and-SPARQL)
+
+    _Note that the tutorial is somewhat outdated. The British Library SPARQL endpoint that is discussed in the text is not longer available at this address._
+
+## Cookbooks
+
+Examples of SPARQL queries used to collect and analyse data from heritage institutions can be found in the notebooks below:
+
+-   [[The Europeana SPARQL endpoint]{.underline}](https://unloch.github.io/lod/notebooks/Europeana_Basics.html)
+
+-   [[Wikidata]{.underline}](https://unloch.github.io/lod/notebooks/Wikidata_Basics.html)
+
+-   [[Short Title Catalogue of the Netherlands]{.underline}](https://github.com/peterverhaar/stcn-english-book)
+
+-   [[The Dutch Institute for Art History]{.underline}](https://unloch.github.io/lod/notebooks/RKD_SPARQL.html)

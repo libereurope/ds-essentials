@@ -1,0 +1,5 @@
+# Networks {.unnumbered}
+
+- LIBER Data Science in Libraries Working Group
+- LIBER Digital Scholarship & Digital Cultural Heritage Working Group
+- [code4lib](https://code4lib.org/)
