@@ -10,7 +10,6 @@ book:
     - index.qmd
     - introduction.qmd
     - learning-hub.qmd
-    - llms.qmd
     - part: getting-started-with-programming.qmd
       chapters:
         - r.qmd
