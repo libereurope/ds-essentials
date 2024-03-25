@@ -1,13 +1,12 @@
 # Understanding Large Language Models {.unnumbered}
-Contributor(s) Name & (Orcid ID): Nora McGregor, [ORCID iD](https://orcid.org/0000-0001-6560-5586)
-Suggested Citation: Nora McGregor, “Understanding Large Language Models,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
-
-A brief introduction to Large Language models (LLMS) by way of ChatGPT,
-this guide will demystify both. Through hands-on activities and case
-studies, you'll explore potential challenges and opportunities for the
-use of LLMs and ChatGPT in current and future library services.
+# Understanding Large Language Models {.unnumbered}
+>Contributor by: Nora McGregor, [ORCID iD](https://orcid.org/0000-0001-6560-5586)
+>
+>Suggested Citation: Nora McGregor, “Understanding Large Language Models,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
 
 ## Introduction
+
+This Topic Guide, based on a Hack & Yack delivered as part of the British Library's Digital Scholarship Training Programme, offers a brief introduction to Large Language models (LLMS) by way of ChatGPT, as a means of demystifying both quickly. Through hands-on activities and case studies, we'll explore potential challenges and opportunities for the use of LLMs and ChatGPT in current and future library services.
 
 ### What are Large Language Models (LLMs)?
 
