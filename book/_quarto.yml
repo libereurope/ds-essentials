@@ -15,9 +15,10 @@ book:
       chapters:
         - r.qmd
         - python.qmd
+    - part: ml-ai.qmd
+      chapters:
+        - llms.qmd
     - iiif.qmd
-    - llms.qmd
-    - lod.qmd
     - part: "**ADDITIONAL RESOURCES**"
       chapters:
         - reports.qmd
