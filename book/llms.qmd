@@ -1,5 +1,4 @@
 # Understanding Large Language Models {.unnumbered}
-# Understanding Large Language Models {.unnumbered}
 >Contributor by: Nora McGregor, [ORCID iD](https://orcid.org/0000-0001-6560-5586)
 >
 >Suggested Citation: Nora McGregor, “Understanding Large Language Models,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
@@ -234,13 +233,13 @@ around opportunities and challenges\]
 
 ## Hands-on activity and other self-guided tutorial(s)
 
+The following activity was delivered to British Library staff as part of a monthly Hack & Yack.
 
+### Getting started
 For this activity we'll primarily use the freely available [[ChatGPT
-(openai.com)]{.underline}](https://openai.com/chatgpt) interface. It's
-also possible for those who may have more advanced skills to investigate
-using the API directly though it's not free.
+(openai.com)]{.underline}](https://openai.com/chatgpt) interface. For this you'll need to have a free google account. 
 
-### Writing prompts
+### First, a word on writing prompts
 
 To get a useful response from ChatGPT, "prompting" is key. If you only
 ask a simple question, you may not be happy with the results and decide
@@ -250,7 +249,7 @@ evaluation skills, allowing us to make informed decisions about
 utilising tools like ChatGPT in our endeavours.
 
 Some best practices for writing a good prompt (helpful hints/tips
-gleaned from the readings above):
+gleaned from the suggested readings in this guide):
 
 -   Give the context. The more you explain the ins and outs of what you
     want ChatGPT to do, the more relevant your answer will be. For
