@@ -9,6 +9,7 @@ Working groups are open to staff at participating [LIBER Member institutions](ht
 ## International Networks
 
 - [AI4LAM](https://sites.google.com/view/ai4lam)
+- [Code4Lib](https://code4lib.org/about/)
 - [Electronic Literature Organisation](https://eliterature.org/)
 - [Flickr Commons](https://www.flickr.com/commons)
 - [Glam Labs International](https://glamlabs.io/)
