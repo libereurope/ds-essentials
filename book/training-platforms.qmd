@@ -1,7 +1,20 @@
-# Competency Frameworks {.unnumbered}
+# Training Platforms {.unnumbered}
 
-- [LIBER Digital Skills for Library Staff & Researchers Working Group - LIBER Europe](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Flibereurope.eu%2Fworking-group%2Fliber-digital-skills-services-working-group%2F&data=05%7C01%7Cp.a.f.verhaar%40library.leidenuniv.nl%7C8c67963bd3a647e3b5dd08dbb51fc510%7Cca2a7f76dbd74ec091086b3d524fb7c8%7C0%7C0%7C638302921120095919%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=0HrnGgZXFROtGNsLPUOqDyupzGD%2FmAFpqqXaEguoHqM%3D&reserved=0). Lots of resources here, including a very useful diagram [Identifying Open Science Skills for Library Staff & Researchers](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Flibereurope.eu%2Farticle%2Fopen-science-skills-diagram%2F&data=05%7C01%7Cp.a.f.verhaar%40library.leidenuniv.nl%7C8c67963bd3a647e3b5dd08dbb51fc510%7Cca2a7f76dbd74ec091086b3d524fb7c8%7C0%7C0%7C638302921120095919%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=qhYKTHnbPLSQXs%2Bmk%2BiLaNM8F77XVbaRScTb7evTOOQ%3D&reserved=0) 
+When you’re ready to go further and have a better idea of the specific skills you need for a particular task, we can recommend having a good search through these excellent platforms which host a great many in-depth training materials:
 
-- [LIBER Job Description Repository](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Flibereurope.eu%2Fjob-descriptions%2F%23descriptions&data=05%7C01%7Cp.a.f.verhaar%40library.leidenuniv.nl%7C8c67963bd3a647e3b5dd08dbb51fc510%7Cca2a7f76dbd74ec091086b3d524fb7c8%7C0%7C0%7C638302921120095919%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=RhdU9FGrP6kqaOZurBcGCcn7sa3dLO8wVd6TAbUyW9o%3D&reserved=0)
+### DARIAH-Campus
+DARIAH is a pan-European infrastructure for arts and humanities scholars working with computational methods. It supports digital research as well as the teaching of digital research methods. Though not specific to the library professional context, tutorials here are useful for applying techniques to digital collections. [https://campus.dariah.eu/](https://campus.dariah.eu/)
 
-- [Europe's Digital Humanities Landscape: A Study From LIBER's Digital Humanities & Digital Cultural Heritage Working Group](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fzenodo.org%2Frecord%2F3247286%23.ZGXqS7XMJjS&data=05%7C01%7Cp.a.f.verhaar%40library.leidenuniv.nl%7C8c67963bd3a647e3b5dd08dbb51fc510%7Cca2a7f76dbd74ec091086b3d524fb7c8%7C0%7C0%7C638302921120095919%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=qdXTBVZTwJltthx%2BlUldAEi91Q5yAT%2Fq0%2FybwW0V9Fs%3D&reserved=0) 
+### The Glam Workbench
+The GLAM Workbench is the brainchild of Tim Sherratt, a historian, and is a collection of Jupyter notebooks to help you explore and use data from GLAM institutions (galleries, libraries, archives, and museums). It includes tools, tutorials, examples, hacks, and even some pre-harvested datasets. It's aimed at researchers in the humanities but has useful tutorials for anyone interested in working with GLAM data.
+[https://glam-workbench.net/](https://glam-workbench.net/)
+
+### Ineo
+Ineo is a project developed and maintained by CLARIAH that lets you search, browse, find and select digital resources for research in humanities and social sciences. At the end of 2024 it will offer access to thousands of tools, datasets, workflows, standards and learning material. It is a work in progress so do keep that in mind when browsing. [https://www.ineo.tools/](https://www.ineo.tools/)
+
+### Library Carpentry 
+Library Carpentry is an international volunteer community, under the Carpentries, focussed building software and data skills within library and information-related communities. The lessons here are meant to be taught as workshops led by a Carpentries certified instructor (for a fee) but you may find it useful to have a read through the content which is open and available to all. [https://librarycarpentry.org/](https://librarycarpentry.org/)
+
+
+### The Programming Historian
+The Programming Historian has been publishing peer-reviewed tutorials on digital tools and techniques for humanists since 2008 and though they’re generally aimed at academic researchers, staff at British Library have found them highly useful over the years in their own work! [https://programminghistorian.org/en/](https://programminghistorian.org/en/)
