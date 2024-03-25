@@ -1,25 +1,16 @@
 # **TOPIC GUIDES** {.unnumbered}
 
-In this book, you can learn about the following topics:
+# Topic Guides {.unnumbered}
 
-- Automatic Text Transcription
-- Linked Open Data
-- Working with APIs
-- IIIF
-- Crowdsourcing & Citizen Science in the cultural heritage context
-- Data Visualisation
-- Digital Mapping
-- Text Encoding Initiative
-- Programming in Python
-- Network Analysis
-- Database design
-- Data Science Fundamentals
-- Digital Scholarship Project Management, Evaluation and Assessment
-- Digital Storytelling
-- Machine Learning and AI in Libraries Literacies
-- Open Access, Open Data & Copyright
-- Research Data Management
-- Wikimedia
-- Climate Change and Sustainability
-- 3D Modelling
-- Cultural Competency & Ethics
+**Topic Guides** are the heart and soul of *Digital Scholarship and Data Science Essentials for Library Professionals*. The aim of each is to provide research library professionals with a gentle and concise introduction to the key topics in this area today. They offer those with no prior knowledge, quick and curated guidance to personally recommended hands-on tutorials, use-cases, articles, videos, networks and communities of practice to deepen learning.
+
+Each **Topic Guide** follows a fixed structure, consisting of a descriptive header and five key components in order to make it easier to quickly find the information you might need: 
+- Introduction to the topic
+- Relevance to the library sector (case studies/use cases)
+- Hands-on activities and other self-guided tutorial(s)
+- Recommended reading & viewing
+- Taking the next steps (finding Communities of Practice)
+
+The guides are not presented, nor meant to be completed, in any particular order, rather, you are invited to jump in and out of individual topics as personal curiosity or practical need dictates.
+
+The Topic Guide list in this first edition draws heavily on the existing skills framework and topics covered in the British Library’s Digital Scholarship Training Programme, as well as those recommended by attendees of a series of development workshops held with LIBER working groups throughout 2023.
