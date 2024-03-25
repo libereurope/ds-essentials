@@ -339,17 +339,6 @@
     ]
   },
   {
-    "objectID": "chapter-template.html",
-    "href": "chapter-template.html",
-    "title": "Chapter Template",
-    "section": "",
-    "text": "Guide Element\nDescription\n\n\n\n\nBasic Guide Metadata |\n\n\n\nTopic title:\n\n\n\nTopic summary:\nIn two sentences or less, summarise the guide’s purpose\n\n\nAuthor(s):\n\n\n\nDate first published:\n\n\n\nDate last reviewed/Reviewed By:\n\n\n\nDate last modified:\n\n\n\nDOI:\nEach guide should have its own DOI so that usage can be tracked.We can do this through the British Library Research Repository.\n\n\nHow to cite:\nProvide a suggested citation for the guide itself to make it easier for folks to cite.\n\n\nLearner/Skill level:\nTBD, but we should choose a standard we like that expresses the level at which this Guide is written:\nLevel I: Basic/Foundational\nLevel II: Advanced/Applied\nDifficulty: Low/Medium/High\nAwareness\nWorking\nPractitioner\nExpert\n(Digital, Data and Technology Profession Capability Framework - Capability Framework (ddat-capability-f ramework.service.gov.uk))\n\n\nTopics covered\nThese would be [controlled category tags] (https://docs.google.com/document/u/0/d/1vSIi 5WMi7icP6Byeju9UP8tmrnnASXxACOImeRr3wYU/edit) which the guide could fall under. We can base these on the list of skills categories that the WG agrees to?\n\n\nGuide Content Blocks |\n\n\n\nLearning objectives\nEach guide should have a short list of 3-4 bullet points indicating what the reader hopes to learn from going through the guide. Example:\nThis guide aims to:\n\nIntroduce [topic] and its importance in the context of library work\nOutline how these technologies are being used in libraries\nShowcase different tools & technologies relevant to [topic] through hands-on activities\nDemonstrate how [topic] can be used for [outcome]\n\n\n\nPre-requisites & set-up:\nIf there is any previous knowledge required for learning this topic, and/or any unique technology set-up required state this here.\n\n\nI: Introduction to the topic\nA concise overview of the topic, pitched at the level indicated at the outset, including jargon busting.\n\n\nII: Relevance to the Library Sector\nEach guide needs to include somewhere within it a clear explanation of the topics’ specific relevance to the work of libraries.\n\nInclude real world (or potential) applications/case studies/projects\nLay out opportunities and challenges for libraries around the topic\n\n\n\nIII: Hands-on activity and other self-guided tutorial(s)\nGuides should include one or two hands-on activities that the reader can undertake independently to practice the concepts they’re encountering. Note: not a quiz or a test\n\n\nIV: Recommended Reading & Further Learning\nThis section should include reference to:\n\nRecommended reading\nNetworks/Organisations?\nAdvanced tutorials/courses/learning?",
-    "crumbs": [
-      "**ABOUT**",
-      "Chapter Template"
-    ]
-  },
-  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
