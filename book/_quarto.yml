@@ -20,9 +20,9 @@ book:
     - lod.qmd
     - part: "**ADDITIONAL RESOURCES**"
       chapters:
-        - competency-frameworks.qmd
         - networks.qmd
         - reports.qmd
+        - training-platforms.qmd
     - part: "**ABOUT**"
       chapters:
         - acknowledgements.qmd
