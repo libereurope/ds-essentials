@@ -264,12 +264,34 @@
   {
     "objectID": "networks.html",
     "href": "networks.html",
-    "title": "Networks",
+    "title": "Useful Networks",
     "section": "",
-    "text": "LIBER Data Science in Libraries Working Group\nLIBER Digital Scholarship & Digital Cultural Heritage Working Group\ncode4lib",
+    "text": "LIBER Working Groups\nWorking groups are open to staff at participating LIBER Member institutions: - LIBER Data Science in Libraries - LIBER Digital Scholarship & Digital Cultural Heritage - Or have a look at the other LIBER Working Groups - LIBER Europe",
     "crumbs": [
       "**ADDITIONAL RESOURCES**",
-      "Networks"
+      "Useful Networks"
+    ]
+  },
+  {
+    "objectID": "networks.html#international-networks",
+    "href": "networks.html#international-networks",
+    "title": "Useful Networks",
+    "section": "International Networks",
+    "text": "International Networks\n\nAI4LAM\nElectronic Literature Organisation\nFlickr Commons\nGlam Labs International\nIIIF/UV Open Collective\nIMPACT Centre of Competence\nMuseums Computer Group\nTranskribus\nWikidata Community)",
+    "crumbs": [
+      "**ADDITIONAL RESOURCES**",
+      "Useful Networks"
+    ]
+  },
+  {
+    "objectID": "networks.html#national-networks-european",
+    "href": "networks.html#national-networks-european",
+    "title": "Useful Networks",
+    "section": "National Networks (European)",
+    "text": "National Networks (European)\n\nIreland/UK\n\nRLUK Digital Scholarship Network",
+    "crumbs": [
+      "**ADDITIONAL RESOURCES**",
+      "Useful Networks"
     ]
   },
   {
