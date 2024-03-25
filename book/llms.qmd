@@ -1,11 +1,13 @@
 # Understanding Large Language Models {.unnumbered}
+Contributor(s) Name & (Orcid ID): Nora McGregor, [ORCID iD](https://orcid.org/0000-0001-6560-5586)
+Suggested Citation: Nora McGregor, “Understanding Large Language Models,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
 
 A brief introduction to Large Language models (LLMS) by way of ChatGPT,
 this guide will demystify both. Through hands-on activities and case
 studies, you'll explore potential challenges and opportunities for the
 use of LLMs and ChatGPT in current and future library services.
 
-## Overview
+## Introduction
 
 ### What are Large Language Models (LLMs)?
 
@@ -213,7 +215,7 @@ should come next in a conversation.
     connection with the structured data. This is sometimes referred to
     as "function calling" in the ChatGPT literature.
 
-## Large Language Models (LLM) and ChatGPT Uses in Libraries Today
+## Relevance to the Library Sector: Large Language Models (LLM) and ChatGPT Uses in Libraries Today
 
 \[Need to work on this section with written examples/more narrative
 around opportunities and challenges\]
@@ -231,7 +233,8 @@ around opportunities and challenges\]
 
 -   [[https://programminghistorian.org/en/lessons/interrogating-national-narrative-gpt]{.underline}](https://gbr01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fprogramminghistorian.org%2Fen%2Flessons%2Finterrogating-national-narrative-gpt&data=05%7C01%7C%7C248b64ef15f24804d9f108dbb3b32d6f%7C21a44cb7f9c34f009afabd1e8e88bcd9%7C0%7C0%7C638301354362697282%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=Y22gBCRJru2c%2BywzxeWzqk%2F2oJKrXq3MyUQQnezS7F0%3D&reserved=0)
 
-## Hands On Activity
+## Hands-on activity and other self-guided tutorial(s)
+
 
 For this activity we'll primarily use the freely available [[ChatGPT
 (openai.com)]{.underline}](https://openai.com/chatgpt) interface. It's
@@ -300,15 +303,13 @@ Prompting]{.underline}](https://learnprompting.org/).
 
 +--------------------+------------------------+------------------------+
 | **Try this....**   | **Example Prompts      | **Further              |
-|                    | (please share if you   | considerations/Notes** |
-|                    | have come up with a    |                        |
-|                    | useful one!)**         |                        |
+|                    |                        | considerations/Notes** |
 +====================+========================+========================+
 | Ask ChatGPT to     |                        |                        |
 | create a title for |                        |                        |
 | a new exhibition   |                        |                        |
 +--------------------+------------------------+------------------------+
-| Ask ChatGPT to     | "write an exhibition   |                        |
+| Ask ChatGPT to     | "Write an exhibition   |                        |
 | create an          | label for this         |                        |
 | exhibition label   | archived website       |                        |
 | for items in an    | http://moorfootru      |                        |
@@ -941,7 +942,7 @@ Prompting]{.underline}](https://learnprompting.org/).
 |                    |                        |                        |
 +--------------------+------------------------+------------------------+
 
-## Recommended Reading/Further Learning
+## Recommended Reading & Viewing
 
 -   [[40 Best ChatGPT Prompts You Simply Have To Try in 2023
     (tech.co)]{.underline}](https://tech.co/news/best-chatgpt-prompts)
@@ -962,86 +963,4 @@ Prompting]{.underline}](https://learnprompting.org/).
 -   [[Welcome \| Learn Prompting: Your Guide to Communicating with
     AI]{.underline}](https://learnprompting.org/docs/intro)
 
-+---------------------+------------------------------------------------+
-| **Guide Element**   | **Description**                                |
-+=====================+================================================+
-| **Basic Guide Metadata** |                                           |
-+---------------------+------------------------------------------------+
-| **Topic title:**    | Understanding Large Language Models through an |
-|                     | introduction to ChatGPT                        |
-+---------------------+------------------------------------------------+
-| **Topic summary:**  | A brief introduction to Large Language models  |
-|                     | (LLMS) by way of ChatGPT, this guide will      |
-|                     | demystify both through hands-on activities,    |
-|                     | and explore potential challenges and           |
-|                     | opportunities for current and future library   |
-|                     | services.                                      |
-+---------------------+------------------------------------------------+
-| **Author(s):**      | Nora McGregor                                  |
-+---------------------+------------------------------------------------+
-| **Date first        | 16/10/2023                                     |
-| published:**        |                                                |
-+---------------------+------------------------------------------------+
-| **Date last         |                                                |
-| reviewed/Reviewed   |                                                |
-| By:**               |                                                |
-+---------------------+------------------------------------------------+
-| **Date last         |                                                |
-| modified:**         |                                                |
-+---------------------+------------------------------------------------+
-| **DOI:**            |                                                |
-+---------------------+------------------------------------------------+
-| **How to cite:**    |                                                |
-+---------------------+------------------------------------------------+
-| **Learner/Skill     | Easy                                           |
-| level:**            |                                                |
-+---------------------+------------------------------------------------+
-| **Topics covered**  | Machine learning and AI in Libraries           |
-|                     | literacies (From [[controlled category         |
-|                     | tags]{.underline}                              |
-|                     | ](https://docs.google.com/document/u/0/d/1vSIi |
-|                     | 5WMi7icP6Byeju9UP8tmrnnASXxACOImeRr3wYU/edit)) |
-+---------------------+------------------------------------------------+
-| **Guide Content Blocks** |                                           |
-+---------------------+------------------------------------------------+
-| **Learning          | *This guide aims to:*                          |
-| objectives**        |                                                |
-|                     | -   *Introduce \[topic\] and its importance in |
-|                     |     the context of library work*               |
-|                     |                                                |
-|                     | -   *Outline how these technologies are being  |
-|                     |     used in libraries*                         |
-|                     |                                                |
-|                     | -   *Showcase different tools & technologies   |
-|                     |     relevant to \[topic\] through hands-on     |
-|                     |     activities*                                |
-|                     |                                                |
-|                     | -   *Demonstrate how \[topic\] can be used for |
-|                     |     \[outcome\]*                               |
-+---------------------+------------------------------------------------+
-| **Pre-requisites &  | No previous knowledge is required. You'll need |
-| set-up:**           | a browser and to create a login to chatgpt.    |
-|                     | [[ChatGPT                                      |
-|                     | (openai.                                       |
-|                     | com)]{.underline}](https://openai.com/chatgpt) |
-+---------------------+------------------------------------------------+
-| **I: Introduction   |                                                |
-| to the topic**      |                                                |
-+---------------------+------------------------------------------------+
-| **II: Relevance to  |                                                |
-| the Library         |                                                |
-| Sector**            |                                                |
-+---------------------+------------------------------------------------+
-| **III: Hands-on     |                                                |
-| activity and other  |                                                |
-| self-guided         |                                                |
-| tutorial(s)**       |                                                |
-+---------------------+------------------------------------------------+
-| **IV: Recommended   | This section should include reference to:      |
-| Reading & Further   |                                                |
-| Learning**          | -   Recommended reading                        |
-|                     |                                                |
-|                     | -   Networks/Organisations?                    |
-|                     |                                                |
-|                     | -   Advanced tutorials/courses/learning?       |
-+---------------------+------------------------------------------------+
+## Taking the next steps
