@@ -10,13 +10,13 @@ book:
   date: last-modified
   chapters:
     - index.qmd
-    - learning-hub.qmd
-    - llms.qmd
+    - topicguides.qmd
     - part: getting-started-with-programming.qmd
       chapters:
         - r.qmd
         - python.qmd
     - iiif.qmd
+    - llms.qmd
     - lod.qmd
     - part: "**ADDITIONAL RESOURCES**"
       chapters:
