@@ -1,13 +1,41 @@
-# Reports {.unnumbered}
+# Skills Competency Frameworks & Key Reports {.unnumbered}
 
-- The British Library and the Arts and Humanities Research Council  published a report on skills: [Scoping Skills and Developing Training Programme for Managing Repository Services in Cultural Heritage Organisations](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdoi.org%2F10.23636%2Fnyee-xt63&data=05%7C01%7Cp.a.f.verhaar%40library.leidenuniv.nl%7C8c67963bd3a647e3b5dd08dbb51fc510%7Cca2a7f76dbd74ec091086b3d524fb7c8%7C0%7C0%7C638302921120095919%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=Y3sfmGiLDufafFkxbGBAUahgj%2F40nkChK97cH6NqD74%3D&reserved=0). There is a very useful section in there that references several other digital skills frameworks for research library staff across Europe.
+The following are Skills Competency Frameworks & Key Reports relating to supporting Digital Scholarship and Data Science for library staff
+
+## LIBER Publications
+
+- [LIBER Digital Skills for Library Staff & Researchers Working Group - LIBER Europe](https://libereurope.eu/working-group/liber-digital-skills-services-working-group/) have lots of resources here, including a very useful diagram [Identifying Open Science Skills for Library Staff & Researchers](https://libereurope.eu/article/open-science-skills-diagram/)
+
+- [LIBER Job Description Repository](https://libereurope.eu/job-descriptions/#descriptions) Contains job description examples for Digital Curator and other digital roles which reference the types of skills required for such work.
+
+- [Europe’s Digital Humanities Landscape: A Study From LIBER’s Digital Humanities & Digital Cultural Heritage Working Group](https://zenodo.org/records/3247286#.ZGXqS7XMJjS) is a report based on a Europe-wide survey run by LIBER's Digital Humanities & Digital Cultural Heritage Working Group. The survey focused on digital collections and the activities libraries undertake around them. It covered the following topics and themes including staffing/skills
+
+## Other Key Publications specific to digital scholarship and data science skills for research library staff
+- The British Library and the Arts and Humanities Research Council published a report on skills: [Scoping Skills and Developing Training Programme for Managing Repository Services in Cultural Heritage Organisations](https://bl.iro.bl.uk/concern/reports/c87fd1ff-5ade-4367-8dc1-f94381c4b018). There is a very useful section (Section 3.) that references several other digital skills frameworks for research library staff across Europe.
+
+
+- Lippincott, Joan K. Directions in Digital Scholarship: Support for Digital, Data-Intensive, and Computational Research in Academic Libraries. Coalition for Networked Information, June 2023. https://doi.org/10.56561/ULHJ1168
+
+- Padilla, Thomas. ‘Responsible Operations: Data Science, Machine Learning, and AI in Libraries’. OCLC, 26 August 2020. https://www.oclc.org/research/publications/2019/oclcresearch-responsible-operations-data-science-machine-learning-ai.html.
+
+- Cordell, R. C. (2020). Machine Learning + Libraries: A Report on the State of the Field. LC Labs, Library of Congress. https://labs.loc.gov/static/labs/work/reports/Cordell-LOC-ML-report.pdf
+
+- Federer L. Defining data librarianship: a survey of competencies, skills, and training. J Med Libr Assoc. 2018 Jul;106(3):294-303. doi: 10.5195/jmla.2018.306. Epub 2018 Jul 1. PMID: 29962907; PMCID: PMC6013124.
+
+## General Competencies for Librarians which include reference to digital 
+
+- American Library Association (ALA) [Library Competencies (Various roles): Library Competencies | Tools, Publications & Resources (ala.org)](https://www.ala.org/tools/atoz/library-competencies) (USA)
+
+- Canadian Association of Research Libraries [Competencies for Librarians in Canadian Research Libraries Publications and Documents](https://www.carl-abrc.ca/publications-and-documents/) (including specifically [Competencies-Final-EN-1-2.pdf](https://www.carl-abrc.ca/wp-content/uploads/2020/09/Competencies-Final-EN-1-2.pdf) (Canada)
+
+- CILIP: the library and information association [Professional Knowledge & Skills Base](https://www.cilip.org.uk/page/PKSB) - (UK)
+
+
+
+
+
+
+
  
-- ALA published a report on Library Competencies.
 
-    - [Library Competencies | Tools, Publications & Resources](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ala.org%2Ftools%2Fatoz%2Flibrary-competencies&data=05%7C01%7Cp.a.f.verhaar%40library.leidenuniv.nl%7C8c67963bd3a647e3b5dd08dbb51fc510%7Cca2a7f76dbd74ec091086b3d524fb7c8%7C0%7C0%7C638302921120095919%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=eWEZNv%2BWKSG54ZP9h2gQZmWRbLuvE15j%2B3mru4oKLjM%3D&reserved=0) (ala.org) (USA)
 
-    - [Publications and Documents   - Canadian Association of Research Libraries](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.carl-abrc.ca%2Fpublications-and-documents%2F&data=05%7C01%7Cp.a.f.verhaar%40library.leidenuniv.nl%7C8c67963bd3a647e3b5dd08dbb51fc510%7Cca2a7f76dbd74ec091086b3d524fb7c8%7C0%7C0%7C638302921120252139%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=8YKsnGp20%2BAU7WCZEfvWWp5xSD1I15aGJplCZ3djNys%3D&reserved=0) (carl-abrc.ca) (including specifically [Competencies-Final-EN-1-2.pdf](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.carl-abrc.ca%2Fwp-content%2Fuploads%2F2020%2F09%2FCompetencies-Final-EN-1-2.pdf&data=05%7C01%7Cp.a.f.verhaar%40library.leidenuniv.nl%7C8c67963bd3a647e3b5dd08dbb51fc510%7Cca2a7f76dbd74ec091086b3d524fb7c8%7C0%7C0%7C638302921120252139%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=s0efJowXFt73xguYhhAp8tl2HKLJpIEY6497j2DaR%2FM%3D&reserved=0) (carl-abrc.ca))
-
-- Lippincott, Joan K. Directions in Digital Scholarship: Support for Digital, Data-Intensive, and Computational Research in Academic Libraries. Coalition for Networked Information, June 2023. [https://doi.org/10.56561/ULHJ1168](https://doi.org/10.56561/ULHJ1168)
-
-- Federer L. Defining data librarianship: a survey of competencies, skills, and training. J Med Libr Assoc. 2018 Jul;106(3):294-303. doi: [10.5195/jmla.2018.306](https://doi.org/10.5195/jmla.2018.306). Epub 2018 Jul 1. PMID: 29962907; PMCID: PMC6013124.
