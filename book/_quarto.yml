@@ -27,7 +27,6 @@ book:
       chapters:
         - acknowledgements.qmd
         - contributing.qmd
-        - chapter-template.qmd
         - contact.qmd
     - references.qmd
   sidebar:
