@@ -5,9 +5,9 @@
 
 AI is mentioned absolutely everywhere these days, in movies, in the news, in our library strategies and our funding calls, but what does it really mean and is anyone even using it correctly? Let's try to get to the bottom of this!
 
-Artificial Intelligence (AI) is actually a really broad field of computer science (and an umbrella term) that refers to the research and development of systems and machines capable of doing tasks that typically require human intelligence to perform, such as reasoning, problem-solving, learning, and perception. Sometimes folks may think AI refers to systems and machines that actually having true intelligence, and though todays AI systems are shockingly convincing in how well they perform, what we're seeing really are just very advanced machine learning algorithms performing specific and discrete functions, and we're a long way off (if ever) from machines having sentience (or, Generalised Artificial Intelligence (GAI), so don't worry! 
+*Artificial Intelligence (AI)* is actually a really broad field of computer science (and an umbrella term) that refers to the research and development of systems and machines capable of doing tasks that typically require human intelligence to perform, such as reasoning, problem-solving, learning, and perception. Sometimes folks may think AI refers to systems and machines that actually having true intelligence, and though todays AI systems are shockingly convincing in how well they perform, what we're seeing really are just very advanced *machine learning algorithms and models" performing specific and discrete functions, very well! We're a long way off (if ever) from machines having sentience (or, Generalised Artificial Intelligence (GAI), so don't worry! 
 
-These days, AI can be further divided into "Traditional AI" which is the type of work we make a whole lot of use of in the library world such as using machine learning algorithms for tasks such as classifying data (e.g., assigning labels to images, automatically transcribing handwritten texts, or identifying genre of digitised texts) and "Generative AI" which refers broadly to systems whose primary function is to generate new content (conversation, books, art, etc). This is where your ChatGPT systems comes under for instance.
+These days, AI has been further divided into *Traditional AI* which are systems for things like classifying data (e.g., assigning labels to images, automatically transcribing handwritten texts, or identifying genre of digitised texts), the type of work we make a whole lot of use of in the library world, and *Generative AI* which refers broadly to systems whose primary function is to generate new content (conversation, books, art, etc). This is where conversational AI systems like ChatGPT fall under for instance and we're only just now considering the potential applications for these types of systems in library work.
 
 Whenever AI is being discussed you may often hear the term **machine learning** mentioned, and sometimes they’re used interchangeably which can be confusing. Machine learning is more specifically a core technology that is itself a main subfield of AI and also underpins the other subfields of AI such as Natural Language Processing (NLP), and Computer Vision (CV).
 
@@ -19,7 +19,7 @@ A **machine learning model** represents what was learned by a machine learning a
 
 In the next section we'll consider one particularly common use case in order to walk us more practically through the concept of machine learning: automatic transcription of handwritten text. 
 
-### But first, a quick Review Time!
+### But first, a quick quiz!
 
 *Which of the following do you think would use Machine Learning?*
 
@@ -29,7 +29,7 @@ In the next section we'll consider one particularly common use case in order to 
 4. A queueing system that spreads people evenly between 5 ticket booths
 5. A program which extracts names from documents by finding all capitalised words and checking them against a list of known names
 6. A system which turns digitised handwritten documents into searchable text
-7. A robot which cleans the vases in a museum without bumping into them or breaking them
+7. A robot that cleans the vases in a museum without bumping into them or breaking them
  
 
 If you answered 2, 3, 6 & 7 you are correct! The others could all be easily programmed using a simple set of easily defined rules.
