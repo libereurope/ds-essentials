@@ -1,4 +1,15 @@
-# References {.unnumbered}
+# Recommended Reading Lists {.unnumbered}
+There is no shortage of recommended reading lists out there, here we try and highlight a few of the most up to date and useful lists out there for the sector today!
+
+Zotero Library for Digital Scholarship and Data Science Essentials for Library Professionals
+
+This library contains links to all of the resources referenced within Topic Guides and across our site.
+
+[Zotero | Groups > collections as data - projects, initiatives, readings, tools, datasets](https://www.zotero.org/groups/2171423/collections_as_data_-_projects_initiatives_readings_tools_datasets)
+
+Ongoing collection of projects, readings, initiatives, tools, and datasets that are in some way or another related to collections as data. This group is an open resource, welcoming contributions from anyone who has a resource to share.
+
+[TODO] Data Science in Libraries, is there a Zotero?
 
 ::: {#refs}
 :::
