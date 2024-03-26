@@ -3,8 +3,7 @@
 *Digital Scholarship and Data Science Essentials for Library Professionals* is an open and collaboratively curated training reference resource. It aims to make it easier for LIBER library professionals to gain a concise overview of the new technologies that underpin digital scholarship and data science practice in research libraries today, and find trusted training materials recommendations to start their professional learning journey.
 
 ## Our Aims
-
-![DS Essentials Aims Summarised](/ds-essentials/blob/main/book/images/DSEssentialsAims.png?raw=true "DS Essentials Aims Summarised")
+![Image summartising aims](https://github.com/libereurope/ds-essentials/blob/main/book/images/DSEssentialsAims.png "Our Aims Summarised")
 
 ## Who is it for?
 Are you someone working in or around research libraries with an interest in learning more about how to do cool and interesting things with digital collections and data at your institution? Wondering how data science techniques can help you in your work? Are you interested in gaining valuable digital literacy skills and knowledge to support emerging areas of modern scholarship such as Digital Humanities? Do you need some of the technology jargon you hear about these days demystified?
