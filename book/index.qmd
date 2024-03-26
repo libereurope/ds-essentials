@@ -4,7 +4,7 @@
 
 ## Our Aims
 
-<img src="https://github.com/libereurope/ds-essentials/blob/main/book/dsessentialsaims.png" alt="Our Aims Summarised" class="logo" />
+<img src="https://github.com/libereurope/ds-essentials/blob/main/book/dsessentialsaims.png?raw=true" alt="Our Aims Summarised" class="logo" />
 
 ![Tux, the Linux mascot](https://github.com/libereurope/ds-essentials/blob/main/book/dsessentialsaims.png)
 
