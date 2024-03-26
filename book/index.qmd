@@ -43,6 +43,7 @@ From working with data, data management, digital storytelling, handwritten recog
 Topic Guides are the heart and soul of *Digital Scholarship and Data Science Essentials for Library Professionals*. The aim of each is to provide research library professionals with a gentle and concise introduction to the key topics in this area today. They offer those with no prior knowledge, quick and curated guidance to personally recommended hands-on tutorials, use-cases, articles, videos, networks and communities of practice to deepen learning.
 
 Each Topic Guide follows a fixed structure, consisting of five components in order to make it easier to quickly find what you might need: 
+
 - Introduction to the topic
 - Relevance to the library sector (Case studies/Use cases)
 - Hands-on activities and other self-guided tutorial(s)
