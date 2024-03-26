@@ -6,9 +6,9 @@
 
 <img src="https://github.com/libereurope/ds-essentials/blob/main/book/dsessentialsaims.png?raw=true" alt="Our Aims Summarised" class="logo" />
 
-![Tux, the Linux mascot](https://github.com/libereurope/ds-essentials/blob/main/book/dsessentialsaims.png)
+![Tux, the Linux mascot](https://github.com/libereurope/ds-essentials/blob/main/book/dsessentialsaims.png?raw=true)
 
-![Alt text](https://github.com/libereurope/ds-essentials/blob/main/book/dsessentialsaims.png "a title")
+![Alt text](https://github.com/libereurope/ds-essentials/blob/main/book/dsessentialsaims.png?raw=true "a title")
 
 
 ## Who is it for?
