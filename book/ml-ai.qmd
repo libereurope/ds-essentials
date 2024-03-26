@@ -13,7 +13,7 @@ Whenever AI is being discussed you may often hear the term **machine learning** 
 
 These days, AI has been further grouped into **Traditional AI** and **Generative AI**. Traditional AI refers to machine learning based systems like (NLP and CV) for doing tasks like classifying data (e.g., assigning labels to images, automatically transcribing handwritten texts, or identifying genre of digitised texts). This is the type of AI we make a whole lot of use of in the library world. **Generative AI** on the other hand refers broadly to systems whose primary function is to generate new content (e.g., conversation, books, art). This is where conversational AI systems like ChatGPT (**G**enerative **P**re-trained **T**ransformer) fall under for example and we're only just now exploring the potential applications for these new powerful Generative AI systems in library work.
 
-**Machine learning (ML)**, again both itself a subfield of AI and a technology that underpins other fields of AI, focuses on the development of algorithms and models that allow computers to learn patterns and relationships from data and make predictions on new data. Instead of being explicitly programmed for specific tasks, ML algorithms use data to learn and improve their performance over time.
+**Machine learning (ML)**, again both itself a subfield of AI and a technology that underpins other fields of AI, focuses on the development of algorithms and models that allow computers to learn patterns and relationships from data and *make predictions* on new data. Instead of being explicitly programmed for specific tasks, ML algorithms use data to learn and improve their performance over time.
 
 A **machine learning algorithm** is designed to recognize patterns, relationships, and trends in data, and they adjust their internal parameters based on examples to improve their performance over time. Machine learning algorithms play a crucial role in various applications.
 
@@ -34,7 +34,7 @@ In the next section we'll consider one particularly common use case in order to 
 7. A robot that cleans the vases in a museum without bumping into them or breaking them
  
 
-If you answered 2, 3, 6 & 7 you are correct! The others could all be easily programmed using a simple set of easily defined rules.
+If you answered 2, 3, 6 & 7 you are correct! The others could all be easily programmed using a simple set of easily defined rules, rather than requiring prediction.
 
 ## Relevance to the Library Sector
 
