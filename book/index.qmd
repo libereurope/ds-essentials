@@ -6,7 +6,10 @@
 
 <img src="https://github.com/libereurope/ds-essentials/blob/main/book/dsessentialsaims.png" alt="Our Aims Summarised" class="logo" />
 
- ![Tux, the Linux mascot](https://github.com/libereurope/ds-essentials/blob/main/book/dsessentialsaims.png)
+![Tux, the Linux mascot](https://github.com/libereurope/ds-essentials/blob/main/book/dsessentialsaims.png)
+
+![Alt text](https://github.com/libereurope/ds-essentials/blob/main/book/dsessentialsaims.png "a title")
+
 
 ## Who is it for?
 Are you someone working in or around research libraries with an interest in learning more about how to do cool and interesting things with digital collections and data at your institution? Wondering how data science techniques can help you in your work? Are you interested in gaining valuable digital literacy skills and knowledge to support emerging areas of modern scholarship such as Digital Humanities? Do you need some of the technology jargon you hear about these days demystified?
