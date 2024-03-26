@@ -19,8 +19,9 @@ book:
       chapters:
         - llms.qmd
     - iiif.qmd
-    - part: "**ADDITIONAL RESOURCES**"
+    - part: "**GENERAL RESOURCES**"
       chapters:
+        - references.qmd
         - reports.qmd
         - training-platforms.qmd
         - networks.qmd
@@ -28,8 +29,9 @@ book:
       chapters:
         - project-overview.qmd
         - contributing.qmd
+        - licensing.qmd
         - contact.qmd
-    - references.qmd
+    
   sidebar:
     logo: images/liber-logo.jpg
     collapse-level: 1
