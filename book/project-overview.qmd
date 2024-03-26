@@ -1,7 +1,5 @@
 # Project Overview {.unnumbered}
 
-## **Project Overview**
-
 _Digital Scholarship & Data Science Essentials for Library Professionals_ is a project first undertaken in 2023 as a joint collaboration between the Digital Scholarship & Digital Cultural Heritage ([DSDCH](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/)) and the Data Science in Libraries ([DSLib](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/)).
 
 The impetus for this project has its roots in LIBER member [British Library’s Digital Scholarship Training Programme](https://web.archive.org/web/20230513003720/https://www.bl.uk/projects/digital-scholarship-training-programme/), where for over a decade now, Digital Curators there have maintained bespoke learning resources on digital scholarship tools and methods for internal use as part of their staff training courses, talks reading group and Hack & Yacks. The team there has been looking for places to share these existing resources and expertise more widely with the sector in a dedicated collaborative learning space online.
