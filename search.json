@@ -136,7 +136,7 @@
     "href": "ml-ai.html",
     "title": "Machine Learning and AI in Libraries",
     "section": "",
-    "text": "But first, a quick quiz!\nWhich of the following do you think would use Machine Learning?\nIf you answered 2, 3, 6 & 7 you are correct! The others could all be easily programmed using a simple set of easily defined rules.",
+    "text": "But first, a quick quiz!\nWhich of the following do you think would use Machine Learning?\nIf you answered 2, 3, 6 & 7 you are correct! The others could all be easily programmed using a simple set of easily defined rules, rather than requiring prediction.",
     "crumbs": [
       "Machine Learning and AI in Libraries"
     ]
