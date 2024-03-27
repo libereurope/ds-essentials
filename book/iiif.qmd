@@ -10,7 +10,7 @@
 IIIF (pronounced “triple-eye-eff”) stands for the International Image Interoperability Framework, is broadly two things: 
 
 - a set of open standards for delivering high-quality, attributed digital objects online at scale. 
-- an open, international community developing and implementing the IIIF APIs to make the above happen.. 
+- an open, international community developing and implementing the IIIF APIs to make the above happen. 
 
 ### Open Standard
 
