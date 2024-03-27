@@ -33,18 +33,18 @@ Making your collections IIIF enabled makes it easier to share your content onlin
 ### Open Community
 IIIF is an open, global community of software developers, librarians, researchers, educators, museums, universities, creative agencies, and more that work together to develop open APIs, implement them in software, and expose images and A/V files. It’s a grassroots effort between many different institutions to solve their shared problems with delivering, managing, sharing, and working with their resources IIIF is backed by a consortium of leading cultural institutions. The IIIF community is substantial and growing, and the standard has been formally adopted by [over 100 major cultural heritage organisations worldwide](https://iiif.io/guides/finding_resources/) including a substantial number of LIBER members.
 
-### How Does It Work?!
+### Ok, But How Does It Work?!
 If you want the deep nitty gritty technical stuff around all the APIs and how they fit together there is quite a bit of [implementation documentation](https://iiif.io/get-started/#implementers) on their website that goes into all this. But essentially, the basics behind making your own high-quality collections IIIF enabled looks a little something like this:
 
 - Set-up a IIIF image server (developed by the community, or there are IIIF-compatible image servers available from vendors or other web hosts) and implement the IIIF Image API to make your images and audio/video materials available from there.
-- Implement the IIIF Presentation API which creates the all important IIIF Manifest files (there are many open source or vendor products that help handle this). IIIF Manifests combine information about your images and structural data from your metadata source. The Manifest file is really the prime unit in IIIF. It contains all the information that makes up your new IIIF enabled object, from how to display it, what information to display (such as structure or the order of pages, or even where an illustration is located within in an image, it can be as complex as you need!).  
-- Choose one of the many [IIIF enabled viewers](https://iiif.io/get-started/iiif-viewers/) to show your images via your own collection site.
+- Implement the IIIF Presentation API which creates the all important IIIF Manifest files (also many open source or vendor products that can help handle this bit too). IIIF Manifests combine information about your images and structural data from your metadata source. This Manifest file is really the prime unit in IIIF. It contains all the information that makes up your new IIIF enabled object, from how to display it and what information to display (such as structure or the order of pages, or even where an illustration is located within in an image if you like, it can be as complex or simple as you need!).  
+- Choose one of the many [IIIF enabled viewers](https://iiif.io/get-started/iiif-viewers/) for displaying your images via your own collection site.
 - Consider making your IIIF Manifests available publicly on your collection site so users can download them and work with them in all the interesting ways you've now enabled!
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)
-IIIF has genuinely revolutionised the way in which cultural heritage institutions can store and share our digitised collection items online, particularly when it comes to supplying them for projects! It has changed the way collaborative projects are undertaken where endless metadata mapping exercises, contract negotiations around re-use and hosting, and the copying and shipping of digitised materials on external hard drives was the norm. 
+IIIF was started by a bunch of cultural heritage institutions and it shows! The intention of the consortium has always been to combine resource and effort in building viewers that reflected the way we wanted our digital collections to be displayed online, rather than everyone still spending time and resource making our own custom viewers and building our own content silos. It's brought a huge amount of efficiency too in the way that we share images with each other and researchers. It's changed the way collaborative projects are undertaken where endless metadata mapping exercises, contract negotiations around re-use and hosting, and the copying and shipping of digitised materials on external hard drives was the norm. 
 
-Let's have a look at three real life (and canonical) examples of III in action.
+There are quite a number of use cases and case studies on the [IIIF Demos page] (https://iiif.io/demos/) but let's have a look at three real life (and canonical) examples of IIIF in action.
 
 ### Deep Zoom
 
@@ -63,7 +63,7 @@ The virtual reconstruction of this damaged manuscript from Châteauroux in Franc
 
 ### More Use Cases
 
-For more use cases and case studies we recommend those compiled here: [Reunite/Enhance/Examine | minimal-digital (gitbook.io)](https://aeh0.gitbook.io/minimal-digital/iiif-workshop/what-is-iiif/) reunite as well as the demos page on [Demos — IIIF | International Image Interoperability Framework] (https://iiif.io/demos/).
+
 
 
 ## Hands-on activity and other self-guided tutorial(s)
@@ -74,7 +74,7 @@ The following are a list of our IIIF training recommendations by us to get you s
 
 - IIIF have created a number of excellent and free self-paced tutorials and live online workshops useful for newcomers: Overview · IIIF Online Workshop. 
 - There is also the opportunity to hire a IIIF Trainer to come to deliver live bespoke training directly to your institution (for a fee): IIIF Training
-- What is IIIF? - minimal-digital (gitbook.io)
+- [What is IIIF? | minimal-digital (gitbook.io)](https://aeh0.gitbook.io/minimal-digital/iiif-workshop/what-is-iiif/)
 - Exhibit.so
 
 
