@@ -61,23 +61,23 @@ The tutorials listed in this section should be suitable for independent study, a
 
 For the sake of consistency across the various topic guides, it is helpful if these paragraphs are structured as follows:
 
-- The opening sentence should state the name of the resource, the URL (added as a hyperlink), and citation information, preferably in BibTex format
+- The opening sentence should state the name of the resource, the URL (added as a hyperlink), and citation information [TODO: need to finalise referencing advice with Project Team]
 - The remainder of the paragraph might then explain why the Topic Guide author recommends the tutorials, an explanation of the relevance or the value of the tutorial, and, optionally, an indication of topics covered and the level of complexity. 
 - The paragraph should conclude with a short discussion of the exercises that are provided in the tutorial. For instance, add a personal touch as to why you are personally recommending this particular tutorial. 
 Each tutorial reference paragraph should contain no more than 200 words.
 
 In addition to such pointers to existing tutorials, authors of topic guides may also discuss exercises or other hand-on activities that may help to develop an understanding of the topic at hand. Such suggestions for hands-on activities may take various forms, and these guidelines do not prescribe a strict format. Authors may choose to include a practical exercise, a link to a well-documented github repository, or a link to a GLAM workbench. 
 
-#### IV: Recommended Reading & Viewing  
+#### IV: Recommended Reading & Viewing (*Approximately 200-400 words*)  
 The section on recommended reading and viewing contains references to more passive learning resources such as:
 
 - Open access articles discussing the topic at a general level, or containing contextual information.
 - Video recordings of lectures about the topic, which do not demand practical activities from the viewer
 Podcasts about the topic
 
-[\ # TODO: How should authors link to publications? Instruction here on how to use the Zotero Library?]
+[TODO: How should authors link to publications? Instruction here on how to use the Zotero Library?]
 
-#### V: Taking the next steps
+#### V: Taking the next steps (*Approximately 200-400 words*)  
 This section provides guidance to library professionals on where to take their learning journey further. It should include:
 
 - Where to find (local/national/international) Communities of Practice or other relevant networks and organisations who can help with furthering their understanding of the topic. 
