@@ -1,7 +1,10 @@
 # Machine Learning and AI in Libraries {.unnumbered}
->Contributed by: Nora McGregor, [ORCID iD](https://orcid.org/0000-0001-6560-5586)
->Published date: 27/03/2024
+>Contributed by: Nora McGregor, [ORCID iD](https://orcid.org/0000-0001-6560-5586)<br>
+>Original published date: 27/03/2024<br>
+>Last modified: See Github page history
+>
 >Suggested Citation: Nora McGregor, “Machine Learning and AI in Libraries,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
+
 
 ## Introduction
 
