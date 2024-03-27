@@ -262,37 +262,57 @@
     "href": "iiif.html",
     "title": "IIIF",
     "section": "",
-    "text": "Introduction\nsdfajsdhflakjhfalkejrhf",
+    "text": "Introduction\nIIIF (pronounced “triple-eye-eff”) stands for the International Image Interoperability Framework, is broadly two things:",
     "crumbs": [
       "IIIF"
     ]
   },
   {
-    "objectID": "iiif.html#relevance-to-the-library-sector",
-    "href": "iiif.html#relevance-to-the-library-sector",
+    "objectID": "iiif.html#introduction",
+    "href": "iiif.html#introduction",
     "title": "IIIF",
-    "section": "Relevance to the Library Sector",
-    "text": "Relevance to the Library Sector\nwerw4rwerw34rw",
+    "section": "",
+    "text": "a set of open standards for delivering high-quality, attributed digital objects online at scale.\nan open, international community developing and implementing the IIIF APIs to make the above happen..\n\n\nOpen Standard\nIIIF is a way to standardise the delivery of images and audio/visual files from servers to different environments on the Web where they can then be viewed and interacted with in many ways. Modern Web browsers understand how to display formats like .jpg and .mp4 at defined sizes, but cannot do much else with these objects. Ever try to access a large high-resolution digitised manuscript online only for it to take ages to load and when it finally does you have no way to actually move around the image easily?\nThe IIIF specifications align with general Web standards and define how all browsers work to enable richer functionality beyond viewing an image or audio/visual files to: - Make it easier to display large images on the web in a way that is scalable (enabling deep zoom) - Allowing easy comparison between two objects, connecting and uniting materials across institutional boundaries - Displaying structure and metadata and annotations with the digital collection item. For a digitised manuscript for instance this might be page order and searchable text, for audio/visual materials, that means being able to deliver complex structures (such as several reels of film that make up a single movie) along with things like captions, transcriptions/translations, annotations, and more.\nMaking your collections IIIF enabled makes them not just more accessible and helps them work in a consistent way which enables portability across different IIIF enabled viewers.\n\n\nOpen Community\nIIIF is an open, global community of software developers, librarians, researchers, educators, museums, universities, creative agencies, and more that work together to develop open APIs, implement them in software, and expose images and A/V files. It’s a grassroots effort between many different institutions to solve their shared problems with delivering, managing, sharing, and working with their resources IIIF is backed by a consortium of leading cultural institutions. To date, IIIF has been formally adopted by over 100 major cultural heritage organisations worldwide including a substantial number of LIBER members.\nIn the next section we’ll showcase some of the use cases so you can get a sense of the benefits.",
     "crumbs": [
       "IIIF"
     ]
   },
   {
-    "objectID": "iiif.html#hands-on-activities-self-guided-tutorials",
-    "href": "iiif.html#hands-on-activities-self-guided-tutorials",
+    "objectID": "iiif.html#relevance-to-the-library-sector-case-studiesuse-cases",
+    "href": "iiif.html#relevance-to-the-library-sector-case-studiesuse-cases",
     "title": "IIIF",
-    "section": "Hands-On Activities & Self-Guided Tutorials",
-    "text": "Hands-On Activities & Self-Guided Tutorials\ndfgdfgdfgdfg",
+    "section": "Relevance to the Library Sector (Case Studies/Use Cases)",
+    "text": "Relevance to the Library Sector (Case Studies/Use Cases)\nIIIF has revolutionised the way in which cultural heritage institutions can share their digitised collection items online, allowing us and our scholars to break out of the old clunky ways of storing, sharing and working with these items and better support their use in research.\n\n“At its simplest, IIIF uses APIs to load images quickly and zoom smoothly without additional loading time. But IIIF also allows you to do much more, including pulling IIIF-enabled images from different sites into viewers for comparison without downloading them (at full resolution), and enabling saving links to details of images or portions of A/V files for future reference. IIIF also allows you to use many open-source tools that help you to compare, annotate, transcribe, collaborate, and more. You can even gather multiple IIIF images together from across multiple archival collections and/or institutions to create projects or exhibits without advanced technical skills”. -From IIIF for Archives\n\n\nDeep Zoom\n[TODO add case study]\n\n\nVirtual Reconstruction\nThe virtual reconstruction of this damaged manuscript from Châteauroux in France (Grandes Chroniques de France, ca. 1460) is probably one of the most well-known and best examples of the power of IIIF to support this. At some point in the manuscripts history, fourteen of its illuminations were cut out. These illuminations eventually ended up at the Bibliothèque nationale de France in the 19th century and were digitised individually. In the demo you see the reuniting of the miniatures with the full manuscript as IIIF allows a virtual repositioning of the decoration with the text, virtually reconstruction the manuscript so it reflects its original state.\n[TODO Embed Image] Mirador Viewer: Châteauroux demo\n\n\nCreate a Project/Exhibition\n[TODO add (exhibit.so) case study]\n\n\nMore Use Cases\nFor more use cases and case studies we recommend those compiled here: Reunite/Enhance/Examine | minimal-digital (gitbook.io) reunite as well as the demos page on [Demos — IIIF | International Image Interoperability Framework] (https://iiif.io/demos/).",
     "crumbs": [
       "IIIF"
     ]
   },
   {
-    "objectID": "iiif.html#recommended-reading-further-reading",
-    "href": "iiif.html#recommended-reading-further-reading",
+    "objectID": "iiif.html#hands-on-activity-and-other-self-guided-tutorials",
+    "href": "iiif.html#hands-on-activity-and-other-self-guided-tutorials",
     "title": "IIIF",
-    "section": "Recommended Reading & Further Reading",
-    "text": "Recommended Reading & Further Reading\n34hjdhfbkajdhbgksjehrger",
+    "section": "Hands-on activity and other self-guided tutorial(s)",
+    "text": "Hands-on activity and other self-guided tutorial(s)\n[TODO Reformat this section, give descriptions of each recommended training]\nThe following are a list of our IIIF training recommendations by us to get you started!\n\nIIIF have created a number of excellent and free self-paced tutorials and live online workshops useful for newcomers: Overview · IIIF Online Workshop.\nThere is also the opportunity to hire a IIIF Trainer to come to deliver live bespoke training directly to your institution (for a fee): IIIF Training\nWhat is IIIF? - minimal-digital (gitbook.io)\nExhibit.so",
+    "crumbs": [
+      "IIIF"
+    ]
+  },
+  {
+    "objectID": "iiif.html#recommended-readingviewing",
+    "href": "iiif.html#recommended-readingviewing",
+    "title": "IIIF",
+    "section": "Recommended Reading/Viewing",
+    "text": "Recommended Reading/Viewing\n[TODO Reformat this section and add links to IIIF papers]\nThe IIIF organisation has also created a number of useful resources alongside their training materials such as How It Works, a plain-language guide to how the IIIF API’s work and a glossary of “Key concepts you’ll encounter when working with IIIF”",
+    "crumbs": [
+      "IIIF"
+    ]
+  },
+  {
+    "objectID": "iiif.html#taking-the-next-step",
+    "href": "iiif.html#taking-the-next-step",
+    "title": "IIIF",
+    "section": "Taking the next step",
+    "text": "Taking the next step\nLearning about IIIF can be overwhelming at first, especially if you’re not a programmer, but the IIIF Community is a very supportive one and has created a number of ways to get involved and find support and help.\nWe recommended checking out their community page IIIF Community to find details of their next open community calls, or to join their Slack Channel where you can post questions and join the discussion with other users.",
     "crumbs": [
       "IIIF"
     ]
