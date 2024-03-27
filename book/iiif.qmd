@@ -61,10 +61,6 @@ The virtual reconstruction of this damaged manuscript from Châteauroux in Franc
 
 [TODO add (exhibit.so) case study] 
 
-### More Use Cases
-
-
-
 
 ## Hands-on activity and other self-guided tutorial(s)
 
