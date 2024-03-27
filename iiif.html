@@ -264,7 +264,7 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#relevance-to-the-library-sector-case-studiesuse-cases" id="toc-relevance-to-the-library-sector-case-studiesuse-cases" class="nav-link" data-scroll-target="#relevance-to-the-library-sector-case-studiesuse-cases">Relevance to the Library Sector (Case Studies/Use Cases)</a>
   <ul class="collapse">
-  <li><a href="#deep-zoom" id="toc-deep-zoom" class="nav-link" data-scroll-target="#deep-zoom">Deep Zoom</a></li>
+  <li><a href="#deep-zoom-and-annotations" id="toc-deep-zoom-and-annotations" class="nav-link" data-scroll-target="#deep-zoom-and-annotations">Deep Zoom and Annotations</a></li>
   <li><a href="#virtual-reconstruction" id="toc-virtual-reconstruction" class="nav-link" data-scroll-target="#virtual-reconstruction">Virtual Reconstruction</a></li>
   <li><a href="#create-a-projectexhibition" id="toc-create-a-projectexhibition" class="nav-link" data-scroll-target="#create-a-projectexhibition">Create a Project/Exhibition</a></li>
   </ul></li>
@@ -315,17 +315,17 @@ ul.task-list li input[type="checkbox"] {
 <p><em>“At its simplest, IIIF uses APIs to load images quickly and zoom smoothly without additional loading time. But IIIF also allows you to do much more, including pulling IIIF-enabled images from different sites into viewers for comparison without downloading them (at full resolution), and enabling saving links to details of images or portions of A/V files for future reference. IIIF also allows you to use many open-source tools that help you to compare, annotate, transcribe, collaborate, and more. You can even gather multiple IIIF images together from across multiple archival collections and/or institutions to create projects or exhibits without advanced technical skills”</em>. <a href="https://drive.google.com/file/d/1kw_M1XQ80h3QzWbIo8QYkL2Jt8YgZgEy/view">-From IIIF for Archives</a></p>
 </blockquote>
 <p>IIIF brings a whole new efficiency to the way in which we in the cultural heritage sector go about sharing and making our digitised collections available online, while greatly expanding the functionality around the way users interact with them. It’s an open standard, collaboratively developed and maintained by a host of cultural heritage institutions around the world that <strong>defines a consistent method for the delivery of images and audio/visual files from servers to different environments on the Web</strong> where they can then be viewed and interacted with in many ways.</p>
-<p>Modern Web browsers understand how to display formats like .jpg and .mp4 at defined sizes, but they can’t do much else with these objects. IIIF basically aligns with general Web standards that define how all browsers work and specifies a way for viewing an image or audio/visual files in a way that <strong>enables much richer functionality</strong> on the Web:</p>
+<p>IIIF specifies a way for browsers to display an image or audio/visual files in a way that <strong>enables much richer functionality</strong> on the Web:</p>
 <ul>
 <li>Make it easier to display large images on the web in a way that is scalable (enabling deep zoom)</li>
 <li>Allowing easy comparison between two objects, connecting and uniting materials across institutional boundaries</li>
 <li>Displaying structure and metadata and annotations with the digital collection item. (For a digitised manuscript for instance this might be page order and searchable text, for audio/visual materials, that means being able to deliver complex structures (such as several reels of film that make up a single movie) along with things like captions, transcriptions/translations, annotations, and more.)</li>
 </ul>
-<p>Making your collections IIIF enabled makes it easier to share your content online in a consistent way, enabling portability across different <a href="https://iiif.io/get-started/iiif-viewers/">IIIF enabled viewers</a>. This means that rather than endless copies of your objects being shipped and sent all over the world for different projects, they can stay on your same IIIF Image server, but be accessed and displayed by viewers hosted at institutions elsewhere.</p>
+<p>Making your collections IIIF enabled makes it easier to share your content online in a consistent way, enabling portability across different <a href="https://iiif.io/get-started/iiif-viewers/">IIIF enabled viewers</a>. This means that rather than endlessly creating copies of your images all over the world for different projects, they can stay on your same IIIF Image server, but be accessed and displayed by viewers hosted at institutions elsewhere.</p>
 </section>
 <section id="open-community" class="level3">
 <h3 class="anchored" data-anchor-id="open-community">Open Community</h3>
-<p>IIIF is an open, global community, backed by a consortium of leading cultural institutions, working together to develop open APIs, implement them in software, and expose images and A/V files. It’s a grassroots effort between many different institutions to solve their shared problems with delivering, managing, sharing, and working with their resources. The IIIF community is large and growing, and the standard has been formally adopted by <a href="https://iiif.io/guides/finding_resources/">over 100 major cultural heritage organisations worldwide</a> including a substantial number of LIBER members.</p>
+<p>IIIF is an open, global community, backed by a consortium of leading cultural institutions, working together to develop and implement this new capability. It’s a grassroots effort between many different institutions to solve their shared problems with delivering, managing, sharing, and working with their resources. The IIIF community is made up of <a href="https://iiif.io/guides/finding_resources/">over 100 major cultural heritage organisations worldwide</a> who have formally adopted it, including a substantial number of LIBER members.</p>
 </section>
 <section id="ok-but-how-does-it-actually-work" class="level3">
 <h3 class="anchored" data-anchor-id="ok-but-how-does-it-actually-work">Ok, But How Does It Actually Work?!</h3>
@@ -333,7 +333,7 @@ ul.task-list li input[type="checkbox"] {
 <p>But essentially, the basics behind making your own high-quality collections IIIF enabled looks a little something like this:</p>
 <ul>
 <li><strong>Set-up a IIIF image server</strong> (developed by the community, or there are IIIF-compatible image servers available from vendors or other web hosts) and <strong>implement the IIIF Image API</strong> to make your images and audio/video materials available from there.</li>
-<li><strong>Implement the IIIF Presentation API</strong> which creates the all important <strong>IIIF Manifest files</strong> (also many open source or vendor products that can help handle this bit too). IIIF Manifests combine information about your images and structural data from your metadata source. This Manifest file is really the prime unit in IIIF. It contains all the information that makes up your new IIIF enabled object, from how to display it and what information to display (such as structure or the order of pages, or even where an illustration is located within in an image if you like, it can be as complex or simple as you need!).<br>
+<li><strong>Implement the IIIF Presentation API</strong> which creates the all important <strong>IIIF Manifest files</strong> (also many open source or vendor products can help handle this bit too). This Manifest file is really the prime unit in IIIF combining information about your images and structural data from your metadata source. It lists all the information that makes up your new IIIF enabled object, from how to display it and what information to display (such as structure or the order of pages, or even as minute as where an illustration is located within in an image if you like).<br>
 </li>
 <li><strong>Choose one of the many <a href="https://iiif.io/get-started/iiif-viewers/">IIIF enabled viewers</a></strong> for displaying your images and add it to your own collection site.</li>
 <li><strong>Consider making your IIIF Manifests available publicly</strong> for download so users can work with them in all the interesting ways you’ve now enabled!</li>
@@ -343,9 +343,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="relevance-to-the-library-sector-case-studiesuse-cases" class="level2">
 <h2 class="anchored" data-anchor-id="relevance-to-the-library-sector-case-studiesuse-cases">Relevance to the Library Sector (Case Studies/Use Cases)</h2>
 <p>IIIF was initiatied by a bunch of cultural heritage collections holders and it shows! It was proposed in late 2011 as a collaboration between The British Library, Stanford University, the Bodleian Libraries (Oxford University), the Bibliothèque nationale de France, Nasjonalbiblioteket (National Library of Norway), Los Alamos National Laboratory Research Library, and Cornell University. The intention of the consortium has always been to combine resource and effort in building viewers that reflected the way we wanted our digital collections to be displayed online, rather than everyone still spending time and resource making our own custom viewers and building our own content silos. It’s brought a huge amount of efficiency too in the way that we share images with each other and researchers. It’s changed the way collaborative projects are undertaken where endless metadata mapping exercises, contract negotiations around re-use and hosting, and the copying and shipping of digitised materials on external hard drives was the norm.</p>
-<p>There are quite a number of use cases and case studies available on the [IIIF Demos page] (https://iiif.io/demos/) but let’s have a look at three real life (and canonical) examples of IIIF in action.</p>
-<section id="deep-zoom" class="level3">
-<h3 class="anchored" data-anchor-id="deep-zoom">Deep Zoom</h3>
+<p>There are quite a number of use cases and case studies available on the [IIIF Demos page] (https://iiif.io/demos/) but let’s have a quick look at three real life (and canonical) examples of IIIF in action.</p>
+<section id="deep-zoom-and-annotations" class="level3">
+<h3 class="anchored" data-anchor-id="deep-zoom-and-annotations">Deep Zoom and Annotations</h3>
 <p>[TODO add case study]</p>
 </section>
 <section id="virtual-reconstruction" class="level3">
