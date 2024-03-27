@@ -1,4 +1,4 @@
-# Contribute {.unnumbered}
+# Contribute to Our Project {.unnumbered}
 
 Throughout 2023/2024 we are working on producing the first complete edition of this resource for launch at the [LIBER Annual Conference](https://liberconference.eu/) 3-5 July 2024. That edition will be deposited in the [British Library Research Repository](https://bl.iro.bl.uk/), captured in the UK Web Archive, and a DOI provided. Topic Guides are currently being produced through a series of in-person and online writing sprints of LIBER working group members and by direct invitation. Each Topic Guide will have its own DOI as well.
 
