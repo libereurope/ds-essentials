@@ -13,17 +13,19 @@ The first edition Topic Guide list draws heavily on the existing skills framewor
 ## 1. Writing a new Topic Guide 
 > These guidelines are written specifically for attendees wishing to contribute to the writing of Topic Guides on our wishlist as part of the online <mark>Topic Guide Sprint being held on **Tuesday May 14, 2024 9:00-11:00 (BST)**</mark>. If you would like to take part please contact [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) to be sent the meeting calendar invite.
 
-1. Please have a quick read through the [Welcome](index.qmd) and [Topic Guide](topicguides.qmd) pages to familiarise yourself with this resource and its purpose.
+Before the day of the sprint:
+
+1. Please have a quick read through the [**Welcome**](index.qmd) and [**Topic Guide**](topicguides.qmd) pages to familiarise yourself with this resource and its purpose.
 2. Have a look at our [**Topic Guide Wishlist**](https://docs.google.com/spreadsheets/d/1FYR9UyZ7lWJOfsucZspw5sm9rmnTtHXecaYpCbVvDdI/edit#gid=851320609) beforehand and put your name against existing topics you’re available to work on. 
-3. Please familiarise yourself with this Contribution Guidance and Style Guide section below
-4. Find the Topic Guide Template (Google Doc) that corresponds to your topic of choice in this folder and get writing! 
-5. At the end of the sprint, open an Issue in Github using the Issue Template to let us know what the status is of your Topic Guide (for example is it ready to be reviewed/published or does more need doing after the sprint).
-6. When you are ready to submit, either at the end of the workshop or later on, please follow the directions under “Submission Guidelines-For Contributors”
+3. Please have a read through this **Contribution Guidance and Style Guide** section below. On the day we will cover this as well.
+4. Find the [**Topic Guide Template (Google Doc)**](https://drive.google.com/drive/folders/1okdNMn1Jg1M8Enzavuqe_elsWH0uV1p1?usp=sharing) that corresponds to your topic of choice, add your name to the header, and get writing! Feel free to add notes or even make a start on drafting your guide before the sprint day if you're keen! 
+5. At the end of the day of the sprint, we'd like contributors to open an Issue in Github using the Issue Template to let us know what the status is of your Topic Guide (for example is it ready to be reviewed/published or does more need doing after the sprint). We can walk people through that on the day.
+6. When you are ready to submit your final draft, either at the end of the workshop or later on, please follow the directions under “Submission Guidelines-For Contributors”
 
 
 ### *Guidance and Style Guide* 
 
-Each Topic Guide must include a Header Section composing of a title, contributor information, and suggested citation. This is followed by five key content blocks detailed below. Please have a look at the IIIF Guide as an example of how these pieces all fit together into one complete Topic Guide.
+Each Topic Guide must include a Header Section composing of a title, contributor information, published date, and suggested citation. This is followed by five key content blocks detailed below. Please have a look at the IIIF Guide as an example of how these pieces all fit together into one complete Topic Guide.
 
 #### Header Section
 
