@@ -1,6 +1,6 @@
 # Contribute to our Project {.unnumbered}
 
-Throughout 2023/2024 we are working on producing the first complete edition of this resource for launch at the [LIBER Annual Conference](https://liberconference.eu/) 3-5 July 2024. That edition will be deposited in the [British Library Research Repository](https://bl.iro.bl.uk/), captured in the UK Web Archive, and a DOI provided. Topic Guides are currently being produced by direct invitation, and through a series of in-person and online writing sprints of working group members. Each Topic Guide will have its own DOI as well.
+Throughout 2023/2024 we are working on producing the first complete edition of this resource for launch at the [LIBER Annual Conference](https://liberconference.eu/) 3-5 July 2024. That edition will be deposited in the [British Library Research Repository](https://bl.iro.bl.uk/), captured in the UK Web Archive, and a DOI provided. Topic Guides are currently being produced through a series of in-person and online writing sprints of LIBER working group members and by direct invitation. Each Topic Guide will have its own DOI as well.
 
 The first edition Topic Guide list draws heavily on the existing skills framework and topics covered in the British Library’s Digital Scholarship Training Programme, as well as those recommended by attendees of development workshops hosted by LIBER working groups throughout 2023.
 
@@ -12,7 +12,8 @@ The first edition Topic Guide list draws heavily on the existing skills framewor
 4. Join one of the LIBER Working Groups Digital Scholarship and Digital Cultural Heritage Collections or Data Science in Libraries (open to all staff of LIBER member institutions)
 
 ## 1. Writing a new Topic Guide 
-> :information_source: **Additional Information**: These guidelines are written specifically for attendees wishing to contribute to the writing of Topic Guides on our wishlist as part of the Topic Guide Sprint being held on **Tue May 14, 2024 9am - 11am (BST)**. If you would like to take part please contact digitalresearch@bl.uk to be sent the meeting calendar invite.
+> **Note**  
+These guidelines are written specifically for attendees wishing to contribute to the writing of Topic Guides on our wishlist as part of the Topic Guide Sprint being held on **Tue May 14, 2024 9am - 11am (BST)**. If you would like to take part please contact digitalresearch@bl.uk to be sent the meeting calendar invite.
 
 1. Please have a quick read through the Welcome and Topic Guide pages to familiarise yourself with this resource and its purpose.
 2. Have a look at our Topic Guide wishlist beforehand and put your name against existing topics you’re available to work on. 
