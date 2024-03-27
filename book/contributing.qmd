@@ -31,7 +31,7 @@ Each Topic Guide must include a Header Section composing of a title, contributor
 
 - **Topic Guide Title**: IIIF
 - **Contributor(s) Name and (Orcid ID)**:  Nora McGregor [(ORCID iD)](https://orcid.org/0000-0001-6560-5586)
-- **Published date: 27/03/2024
+- **Published date**: 27/03/2024
 - **Suggested Citation**:  Nora McGregor, “IIIF,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link]
 
 **Note: The project team will ensure each Topic Guide is given an individual DOI either through British Library or Zenodo.** 
