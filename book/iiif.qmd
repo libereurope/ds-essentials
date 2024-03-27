@@ -85,6 +85,8 @@ There is a useful collection of articles and data related to IIIF being compiled
 The IIIF organisation has also created a number of useful resources alongside their training materials such as [How It Works, a plain-language guide to how the IIIF API’s work](https://iiif.io/get-started/how-iiif-works/) and a glossary of “Key concepts you’ll encounter when working with IIIF”
 
 ## Taking the next step
-Learning about IIIF can be overwhelming at first, especially if you’re not a programmer, but the IIIF Community is a very supportive one and has created a number of ways to get involved and find support and help. 
+Learning about IIIF can be overwhelming at first, especially if you’re not a programmer, but the IIIF Community is a very supportive and engaged one and has created a number of ways to get involved and find support and help. 
 
 I recommend checking out their community page [IIIF Community](https://iiif.io/community/) to find details of their next open community calls, or to join their Slack Channel where you can post questions and join the discussion with other users. 
+
+There is also a massive list of resources, [Awesome IIIF](https://github.com/IIIF/awesome-iiif), compiled and maintained by the IIIF Community if you are looking to take your knowledge a bit further. 
