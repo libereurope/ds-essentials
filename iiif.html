@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -309,7 +343,9 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <section id="open-standard" class="level3">
 <h3 class="anchored" data-anchor-id="open-standard">Open Standard</h3>
-<p><code>Ever try to access a large high-resolution digitised manuscript online only for it to take ages to load, and when it finally does you have no way to actually move around the image easily nor see any of the metadata or annotations related to it? Or spent months on end negotiating the terms and methods around sending copies of a variety of differently sized individual images to another institution for them to host as part of collaborative project?</code></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> s <span class="op">=</span> <span class="st">"JavaScript syntax highlighting"</span><span class="op">;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">alert</span>(s)<span class="op">;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>Ever <span class="cf">try</span> to access a large high<span class="op">-</span>resolution digitised manuscript online only <span class="cf">for</span> it to take ages to load<span class="op">,</span> and when it <span class="cf">finally</span> does you have no way to actually move around the image easily nor see any <span class="kw">of</span> the metadata or annotations related to it<span class="op">?</span> Or spent months on end negotiating the terms and methods around sending copies <span class="kw">of</span> a variety <span class="kw">of</span> differently sized individual images to another institution <span class="cf">for</span> them to host <span class="im">as</span> part <span class="kw">of</span> collaborative project<span class="op">?</span><span class="vs">` </span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>IIIF brings a whole new efficiency to the way in which we in the cultural heritage sector go about sharing and making our digitised collections available online, while greatly expanding the functionality around the way users interact with them. It’s an open standard, collaboratively developed and maintained by a host of cultural heritage institutions around the world that defines a consistent method for the delivery of images and audio/visual files from servers to different environments on the Web where they can then be viewed and interacted with in many ways.</p>
 <p>Modern Web browsers understand how to display formats like .jpg and .mp4 at defined sizes, but they can’t do much else with these objects. IIIF basically aligns with general Web standards that define how all browsers work and specifies a way for viewing an image or audio/visual files in a way that enables much richer functionality on the Web:</p>
 <ul>
