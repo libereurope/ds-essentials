@@ -62,29 +62,29 @@ body:
     validations:
       required: true
   - type: checkboxes
-      id: access-requirements
-      attributes:
-        label: Access Requirements
-        description: Please specify if you want to restrict access to your Google Doc until it's finalized.
-        options:
-          - label: Yes, I would like to restrict access to the Google Doc.
-          - label: No, there is no need to restrict access to the Google Doc.
-      validations:
-        required: true
+    id: access-requirements
+    attributes:
+      label: Access Requirements
+      description: Please specify if you want to restrict access to your Google Doc until it's finalized.
+      options:
+        - label: Yes, I would like to restrict access to the Google Doc.
+        - label: No, there is no need to restrict access to the Google Doc.
+    validations:
+      required: true
   - type: checkboxes
-      id: submission-checklist
-      attributes:
-        label: Submission Checklist
-        description: Please specify if you want to restrict access to your Google Doc until it's finalized.
-        options:
-          - label: Learning Objectives
-          - label: Introduction to the Topic
-          - label: Relevance to the Library Sector
-          - label: Hands-On Activity & Other Self-Guided Tutorials
-          - label: Recommended Reading & Viewing
-          - label: Taking Next Steps
-      validations:
-        required: true
+    id: submission-checklist
+    attributes:
+      label: Submission Checklist
+      description: Please specify if you want to restrict access to your Google Doc until it's finalized.
+      options:
+        - label: Learning Objectives
+        - label: Introduction to the Topic
+        - label: Relevance to the Library Sector
+        - label: Hands-On Activity & Other Self-Guided Tutorials
+        - label: Recommended Reading & Viewing
+        - label: Taking Next Steps
+    validations:
+      required: true
   - type: textarea
     id: comments
     attributes:
