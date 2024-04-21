@@ -4,7 +4,7 @@ title: "[SUBMISSION]: "
 labels: 'enhancement'
 body:
   - type: markdown
-  attributes:
+    attributes:
       value: |
         Use this template submit your Topic Guide and ensure the necessary metadata are available.  
   - type: textarea
