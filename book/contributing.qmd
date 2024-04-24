@@ -19,7 +19,7 @@ Before the day of the sprint:
 2. Have a look at our [**Topic Guide Wishlist**](https://docs.google.com/spreadsheets/d/1FYR9UyZ7lWJOfsucZspw5sm9rmnTtHXecaYpCbVvDdI/edit#gid=851320609) beforehand and put your name against existing topics you’re available to work on. 
 3. Please have a read through this **Contribution Guidance and Style Guide** section below. On the day we will cover this as well.
 4. Find the [**Topic Guide Template (Google Doc)**](https://drive.google.com/drive/folders/1okdNMn1Jg1M8Enzavuqe_elsWH0uV1p1?usp=sharing) that corresponds to your topic of choice, or create a new one, add your name to the header, and get writing! Feel free to add notes or even make a start on drafting your guide before the sprint day if you're keen! 
-5. At the end of the day of the sprint, we'd like contributors to open an Issue in Github using the Issue Template to let us know what the status is of your Topic Guide (for example is it ready to be reviewed/published or does more need doing after the sprint). We can walk people through that on the day.
+5. At the end of the day of the sprint, we'd like contributors to [**open an Issue in Github using the Issue Template**](https://github.com/libereurope/ds-essentials/issues) to let us know what the status is of your Topic Guide (for example is it ready to be reviewed/published or does more need doing after the sprint). We can walk people through that on the day.
 6. When you are ready to submit your final draft, either at the end of the workshop or later on, please follow the directions under “Submission Guidelines-For Contributors”
 
 
