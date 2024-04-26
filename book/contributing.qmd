@@ -22,6 +22,8 @@ Preparing for the sprint:
 3. Please have a quick read through the **Contribution Guidance and Style Guide** section below. 
 4. If you've been sent a copy of the [**Topic Guide Template (Google Doc)**](https://drive.google.com/drive/folders/1okdNMn1Jg1M8Enzavuqe_elsWH0uV1p1?usp=sharing) that corresponds to your topic of choice ahead of time, add your name to the header, and feel free to add notes or even make a start on drafting your guide before the sprint day if you're keen! 
 
+We look forward to seeing you online! 
+
 
 ## Contribution Guidance and Style Guide 
 
