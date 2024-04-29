@@ -29,6 +29,7 @@ book:
       chapters:
         - project-overview.qmd
         - contributing.qmd
+        - guidelines.qmd
         - updates.qmd
         - licensing.qmd
         - contact.qmd
