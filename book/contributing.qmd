@@ -8,7 +8,7 @@ The first edition Topic Guide list draws heavily on the existing skills framewor
 
 - Contribute a new [**Topic Guide**](topicguides.qmd) (individually or in collaboration with others). Choose from our [**existing wishlist**](https://docs.google.com/spreadsheets/d/1FYR9UyZ7lWJOfsucZspw5sm9rmnTtHXecaYpCbVvDdI/edit#gid=851320609) or propose a new one and join a writing sprint!
 - Suggest edits to an existing Topic Guide or Additional Resources by opening an [**Issue**](https://github.com/libereurope/ds-essentials/issues) or adding to existing ones on the project Github
-- Join one of the [LIBER Working Groups Digital Scholarship and Digital Cultural Heritage WG](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/) or [Data Science in Libraries](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/) (open to all staff of [LIBER member institutions](https://libereurope.eu/liber-participants/)) to keep up with the developments of this project!
+- Join one of the [LIBER Working Groups Digital Scholarship and Digital Cultural Heritage WG](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/) or [Data Science in Libraries](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/) (open to all staff of [LIBER member institutions](https://libereurope.eu/liber-participants/)) to keep up with the developments and ongoing maintenance of this project!
 
 ## Join a Writing Sprint! 
 > <mark>Our next Topic Guide Sprint is **Tuesday May 14, 2024 9:00-11:00 (BST)** [Register Today!](https://forms.office.com/Pages/ResponsePage.aspx?id=t0ykIcP5AE-a-r0ejoi82X7ZIEJh0odPq9ej1FnpQEJUNTlTTTQ3WjBWU0gxOTdaNk1WSUpVV1FPRS4u)</mark>
@@ -23,6 +23,10 @@ Preparing for the sprint:
 4. We'll be in touch after we receive your registration to send you more details and useful information ahead of the sprint. If you are sent a copy of the [**Topic Guide Template (Google Doc)**](https://drive.google.com/drive/folders/1okdNMn1Jg1M8Enzavuqe_elsWH0uV1p1?usp=sharing) that corresponds to your topic of choice ahead of time, add your name to the header, and feel free to add notes or even make a start on drafting your guide before the sprint day if you're keen! 
 
 We look forward to seeing you online! 
+
+## Ongoing Maintenance and Review
+
+We view this resource as capturing a snapshot in time and will endeavour to fully review all content a minimum of once annually to check for link rot, and content relevancy. The project team editors are committed to make quick fixes when raised throughout the year, while formal sprints and reviews coinciding with LIBER Annual Summer Conference and Winter events will be used for soliciting new content and undertaking more complex updates to the resource each year. 
 
 ## Contribution Guidance and Style Guide 
 
