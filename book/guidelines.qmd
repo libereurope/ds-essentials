@@ -2,7 +2,7 @@
 
 ## Structuring the Topic Guide
 
-Each Topic Guide follows a distince structure, beginning with a Header Section composing of a title, contributor information, published date, last modified info, and suggested citation followed by five key content blocks detailed below. Please have a look at the [IIIF Guide](iiif.qmd) as an example of how these pieces all fit together into one complete Topic Guide.
+Each Topic Guide follows a distinct structure, beginning with a Header Section composing of a title, contributor information, published date, last modified info, and suggested citation followed by five key content blocks detailed below. Please have a look at the [IIIF Guide](iiif.qmd) as an example of how these pieces all fit together into one complete Topic Guide.
 
 ### Header Section
 
