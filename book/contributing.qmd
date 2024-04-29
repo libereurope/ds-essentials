@@ -38,7 +38,7 @@ During the sprint, you’ve drafted your Topic Guide in a Google Doc. This Googl
 
 Things to note when creating and working with the Issue Template for your newly created Topic Guide:
 
-- If you want to include resources such as images and videos etc. which cannot be linked to via the web - you might have to provide the files themselves to us. You can attach any local files as a comment on the Issue you have created for your Topic Guide. 
+- If you want to include resources such as images and videos etc. which cannot be linked to via the web you might have to provide the files themselves to us. You can attach any local files as a comment on the Issue you have created for your Topic Guide. 
 - You may request placing your Google Doc under restricted access if you wish. We will not do this by default, but we respect that some contributors would like to keep drafts private until fully ready for submission.
 
 When your Topic Guide is ready for our review in Google Docs, please let us know by logging an update over on Github as a comment on the Issue stating this. You can also tag the maintainers so they receive a notification as well. Maintainers will generally work with you on the final edits necessary for the submission through track changes and comments within the Google Doc itself. Once these have all been resolved maintainers will log a status update indicating “Review complete; Final Submission Ready; Make live” in the GitHub issue.
