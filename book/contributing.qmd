@@ -1,29 +1,28 @@
 # Contribute to Our Project {.unnumbered}
 
-Throughout 2023/2024 we are working on producing the first complete edition of this resource for launch at the [LIBER Annual Conference](https://liberconference.eu/) 3-5 July 2024. That edition will be deposited in the [British Library Research Repository](https://bl.iro.bl.uk/), captured in the UK Web Archive, and a DOI provided. Topic Guides are currently being produced through a series of in-person and online writing sprints of LIBER working group members and by direct invitation. Each Topic Guide will have its own DOI as well.
+We are currently working on producing the first complete edition of this resource for launch at the [LIBER Annual Conference](https://liberconference.eu/) 3-5 July 2024. Topic Guides are currently being produced through a series of in-person and online writing sprints of LIBER working group members and by direct invitation. When complete, the first edition will be deposited in the [British Library Research Repository](https://bl.iro.bl.uk/), captured in the UK Web Archive, and a DOI provided for both the overall resources and individual guides. 
 
-The first edition Topic Guide list draws heavily on the existing skills framework and topics covered in the British Library’s Digital Scholarship Training Programme, as well as those recommended by attendees of development workshops hosted by LIBER working groups throughout 2023.
+The first edition Topic Guide list draws heavily on the existing skills framework and topics covered in the British Library’s Digital Scholarship Training Programme, as well as those recommended by attendees of development workshops hosted by LIBER working groups throughout 2023/2024.
 
 ## Ways to contribute to this project
 
-- Contribute a new Topic Guide (individually or in collaboration). Choose from our existing wishlist or propose a new one!
+- Contribute a new Topic Guide (individually or in collaboration with others). Choose from our existing wishlist or propose a new one and join a writing sprint!
 - Edit an existing Topic Guide or Additional Resources by opening an issue or adding to existing ones on Github
-- Join one of the [LIBER Working Groups Digital Scholarship and Digital Cultural Heritage WG](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/) or [Data Science in Libraries](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/) (open to all staff of [LIBER member institutions](https://libereurope.eu/liber-participants/))
+- Join one of the [LIBER Working Groups Digital Scholarship and Digital Cultural Heritage WG](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/) or [Data Science in Libraries](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/) (open to all staff of [LIBER member institutions](https://libereurope.eu/liber-participants/)) to keep up with the developments of this project!
 
-## How to Contribute a new Topic Guide 
-> These guidelines are written specifically for attendees wishing to contribute to the writing of Topic Guides on our wishlist as part of the online <mark>Topic Guide Sprint being held on **Tuesday May 14, 2024 9:00-11:00 (BST)**</mark>. 
+## Join a Writing Sprint! 
+> <mark>Our next Topic Guide Sprint is **Tuesday May 14, 2024 9:00-11:00 (BST)** Register Today!</mark>. 
 
 If you would like to take part please [Register Today](https://forms.office.com/Pages/ResponsePage.aspx?id=t0ykIcP5AE-a-r0ejoi82X7ZIEJh0odPq9ej1FnpQEJUNTlTTTQ3WjBWU0gxOTdaNk1WSUpVV1FPRS4u) or contact [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) to be sent the meeting calendar invite, sprint details and access to the Topic Guide Template in case you want to prep/get started early.
 
 Preparing for the sprint:
 
 1. Please have a quick read through the [**Welcome**](index.qmd) and [**Topic Guide**](topicguides.qmd) pages to familiarise yourself with this resource and its purpose.
-2. Have a look at our current [**Topic Guide Wishlist**](https://docs.google.com/spreadsheets/d/1FYR9UyZ7lWJOfsucZspw5sm9rmnTtHXecaYpCbVvDdI/edit#gid=851320609). Please let us know of any and all topic guides you would be happy to work on during the day of the sprint. You can do this by either completing the checklist with your Registration or directly editing the google spreadsheet. Feel free to select more than one if there are a number of topics you feel happy to write about. On the day each attendee will focus on writing just one Topic Guide. The information you provide before the sprint will help us organise this ahead of time so that as many Topic Guides as possible have at least one dedicated author. 
+2. When you [**Register**](https://forms.office.com/Pages/ResponsePage.aspx?id=t0ykIcP5AE-a-r0ejoi82X7ZIEJh0odPq9ej1FnpQEJUNTlTTTQ3WjBWU0gxOTdaNk1WSUpVV1FPRS4u) you'll see a list of our latest Topic Guide wishlist. Please check off any and all Topic Guides you would be happy to work on during the day of the sprint. Feel free to select more than one if there are a number of topics you feel happy to write about. On the day however each attendee will focus on writing just **one** Topic Guide. The information you provide before the sprint will help us organise this ahead of time so that as many Topic Guides as possible have at least one dedicated author. 
 3. Please have a quick read through the **Contribution Guidance and Style Guide** section below. 
-4. If you've been sent a copy of the [**Topic Guide Template (Google Doc)**](https://drive.google.com/drive/folders/1okdNMn1Jg1M8Enzavuqe_elsWH0uV1p1?usp=sharing) that corresponds to your topic of choice ahead of time, add your name to the header, and feel free to add notes or even make a start on drafting your guide before the sprint day if you're keen! 
+4. We'll be in touch after we receive your registration to send you more details and useful information ahead of the sprint. If you are sent a copy of the [**Topic Guide Template (Google Doc)**](https://drive.google.com/drive/folders/1okdNMn1Jg1M8Enzavuqe_elsWH0uV1p1?usp=sharing) that corresponds to your topic of choice ahead of time, add your name to the header, and feel free to add notes or even make a start on drafting your guide before the sprint day if you're keen! 
 
 We look forward to seeing you online! 
-
 
 ## Contribution Guidance and Style Guide 
 
