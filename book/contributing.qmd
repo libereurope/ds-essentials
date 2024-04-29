@@ -18,8 +18,8 @@ If you would like to take part please [Register Today](https://forms.office.com/
 Preparing for the sprint:
 
 1. Please have a quick read through the [**Welcome**](index.qmd) and [**Topic Guide**](topicguides.qmd) pages to familiarise yourself with this resource and its purpose.
-2. When you [**Register**](https://forms.office.com/Pages/ResponsePage.aspx?id=t0ykIcP5AE-a-r0ejoi82X7ZIEJh0odPq9ej1FnpQEJUNTlTTTQ3WjBWU0gxOTdaNk1WSUpVV1FPRS4u) you'll see a list of our latest Topic Guide wishlist. Please check off any and all Topic Guides you would be happy to work on during the day of the sprint. Feel free to select more than one if there are a number of topics you feel happy to write about. On the day however each attendee will focus on writing just **one** Topic Guide. The information you provide before the sprint will help us organise this ahead of time so that as many Topic Guides as possible have at least one dedicated author. 
-3. Please have a quick read through the **Contribution Guidance and Style Guide** section below. 
+2. When you [**Register**](https://forms.office.com/Pages/ResponsePage.aspx?id=t0ykIcP5AE-a-r0ejoi82X7ZIEJh0odPq9ej1FnpQEJUNTlTTTQ3WjBWU0gxOTdaNk1WSUpVV1FPRS4u) you'll see a list of our latest Topic Guides on our wishlist. Please check off any and all Topic Guides you would be happy to work on during the day of the sprint. On the day each attendee will focus on writing just **one** Topic Guide however. The information you provide before the sprint will help us organise this ahead of time so that as many Topic Guides as possible have at least one dedicated author.  
+3. Please have a quick read through the **Contribution Guidance and Style Guide** section. 
 4. We'll be in touch after we receive your registration to send you more details and useful information ahead of the sprint. If you are sent a copy of the [**Topic Guide Template (Google Doc)**](https://drive.google.com/drive/folders/1okdNMn1Jg1M8Enzavuqe_elsWH0uV1p1?usp=sharing) that corresponds to your topic of choice ahead of time, add your name to the header, and feel free to add notes or even make a start on drafting your guide before the sprint day if you're keen! 
 
 We look forward to seeing you online! 
@@ -52,7 +52,7 @@ This section provides a clear explanation of the topics’ specific relevance to
 It should contain:
 
 - A short paragraph or two setting the scene as to why the topic is relevant to the work of libraries. Here you might also like to present opportunities and, if relevant, potential challenges for libraries around the topic as well.
-- 1- 3 examples of real world (or potential) applications/case studies/projects briefly explained in a 100 max word summary provided each with links to further information if available. Note that it is not necessary to write up or create a new case study yourself here! Rather, we’re looking for briefly summarised references to existing ones. If there are quite a few other examples the contributor would like to reference include, links to these can be added at the end of this section (Example: “For further case studies, visit….”).
+- Up to 3 examples of real world (or potential) applications/case studies/projects briefly explained in a 100 max word summary provided each with links to further information if available. Note that it is not necessary to write up or create a new case study yourself here! Rather, we’re looking for briefly summarised references to existing ones. If there are quite a few other examples the contributor would like to reference include, links to these can be added at the end of this section (Example: “For further case studies, visit….”).
 
 #### III: Hands-on activity and other self-guided tutorial(s) 
 The objective of this section of the topic guide is to enable learners to familiarise themselves with the basics of the topic through active practice via self-paced tutorials and hand-on activities. Authors are not expected to create new activities or tutorials in this section, but rather to provide selected links to existing hands on tutorials which are known by them to have proven value and can be personally recommended for library professionals in particular. 
@@ -61,7 +61,7 @@ The tutorials recommended should be free, online and suitable for independent st
 
 For the sake of consistency across the various topic guides, it is helpful if tutorial references are structured as follows:
 
-- The title/name of the activity/tutorial, the URL (added as a hyperlink), and citation information (please use APA Style)
+- The title/name of the activity/tutorial, the URL (added as a hyperlink), and citation information (please use APA Style and/or provide a DOI if there is one)
 - A brief, personal explanation below it (no more than 200 words) as to why the author recommends this particular tutorial, and, optionally, an indication of topics covered and the level of complexity.
 
 #### IV: Recommended Reading & Viewing (*Approximately 200-400 words*)  
@@ -71,7 +71,7 @@ The section on recommended reading and viewing contains references to more passi
 - Video recordings of lectures about the topic, which do not demand practical activities from the viewer
 Podcasts about the topic
 
-[TODO: How should authors link to publications? Instruction here on how to use the Zotero Library?]
+When including citations please make sure to either write them in APA Style and/or simply provide the DOI with your text so that the project team can compile a dedicated Zotero Library.
 
 #### V: Taking the next steps (*Approximately 200-400 words*)  
 This section provides guidance to library professionals on where to take their learning journey further. It should include:
