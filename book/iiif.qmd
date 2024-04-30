@@ -59,12 +59,7 @@ The virtual reconstruction of this damaged manuscript from Châteauroux in Franc
 
 ![](https://github.com/libereurope/ds-essentials/blob/main/book/images/miniatures.png?raw=true)
 
-I highly recommend having a play with the [Mirador Viewer: Châteauroux demo](https://demos.biblissima.fr/chateauroux/demo/).
-
-### Create a Project/Exhibition
-
-[TODO add (exhibit.so) case study] 
-
+I highly recommend having a play around with the [Mirador Viewer: Châteauroux demo](https://demos.biblissima.fr/chateauroux/demo/).
 
 ## Hands-on activity and other self-guided tutorial(s)
 
