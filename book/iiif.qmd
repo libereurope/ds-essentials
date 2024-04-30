@@ -9,8 +9,8 @@
 
 IIIF (pronounced “triple-eye-eff”) stands for the [International Image Interoperability Framework](https://iiif.io/). Quite a tongue twister that one, but it broadly represents two things: 
 
-- a set of **open standards** for delivering high-quality, attributed digital objects online at scale. 
-- the **open, international community** of software developers, libraries, researchers, educators, museums, universities, creative agencies, and more working together to develop and implement the IIIF APIs to make the above open standards happen. 
+- a set of open standards for delivering high-quality, attributed digital objects online at scale. 
+- the open, international community of software developers, libraries, researchers, educators, museums, universities, creative agencies, and more working together to develop and implement the IIIF APIs to make the above open standards happen. 
 
 ### Open Standard
 
@@ -18,9 +18,9 @@ Ever try to look at a large high-resolution digitised manuscript online only for
 
 Or maybe spent months on end negotiating the terms and methods around sending copies of a variety of differently sized individual images to another institution for them to host as part of collaborative project? 
 
-IIIF brings a whole new efficiency to the way in which we in the cultural heritage sector go about sharing and making our digitised collections available online, while greatly expanding the functionality around the way users interact with them. It's an open standard, collaboratively developed and maintained by a host of cultural heritage institutions around the world that **defines a consistent method for the delivery of images and audio/visual files from servers to different environments on the Web** where they can then be viewed and interacted with in many ways.
+IIIF brings a whole new efficiency to the way in which we in the cultural heritage sector go about sharing and making our digitised collections available online, while greatly expanding the functionality around the way users interact with them. It's an open standard, collaboratively developed and maintained by a host of cultural heritage institutions around the world that defines a consistent method for the delivery of images and audio/visual files from servers to different environments on the Web where they can then be viewed and interacted with in many ways.
 
-IIIF basically specifies a way for browsers to display an image or audio/visual files in a way that **enables much richer functionality** on the Web:
+IIIF basically specifies a way for browsers to display an image or audio/visual files in a way that enables much richer functionality on the Web:
 
 - Makes it easier to display large images on the web in a way that is scalable (enabling deep zoom)
 - Allows easy comparison between two objects, connecting and uniting materials across institutional boundaries
@@ -47,7 +47,7 @@ If you want the deep nitty gritty technical stuff around all the APIs and how th
 ## Relevance to the Library Sector (Case Studies/Use Cases)
 IIIF was initiatied by a bunch of libraries and cultural heritage collections holders and it shows! It was proposed in late 2011 as a collaboration between The British Library, Stanford University, the Bodleian Libraries (Oxford University), the Bibliothèque nationale de France, Nasjonalbiblioteket (National Library of Norway), Los Alamos National Laboratory Research Library, and Cornell University. The intention of the consortium has always been to combine resource and effort in building viewers that reflected the way we wanted our digital collections to be displayed online, rather than everyone still spending time and resource making our own custom viewers and building our own content silos. It's brought a huge amount of efficiency too in the way that we share images with each other and researchers. It's changed the way collaborative projects are undertaken where endless metadata mapping exercises, contract negotiations around re-use and hosting, and the copying and shipping of digitised materials on external hard drives were the norm. 
 
-There are quite a number of use cases and case studies available on the [IIIF Demos page] (https://iiif.io/demos/) but let's have a quick look at three real life (and canonical) examples of IIIF in action.
+There are quite a number of use cases and case studies available on the [IIIF Demos page](https://iiif.io/demos/) but let's have a quick look at three real life (and canonical) examples of IIIF in action.
 
 ### Deep Zoom and Annotations
 
@@ -55,10 +55,11 @@ There are quite a number of use cases and case studies available on the [IIIF De
 
 ### Virtual Reconstruction
 
-The virtual reconstruction of this damaged manuscript from Châteauroux in France (Grandes Chroniques de France, ca. 1460) is probably one of the most well-known and best examples of the power of IIIF to support this use case. At some point in the manuscripts history, fourteen of its illuminations were cut out. These illuminations eventually ended up at the Bibliothèque nationale de France in the 19th century and were digitised individually. In the demo you see the reuniting of the miniatures with the full manuscript as IIIF allows a virtual repositioning of the cut out decorations with the text, virtually reconstructing the manuscript online using the Mirador Viewer so it reflects its original state. 
-[TODO add image]
+The virtual reconstruction of this damaged manuscript from Châteauroux in France (Grandes Chroniques de France, ca. 1460) is probably one of the most well-known and best examples of the power of IIIF to support this use case (and my own personal favourite!). At some point in the manuscripts history, fourteen of its illuminations were cut out. These illuminations eventually ended up at the Bibliothèque nationale de France in the 19th century and were digitised individually. In the demo you see the reuniting of the miniatures with the full manuscript as IIIF allows a virtual repositioning of the cut out decorations with the text, virtually reconstructing the manuscript online using the Mirador Viewer so it reflects its original state. 
 
-[Mirador Viewer: Châteauroux demo](https://demos.biblissima.fr/chateauroux/demo/)
+![](https://github.com/libereurope/ds-essentials/blob/main/book/images/miniatures.png?raw=true)
+
+I highly recommend having a play with the [Mirador Viewer: Châteauroux demo](https://demos.biblissima.fr/chateauroux/demo/).
 
 ### Create a Project/Exhibition
 
