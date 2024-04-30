@@ -33,7 +33,7 @@ Making your collections IIIF enabled makes it easier to share your content onlin
 ### Open Community
 The IIIF community is made up of [over 100 major cultural heritage organisations worldwide](https://iiif.io/guides/finding_resources/) who have formally adopted it, including many of our very own LIBER members. It was started in 2011 as a collaboration between The British Library, Stanford University, the Bodleian Libraries (Oxford University), the Bibliothèque nationale de France, Nasjonalbiblioteket (National Library of Norway), Los Alamos National Laboratory Research Library, and Cornell University. It's a really nice example of an open, grassroots but global community effort, backed by a consortium of leading cultural institutions, who have been working together to develop and implement this new capability for decades and solve their shared problems with delivering, managing, sharing, and working with their resources. 
 
-### What makes a collection IIIF enabled?!
+### What would I need to do to make my collection IIIF enabled?!
 If you want the deep nitty gritty technical stuff around all the APIs and how they fit together there is quite a bit of [implementation documentation](https://iiif.io/get-started/#implementers) on their website that goes into all this. But *essentially*, the basics behind making your own digitised collections "IIIF enabled", as they say, looks a little something like this:
 
 - **Set-up a IIIF image server** (developed by the community, or there are IIIF-compatible image servers available from vendors or other web hosts) and **implement the IIIF Image API** to make your images and audio/video materials available from there.
@@ -41,7 +41,7 @@ If you want the deep nitty gritty technical stuff around all the APIs and how th
 - **Choose one of the many [IIIF enabled viewers](https://iiif.io/get-started/iiif-viewers/)** for displaying your images and add it to your own collection site. Again, looking at that same [collection item](https://digital.bodleian.ox.ac.uk/objects/300f251d-1d9e-4212-b8e0-1a483bb26c43/) record above, note in the upper left hand-corner there is an option to view in Mirador or Universal Viewer which are two different styles of IIIF viewer that afford different functionalities.
 - **Consider making your IIIF Manifests available publicly** for download so users can work with them in all the interesting ways you've now enabled!
 
-
+![](https://github.com/libereurope/ds-essentials/blob/main/book/images/iiifviewers.png?raw=true)
 
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)
