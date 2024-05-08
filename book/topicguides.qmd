@@ -13,3 +13,29 @@ Each **Topic Guide** follows a fixed structure, consisting of a descriptive head
 The guides are not presented, nor meant to be completed, in any particular order, rather, you are invited to jump in and out of individual topics as personal curiosity or practical need dictates.
 
 The Topic Guide list in this first edition draws heavily on the existing skills framework and topics covered in the British Library’s Digital Scholarship Training Programme, as well as those recommended by attendees of a series of development workshops held with LIBER working groups throughout 2023.
+
+Our current wishlist includes but is not limited to topics such as:
+
+- 2D/3D Imaging: 3D Modelling and RTI
+- Automatic Text Transcription (OCR/HTR)
+- Demystifying Computational Environments for Digital Scholarship
+- Climate Change and Sustainability
+- Collections as Data
+- Copyright and Licensing
+- Crowdsourcing & Citizen Science in the cultural heritage context
+- Computer Vision
+- Cultural Competency & Ethics
+- Data Visualisation
+- Digital Mapping
+- Digital Scholarship Project Management, Evaluation and Assessment
+- Digital Storytelling
+- Getting started in programming
+- Github and GitPages/Quarto
+- IIIF
+- Linked Open Data
+- Machine Learning and AI in Libraries Literacies
+- Open Research
+- Research Data Management
+- What is an API?
+- Wikimedia
+- Working with Data
