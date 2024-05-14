@@ -51,7 +51,9 @@ There are quite a number of use cases and case studies available on the [IIIF De
 
 ### Deep Zoom and Annotations
 
-[TODO add case study]
+The example here is of the [Ōmi Kuni-ezu 近江國絵圖 Japanese Tax map](https://web.archive.org/web/20230527005027/https://library.stanford.edu/blogs/digital-library-blog/2015/11/adventures-oversized-imaging-digitizing-omi-kuni-ezu-jin-jiang) created in 1837. It’s meant to be read in the round by someone standing in the middle--you can see the scale when this zooms out-- the map is eleven by seventeen FEET, and the person standing next to it, Wayne who works in the library at Stanford, is six feet four inches tall. This image is a composite of 158 individual images with a file size of 1.27Gb.  IIIF allows just enough of an image to be delivered to a viewer--going from a whole image to just the part that they are zooming in on. Without IIIF, an end user might have to download an extremely large file, but using IIIF provides a smooth and easy viewing experience.
+
+![](https://github.com/libereurope/ds-essentials/blob/main/book/images/JapaneseTaxMap.gif?raw=true)
 
 ### Virtual Reconstruction
 
