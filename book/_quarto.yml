@@ -19,6 +19,7 @@ book:
       chapters:
         - llms.qmd
     - iiif.qmd
+    - api.qmd
     - part: "**GENERAL RESOURCES**"
       chapters:
         - references.qmd
