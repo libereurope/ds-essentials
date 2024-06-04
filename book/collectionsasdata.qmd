@@ -1,7 +1,7 @@
 # Collections as Data: Getting Started {.unnumbered}
 
->Contributed by: Gustavo Candela, 0000-0001-6122-0777  
->Original published date: \[04/06/2024\]  
+>Contributed by: Gustavo Candela, [ORCID iD](https://orcid.org/0000-0001-6122-0777)<br>  
+>Original published date: \[04/06/2024\] <br> 
 Last modified: See Github page history
 >
 >Suggested Citation: Gustavo Candela, “Collections as Data: Getting Started,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd] 
