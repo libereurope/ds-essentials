@@ -1,4 +1,4 @@
-# Collections as Data: Getting Started
+# Collections as Data: Getting Started  {.unnumbered}
 
 >Contributed by: Gustavo Candela, 0000-0001-6122-0777  
 >Original published date: \[04/06/2024\]  
