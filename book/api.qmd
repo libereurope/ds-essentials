@@ -7,16 +7,126 @@
 
 ## Introduction
 
+<!-- Approx 500-700 words -->
 
+Any time you write code you are using an API!
+When you write `print(“Hello world”)` in Python,
+the Python Standard Library API is the contract that guarantees the words Hello world will appear on the screen.
+When you do the same in R,
+it’s the API of R’s base package that you are using.
+Other languages’ APIs use other words for the same function
+(`printf`, `echo`, `format` are some common ones)
+and may have subtly different interpretations.
 
+API is an acronym for Application Programming Interface.
+Where a GUI (Graphical User Interface) provides a consistent way for humans to interact with an application,
+an API provides a consistent way for code to interact with other code.
+APIs set clear expectations that are necessary for 
+
+Generally “API” can be applied to any consistent interface provided by one computer program for other programs to use,
+but the most common you are likely to encounter in Digital Scholarship work are:
+
+- A set of functions/variables available through a code library,
+  and their expected behaviour
+  - E.g. the [Python Standard Library’s API][py-stdlib] includes a [module called `re`][re]
+    which provides a number of functions, classes and constants that allow you to work with regular expressions
+
+- A set of HTTP URLs provided by a system/service,
+  and the expected behaviour when those URLs are requested from the server by another program
+  - E.g. the DataCite API defines a URL `https://api.datacite.org/dois` which
+    returns a list of all published DataCite DOIs to the requester,
+    formatted as JSON,
+    and when followed by the parameter `?prefix=10.23636`
+    will filter the returned list to only include DOIs with that prefix
+
+Both of these examples share some important elements.
+They specify:
+
+- What the programmer must do
+- What response the programmer can expect and in what format
+- What side-effects the programmer should expect
+
+Let’s look at those two types in more detail through this lens.
+
+[re]: https://docs.python.org/3/library/re.html
+[py-stdlib]: https://docs.python.org/3/library/index.html
+
+### Example 1: a Python library API
+
+The `re` module mentioned above includes a function called `search`
+with the following [documentation][re.search]:
+
+> `re.search(pattern, string, flags=0)`
+>
+> Scan through `string` looking for the first location
+> where the regular expression `pattern` produces a match,
+> and return a corresponding `Match`.
+> Return `None` if no position in the string matches the pattern;
+> note that this is different from finding a zero-length match
+> at some point in the string.
+
+[requests]: https://docs.python-requests.org/en/latest/index.html
+[re.search]: https://docs.python.org/3/library/re.html#re.search
+
+::: {.callout-caution}
+### Todo
+
+- Break down this definition into how it describes different parts of how the programmer can use this function
+- Maybe move this section to the hands-on activity?
+:::
+
+### Example 2: a HTTP API
+
+::: {.callout-caution}
+### Todo
+
+- Worked example of a HTTP call (e.g. the DataCite endpoint mentioned above)
+- A diagram will be very helpful!
+- Should this include example Python code or is that too much detail?
+:::
+
+## Glossary
+
+- Argument
+- Call
+- Client
+- HTTP
+- Library
+- Parameter
+- Request
+- Return
+- Server
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)
+<!-- Approximately 300-500 words -->
 
+Many (most?) systems that we use every day have APIs.
+Knowing what these look like and how to use them in general
+is an important first step in being able to write software
+that accesses those systems
+to do much more than you could do with your own code alone.
+This becomes even more powerful when you can write “glue” code
+that brings together parts of two or more APIs 
 
 ## Hands-on activity and other self-guided tutorial(s)
 
+<!-- Approximately 200-400 words -->
 
-## Recommended Reading/Viewing 
+- Something involving Postman?
+- Exploring published API documentation?
+  E.g. DataCite API docs allow you to run test queries from the web page
 
+## Recommended Reading/Viewing
+
+<!-- Approximately 200-400 words -->
+ 
+- [Wikipedia's "API" entry](https://en.wikipedia.org/wiki/API)
+  is a good jumping off point,
+  including some history
+- ["HTTP: Learn your browser's language!"](https://wizardzines.com/zines/http/): 
+  excellent zine by software engineer [Julia Evans](https://jvns.ca)
+  (costs 12 USD)
 
 ## Taking the next step
+
+<!-- Approximately 200-400 words -->
