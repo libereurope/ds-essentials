@@ -11,15 +11,16 @@ book:
   chapters:
     - index.qmd
     - topicguides.qmd
+    - part: ml-ai.qmd
+      chapters:
+        - llms.qmd
+    - collectionsasdata.qmd
+    - iiif.qmd
+    - api.qmd
     - part: getting-started-with-programming.qmd
       chapters:
         - r.qmd
         - python.qmd
-    - part: ml-ai.qmd
-      chapters:
-        - llms.qmd
-    - iiif.qmd
-    - api.qmd
     - part: "**GENERAL RESOURCES**"
       chapters:
         - references.qmd
