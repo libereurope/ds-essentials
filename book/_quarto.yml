@@ -11,9 +11,7 @@ book:
   chapters:
     - index.qmd
     - topicguides.qmd
-    - part: ml-ai.qmd
-      chapters:
-        - llms.qmd
+    - ml-ai.qmd
     - collectionsasdata.qmd
     - iiif.qmd
     - api.qmd
