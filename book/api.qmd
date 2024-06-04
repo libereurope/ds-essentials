@@ -1,1 +1,22 @@
+# IIIF {.unnumbered}
+>Contributed by: Name, [ORCID iD](https://orcid.org/0000-0001-6560-5586)<br>
+>Original published date: <br>
+>Last modified: See Github page history
+>
+>Suggested Citation: Nora McGregor, “IIIF,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
 
+## Introduction
+
+
+
+
+## Relevance to the Library Sector (Case Studies/Use Cases)
+
+
+## Hands-on activity and other self-guided tutorial(s)
+
+
+## Recommended Reading/Viewing 
+
+
+## Taking the next step
