@@ -1,12 +1,10 @@
-# Collections as Data: Getting Started  {.unnumbered}
+# Collections as Data: Getting Started {.unnumbered}
 
 >Contributed by: Gustavo Candela, 0000-0001-6122-0777  
 >Original published date: \[04/06/2024\]  
 Last modified: See Github page history
 >
 >Suggested Citation: Gustavo Candela, “Collections as Data: Getting Started,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd] 
-
-
 
 ## Introduction: What is the concept of Collections as Data and how can my institution get started?  
 
