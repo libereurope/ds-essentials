@@ -18,6 +18,20 @@ Other languages’ APIs use other words for the same function
 (`printf`, `echo`, `format` are some common ones)
 and may have subtly different interpretations.
 
+In many ways an API is like a restaurant menu:
+the menu sets out the acceptable ways of interacting with the kitchen
+by specifying what dishes you can order
+with a brief description of what to expect from the dish,
+and how much you will have to pay.
+Items on a menu don't include a detailed description of their implementation
+(a recipe),
+only enough information for the diner to make an informed choice
+about what they want to eat.
+If you're confident you know what you're doing you can order off-menu,
+but the results aren't guaranteed to be what you expect,
+because there is no documentation of those expectations
+for the kitchen to refer to.
+
 API is an acronym for Application Programming Interface.
 Where a GUI (Graphical User Interface) provides a consistent way for humans to interact with an application,
 an API provides a consistent way for code to interact with other code.
