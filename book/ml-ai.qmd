@@ -139,12 +139,8 @@ Copy and paste a paragraph of text from somewhere around the web, or from your o
 - [Cloud Natural Language](https://cloud.google.com/natural-language#section-2)
 - [IBM Watson Natural Language Understanding Text Analysis](https://www.ibm.com/demos/live/natural-language-understanding/self-service/home)
 - [displaCy](https://demos.explosion.ai/displacy-ent)
-- [Voyant Tools (voyant-tools.org)](https://voyant-tools.org/)
-
-Voyant Tools is an open-source, web-based application for performing text analysis. It supports scholarly reading and interpretation of texts or corpus, particularly by scholars in the [digital humanities](https://en.wikipedia.org/wiki/Digital_humanities), but also by students and the general public. It can be used to analyse online texts or ones uploaded by users.
-
-- [Annif - tool for automated subject indexing](https://annif.org/)  
-    There are [many video tutorials here](http://natlibfi/Annif-tutorial:%20Instructions,%20exercises%20and%20example%20data%20sets%20for%20Annif%20hands-on%20tutorial%20%28github.com%29) and the ability to demo the tool
+- [Voyant Tools (voyant-tools.org)](https://voyant-tools.org/) Voyant Tools is an open-source, web-based application for performing text analysis. It supports scholarly reading and interpretation of texts or corpus, particularly by scholars in the [digital humanities](https://en.wikipedia.org/wiki/Digital_humanities), but also by students and the general public. It can be used to analyse online texts or ones uploaded by users.
+- [Annif - tool for automated subject indexing](https://annif.org/) There are [many video tutorials here](http://natlibfi/Annif-tutorial:%20Instructions,%20exercises%20and%20example%20data%20sets%20for%20Annif%20hands-on%20tutorial%20%28github.com%29) and the ability to demo the tool
 
 ### Activity: Explore ChatGPT
 
@@ -168,7 +164,7 @@ Find an image from somewhere on the web, or from your own collection, and see ho
 
 ## Recommended Reading/Viewing  
 
-Much of this topic guide is based on both a [Library Carpentry Intro to AI for GLAM](https://carpentries-incubator.github.io/machine-learning-librarians-archivists/) lesson I have developed with colleagues and a 2024 talk I gave as part of a Research Libraries UK Digital Shift Forum so if you’d like to view/listen to the content covered in this topic guide as a lecture: [![](https://github.com/libereurope/ds-essentials/blob/main/book/images/YouTube.png)](https://www.youtube.com/watch?v=CrCP5rYai9M&ab_channel=ResearchLibrariesUK)
+Much of this topic guide is based on both a [Library Carpentry Intro to AI for GLAM](https://carpentries-incubator.github.io/machine-learning-librarians-archivists/) lesson I have developed with colleagues and a 2024 talk I gave as part of a Research Libraries UK Digital Shift Forum so if you’d like to view/listen to the content covered in this topic guide as a lecture: [![](https://github.com/libereurope/ds-essentials/blob/main/book/images/YouTube.png?raw=true)](https://www.youtube.com/watch?v=CrCP5rYai9M&ab_channel=ResearchLibrariesUK)
 
 There are of course untold numbers of lists out there with resources for learning more about AI & Machine Learning but I think this particular guide is exceptionally useful in its coverage and topics selected, particularly as they are quite specifically for Librarians: [Add'tl Reading for Librarians & Faculty - Using AI Tools in Your Research - Research Guides at Northwestern University](https://libguides.northwestern.edu/ai-tools-research/librarians)
 
