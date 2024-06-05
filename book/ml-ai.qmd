@@ -9,7 +9,7 @@
 
 ## Introduction: AI & ML terms demystified  
 
-AI is mentioned absolutely everywhere these days, first it was just in movies, the news, but now it’s all over boys our library meetings and strategies and funding calls, but what does it really mean, particularly in a library context? Let’s try to get to the bottom of this!
+AI is mentioned absolutely everywhere these days, first it was just in movies, the news, but now it’s cropping up in our library meetings and strategies and funding calls, but what does it really mean, particularly in a library context? Let’s try to get to the bottom of this!
 
 To do that I always like to start off with a bit of basic jargon busting.
 
