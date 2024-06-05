@@ -118,7 +118,7 @@ We can use computer vision to train models to automatically analyse and understa
 
 In the library world we can use this to label millions of images, or, as we see below, a model can be trained to classify this image as a newspaper based on objects identified in the layout (for example, a nameplate for the newspaper, a headline, photographs, and illustrations and so on). The model learns how to identify that this is the NYT based on learning from other newspaper images it’s seen (for example, if given NY Tribune, NY Times, and NY Post images, it can distinguish between the various titles).
 
-\[insert picture\]
+![](https://github.com/libereurope/ds-essentials/blob/main/book/images/CV.png?raw=true)
 
 ### Putting it altogether: ML + CV + NLP 
 
