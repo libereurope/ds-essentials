@@ -1,117 +1,19 @@
-# Chapter Template {.unnumbered}
+# [Topic Guide Title {.unnumbered}
+>Contributed by: First Name Last Name, [ORCID iD](https://orcid.org/[yourid])<br>
+>Original published date: 12/06/2024<br>
+>Last modified: See Github page history
+>
+>Suggested Citation: [First Name Last Name], “[Topic Guide Title],” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
 
-+----------------------+-----------------------------------------------+
-| **Guide Element**    | **Description**                               |
-+======================+===============================================+
-| **Basic Guide Metadata** |                                           |
-+----------------------+-----------------------------------------------+
-| **Topic title:**     |                                               |
-+----------------------+-----------------------------------------------+
-| **Topic summary:**   | In two sentences or less, summarise the       |
-|                      | guide's purpose                               |
-+----------------------+-----------------------------------------------+
-| **Author(s):**       |                                               |
-+----------------------+-----------------------------------------------+
-| **Date first         |                                               |
-| published:**         |                                               |
-+----------------------+-----------------------------------------------+
-| **Date last          |                                               |
-| reviewed/Reviewed    |                                               |
-| By:**                |                                               |
-+----------------------+-----------------------------------------------+
-| **Date last          |                                               |
-| modified:**          |                                               |
-+----------------------+-----------------------------------------------+
-| **DOI:**             | Each guide should have its own DOI so that    |
-|                      | usage can be tracked.We can do this through   |
-|                      | the British Library Research Repository.      |
-+----------------------+-----------------------------------------------+
-| **How to cite:**     | Provide a suggested citation for the guide    |
-|                      | itself to make it easier for folks to cite.   |
-+----------------------+-----------------------------------------------+
-| **Learner/Skill      | TBD, but we should choose a standard we like  |
-| level:**             | that expresses the level at which this Guide  |
-|                      | is written:                                   |
-|                      |                                               |
-|                      | Level I: Basic/Foundational                   |
-|                      |                                               |
-|                      | Level II: Advanced/Applied                    |
-|                      |                                               |
-|                      | Difficulty: Low/Medium/High                   |
-|                      |                                               |
-|                      | Awareness                                     |
-|                      |                                               |
-|                      | Working                                       |
-|                      |                                               |
-|                      | Practitioner                                  |
-|                      |                                               |
-|                      | Expert                                        |
-|                      |                                               |
-|                      | ([[Digital, Data and Technology Profession    |
-|                      | Capability Framework - Capability Framework   |
-|                      | (ddat-capability-f                            |
-|                      | ramework.service.gov.uk)]{.underline}](https: |
-|                      | //ddat-capability-framework.service.gov.uk/)) |
-+----------------------+-----------------------------------------------+
-| **Topics covered**   | These would be [[controlled category          |
-|                      | tags]{.underline}]                            |
-|                      | (https://docs.google.com/document/u/0/d/1vSIi |
-|                      | 5WMi7icP6Byeju9UP8tmrnnASXxACOImeRr3wYU/edit) |
-|                      | which the guide could fall under. We can base |
-|                      | these on the list of skills categories that   |
-|                      | the WG agrees to?                             |
-+----------------------+-----------------------------------------------+
-| **Guide Content Blocks** |                                           |
-+----------------------+-----------------------------------------------+
-| **Learning           | Each guide should have a short list of 3-4    |
-| objectives**         | bullet points indicating what the reader      |
-|                      | hopes to learn from going through the guide.  |
-|                      | *Example:*                                    |
-|                      |                                               |
-|                      | *This guide aims to:*                         |
-|                      |                                               |
-|                      | -   *Introduce \[topic\] and its importance   |
-|                      |     in the context of library work*           |
-|                      |                                               |
-|                      | -   *Outline how these technologies are being |
-|                      |     used in libraries*                        |
-|                      |                                               |
-|                      | -   *Showcase different tools & technologies  |
-|                      |     relevant to \[topic\] through hands-on    |
-|                      |     activities*                               |
-|                      |                                               |
-|                      | -   *Demonstrate how \[topic\] can be used    |
-|                      |     for \[outcome\]*                          |
-+----------------------+-----------------------------------------------+
-| **Pre-requisites &   | If there is any previous knowledge required   |
-| set-up:**            | for learning this topic, and/or any unique    |
-|                      | technology set-up required state this here.   |
-+----------------------+-----------------------------------------------+
-| **I: Introduction to | A concise overview of the topic, pitched at   |
-| the topic**          | the level indicated at the outset, including  |
-|                      | jargon busting.                               |
-+----------------------+-----------------------------------------------+
-| **II: Relevance to   | Each guide needs to include somewhere within  |
-| the Library Sector** | it a clear explanation of the topics'         |
-|                      | specific relevance to the work of libraries.  |
-|                      |                                               |
-|                      | -   Include real world (or potential)         |
-|                      |     applications/case studies/projects        |
-|                      |                                               |
-|                      | -   Lay out opportunities and challenges for  |
-|                      |     libraries around the topic                |
-+----------------------+-----------------------------------------------+
-| **III: Hands-on      | Guides should include one or two hands-on     |
-| activity and other   | activities that the reader can undertake      |
-| self-guided          | independently to practice the concepts        |
-| tutorial(s)**        | they're encountering. Note: not a quiz or a   |
-|                      | test                                          |
-+----------------------+-----------------------------------------------+
-| **IV: Recommended    | This section should include reference to:     |
-| Reading & Further    |                                               |
-| Learning**           | -   Recommended reading                       |
-|                      |                                               |
-|                      | -   Networks/Organisations?                   |
-|                      |                                               |
-|                      | -   Advanced tutorials/courses/learning?      |
-+----------------------+-----------------------------------------------+
+## Introduction: 
+
+## Relevance to the Library Sector (Case Studies/Use Cases)
+
+
+## Hands-on activity and other self-guided tutorial(s)
+
+
+## Recommended Reading/Viewing 
+
+
+## Taking the next step
