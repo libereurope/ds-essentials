@@ -254,7 +254,27 @@
     "href": "api.html",
     "title": "What is an API?",
     "section": "",
-    "text": "Introduction",
+    "text": "Introduction\nAny time you write code you are using an API! When you write print(“Hello world”) in Python, the Python Standard Library API is the contract that guarantees the words Hello world will appear on the screen. When you do the same in R, it’s the API of R’s base package that you are using. Other languages’ APIs use other words for the same function (printf, echo, format are some common ones) and may have subtly different interpretations.\nIn many ways an API is like a restaurant menu: the menu sets out the acceptable ways of interacting with the kitchen by specifying what dishes you can order with a brief description of what to expect from the dish, and how much you will have to pay. Items on a menu don’t include a detailed description of their implementation (a recipe), only enough information for the diner to make an informed choice about what they want to eat. If you’re confident you know what you’re doing you can order off-menu, but the results aren’t guaranteed to be what you expect, because there is no documentation of those expectations for the kitchen to refer to.\nAPI is an acronym for Application Programming Interface. Where a GUI (Graphical User Interface) provides a consistent way for humans to interact with an application, an API provides a consistent way for code to interact with other code. APIs set clear expectations that are necessary for\nGenerally “API” can be applied to any consistent interface provided by one computer program for other programs to use, but the most common you are likely to encounter in Digital Scholarship work are:\nBoth of these examples share some important elements. They specify:\nLet’s look at those two types in more detail through this lens.",
+    "crumbs": [
+      "What is an API?"
+    ]
+  },
+  {
+    "objectID": "api.html#introduction",
+    "href": "api.html#introduction",
+    "title": "What is an API?",
+    "section": "",
+    "text": "A set of functions/variables available through a code library, and their expected behaviour\n\nE.g. the Python Standard Library’s API includes a module called re which provides a number of functions, classes and constants that allow you to work with regular expressions\n\nA set of HTTP URLs provided by a system/service, and the expected behaviour when those URLs are requested from the server by another program\n\nE.g. the DataCite API defines a URL https://api.datacite.org/dois which returns a list of all published DataCite DOIs to the requester, formatted as JSON, and when followed by the parameter ?prefix=10.23636 will filter the returned list to only include DOIs with that prefix\n\n\n\n\nWhat the programmer must do\nWhat response the programmer can expect and in what format\nWhat side-effects the programmer should expect\n\n\n\nExample 1: a Python library API\nThe re module mentioned above includes a function called search with the following documentation:\n\nre.search(pattern, string, flags=0)\nScan through string looking for the first location where the regular expression pattern produces a match, and return a corresponding Match. Return None if no position in the string matches the pattern; note that this is different from finding a zero-length match at some point in the string.\n\n\n\n\n\n\n\nTodo\n\n\n\n\nBreak down this definition into how it describes different parts of how the programmer can use this function\nMaybe move this section to the hands-on activity?\n\n\n\n\n\nExample 2: a HTTP API\n\n\n\n\n\n\nTodo\n\n\n\n\nWorked example of a HTTP call (e.g. the DataCite endpoint mentioned above)\nA diagram will be very helpful!\nShould this include example Python code or is that too much detail?",
+    "crumbs": [
+      "What is an API?"
+    ]
+  },
+  {
+    "objectID": "api.html#glossary",
+    "href": "api.html#glossary",
+    "title": "What is an API?",
+    "section": "Glossary",
+    "text": "Glossary\n\nArgument\nCall\nClient\nHTTP\nLibrary\nParameter\nRequest\nReturn\nServer",
     "crumbs": [
       "What is an API?"
     ]
@@ -264,7 +284,7 @@
     "href": "api.html#relevance-to-the-library-sector-case-studiesuse-cases",
     "title": "What is an API?",
     "section": "Relevance to the Library Sector (Case Studies/Use Cases)",
-    "text": "Relevance to the Library Sector (Case Studies/Use Cases)",
+    "text": "Relevance to the Library Sector (Case Studies/Use Cases)\n\nMany (most?) systems that we use every day have APIs. Knowing what these look like and how to use them in general is an important first step in being able to write software that accesses those systems to do much more than you could do with your own code alone. This becomes even more powerful when you can write “glue” code that brings together parts of two or more APIs",
     "crumbs": [
       "What is an API?"
     ]
@@ -274,7 +294,7 @@
     "href": "api.html#hands-on-activity-and-other-self-guided-tutorials",
     "title": "What is an API?",
     "section": "Hands-on activity and other self-guided tutorial(s)",
-    "text": "Hands-on activity and other self-guided tutorial(s)",
+    "text": "Hands-on activity and other self-guided tutorial(s)\n\n\nSomething involving Postman?\nExploring published API documentation? E.g. DataCite API docs allow you to run test queries from the web page",
     "crumbs": [
       "What is an API?"
     ]
@@ -284,7 +304,7 @@
     "href": "api.html#recommended-readingviewing",
     "title": "What is an API?",
     "section": "Recommended Reading/Viewing",
-    "text": "Recommended Reading/Viewing",
+    "text": "Recommended Reading/Viewing\n\n\nWikipedia’s “API” entry is a good jumping off point, including some history\n“HTTP: Learn your browser’s language!”: excellent zine by software engineer Julia Evans (costs 12 USD)",
     "crumbs": [
       "What is an API?"
     ]
