@@ -4,12 +4,11 @@
 
 ## Our Aims
 
-- <span style="color:#f0ad00;">**Present**</span> a **central destination for newcomers** to become more familiar and conversant with the foundational concepts, methods and tools of **digital scholarship and data science practice in libraries**.
-  Examplar topics include
+- <span style="color:#f0ad00;">**Present**</span> a **central destination for newcomers** to become more familiar and conversant with the foundational concepts, methods and tools of **digital scholarship and data science practice in libraries**.<br> Examplar topics include:
    * machine-learning techniques for enhancing catalogue records
    * handwritten text recognition for enhancing text search-ability
-   * applications of ChatGPT in reference services
-   * connecting collections through linked data and knowledge graphs
+   * understanding large language models and applications of ChatGPT in reference services
+   * connecting collections through linked open data 
    * 3D Modelling collection objects
 - <span style="color:#f0ad00;">**Help**</span> library staff gain a **better understanding** of digital scholarship and data science practice in libraries by providing **contextualised and gentle introductions to key topics** through guides, self-guided training materials, project case studies, jargon busting and recommended reading lists
 - <span style="color:#f0ad00;">**Enable**</span> staff, in LIBER membership and beyond, to **explore and immediately access** a wealth of **self and group study educational resources**, available to them through a curated catalogue with faceted search and discovery
