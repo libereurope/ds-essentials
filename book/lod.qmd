@@ -1,35 +1,162 @@
-# Linked Open Data {.unnumbered}
+# Linked Open Data in Library Use Today {.unnumbered}**
 
-## Getting Started
+Contributed by: Gustavo Candela, [ORCID iD](https://orcid.org/0000-0001-6122-0777)
+Original published date: 13/06/2024
+Last modified: See Github page history
+Suggested Citation: Gustavo Candela, “Linked Open Data in Library Use Today,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd\]
 
-The first sections of the introductory course about Linked Open Data in cultural heritage collections, developed at Leiden University, explains the basic principles of Linked Open Data (LOD):
+## Introduction  
 
--   [[Basic principles]{.underline}](https://unloch.github.io/lod/notebooks/1%20Basic_principles.html)
+The Semantic Web was first introduced in the 2000s by Tim Berners Lee as an extension of the current Web. Instead of providing information in the form of _documents_ and unstructured text like in traditional webpages, the Semantic Web facilitates the publication of machine-readable _data_ on the web through standards such as [Resource Description Framework (RDF)](https://www.w3.org/TR/rdf12-concepts/) and [Web Ontology Language (OWL)](https://www.w3.org/TR/owl2-overview/).
 
-A good introduction to the basic principles of Linked Open Data can also be found at the Programming historian:
+Linked Open Data (LOD) is a method of publishing structured data about things using the [RDF](https://www.w3.org/TR/rdf12-concepts/) to enable interlinking and semantic queries across datasets. The data is organised in “triples”, each consisting of a subject (e.g., Named Person), predicate (IsAuthorOf), and object (Book Title), identified by Uniform Resource Identifiers (URIs) to ensure global uniqueness and interoperability. It allows metadata to be connected and enriched, so that different representations of the same content can be found, and links made between related resources.
 
--   [[Introduction to Linked Data]{.underline}](https://programminghistorian.org/en/lessons/intro-to-linked-data)
+Have a quick look at this video from Europeana explaining the high-level basic principle of LOD before we dive a bit deeper into how it practically works:
 
-## Advanced
+[![Watch the video](https://github.com/libereurope/ds-essentials/blob/main/book/images/Lod3.png?raw=true)](https://player.vimeo.com/video/36752317?h=1af34f93f0)
+[Linked Open Data | Europeana PRO](https://pro.europeana.eu/page/linked-open-data)
 
-The course about Linked Open Data in cultural heritage collections, developed at Leiden University also includes [[a tutorial about a number of tools that can be used to create and to publish LOD]{.underline}](https://unloch.github.io/lod/notebooks/2%20Creating_LOD.html). More specifically, it contains discussions of the LDwizard and CLARIAH Data Legend tool 'COW'.
 
-To be able to retrieve and analyse Linked Open Data, you need to know how to build SPARQL queries. The following courses can be helpful:
+### How it works
 
--   [[Introduction to SPARQL]{.underline}](https://unloch.github.io/lod/notebooks/3%20SPARQL_queries.html)
+RDF triples are the fundamental building blocks of Linked Open Data. Triples follow the RDF standard and consist of three components:
 
--   [[Using SPARQL to access Linked Open Data]{.underline}](http://programminghistorian.org/en/lessons/retired/graph-databases-and-SPARQL)
+1. **Subject**: This is the entity or resource being described. It is usually represented by a URI that uniquely identifies the resource.
+2. **Predicate**: This represents the relationship or property of the subject. It is also identified by a URI and specifies the type of relationship between the subject and the object.
+3. **Object**: This is the value or resource that is related to the subject. The object can be another URI (representing another resource) or a literal value (such as a string or number), amongst others.
 
-    _Note that the tutorial is somewhat outdated. The British Library SPARQL endpoint that is discussed in the text is not longer available at this address._
+An example of a triple stating "Miguel de Cervantes is author of El Quijote." would look like this:
 
-## Cookbooks
+- **Subject**: &lt;<https://www.wikidata.org/wiki/Q5682>&gt; (Wikidata URI reference to Miguel de Cervantes)
+- **Predicate**: &lt;<http://purl.org/dc/terms/creator>&gt; (Dublin Core URI term for creator/author)
+- **Object**: &lt;<https://www.wikidata.org/wiki/Q480>&gt; (Wikidata URI reference to the book El Quijote)
+
+In a [2020 survey](https://libereurope.eu/article/linked-open-data-impressions-challenges-among-europes-research-libraries/#:~:text=LIBER%E2%80%99s%20Linked%20Open%20Data%20Working%20Group%20aims%20to,libraries%20follow%20in%20making%20data%20linked%20and%20open.) of LIBER members, the LIBER Linked Open Data Working Group identified the following as the most frequently used datasets by libraries to enrich their catalogues but there are many more that can be used depending on your needs [Linked Data Survey (oclc.org)](https://www.oclc.org/research/areas/data-science/linkeddata/linked-data-survey.html) and some examples of advanced data models are [Bibliographic Framework (BIBFRAME)](https://www.loc.gov/bibframe/) and [Library Reference Model (LRM)](https://en.wikipedia.org/wiki/IFLA_Library_Reference_Model). In addition, the [lod-cloud](https://lod-cloud.net/) provides more than one thousand LOD repositories classified by categories and based on different domains such as geography and government.  
+
+![](https://github.com/libereurope/ds-essentials/blob/main/book/images/lod2.png?raw=true)
+
+So let’s go back to our triple that describes the relationship between the resource "Miguel de Cervantes" and the book of "El Quijote". When different triples share the same URI for a subject, predicate, or object, they create a connection. For example:
+
+**Triple 1:** Miguel de Cervantes is author of El Quijote
+
+- **Subject**: &lt;<https://www.wikidata.org/wiki/Q5682>&gt; (Wikidata identifier for the author Miguel de Cervantes)
+- **Predicate**: &lt;<http://purl.org/dc/terms/creator>&gt; (Dublin Core term for creator/author)
+- **Object**: <[https://www.wikidata.org/wiki/Q480](https://www.wikidata.org/wiki/Q480http://dbpedia.org/resource/El_Quijote)\> (Wikidata identifier for the work El Quijote)
+
+**Triple 2:** El Quijote is a work of Spanish Literature
+
+- **Subject**: &lt;<https://www.wikidata.org/wiki/Q480>&gt; (Wikidata identifier for the work El Quijote)
+- **Predicate**: &lt;<http://purl.org/dc/terms/subject>&gt; (Dublin Core term for subject)
+- **Object**: <http://dbpedia.org/resource/Spanish_literature\> (DBpedia identifier for Spanish literature)
+
+Here, the object of the first triple (&lt;<https://www.wikidata.org/wiki/Q480>&gt;) is the subject of the second triple, linking information about the book to information about its subject matter. So an example catalogue record combining many triples then might look like:
+
+**&lt;<http://example.org/catalogue/El_Quijote>&gt;**<br>
+rdf:type schema:Book;<br>
+schema:name "El_Quijote";<br>
+schema:author **&lt;<https://www.wikidata.org/wiki/Q5682>&gt;**;<br>
+schema:genre &lt;<http://dbpedia.org/resource/Novel>&gt;;<br>
+schema:inLanguage &lt;<http://id.loc.gov/vocabulary/iso639-1/es>&gt;;<br>
+schema:datePublished "1605";<br>
+schema:about &lt;<http://dbpedia.org/resource/Spanish_literature>&gt;;<br>
+schema:about &lt;<http://dbpedia.org/resource/Spanish_Golden_Age>&gt;;<br>
+schema:sameAs &lt;<http://dbpedia.org/resource/Don_Quixote>&gt;.<br>
+
+**&lt;<https://www.wikidata.org/wiki/Q5682>&gt;**<br>
+rdf:type schema:Person;<br>
+schema:name "Miguel de Cervantes";<br>
+schema:birthPlace **&lt;<http://dbpedia.org/resource/Alcala_de_Henares>&gt;**;<br>
+schema:birthDate "1547-09-29".<br> 
+
+
+**&lt;<http://dbpedia.org/resource/Alcala_de_Henares**>&gt;**
+rdf:type schema:Place;<br>
+schema:name "Alcalá de Henares";<br>
+geo:country **&lt;<http://sws.geonames.org/2510769/>&gt;**.
+
+**&lt;<http://sws.geonames.org/2510769/>&gt;<br>**
+rdf:type schema:Country;<br>
+schema:name "Spain" .
+
+## Relevance to the Library Sector (Case Studies/Use Cases)  
+
+GLAM institutions and in particular, libraries, have played a leading role in the publication of their data, primarily collections metadata, as LOD and using them including:  
+
+- [Bibliothèque nationale de France](https://data.bnf.fr/)
+- [Biblioteca Virtual Miguel de Cervantes](https://data.cervantesvirtual.com/)
+- [British Library](https://bl.natbib-lod.org/)
+- [Europeana](https://pro.europeana.eu/page/linked-open-data)
+- [Library of Congress](https://id.loc.gov/)
+- [National Library of Scotland](https://github.com/NLS-Digital-Scholarship/nls-fellowship-2022-23)
+- [National Library of Spain](https://datos.bne.es)
+
+Additional examples from other related domains such as museums and Digital Humanities initiatives are the [Rijksmuseum](https://data.rijksmuseum.nl/) and [Smithsonian American Art Museum](https://americanart.si.edu/about/lod), and [Linked Open Data Infrastructure for Digital Humanities in Finland (LODI4DH)](https://seco.cs.aalto.fi/projects/lodi4dh/).
+
+The benefits of the publishing and use of the Semantic Web and LOD for:
+
+- **Semantic Enrichment:** LOD helps libraries improve searchability and enables more precise queries by enriching existing catalogue records. Libraries have started to enrich their catalogues with external LOD repositories in order to provide additional contextual information that may be missing from your own catalogue (e.g., author nationalities ([VIAF](https://viaf.org/)), geographic coordinates ([GeoNames](https://www.geonames.org/)) relating to birth places of authors, or related subjects ([Library of Congress Subject Headings](https://id.loc.gov/authorities/subjects.html)). As in the example above a catalogue record for the book "El Quijote," could be enriched with metadata about the author, language, publication date, related literary movements, and geographical information, all connected through LOD triples.
+- **Interconnectedness:** LOD allows libraries to link their data with other rich datasets, creating a web of interconnected information. This enables users to discover related resources beyond their own library’s holdings. For example: a library could link their catalogue data with other LOD repositories, to enhance search results. Searching for "El Quijote" in the catalogue could return results not only from their own collection but also from other institutions that use LOD.
+- **Increased Visibility:** By publishing data as LOD, institutions can increase their visibility on the web as researchers, developers, and other institutions can easily find and reuse library data. For example: Adding information about a rare copy of El Quijote in your collection to Wikidata would aid its discovery through Wikipedia articles ([Libraries and Wikidata: Using linked data to expand access to library collections worldwide – Wiki Education](https://wikiedu.org/blog/2021/03/17/libraries-and-wikidata-using-linked-data-to-expand-access-to-library-collections-worldwide/)).
+- **Innovation**: LOD encourages creative applications and tools. Developers can build new services, visualisations, and applications using linked library data. For example: LOD allows the creation of new types of visualisations, such as timelines, maps and graph charts that can be useful to gain insight, in some cases without the need to install additional software thanks to the use of APIs. Some examples include:
+  - a tutorial in Spanish to create [map visualisations based on Wikidata](https://doi.org/10.5281/zenodo.10123566) and using several data repositories (e.g., [members of the International GLAM Labs Community](https://glamlabs.io/member-map/)) as content
+  - the exploration of machine-readable visual configurations to [browse LOD repositories provided by Cultural Heritage](https://github.com/hibernator11/visual-ch-lod) institutions, including libraries, in the form of Jupyter Notebooks
+  - a map representing the geographic locations mentioned in the metadata provided by [a corpus of historical documents and paintings](https://dl.acm.org/doi/10.1145/3594727).
+
+Though there are many benefits, SPARQL is the means by with Linked Open Data is queried and accessed and it’s worth being aware that the use of API’s based on SPARQL can be complex for less technical users since they need to understand how the data is modelled as well as be able to type a query. In addition, data quality has become crucial and several initiatives are focused on the assessment of the data quality provided by the catalogues.
+
+### Case Study: [**Manuscripts on Wikidata: the state of the art? | by Martin L Poulter | Medium**](https://medium.com/@infobomb/manuscripts-on-wikidata-the-state-of-the-art-7aeab63e0d56)
+
+This example shows how to use Wikidata, a community-driven approach based on the Semantic Web and LOD that enables volunteers to edit the metadata, to describe manuscripts. It shows the expressivity of the vocabulary provided by Wikidata and the benefits of using Wikidata as a repository in terms of visibility and reuse.
+
+![](https://github.com/libereurope/ds-essentials/blob/main/book/images/lod4.png?raw=true)
+
+## Hands-on activity and other self-guided tutorial(s) 
+
+As part of my National Research Librarian’s fellowship at National Library of Scotland exploring the adoption of Semantic Web technologies to transform, enrich and assess the Data Foundry’s digital collections, I created [a collection of Jupyter Notebooks](https://github.com/NLS-Digital-Scholarship/nls-fellowship-2022-23) that enables users to:
+
+- understand the benefits of the adoption of the Semantic Web;
+- create an RDF repository from a traditional dataset;
+- enrich a dataset with external repositories such as Wikidata;
+- reproduce the analysis and visualisations based on the datasets created.
+
+I can also highly recommend starting with this [Introduction to the Principles of Linked Open Data | Programming Historian](https://programminghistorian.org/en/lessons/intro-to-linked-data#:~:text=The%20tutorial%20is%20split%20into%20five%20parts%2C%20plus,data%20with%20SPARQL%206%20Further%20reading%20and%20resources) tutorial which gives a great walk through of creating linked open data and includes an activity for using SPARQL to query LOD.
+
+The [course about Linked Open Data in cultural heritage collections](https://unloch.github.io/lod/notebooks/2%20Creating_LOD.html), developed at Leiden University also includes a tutorial about a number of tools that can be used to create and to publish LOD. More specifically, it contains discussions of the LDwizard and CLARIAH Data Legend tool 'COW'.
+
+To be able to retrieve and analyse Linked Open Data, you need to know how to build SPARQL queries. The following course can be helpful:
+
+- [Introduction to SPARQL](https://unloch.github.io/lod/notebooks/3%20SPARQL_queries.html)
 
 Examples of SPARQL queries used to collect and analyse data from heritage institutions can be found in the notebooks below:
 
--   [[The Europeana SPARQL endpoint]{.underline}](https://unloch.github.io/lod/notebooks/Europeana_Basics.html)
+- [The Europeana SPARQL endpoint](https://unloch.github.io/lod/notebooks/Europeana_Basics.html)
+- [Wikidata](https://unloch.github.io/lod/notebooks/Wikidata_Basics.html)
+- [Short Title Catalogue of the Netherlands](https://github.com/peterverhaar/stcn-english-book)
+- [The Dutch Institute for Art History](https://unloch.github.io/lod/notebooks/RKD_SPARQL.html)
 
--   [[Wikidata]{.underline}](https://unloch.github.io/lod/notebooks/Wikidata_Basics.html)
+## Recommended Reading/Viewing  
 
--   [[Short Title Catalogue of the Netherlands]{.underline}](https://github.com/peterverhaar/stcn-english-book)
+If you are interested in learning more about LOD in terms of how to transform traditional bibliographic information into the Semantic Web, check out my [research work performed as part of a fellowship at the National Library of Scotland in order to publish digital collections as LOD](https://data.nls.uk/projects/the-national-librarians-research-fellowship-in-digital-scholarship-2022-23/).
 
--   [[The Dutch Institute for Art History]{.underline}](https://unloch.github.io/lod/notebooks/RKD_SPARQL.html)
+I can also recommend the excellent [Best Practices for Library Linked Open Data (LOD) guide](https://libereurope.eu/article/libers-linked-open-data-working-group-publishes-best-practices-for-library-linked-open-data-lod-publication/) published by the LIBER Linked Open Data (LOD) Working Group in 2021 which outlines in detail six steps for publishing library linked data.
+
+![](https://github.com/libereurope/ds-essentials/blob/main/book/images/lod.png?raw=true)
+
+Some examples of research articles to read providing additional details and information include:
+
+- [Towards a semantic approach in GLAM Labs: The case of the Data Foundry at the National Library of Scotland](https://doi.org/10.1177/01655515231174386)
+- [LIBER's Linked Open Data Working Group Publishes 'Best Practices for Library Linked Open Data (LOD) Publication' - LIBER Europe](https://libereurope.eu/article/libers-linked-open-data-working-group-publishes-best-practices-for-library-linked-open-data-lod-publication/)
+- [An automatic data quality approach to assess semantic data from cultural heritage institutions](https://doi.org/10.1002/asi.24761)
+- [A Shape Expression approach for assessing the quality of Linked Open Data in libraries](https://doi.org/10.3233/SW-210441)
+- [An Ontological Approach for Unlocking the Colonial Archive](https://doi.org/10.1145/3594727). (Example of transformation into RDF of a collection of maps using Open Refine.)
+- [Evaluating the quality of linked open data in digital libraries - Gustavo Candela, Pilar Escobar, Rafael C Carrasco, Manuel Marco-Such, 2022 (sagepub.com)](https://journals.sagepub.com/doi/10.1177/0165551520930951)
+
+You can also find innovative ideas in the research articles published at the [Semantic Web Journal](https://www.semantic-web-journal.net/).
+
+## Taking the next step  
+
+The [LD4 Community](http://ld4.io/) is a community of practice for linked data in libraries.
+
+[Linked Art](https://linked.art/) is a community working together to create a shared model based on LOD to describe cultural heritage with a particular focus on art.
+
+[Code4Lib](https://code4lib.org/) is a community effort including a mailing list and a journal providing open articles based on the library domain and including LOD.
