@@ -6,7 +6,7 @@
 >
 >Suggested Citation: Gustavo Candela, “Linked Open Data in Library Use Today,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd\]
 
-## Introduction  
+## Introduction: What does publishing linked open data enable?  
 
 The Semantic Web was first introduced in the 2000s by Tim Berners Lee as an extension of the current Web. Instead of providing information in the form of _documents_ and unstructured text like in traditional webpages, the Semantic Web facilitates the publication of machine-readable _data_ on the web through standards such as [Resource Description Framework (RDF)](https://www.w3.org/TR/rdf12-concepts/) and [Web Ontology Language (OWL)](https://www.w3.org/TR/owl2-overview/).
 
@@ -53,7 +53,7 @@ So let’s go back to our triple that describes the relationship between the res
 Here, the object of the first triple (&lt;<https://www.wikidata.org/wiki/Q480>&gt;) is the subject of the second triple, linking information about the book to information about its subject matter. So an example catalogue record combining many triples then might look like:
 
 **&lt;<http://example.org/catalogue/El_Quijote>&gt;**<br>
-rdf:type schema:Book;<br>
+>rdf:type schema:Book;<br>
 schema:name "El_Quijote";<br>
 schema:author **&lt;<https://www.wikidata.org/wiki/Q5682>&gt;**;<br>
 schema:genre &lt;<http://dbpedia.org/resource/Novel>&gt;;<br>
@@ -64,20 +64,20 @@ schema:about &lt;<http://dbpedia.org/resource/Spanish_Golden_Age>&gt;;<br>
 schema:sameAs &lt;<http://dbpedia.org/resource/Don_Quixote>&gt;.<br>
 
 **&lt;<https://www.wikidata.org/wiki/Q5682>&gt;**<br>
-rdf:type schema:Person;<br>
+>rdf:type schema:Person;<br>
 schema:name "Miguel de Cervantes";<br>
 schema:birthPlace **&lt;<http://dbpedia.org/resource/Alcala_de_Henares>&gt;**;<br>
 schema:birthDate "1547-09-29".<br> 
 
 
-**&lt;<http://dbpedia.org/resource/Alcala_de_Henares**>&gt;**
-rdf:type schema:Place;<br>
+**&lt;<http://dbpedia.org/resource/Alcala_de_Henares**>&gt;**<br>
+>rdf:type schema:Place;<br>
 schema:name "Alcalá de Henares";<br>
-geo:country **&lt;<http://sws.geonames.org/2510769/>&gt;**.
+geo:country **&lt;<http://sws.geonames.org/2510769/>&gt;**.<br>
 
 **&lt;<http://sws.geonames.org/2510769/>&gt;<br>**
-rdf:type schema:Country;<br>
-schema:name "Spain" .
+>rdf:type schema:Country;<br>
+schema:name "Spain" .<br>
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)  
 
