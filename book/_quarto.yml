@@ -36,7 +36,7 @@ book:
         - contact.qmd
     
   sidebar:
-    logo: images/Newlogo.png
+    logo: images/NewLogo.png
     collapse-level: 1
   repo-url: https://github.com/libereurope/ds-essentials
   repo-actions: [edit]
