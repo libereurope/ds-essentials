@@ -5,8 +5,16 @@ execute:
   freeze: auto
 
 book:
+
+  - part: "**ABOUT**"
+      chapters:
+        - index.qmd
+        - project-overview.qmd
+        - contributing.qmd
+        - guidelines.qmd
+        - licensing.qmd
+        - contact.qmd
   chapters:
-    - index.qmd
     - topicguides.qmd
     - ml-ai.qmd
     - collectionsasdata.qmd
@@ -24,17 +32,11 @@ book:
         - reports.qmd
         - training-platforms.qmd
         - networks.qmd
-    - part: "**ABOUT**"
-      chapters:
-        - project-overview.qmd
-        - contributing.qmd
-        - guidelines.qmd
-        - licensing.qmd
-        - contact.qmd
+
     
   sidebar:
     logo: images/NewLogo.png
-    collapse-level: 0
+    collapse-level: 1
   repo-url: https://github.com/libereurope/ds-essentials
   repo-actions: [edit]
   comments: 
