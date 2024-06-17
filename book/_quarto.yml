@@ -34,7 +34,7 @@ book:
     
   sidebar:
     logo: images/NewLogo.png
-    collapse-level: 1
+    collapse-level: 0
   repo-url: https://github.com/libereurope/ds-essentials
   repo-actions: [edit]
   comments: 
