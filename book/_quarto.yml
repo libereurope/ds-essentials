@@ -5,8 +5,6 @@ execute:
   freeze: auto
 
 book:
-  author: Data Science in Libraries WG<br>Digital Scholarship & Digital Cultural Heritage WG
-  date: last-modified
   chapters:
     - index.qmd
     - topicguides.qmd
