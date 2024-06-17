@@ -4,11 +4,9 @@ project:
 execute: 
   freeze: auto
 
-book:
-
-
+book:    
   chapters:
-    - part: "**ABOUT**"
+  - part: "**ABOUT**"
       chapters:
         - index.qmd
         - project-overview.qmd
@@ -16,7 +14,6 @@ book:
         - guidelines.qmd
         - licensing.qmd
         - contact.qmd
-  chapters:
     - topicguides.qmd
     - ml-ai.qmd
     - collectionsasdata.qmd
@@ -34,7 +31,6 @@ book:
         - reports.qmd
         - training-platforms.qmd
         - networks.qmd
-
     
   sidebar:
     logo: images/NewLogo.png
