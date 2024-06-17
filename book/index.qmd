@@ -1,6 +1,6 @@
-# Welcome {.unnumbered}
+# Overview {.unnumbered}
 
-*Digital Scholarship and Data Science Essentials for Library Professionals* is an open and collaboratively curated training reference resource. It aims to make it easier for LIBER library professionals to gain a concise overview of the new technologies that underpin digital scholarship and data science practice in research libraries today, and find trusted training materials recommendations to start their professional learning journey.
+**Digital Scholarship & Data Science Essentials for Library Professionals** is an open and collaboratively curated training reference resource. It aims to make it easier for LIBER library professionals to gain a concise overview of the new technologies that underpin digital scholarship and data science practice in research libraries today, and find trusted training materials recommendations to start their professional learning journey.
 
 ## Our Aims
 
