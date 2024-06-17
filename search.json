@@ -6,6 +6,7 @@
     "section": "",
     "text": "Overview\nDigital Scholarship & Data Science Essentials for Library Professionals is an open and collaboratively curated training reference resource. It aims to make it easier for LIBER library professionals to gain a concise overview of the new technologies that underpin digital scholarship and data science practice in research libraries today, and find trusted training materials recommendations to start their professional learning journey.",
     "crumbs": [
+      "**ABOUT**",
       "Overview"
     ]
   },
@@ -16,6 +17,7 @@
     "section": "Our Aims",
     "text": "Our Aims\n\nPresent a central destination for newcomers to become more familiar and conversant with the foundational concepts, methods and tools of digital scholarship and data science practice in libraries. Examplar topics include:\n\nmachine-learning techniques for enhancing catalogue records\nhandwritten text recognition for enhancing text search-ability\nunderstanding large language models and applications of ChatGPT in reference services\nconnecting collections through linked open data\n3D Modelling collection objects\n\nHelp library staff gain a better understanding of digital scholarship and data science practice in libraries by providing contextualised and gentle introductions to key topics through guides, self-guided training materials, project case studies, jargon busting and recommended reading lists\nEnable staff, in LIBER membership and beyond, to explore and immediately access a wealth of self and group study educational resources, available to them through a curated catalogue with faceted search and discovery\nFoster a culture of continuous learning and professional development and facilitate the development of localised training opportunities in LIBER institutions by providing guidance and training materials suitable for self and group study\nOffer a centralised, curated and trusted home for educators to contribute, and have reused, their high-quality training materials\nRaise awareness of local, national and international networks, and associated training events, relevant to delivering state of the art services in libraries\nFurnish current reports and competency skills frameworks pertaining to digital scholarship and data science in libraries",
     "crumbs": [
+      "**ABOUT**",
       "Overview"
     ]
   },
@@ -26,6 +28,7 @@
     "section": "Who is it for?",
     "text": "Who is it for?\nAre you someone working in or around research libraries with an interest in learning more about how to do cool and interesting things with digital collections and data at your institution? Wondering how data science techniques can help you in your work? Are you interested in gaining valuable digital literacy skills and knowledge to support emerging areas of modern scholarship such as Digital Humanities? Do you need some of the technology jargon you hear about these days demystified?\nThen this resource is for you!\nIt is very important to us that this resource is inclusive and intellectually accessible, challenging but not terrifying and as such we focus primarily on an introductory audience where no programming or particular digital skills are required.\nThough written primarily from the research library professional perspective these guides will be useful for anyone currently (or aspiring to be) working in and around digital collections and data in heritage institutions:\n\nLibrary & Information Science students\nProject managers\nDevelopers\nInformation specialists\nMetadata Managers\nSubject librarians\nSystem librarians\nInstitutional leadership\n\nAnd so many more!",
     "crumbs": [
+      "**ABOUT**",
       "Overview"
     ]
   },
@@ -36,6 +39,7 @@
     "section": "Why this resource?",
     "text": "Why this resource?\nOver the past few decades, the development of excellent self-paced tutorials and training materials relating to undertaking digital scholarship and data science in libraries have proliferated online.\nFor library professionals who are relatively new to this area however, it can be hard to know where to begin! Without knowing a little bit about the context of how new technologies are being deployed in research libraries, this dearth of resources can seem quite daunting. Even if you might have an idea of what learning you’d like to undertake, it can be difficult and time consuming to try and navigate the wealth of individual training resources out there on your own.\nDigital Scholarship and Data Science Essentials for Library Professionals is a training reference resource we have developed to remove some of the barrier of having to hunt for recommended training and resources to get you on the learning ladder.\nFrom working with data, data management, digital storytelling, handwritten recognition technologies and more, our Topic Guides provide contextualised and gentle introductions, written from the library practitioners perspective, to a wide range of key topics and technologies relevant to working innovatively with our digital collections and data.",
     "crumbs": [
+      "**ABOUT**",
       "Overview"
     ]
   },
@@ -46,6 +50,7 @@
     "section": "What are Topic Guides?",
     "text": "What are Topic Guides?\nTopic Guides are the heart and soul of Digital Scholarship and Data Science Essentials for Library Professionals. The aim of each is to provide research library professionals with a gentle and concise introduction to the key topics in this area today. They offer those with no prior knowledge, quick and curated guidance to personally recommended hands-on tutorials, use-cases, articles, videos, networks and communities of practice to deepen learning.\nEach Topic Guide follows a fixed structure, consisting of five components in order to make it easier to quickly find what you might need:\n\nIntroduction to the topic\nRelevance to the library sector (Case studies/Use cases)\nHands-on activities and other self-guided tutorial(s)\nRecommended Reading & Viewing\nTaking the next steps (Communities of Practice)",
     "crumbs": [
+      "**ABOUT**",
       "Overview"
     ]
   },
@@ -56,7 +61,140 @@
     "section": "How to use this resource",
     "text": "How to use this resource\nThis resource has a dual purpose; it is written as a tool for self-study but also as a guide for individuals and institutions interested in establishing their own local training programmes.\nAs a self-study resource, we hope it can serve as a useful first point of entry into complex topics in digital scholarship and data science and their application in the library world. It is not meant to be completed in any particular order, rather, learners are invited to jump in and out of individual topic guides as personal curiosity or practical need dictates.\nThe materials here can also be utilised in group study, as part of a reading group or even a hands-on Hack & Yack. See our special section on “How to start your own training programme” for some tips and tricks from British Library Digital Research Team colleagues on utilising the materials referenced here at your own library or within your network.",
     "crumbs": [
+      "**ABOUT**",
       "Overview"
+    ]
+  },
+  {
+    "objectID": "project-overview.html",
+    "href": "project-overview.html",
+    "title": "Project Overview",
+    "section": "",
+    "text": "Core Project Team\nThe site and content are maintained by the Co-Chairs and select Members of the collaborating WGs listed here who act as the core project delivery team and editors of this resource.\nJodie Double, Editor DSDCH\nPéter Király, Editor DSLib\nNora McGregor, Editor DSDCH\nNeha Moopen, Site Maintainer DSLib\nPeter Verhaar, Editor DSLib",
+    "crumbs": [
+      "**ABOUT**",
+      "Project Overview"
+    ]
+  },
+  {
+    "objectID": "project-overview.html#community-contributors",
+    "href": "project-overview.html#community-contributors",
+    "title": "Project Overview",
+    "section": "Community Contributors",
+    "text": "Community Contributors\nEach Topic Guide is written by specific named contributors but we also welcome changes and contributions to this resource via logging issues or if you’re a more seasoned GitHub user, via pull requests to the github repository. A full list of contributors will be compiled here once the first edition is complete.",
+    "crumbs": [
+      "**ABOUT**",
+      "Project Overview"
+    ]
+  },
+  {
+    "objectID": "project-overview.html#acknowledgements",
+    "href": "project-overview.html#acknowledgements",
+    "title": "Project Overview",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nThe project team would like to thank all of our LIBER working group members who have contributed to this resource and supported our endeavours here. We have taken great inspiration from other incredible training initiatives such as the British Library Digital Scholarship Training Programme, DH Literacy Guidebook and The Programming Historian in the development of this resource and thank those projects for paving the way!",
+    "crumbs": [
+      "**ABOUT**",
+      "Project Overview"
+    ]
+  },
+  {
+    "objectID": "contributing.html",
+    "href": "contributing.html",
+    "title": "Contribute to Our Project",
+    "section": "",
+    "text": "Ways to contribute to this project",
+    "crumbs": [
+      "**ABOUT**",
+      "Contribute to Our Project"
+    ]
+  },
+  {
+    "objectID": "contributing.html#ways-to-contribute-to-this-project",
+    "href": "contributing.html#ways-to-contribute-to-this-project",
+    "title": "Contribute to Our Project",
+    "section": "",
+    "text": "Contribute a new Topic Guide (individually or in collaboration with others). Choose from our existing wishlist or propose a new one. Join an upcoming writing sprint or get in touch with us to discuss digitalresearch@bl.uk your idea!\nSuggest edits to an existing Topic Guide or Additional Resources by opening an Issue or adding to existing ones on the project Github.\nJoin one of the LIBER Working Groups Digital Scholarship and Digital Cultural Heritage WG or Data Science in Libraries (open to all staff of LIBER member institutions) to keep up with the developments and ongoing maintenance of this project!",
+    "crumbs": [
+      "**ABOUT**",
+      "Contribute to Our Project"
+    ]
+  },
+  {
+    "objectID": "contributing.html#join-a-writing-sprint",
+    "href": "contributing.html#join-a-writing-sprint",
+    "title": "Contribute to Our Project",
+    "section": "Join a Writing Sprint!",
+    "text": "Join a Writing Sprint!\n\nOur first Topic Guide Sprint was held online Tuesday 14 May 2024. Our next one will be ONLINE Tuesday 03 June 2024 9:00-11:00 (BST): Register Today!\n\nIf you would like to take part please Register Today to be sent the meeting calendar invite, sprint guidance, login details and access to your Topic Guide Template in case you want to prep/get started early. Feel free to contact digitalresearch@bl.uk with any questions!\n\nPreparing for the sprint:\n\nPlease have a quick read through the Welcome and Topic Guide pages to familiarise yourself with this resource and its purpose.\nWhen you Register you’ll see a list of our latest Topic Guides on our wishlist. Please check off any and all Topic Guides you would be happy to work on during the day of the sprint. On the day each attendee will focus on writing just one Topic Guide however. The information you provide before the sprint will help us organise this ahead of time so that as many Topic Guides as possible have at least one dedicated author.\n\nPlease have a quick read through the Author Guidance and Style Guide section.\nWe’ll be in touch after we receive your registration to send you more details and useful information ahead of the sprint so look out for our email! If you are sent a copy of the Topic Guide Template (Google Doc) that corresponds to your topic of choice ahead of time, add your name to the header, and feel free to add notes or even make a start on drafting your guide before the sprint day if you’re keen!\n\n\n\nWhat to expect on the day:\nA two hour writing sprint will generally follow this format:\n\nWelcome and participant introductions (10 minutes)\n\nOverview of the project & explanation of how the day will run (15 minutes)\n\nAllocation and confirmation of individual Topic Guide Authorship for the day (15 minutes): As a group we’ll go over the wishlist and all participants will be given access to their particular Topic Guide google doc template they’ll be using during and after the sprint.\nWriting Phase (60 minutes): You’ll have an hour to begin writing your respective guide in your Google Doc template. If more than one participant are working together on a topic we can provide breakout rooms so that you can discuss amongst yourselves how to break up the work, and share ideas as you go along. You can have your camera/mic on or off during this time and co-chairs will be on hand to answer any questions or give advice on topics.\nWrapping Up & Logging progress through Github Issues (15 minutes): We have provided an Issue Template which is pre-formatted as a Topic Guide submission checklist and will walk participants through the process of opening a new issue for your draft submission. Please fill in the issue template and provide the necessary information relating to where your draft submission is currently at. Once the issue is saved, it can continue to serve as a space to continue discussion of the ongoing status of your submission and log updates where necessary, including notifying us of when it is fully ready for final review by maintainers.\nClosing Remarks & Next Steps (5 minutes)\n\n\n\nAfter the sprint:\nDuring the sprint, you’ve drafted your Topic Guide in a Google Doc. This Google Doc can continue to serve as a ‘living document’ following the sprint until you feel the content is ready to be published. Throughout this process, we will use your Github issue to maintain an overview of the docs in terms of their status and action points so please keep this updated. Each Topic Guide will be allocated a specific Maintainer contact (one of the co-chairs) who will be in touch and work with you to see the process through to completion.\nThings to note when creating and working with the Issue Template for your newly created Topic Guide:\n\nIf you want to include resources such as images and videos etc. which cannot be linked to via the web you might have to provide the files themselves to us. You can attach any local files as a comment on the Issue you have created for your Topic Guide.\nYou may request placing your Google Doc under restricted access if you wish. We will not do this by default, but we respect that some contributors would like to keep drafts private until fully ready for submission.\n\nWhen your Topic Guide is ready for our review in Google Docs, please let us know by logging an update over on Github as a comment on the Issue stating this. You can also tag the maintainers so they receive a notification as well. Maintainers will generally work with you on the final edits necessary for the submission through track changes and comments within the Google Doc itself. Once these have all been resolved maintainers will log a status update indicating “Review complete; Final Submission Ready; Make live” in the GitHub issue.",
+    "crumbs": [
+      "**ABOUT**",
+      "Contribute to Our Project"
+    ]
+  },
+  {
+    "objectID": "contributing.html#ongoing-maintenance-and-review",
+    "href": "contributing.html#ongoing-maintenance-and-review",
+    "title": "Contribute to Our Project",
+    "section": "Ongoing Maintenance and Review",
+    "text": "Ongoing Maintenance and Review\nWe view this resource as capturing a snapshot in time and will endeavour to fully review all content a minimum of once annually to check for link rot, and content relevancy. The project team editors are committed to make quick fixes when raised throughout the year, while formal sprints and reviews coinciding with LIBER Annual Summer Conference and Winter events will be used for soliciting new content and undertaking more complex updates to the resource each year and creating new editions as necessary.\nJoin one of the LIBER Working Groups Digital Scholarship and Digital Cultural Heritage WG or Data Science in Libraries (open to all staff of LIBER member institutions) to keep up with the developments and ongoing maintenance of this project!",
+    "crumbs": [
+      "**ABOUT**",
+      "Contribute to Our Project"
+    ]
+  },
+  {
+    "objectID": "guidelines.html",
+    "href": "guidelines.html",
+    "title": "Author Guidance and Style Guide",
+    "section": "",
+    "text": "Structuring the Topic Guide\nEach Topic Guide follows a distinct structure, beginning with a Header Section composing of a title, contributor information, published date, last modified info, and suggested citation followed by five key content blocks detailed below. Please have a look at the IIIF Guide as an example of how these pieces all fit together into one complete Topic Guide.",
+    "crumbs": [
+      "**ABOUT**",
+      "Author Guidance and Style Guide"
+    ]
+  },
+  {
+    "objectID": "guidelines.html#structuring-the-topic-guide",
+    "href": "guidelines.html#structuring-the-topic-guide",
+    "title": "Author Guidance and Style Guide",
+    "section": "",
+    "text": "Header Section\n\nTopic Guide Title: IIIF\nContributor(s) Name and (Orcid ID): Nora McGregor (ORCID iD)\nPublished date: 27/03/2024\nSuggested Citation: Nora McGregor, “IIIF,” Digital Scholarship & Data Science Essentials for Library Professionals (2024), [DOI link]\n\nNote: The project team will ensure each Topic Guide is given an individual DOI either through British Library Research Repository or Zenodo.\n\n\nI: Introduction to the topic (Approximately 500-700 words)\nThis introduction section should be pitched at a beginner/foundational level and gives a concise overview of the topic. It should be written in a relaxed and natural way. This section does not need to contain the world’s knowledge, just enough high-level knowledge to get the key concepts across.\n\nImagine that a colleague has come to you casually asking about the topic over tea. How might you go about explaining it to them in your own words? During the course of that casual conversation what key things would you leave in and what might you leave out in the interest of getting them to a basic understanding quickly?\n\nLinking can be used liberally for jargon busting throughout if explaining a particular term is more complex than our word count allows. Please see the Style Guidelines below for more writing tips!\n\n\nII: Relevance to the Library Sector (Approximately 300-500 words)\nThis section provides a clear explanation of the topics’ specific relevance to the work of libraries.\nIt should contain:\n\nA short paragraph or two setting the scene as to why the topic is relevant to the work of libraries. Here you might also like to present opportunities and, if relevant, potential challenges for libraries around the topic as well.\nUp to 3 examples of real world (or potential) applications/case studies/projects briefly explained in a 100 max word summary provided each with links to further information if available. Note that it is not necessary to write up or create a new case study yourself here! Rather, we’re looking for briefly summarised references to existing ones. If there are quite a few other examples the contributor would like to reference include, links to these can be added at the end of this section (Example: “For further case studies, visit….”).\n\n\n\nIII: Hands-on activity and other self-guided tutorial(s)\nThe objective of this section of the topic guide is to enable learners to familiarise themselves with the basics of the topic through active practice via self-paced tutorials and hand-on activities. Authors are not expected to create new activities or tutorials in this section, but rather to provide selected links to existing hands on tutorials which are known by them to have proven value and can be personally recommended for library professionals in particular.\nThe tutorials recommended should be free, online and suitable for independent study, and ideally, focussed on the library professional perspective where possible. Authors may wish to link to practical exercises or quizzes, specific online lessons that may exist in other online platforms, Juptyer Notebooks and GLAM workbench materials that provide detailed explanations of the steps learners can follow.\nFor the sake of consistency across the various topic guides, it is helpful if tutorial references are structured as follows:\n\nThe title/name of the activity/tutorial, the URL (added as a hyperlink), and citation information (please use APA Style and/or provide a DOI if there is one)\nA brief, personal explanation below it (no more than 200 words) as to why the author recommends this particular tutorial, and, optionally, an indication of topics covered and the level of complexity.\n\n\n\nIV: Recommended Reading & Viewing (Approximately 200-400 words)\nThe section on recommended reading and viewing contains references to more passive learning resources such as:\n\nOpen access articles discussing the topic at a general level, or containing contextual information.\nVideo recordings of lectures about the topic, which do not demand practical activities from the viewer Podcasts about the topic\n\nWhen including citations please make sure to either write them in APA Style and/or simply provide the DOI with your text so that the project team can compile a dedicated Zotero Library.\n\n\nV: Taking the next steps (Approximately 200-400 words)\nThis section provides guidance to library professionals on where to take their learning journey further. It should include:\n\nWhere to find (local/national/international) Communities of Practice or other relevant networks and organisations who can help with furthering their understanding of the topic.\nIf relevant you might also point to specific summer school courses, conferences and events that may further enhance learning.",
+    "crumbs": [
+      "**ABOUT**",
+      "Author Guidance and Style Guide"
+    ]
+  },
+  {
+    "objectID": "guidelines.html#style-guidelines",
+    "href": "guidelines.html#style-guidelines",
+    "title": "Author Guidance and Style Guide",
+    "section": "Style Guidelines",
+    "text": "Style Guidelines\n\nWriting Accessible, Natural, and Internationally Inclusive Content\nTo ensure consistency and inclusivity across our content, please consider these general guidelines:\n\nClarity and Simplicity: Write in a clear and straightforward manner, using simple language that is easy to understand for learners of all backgrounds and proficiency levels.\nLinking to Technical Terms: When introducing technical terms or concepts that may be unfamiliar to some learners, provide hyperlinks to additional resources or definitions where they can learn more. This helps to enhance understanding and allows learners to explore topics in more depth at their own pace. Ensure that the linked resources are reliable and authoritative to provide accurate information to the learners.\nAvoid Colloquialisms and Regionalisms: While it’s essential to maintain a casual and natural tone, please refrain from using colloquial expressions or regionalisms that may not be universally understood by our diverse audience.\nCultural Sensitivity: Be mindful of cultural differences and avoid language or examples that may be offensive or insensitive to any group of people. When providing examples or references, strive for universality and inclusivity.\nGender Neutrality: Use gender-neutral language whenever possible to ensure inclusivity and avoid assumptions about gender roles or identities.\nGlobal Perspective: Consider the international nature of our audience when crafting examples, scenarios, and references. Aim for content that resonates with learners from various cultural backgrounds and geographical locations.",
+    "crumbs": [
+      "**ABOUT**",
+      "Author Guidance and Style Guide"
+    ]
+  },
+  {
+    "objectID": "licensing.html",
+    "href": "licensing.html",
+    "title": "Licensing & Re-use",
+    "section": "",
+    "text": "Citing this Resource\nSuggested citations are written in APA (American Psychological Association) citation style for Journal Articles and are given on each individual guide:\nMcGregor, Nora, “IIIF,” Digital Scholarship & Data Science Essentials for Library Professionals (2024), [DOI link]\nTo cite the full resource:\nMcGregor, N., Verhaar, P., Moopen, N., Double, J., Irollo, A., & Kiraly, P. (Eds.). (2024, March 12). Digital Scholarship & Data Science Essentials for Library Professionals. https://libereurope.github.io/ds-essentials",
+    "crumbs": [
+      "**ABOUT**",
+      "Licensing & Re-use"
+    ]
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "If you’d like to ask a question of the project team you can please send an email to Nora McGregor, nora.mcgregor@bl.uk or any of Co-Chairs and select Members of the collaborating WGs listed here who act as the core project delivery team and editors of this resource.\nJodie Double, Editor DSDCH\nPéter Király, Editor DSLib\nNora McGregor, Editor DSDCH\nNeha Moopen, Site Maintainer DSLib\nPeter Verhaar, Editor DSLib",
+    "crumbs": [
+      "**ABOUT**",
+      "Contact"
     ]
   },
   {
@@ -555,138 +693,6 @@
     "crumbs": [
       "**GENERAL RESOURCES**",
       "Useful Networks"
-    ]
-  },
-  {
-    "objectID": "project-overview.html",
-    "href": "project-overview.html",
-    "title": "Project Overview",
-    "section": "",
-    "text": "Core Project Team\nThe site and content are maintained by the Co-Chairs and select Members of the collaborating WGs listed here who act as the core project delivery team and editors of this resource.\nJodie Double, Editor DSDCH\nPéter Király, Editor DSLib\nNora McGregor, Editor DSDCH\nNeha Moopen, Site Maintainer DSLib\nPeter Verhaar, Editor DSLib",
-    "crumbs": [
-      "**ABOUT**",
-      "Project Overview"
-    ]
-  },
-  {
-    "objectID": "project-overview.html#community-contributors",
-    "href": "project-overview.html#community-contributors",
-    "title": "Project Overview",
-    "section": "Community Contributors",
-    "text": "Community Contributors\nEach Topic Guide is written by specific named contributors but we also welcome changes and contributions to this resource via logging issues or if you’re a more seasoned GitHub user, via pull requests to the github repository. A full list of contributors will be compiled here once the first edition is complete.",
-    "crumbs": [
-      "**ABOUT**",
-      "Project Overview"
-    ]
-  },
-  {
-    "objectID": "project-overview.html#acknowledgements",
-    "href": "project-overview.html#acknowledgements",
-    "title": "Project Overview",
-    "section": "Acknowledgements",
-    "text": "Acknowledgements\nThe project team would like to thank all of our LIBER working group members who have contributed to this resource and supported our endeavours here. We have taken great inspiration from other incredible training initiatives such as the British Library Digital Scholarship Training Programme, DH Literacy Guidebook and The Programming Historian in the development of this resource and thank those projects for paving the way!",
-    "crumbs": [
-      "**ABOUT**",
-      "Project Overview"
-    ]
-  },
-  {
-    "objectID": "contributing.html",
-    "href": "contributing.html",
-    "title": "Contribute to Our Project",
-    "section": "",
-    "text": "Ways to contribute to this project",
-    "crumbs": [
-      "**ABOUT**",
-      "Contribute to Our Project"
-    ]
-  },
-  {
-    "objectID": "contributing.html#ways-to-contribute-to-this-project",
-    "href": "contributing.html#ways-to-contribute-to-this-project",
-    "title": "Contribute to Our Project",
-    "section": "",
-    "text": "Contribute a new Topic Guide (individually or in collaboration with others). Choose from our existing wishlist or propose a new one. Join an upcoming writing sprint or get in touch with us to discuss digitalresearch@bl.uk your idea!\nSuggest edits to an existing Topic Guide or Additional Resources by opening an Issue or adding to existing ones on the project Github.\nJoin one of the LIBER Working Groups Digital Scholarship and Digital Cultural Heritage WG or Data Science in Libraries (open to all staff of LIBER member institutions) to keep up with the developments and ongoing maintenance of this project!",
-    "crumbs": [
-      "**ABOUT**",
-      "Contribute to Our Project"
-    ]
-  },
-  {
-    "objectID": "contributing.html#join-a-writing-sprint",
-    "href": "contributing.html#join-a-writing-sprint",
-    "title": "Contribute to Our Project",
-    "section": "Join a Writing Sprint!",
-    "text": "Join a Writing Sprint!\n\nOur first Topic Guide Sprint was held online Tuesday 14 May 2024. Our next one will be ONLINE Tuesday 03 June 2024 9:00-11:00 (BST): Register Today!\n\nIf you would like to take part please Register Today to be sent the meeting calendar invite, sprint guidance, login details and access to your Topic Guide Template in case you want to prep/get started early. Feel free to contact digitalresearch@bl.uk with any questions!\n\nPreparing for the sprint:\n\nPlease have a quick read through the Welcome and Topic Guide pages to familiarise yourself with this resource and its purpose.\nWhen you Register you’ll see a list of our latest Topic Guides on our wishlist. Please check off any and all Topic Guides you would be happy to work on during the day of the sprint. On the day each attendee will focus on writing just one Topic Guide however. The information you provide before the sprint will help us organise this ahead of time so that as many Topic Guides as possible have at least one dedicated author.\n\nPlease have a quick read through the Author Guidance and Style Guide section.\nWe’ll be in touch after we receive your registration to send you more details and useful information ahead of the sprint so look out for our email! If you are sent a copy of the Topic Guide Template (Google Doc) that corresponds to your topic of choice ahead of time, add your name to the header, and feel free to add notes or even make a start on drafting your guide before the sprint day if you’re keen!\n\n\n\nWhat to expect on the day:\nA two hour writing sprint will generally follow this format:\n\nWelcome and participant introductions (10 minutes)\n\nOverview of the project & explanation of how the day will run (15 minutes)\n\nAllocation and confirmation of individual Topic Guide Authorship for the day (15 minutes): As a group we’ll go over the wishlist and all participants will be given access to their particular Topic Guide google doc template they’ll be using during and after the sprint.\nWriting Phase (60 minutes): You’ll have an hour to begin writing your respective guide in your Google Doc template. If more than one participant are working together on a topic we can provide breakout rooms so that you can discuss amongst yourselves how to break up the work, and share ideas as you go along. You can have your camera/mic on or off during this time and co-chairs will be on hand to answer any questions or give advice on topics.\nWrapping Up & Logging progress through Github Issues (15 minutes): We have provided an Issue Template which is pre-formatted as a Topic Guide submission checklist and will walk participants through the process of opening a new issue for your draft submission. Please fill in the issue template and provide the necessary information relating to where your draft submission is currently at. Once the issue is saved, it can continue to serve as a space to continue discussion of the ongoing status of your submission and log updates where necessary, including notifying us of when it is fully ready for final review by maintainers.\nClosing Remarks & Next Steps (5 minutes)\n\n\n\nAfter the sprint:\nDuring the sprint, you’ve drafted your Topic Guide in a Google Doc. This Google Doc can continue to serve as a ‘living document’ following the sprint until you feel the content is ready to be published. Throughout this process, we will use your Github issue to maintain an overview of the docs in terms of their status and action points so please keep this updated. Each Topic Guide will be allocated a specific Maintainer contact (one of the co-chairs) who will be in touch and work with you to see the process through to completion.\nThings to note when creating and working with the Issue Template for your newly created Topic Guide:\n\nIf you want to include resources such as images and videos etc. which cannot be linked to via the web you might have to provide the files themselves to us. You can attach any local files as a comment on the Issue you have created for your Topic Guide.\nYou may request placing your Google Doc under restricted access if you wish. We will not do this by default, but we respect that some contributors would like to keep drafts private until fully ready for submission.\n\nWhen your Topic Guide is ready for our review in Google Docs, please let us know by logging an update over on Github as a comment on the Issue stating this. You can also tag the maintainers so they receive a notification as well. Maintainers will generally work with you on the final edits necessary for the submission through track changes and comments within the Google Doc itself. Once these have all been resolved maintainers will log a status update indicating “Review complete; Final Submission Ready; Make live” in the GitHub issue.",
-    "crumbs": [
-      "**ABOUT**",
-      "Contribute to Our Project"
-    ]
-  },
-  {
-    "objectID": "contributing.html#ongoing-maintenance-and-review",
-    "href": "contributing.html#ongoing-maintenance-and-review",
-    "title": "Contribute to Our Project",
-    "section": "Ongoing Maintenance and Review",
-    "text": "Ongoing Maintenance and Review\nWe view this resource as capturing a snapshot in time and will endeavour to fully review all content a minimum of once annually to check for link rot, and content relevancy. The project team editors are committed to make quick fixes when raised throughout the year, while formal sprints and reviews coinciding with LIBER Annual Summer Conference and Winter events will be used for soliciting new content and undertaking more complex updates to the resource each year and creating new editions as necessary.\nJoin one of the LIBER Working Groups Digital Scholarship and Digital Cultural Heritage WG or Data Science in Libraries (open to all staff of LIBER member institutions) to keep up with the developments and ongoing maintenance of this project!",
-    "crumbs": [
-      "**ABOUT**",
-      "Contribute to Our Project"
-    ]
-  },
-  {
-    "objectID": "guidelines.html",
-    "href": "guidelines.html",
-    "title": "Author Guidance and Style Guide",
-    "section": "",
-    "text": "Structuring the Topic Guide\nEach Topic Guide follows a distinct structure, beginning with a Header Section composing of a title, contributor information, published date, last modified info, and suggested citation followed by five key content blocks detailed below. Please have a look at the IIIF Guide as an example of how these pieces all fit together into one complete Topic Guide.",
-    "crumbs": [
-      "**ABOUT**",
-      "Author Guidance and Style Guide"
-    ]
-  },
-  {
-    "objectID": "guidelines.html#structuring-the-topic-guide",
-    "href": "guidelines.html#structuring-the-topic-guide",
-    "title": "Author Guidance and Style Guide",
-    "section": "",
-    "text": "Header Section\n\nTopic Guide Title: IIIF\nContributor(s) Name and (Orcid ID): Nora McGregor (ORCID iD)\nPublished date: 27/03/2024\nSuggested Citation: Nora McGregor, “IIIF,” Digital Scholarship & Data Science Essentials for Library Professionals (2024), [DOI link]\n\nNote: The project team will ensure each Topic Guide is given an individual DOI either through British Library Research Repository or Zenodo.\n\n\nI: Introduction to the topic (Approximately 500-700 words)\nThis introduction section should be pitched at a beginner/foundational level and gives a concise overview of the topic. It should be written in a relaxed and natural way. This section does not need to contain the world’s knowledge, just enough high-level knowledge to get the key concepts across.\n\nImagine that a colleague has come to you casually asking about the topic over tea. How might you go about explaining it to them in your own words? During the course of that casual conversation what key things would you leave in and what might you leave out in the interest of getting them to a basic understanding quickly?\n\nLinking can be used liberally for jargon busting throughout if explaining a particular term is more complex than our word count allows. Please see the Style Guidelines below for more writing tips!\n\n\nII: Relevance to the Library Sector (Approximately 300-500 words)\nThis section provides a clear explanation of the topics’ specific relevance to the work of libraries.\nIt should contain:\n\nA short paragraph or two setting the scene as to why the topic is relevant to the work of libraries. Here you might also like to present opportunities and, if relevant, potential challenges for libraries around the topic as well.\nUp to 3 examples of real world (or potential) applications/case studies/projects briefly explained in a 100 max word summary provided each with links to further information if available. Note that it is not necessary to write up or create a new case study yourself here! Rather, we’re looking for briefly summarised references to existing ones. If there are quite a few other examples the contributor would like to reference include, links to these can be added at the end of this section (Example: “For further case studies, visit….”).\n\n\n\nIII: Hands-on activity and other self-guided tutorial(s)\nThe objective of this section of the topic guide is to enable learners to familiarise themselves with the basics of the topic through active practice via self-paced tutorials and hand-on activities. Authors are not expected to create new activities or tutorials in this section, but rather to provide selected links to existing hands on tutorials which are known by them to have proven value and can be personally recommended for library professionals in particular.\nThe tutorials recommended should be free, online and suitable for independent study, and ideally, focussed on the library professional perspective where possible. Authors may wish to link to practical exercises or quizzes, specific online lessons that may exist in other online platforms, Juptyer Notebooks and GLAM workbench materials that provide detailed explanations of the steps learners can follow.\nFor the sake of consistency across the various topic guides, it is helpful if tutorial references are structured as follows:\n\nThe title/name of the activity/tutorial, the URL (added as a hyperlink), and citation information (please use APA Style and/or provide a DOI if there is one)\nA brief, personal explanation below it (no more than 200 words) as to why the author recommends this particular tutorial, and, optionally, an indication of topics covered and the level of complexity.\n\n\n\nIV: Recommended Reading & Viewing (Approximately 200-400 words)\nThe section on recommended reading and viewing contains references to more passive learning resources such as:\n\nOpen access articles discussing the topic at a general level, or containing contextual information.\nVideo recordings of lectures about the topic, which do not demand practical activities from the viewer Podcasts about the topic\n\nWhen including citations please make sure to either write them in APA Style and/or simply provide the DOI with your text so that the project team can compile a dedicated Zotero Library.\n\n\nV: Taking the next steps (Approximately 200-400 words)\nThis section provides guidance to library professionals on where to take their learning journey further. It should include:\n\nWhere to find (local/national/international) Communities of Practice or other relevant networks and organisations who can help with furthering their understanding of the topic.\nIf relevant you might also point to specific summer school courses, conferences and events that may further enhance learning.",
-    "crumbs": [
-      "**ABOUT**",
-      "Author Guidance and Style Guide"
-    ]
-  },
-  {
-    "objectID": "guidelines.html#style-guidelines",
-    "href": "guidelines.html#style-guidelines",
-    "title": "Author Guidance and Style Guide",
-    "section": "Style Guidelines",
-    "text": "Style Guidelines\n\nWriting Accessible, Natural, and Internationally Inclusive Content\nTo ensure consistency and inclusivity across our content, please consider these general guidelines:\n\nClarity and Simplicity: Write in a clear and straightforward manner, using simple language that is easy to understand for learners of all backgrounds and proficiency levels.\nLinking to Technical Terms: When introducing technical terms or concepts that may be unfamiliar to some learners, provide hyperlinks to additional resources or definitions where they can learn more. This helps to enhance understanding and allows learners to explore topics in more depth at their own pace. Ensure that the linked resources are reliable and authoritative to provide accurate information to the learners.\nAvoid Colloquialisms and Regionalisms: While it’s essential to maintain a casual and natural tone, please refrain from using colloquial expressions or regionalisms that may not be universally understood by our diverse audience.\nCultural Sensitivity: Be mindful of cultural differences and avoid language or examples that may be offensive or insensitive to any group of people. When providing examples or references, strive for universality and inclusivity.\nGender Neutrality: Use gender-neutral language whenever possible to ensure inclusivity and avoid assumptions about gender roles or identities.\nGlobal Perspective: Consider the international nature of our audience when crafting examples, scenarios, and references. Aim for content that resonates with learners from various cultural backgrounds and geographical locations.",
-    "crumbs": [
-      "**ABOUT**",
-      "Author Guidance and Style Guide"
-    ]
-  },
-  {
-    "objectID": "licensing.html",
-    "href": "licensing.html",
-    "title": "Licensing & Re-use",
-    "section": "",
-    "text": "Citing this Resource\nSuggested citations are written in APA (American Psychological Association) citation style for Journal Articles and are given on each individual guide:\nMcGregor, Nora, “IIIF,” Digital Scholarship & Data Science Essentials for Library Professionals (2024), [DOI link]\nTo cite the full resource:\nMcGregor, N., Verhaar, P., Moopen, N., Double, J., Irollo, A., & Kiraly, P. (Eds.). (2024, March 12). Digital Scholarship & Data Science Essentials for Library Professionals. https://libereurope.github.io/ds-essentials",
-    "crumbs": [
-      "**ABOUT**",
-      "Licensing & Re-use"
-    ]
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "If you’d like to ask a question of the project team you can please send an email to Nora McGregor, nora.mcgregor@bl.uk or any of Co-Chairs and select Members of the collaborating WGs listed here who act as the core project delivery team and editors of this resource.\nJodie Double, Editor DSDCH\nPéter Király, Editor DSLib\nNora McGregor, Editor DSDCH\nNeha Moopen, Site Maintainer DSLib\nPeter Verhaar, Editor DSLib",
-    "crumbs": [
-      "**ABOUT**",
-      "Contact"
     ]
   }
 ]
