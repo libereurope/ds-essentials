@@ -2,61 +2,61 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome",
+    "title": "Overview",
     "section": "",
-    "text": "Welcome\nDigital Scholarship and Data Science Essentials for Library Professionals is an open and collaboratively curated training reference resource. It aims to make it easier for LIBER library professionals to gain a concise overview of the new technologies that underpin digital scholarship and data science practice in research libraries today, and find trusted training materials recommendations to start their professional learning journey.",
+    "text": "Overview\nDigital Scholarship & Data Science Essentials for Library Professionals is an open and collaboratively curated training reference resource. It aims to make it easier for LIBER library professionals to gain a concise overview of the new technologies that underpin digital scholarship and data science practice in research libraries today, and find trusted training materials recommendations to start their professional learning journey.",
     "crumbs": [
-      "Welcome"
+      "Overview"
     ]
   },
   {
     "objectID": "index.html#our-aims",
     "href": "index.html#our-aims",
-    "title": "Welcome",
+    "title": "Overview",
     "section": "Our Aims",
     "text": "Our Aims\n\nPresent a central destination for newcomers to become more familiar and conversant with the foundational concepts, methods and tools of digital scholarship and data science practice in libraries. Examplar topics include:\n\nmachine-learning techniques for enhancing catalogue records\nhandwritten text recognition for enhancing text search-ability\nunderstanding large language models and applications of ChatGPT in reference services\nconnecting collections through linked open data\n3D Modelling collection objects\n\nHelp library staff gain a better understanding of digital scholarship and data science practice in libraries by providing contextualised and gentle introductions to key topics through guides, self-guided training materials, project case studies, jargon busting and recommended reading lists\nEnable staff, in LIBER membership and beyond, to explore and immediately access a wealth of self and group study educational resources, available to them through a curated catalogue with faceted search and discovery\nFoster a culture of continuous learning and professional development and facilitate the development of localised training opportunities in LIBER institutions by providing guidance and training materials suitable for self and group study\nOffer a centralised, curated and trusted home for educators to contribute, and have reused, their high-quality training materials\nRaise awareness of local, national and international networks, and associated training events, relevant to delivering state of the art services in libraries\nFurnish current reports and competency skills frameworks pertaining to digital scholarship and data science in libraries",
     "crumbs": [
-      "Welcome"
+      "Overview"
     ]
   },
   {
     "objectID": "index.html#who-is-it-for",
     "href": "index.html#who-is-it-for",
-    "title": "Welcome",
+    "title": "Overview",
     "section": "Who is it for?",
     "text": "Who is it for?\nAre you someone working in or around research libraries with an interest in learning more about how to do cool and interesting things with digital collections and data at your institution? Wondering how data science techniques can help you in your work? Are you interested in gaining valuable digital literacy skills and knowledge to support emerging areas of modern scholarship such as Digital Humanities? Do you need some of the technology jargon you hear about these days demystified?\nThen this resource is for you!\nIt is very important to us that this resource is inclusive and intellectually accessible, challenging but not terrifying and as such we focus primarily on an introductory audience where no programming or particular digital skills are required.\nThough written primarily from the research library professional perspective these guides will be useful for anyone currently (or aspiring to be) working in and around digital collections and data in heritage institutions:\n\nLibrary & Information Science students\nProject managers\nDevelopers\nInformation specialists\nMetadata Managers\nSubject librarians\nSystem librarians\nInstitutional leadership\n\nAnd so many more!",
     "crumbs": [
-      "Welcome"
+      "Overview"
     ]
   },
   {
     "objectID": "index.html#why-this-resource",
     "href": "index.html#why-this-resource",
-    "title": "Welcome",
+    "title": "Overview",
     "section": "Why this resource?",
     "text": "Why this resource?\nOver the past few decades, the development of excellent self-paced tutorials and training materials relating to undertaking digital scholarship and data science in libraries have proliferated online.\nFor library professionals who are relatively new to this area however, it can be hard to know where to begin! Without knowing a little bit about the context of how new technologies are being deployed in research libraries, this dearth of resources can seem quite daunting. Even if you might have an idea of what learning you’d like to undertake, it can be difficult and time consuming to try and navigate the wealth of individual training resources out there on your own.\nDigital Scholarship and Data Science Essentials for Library Professionals is a training reference resource we have developed to remove some of the barrier of having to hunt for recommended training and resources to get you on the learning ladder.\nFrom working with data, data management, digital storytelling, handwritten recognition technologies and more, our Topic Guides provide contextualised and gentle introductions, written from the library practitioners perspective, to a wide range of key topics and technologies relevant to working innovatively with our digital collections and data.",
     "crumbs": [
-      "Welcome"
+      "Overview"
     ]
   },
   {
     "objectID": "index.html#what-are-topic-guides",
     "href": "index.html#what-are-topic-guides",
-    "title": "Welcome",
+    "title": "Overview",
     "section": "What are Topic Guides?",
     "text": "What are Topic Guides?\nTopic Guides are the heart and soul of Digital Scholarship and Data Science Essentials for Library Professionals. The aim of each is to provide research library professionals with a gentle and concise introduction to the key topics in this area today. They offer those with no prior knowledge, quick and curated guidance to personally recommended hands-on tutorials, use-cases, articles, videos, networks and communities of practice to deepen learning.\nEach Topic Guide follows a fixed structure, consisting of five components in order to make it easier to quickly find what you might need:\n\nIntroduction to the topic\nRelevance to the library sector (Case studies/Use cases)\nHands-on activities and other self-guided tutorial(s)\nRecommended Reading & Viewing\nTaking the next steps (Communities of Practice)",
     "crumbs": [
-      "Welcome"
+      "Overview"
     ]
   },
   {
     "objectID": "index.html#how-to-use-this-resource",
     "href": "index.html#how-to-use-this-resource",
-    "title": "Welcome",
+    "title": "Overview",
     "section": "How to use this resource",
     "text": "How to use this resource\nThis resource has a dual purpose; it is written as a tool for self-study but also as a guide for individuals and institutions interested in establishing their own local training programmes.\nAs a self-study resource, we hope it can serve as a useful first point of entry into complex topics in digital scholarship and data science and their application in the library world. It is not meant to be completed in any particular order, rather, learners are invited to jump in and out of individual topic guides as personal curiosity or practical need dictates.\nThe materials here can also be utilised in group study, as part of a reading group or even a hands-on Hack & Yack. See our special section on “How to start your own training programme” for some tips and tricks from British Library Digital Research Team colleagues on utilising the materials referenced here at your own library or within your network.",
     "crumbs": [
-      "Welcome"
+      "Overview"
     ]
   },
   {
