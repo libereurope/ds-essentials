@@ -6,7 +6,9 @@ execute:
 
 book:
 
-  - part: "**ABOUT**"
+
+  chapters:
+    - part: "**ABOUT**"
       chapters:
         - index.qmd
         - project-overview.qmd
