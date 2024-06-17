@@ -5,7 +5,6 @@ execute:
   freeze: auto
 
 book:
-  title: "Digital Scholarship & Data Science Essentials for Library Professionals"
   author: Data Science in Libraries WG<br>Digital Scholarship & Digital Cultural Heritage WG
   date: last-modified
   chapters:
