@@ -10,9 +10,8 @@ book:
       chapters:
         - index.qmd
         - project-overview.qmd
-        - part: contributing.qmd
-          chapters:
-            - guidelines.qmd
+        - contributing.qmd
+        - guidelines.qmd
         - licensing.qmd
         - contact.qmd
     - topicguides.qmd
@@ -22,10 +21,6 @@ book:
     - iiif.qmd
     - api.qmd
     - dataviz.qmd
-    - part: getting-started-with-programming.qmd
-      chapters:
-        - r.qmd
-        - python.qmd
     - part: "**GENERAL RESOURCES**"
       chapters:
         - references.qmd
