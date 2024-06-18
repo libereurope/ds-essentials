@@ -27,6 +27,7 @@ book:
         - reports.qmd
         - training-platforms.qmd
         - networks.qmd
+        - dstp.qmd
     
   sidebar:
     logo: images/NewLogo.png
