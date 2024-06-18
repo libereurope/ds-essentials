@@ -10,8 +10,9 @@ book:
       chapters:
         - index.qmd
         - project-overview.qmd
-        - contributing.qmd
-        - guidelines.qmd
+        - part: contributing.qmd
+          chapters:
+            - guidelines.qmd
         - licensing.qmd
         - contact.qmd
     - topicguides.qmd
