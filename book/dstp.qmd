@@ -1,1 +1,40 @@
+# Start your own local training programme {.unnumbered}
 
+## Find your people
+Get a small group of willing colleagues at your institution together and set up a way for them to communicate regularly, preferably remotely. We use a corporate wide MS Teams channel for this but you could also set up things like a slack channel or even a whatsapp channel. Focus on your purpose of bringing people together, think about the messaging and keep it light, "learn new stuff together" usually suffices! Try not to be too targeted, cast the net wide as people of all interests/academic disciplines/job profiles, abilities and backgrounds will undoubtedly have something to contribute: digital scholarship is a collaborative affair and your group will be all the better for its diversity.
+
+## Identify shared needs
+What are problems colleagues at your institution are facing (cataloguing backlogs? etc), and what computational methods might help them to solve these? By framing digital scholarship skill training as an investment that can be a helpful tool for colleagues to resolve long standing curation, creation you will find a more willing audience for your efforts. Quick wins in the digital realm (for instance in learning a tool like Open Refine to normalise and analyse catalogue records) can often build confidence very quickly and open the door to trying out new technologies. In the opportunities and challenges for libraries section of we cover some of these applications in some depth. 
+
+## Get Buy-in (if you need to!)
+Evidence to share with your management for why investing in staff skills is key to sustainable digital transformation
+
+In some cases you may need buy-in from managers to allow their staff time and space to dedicate to learning these new skills. It can be difficult to convince managers sometimes of the value of learning skills now which may take some years to truly embed or come to practical fruition. 
+
+Examples here of case studies
+
+Staff Skills reports
+
+Competency frameworks for librarians
+
+## Run a monthly Hack & Yack
+Establishing a regular Hack & Yack meeting is a really nice way to. At the British Library our Hack & Yack's are once a month for two hours on a set day and time. It is a casual, hands-on session set where colleagues from across all departments of the institution work through an online tutorial at everyone's own pace but with support of colleagues. 
+
+We use it as an opportunity to explore new tools/techniques/applications relevant to digital research and keep our own skills up to speed. 
+
+Note this is not a formal training session, we're all learning together and come to the tutorials with a variety of experience/knowledge/skills.  
+
+Within each of these guides are hands-on activities that would make a perfect start for your first Hack & Yacks! Below is a list of some other tutorials we have gone through at the British Library!
+
+
+## Start a discussion group
+Whether you call it a 'reading group', a discussion group, a lunchtime series - the point is to provide regular opportunities for people to get together, and learn and support each other through discussion. You might set an article, blog post or chapter, a video or podcast.
+
+Things I've found useful:
+
+Begin each session with quick introductions - name and department, or name and another useful piece of information. Why? Hopefully you'll have a range of folk and they mightn't all have met before, and it means that everyone has spoken at least once right from the start.
+
+Make it ok for people not to have finished reading, watching or listening to the thing you're discussing. You could do a show of hands to see who's finished it or not finished it. Why? There's something about 'confessing' that lets people ask questions without worrying that it was covered somewhere towards the end. It can also be useful to understand why people didn't finish (unless they just ran out of time, which is highly relatable) - did the piece get complex, jargony, boring?
+
+## Create an identity
+After your group of the willing has been running for awhile it's useful to create an identify for yourselves. Perhaps you consider yourselves a network, or an interest group or maybe you'd like to start formalising your gatherings under a "training programme" moniker. Whatever you decide, it helps to bring in new folks when there is an established identity in advertisements.
