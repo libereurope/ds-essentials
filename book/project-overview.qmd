@@ -1,4 +1,4 @@
-# Project Overview {.unnumbered}
+# Project Background {.unnumbered}
 
 _Digital Scholarship & Data Science Essentials for Library Professionals_ is a project first undertaken in 2023 as a joint collaboration between the Digital Scholarship & Digital Cultural Heritage ([DSDCH](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/)) and the Data Science in Libraries ([DSLib](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/)).
 
