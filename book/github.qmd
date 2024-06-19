@@ -1,0 +1,23 @@
+# Github: How to navigate and contribute to Git-based projects {.unnumbered}
+>Contributed by: Liam O’Dwyer, [ORCID iD](https://orcid.org/[yourid]), Nora McGregor,[ORCID iD](https://orcid.org/[yourid]) and Liam Green-Hughes, [ORCID iD](https://orcid.org/[yourid])<br>
+>Original published date: 19/06/2024<br>
+>Last modified: See Github page history
+>
+>Suggested Citation: [First Name Last Name], “[Topic Guide Title],” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
+
+## Introduction: 
+
+
+
+
+
+## Relevance to the Library Sector (Case Studies/Use Cases)
+
+
+## Hands-on activity and other self-guided tutorial(s)
+
+
+## Recommended Reading/Viewing 
+
+
+## Taking the next step
