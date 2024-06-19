@@ -118,17 +118,17 @@ With an issue, there is no expectation that you will provide a solution to the p
 As you now know, GitHub hosts many open-licensed projects and by clicking the _fork_ button, any [GitHub user](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github) can instantaneously create their own fully independent copy of that project to work on without affecting the original. This copy or _forked_ project can then be used to work out new features in a piece of software (or in our case, writing new content for a project website) that can eventually be merged back into the original project. Let’s walk through a simplified example using the example of contributing substantial edits to one of the pages of DS Essentials. Let’s say you’d like to write up a new use case on one of the Topic Guides. That process may look a little like this:
 
 #### **1. Find the GitHub repository/source code behind the website**  
-    On the web version of DS Essentials, look for the GitHub logo in order to be taken to the GitHub repository behind it.
+On the web version of DS Essentials, look for the GitHub logo in order to be taken to the GitHub repository behind it.
 
 ![](https://github.com/libereurope/ds-essentials/blob/main/book/images/GitHub2.png?raw=true)
 
 #### **2. Make your own copy of the project (repository) to work on**  
-    Once on the project GitHub page you can fork your own copy of the repository so that you have a full copy of the project in your own GitHub account. You will now be owner of this new version and can make edits and changes as you please to the files without it affecting the main project. Just remember that eventually if you want your contributions to be merged with the original project those changes will need to be reviewed and approved by that maintainer.
+Once on the project GitHub page you can fork your own copy of the repository so that you have a full copy of the project in your own GitHub account. You will now be owner of this new version and can make edits and changes as you please to the files without it affecting the main project. Just remember that eventually if you want your contributions to be merged with the original project those changes will need to be reviewed and approved by that maintainer.
 
 ![](https://github.com/libereurope/ds-essentials/blob/main/book/images/GitHub3.png?raw=true)
 
 #### **3. Find the file you would like to change and make your edits**  
-    Navigate to the file you would like to edit in your copy of DSEssentials on GitHub that you want to contribute to and click the pencil icon to edit. (Note that one way you’ll know you’re working in your own copy is by seeing your personal username ahead of the repository name). Let’s say the Topic Guide on AI & ML in Libraries Literacies needs an update. Look for a markdown file in the directory which corresponds to the url on the website version and has the file extension .md and (or, because this website was built using Quarto, the file extension in this example is .qmd). For instance if ml-ai.html is the web version, you would look for ml-ai.qmd in the file directory on GitHub.
+Navigate to the file you would like to edit in your copy of DSEssentials on GitHub that you want to contribute to and click the pencil icon to edit. (Note that one way you’ll know you’re working in your own copy is by seeing your personal username ahead of the repository name). Let’s say the Topic Guide on AI & ML in Libraries Literacies needs an update. Look for a markdown file in the directory which corresponds to the url on the website version and has the file extension .md and (or, because this website was built using Quarto, the file extension in this example is .qmd). For instance if ml-ai.html is the web version, you would look for ml-ai.qmd in the file directory on GitHub.
 
 ![](https://github.com/libereurope/ds-essentials/blob/main/book/images/GitHub4.png?raw=true)
 
