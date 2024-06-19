@@ -157,7 +157,7 @@ This will take you to back to the main project where you can then formally “cr
 
 \[TODO Insert Screenshot GitHub7.png\]
 
-#### Re-using existing code/content for a new project   
+#### **3. Re-using existing code/content for a new project**   
 
 Let’s say that instead of just contributing to an existing project you may want to make use of the whole thing. This is quite common for instance when looking to reuse software that someone has created and shared on GitHub. And it’s a similar process to the above although in this case it would be more typical to [_clone_](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the repository rather than _fork_ it as cloning allows you to save the whole repository directly to your local machine, rather than within the GitHub platform itself. Developers will find this much more practical as they go through the process of editing and updating the changes they need to make. For instance, we talked about the example of a variety of open source Omeka plugins being available from the Omeka GitHub repository in the introduction.
 
