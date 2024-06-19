@@ -19,9 +19,9 @@ book:
     - collectionsasdata.qmd
     - lod.qmd
     - iiif.qmd
-    - api.qmd
     - dataviz.qmd
     - github.qmd
+    - api.qmd
     - part: "**GENERAL RESOURCES**"
       chapters:
         - references.qmd
