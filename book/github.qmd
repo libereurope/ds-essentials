@@ -65,7 +65,7 @@ Here are some examples of library activity on GitHub:
 3.	Re-using existing code/content for a new project 
 
 
-#### 1. Writing Issues
+#### **1. Writing Issues**
 
 Issues are a great tool in GitHub to let the people know that something is possibly broken or something new is needed in a project. They help everyone by providing a place for everyone to discuss the concerns raised by the issue and providing a way to manage a response. If you have ever raised a ticket with the helpdesk of your IT department, you will notice a lot of similarities with Issues.
 
@@ -118,7 +118,7 @@ When work on the issue stops, it will be “closed”. In GitHub there are two t
 
 With an issue, there is no expectation that you will provide a solution to the problem you are facing or the new functionality that you would like. At some point you might contribute a fix or something new to a project, maybe as a result of an Issue. When this happens you will raise a “pull request”. This is a proposal to make a group of changes to files in a git repository. A maintainer can then decide whether to accept the pull request and “merge” it with the project, reject it, or send it back for further work.
 
-#### 2. Contributing content/code to an existing project
+#### **2. Contributing content/code to an existing project**
 
 As you now know, GitHub hosts many open-licensed projects and by clicking the _fork_ button, any GitHub user can instantaneously create their own fully independent copy of that project to work on without affecting the original. This copy or _forked_ project can then be used to work out new features in a piece of software (or in our case, writing new content for a project website) that can eventually be merged back into the original project. Let’s walk through a simplified example using the example of contributing substantial edits to one of the pages of DS Essentials. Let’s say you’d like to write up a new use case on one of the Topic Guides. That process may look a little like this:
 
@@ -127,7 +127,7 @@ As you now know, GitHub hosts many open-licensed projects and by clicking the _f
 
 \[TODO Insert Screenshot GitHub2.png\]
 
-2. **Make your own copy of the project (repository) to work on**  
+**2. Make your own copy of the project (repository) to work on**  
     Once on the project GitHub page you can fork your own copy of the repository so that you have a full copy of the project in your own GitHub account. You will now be owner of this new version and can make edits and changes as you please to the files without it affecting the main project. Just remember that eventually if you want your contributions to be merged with the original project those changes will need to be reviewed and approved by that maintainer.
 
 \[TODO Insert Screenshot GitHub3.png\]
