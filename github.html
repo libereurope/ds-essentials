@@ -264,7 +264,11 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#three-ways-in-which-library-professionals-collaborate-and-contribute-to-github-based-projects" id="toc-three-ways-in-which-library-professionals-collaborate-and-contribute-to-github-based-projects" class="nav-link" data-scroll-target="#three-ways-in-which-library-professionals-collaborate-and-contribute-to-github-based-projects">Three ways in which library professionals collaborate and contribute to GitHub based projects</a></li>
   </ul></li>
-  <li><a href="#hands-on-activity-and-other-self-guided-tutorials" id="toc-hands-on-activity-and-other-self-guided-tutorials" class="nav-link" data-scroll-target="#hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</a></li>
+  <li><a href="#hands-on-activity-and-other-self-guided-tutorials" id="toc-hands-on-activity-and-other-self-guided-tutorials" class="nav-link" data-scroll-target="#hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</a>
+  <ul class="collapse">
+  <li><a href="#learn-the-basics" id="toc-learn-the-basics" class="nav-link" data-scroll-target="#learn-the-basics">Learn the basics</a></li>
+  <li><a href="#making-a-website-using-github" id="toc-making-a-website-using-github" class="nav-link" data-scroll-target="#making-a-website-using-github">Making a website using GitHub</a></li>
+  </ul></li>
   <li><a href="#recommended-readingviewing" id="toc-recommended-readingviewing" class="nav-link" data-scroll-target="#recommended-readingviewing">Recommended Reading/Viewing</a></li>
   <li><a href="#taking-the-next-step" id="toc-taking-the-next-step" class="nav-link" data-scroll-target="#taking-the-next-step">Taking the next step</a></li>
   </ul>
@@ -414,7 +418,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Stale: Sometimes issues stay in the system for a long time. This might be because the initial reporter has moved on and is unable to answer queries about it. In this case the issue will be removed.</li>
 </ul></li>
 </ul>
-<p>[TODO Insert Screenshot GitHub1.png]</p>
+<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/GitHub1.png?raw=true" class="img-fluid"></p>
 <p>With an issue, there is no expectation that you will provide a solution to the problem you are facing or the new functionality that you would like. At some point you might contribute a fix or something new to a project, maybe as a result of an Issue. When this happens you will raise a “pull request”. This is a proposal to make a group of changes to files in a git repository. A maintainer can then decide whether to accept the pull request and “merge” it with the project, reject it, or send it back for further work.</p>
 </section>
 <section id="contributing-contentcode-to-an-existing-project" class="level4">
@@ -422,29 +426,29 @@ ul.task-list li input[type="checkbox"] {
 <p>As you now know, GitHub hosts many open-licensed projects and by clicking the <em>fork</em> button, any GitHub user can instantaneously create their own fully independent copy of that project to work on without affecting the original. This copy or <em>forked</em> project can then be used to work out new features in a piece of software (or in our case, writing new content for a project website) that can eventually be merged back into the original project. Let’s walk through a simplified example using the example of contributing substantial edits to one of the pages of DS Essentials. Let’s say you’d like to write up a new use case on one of the Topic Guides. That process may look a little like this:</p>
 <p><strong>1. Find the GitHub repository/source code behind the website</strong><br>
 On the web version of DS Essentials, look for the GitHub logo in order to be taken to the GitHub repository behind it.</p>
-<p>[TODO Insert Screenshot GitHub2.png]</p>
+<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/GitHub2.png?raw=true" class="img-fluid"></p>
 <p><strong>2. Make your own copy of the project (repository) to work on</strong><br>
 Once on the project GitHub page you can fork your own copy of the repository so that you have a full copy of the project in your own GitHub account. You will now be owner of this new version and can make edits and changes as you please to the files without it affecting the main project. Just remember that eventually if you want your contributions to be merged with the original project those changes will need to be reviewed and approved by that maintainer.</p>
-<p>[TODO Insert Screenshot GitHub3.png]</p>
+<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/GitHub3.png?raw=true" class="img-fluid"></p>
 <p><strong>3. Find the file you would like to change and make your edits</strong><br>
 Navigate to the file you would like to edit in your copy of DSEssentials on GitHub that you want to contribute to and click the pencil icon to edit. (Note that one way you’ll know you’re working in your own copy is by seeing your personal username ahead of the repository name). Let’s say the Topic Guide on AI &amp; ML in Libraries Literacies needs an update. Look for a markdown file in the directory which corresponds to the url on the website version and has the file extension .md and (or, because this website was built using Quarto, the file extension in this example is .qmd). For instance if ml-ai.html is the web version, you would look for ml-ai.qmd in the file directory on GitHub.</p>
-<p>[TODO Insert Screenshot GitHub4.png]</p>
+<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/GitHub4.png?raw=true" class="img-fluid"></p>
 <p>Click on the little pencil icon to edit this file in markdown. Markdown is a simple system for marking sections of text that should be stylised in a certain way, e.g.&nbsp;made bold or appear in a list of bullet points. Markdown files have the file extension “md” and can be edited in GitHub or with a text editor like Notepad. One common file in GitHub repositories that you will find in the markdown format is the “README.md” file which usually covers the purpose of the repository and how to get up and running.</p>
 <p>Markdown works by using certain text characters to indicate styles. For example, placing a “#” in front of a line will make it a first level header. Placing “##” before the line makes it a second level header. Putting an asterisk around a piece of text, like this “*my text”, will cause that text to be italicised as <em>my text</em>. You can see more markdown commands and experiment with it on the site <a href="https://markdownlivepreview.com/">Markdown Live Preview</a>.</p>
 <p><strong>4. Commit your changes</strong></p>
 <p>Whenever you are working in a repository that you have forked, you are the Owner of this copy of the original project and can <em>commit</em> (save) any changes and edits you make to files directly to this copy of the project without needing any approval. Committing builds up a history of changes that you can roll back as needed along the way. Each time you commit you have an option of writing a comment as to what has changed which is a useful tool to use and habit to get into for going back in time if you need to reverse something.</p>
-<p>[TODO Insert Screenshot GitHub5.png]</p>
+<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/GitHub5.png?raw=true" class="img-fluid"></p>
 <p><strong>5. Contribute your changes back to the original/main project</strong></p>
 <p>When you are finished with your changes and would like to share your new updated copy with the original project (in this example, incorporating your new text on Generative AI into the main DS Essentials Topic Guide on AI &amp; ML in Libraries) this is when you will start a <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork"><em>pull request</em></a>. Navigate to the Pull Requests section of your project and click on New pull request to start that process.</p>
-<p>[TODO Insert Screenshot GitHub6.png]</p>
+<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/GitHub6.png?raw=true" class="img-fluid"></p>
 <p>This will take you to back to the main project where you can then formally “create a pull request”. Once this has been made your pull request notifies the maintainers of the original project that you have made changes to their project that they may like to consider <em>merging</em> into theirs. Your pull request will show up under their project where you can discuss and review the changes you’re suggesting. Once the review has been completed and everyone is happy with the changes suggested the maintainer of the project will merge your pull request and you will have officially contributed!</p>
-<p>[TODO Insert Screenshot GitHub7.png]</p>
+<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/GitHub7.png?raw=true" class="img-fluid"></p>
 </section>
 <section id="re-using-existing-codecontent-for-a-new-project" class="level4">
 <h4 class="anchored" data-anchor-id="re-using-existing-codecontent-for-a-new-project"><strong>3. Re-using existing code/content for a new project</strong></h4>
 <p>Let’s say that instead of just contributing to an existing project you may want to make use of the whole thing. This is quite common for instance when looking to reuse software that someone has created and shared on GitHub. And it’s a similar process to the above although in this case it would be more typical to <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository"><em>clone</em></a> the repository rather than <em>fork</em> it as cloning allows you to save the whole repository directly to your local machine, rather than within the GitHub platform itself. Developers will find this much more practical as they go through the process of editing and updating the changes they need to make. For instance, we talked about the example of a variety of open source Omeka plugins being available from the Omeka GitHub repository in the introduction.</p>
 <p><a href="https://github.com/omeka/omeka-s?tab=readme-ov-file#installing-from-github">https://GitHub.com/omeka/omeka-s?tab=readme-ov-file#installing-from-GitHub</a></p>
-<p>[TODO Insert Screenshot GitHub8.png]</p>
+<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/GitHub8.png?raw=true" class="img-fluid"></p>
 </section>
 </section>
 </section>
@@ -452,20 +456,28 @@ Navigate to the file you would like to edit in your copy of DSEssentials on GitH
 <h2 class="anchored" data-anchor-id="hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</h2>
 <p>Like many technologies, the best way to learn git or GitHub is to use it. Luckily there are lots of tutorials out there with ready-made exercises and walkthroughs if you don’t have a clear purpose or aim to start with. Depending on your learning style, there are written lesson plans like the Carpentries’ ones, or plenty of walkthrough videos covering everything from basic terminology to full workflow development. Many of these resources begin with a grounding in git, the locally-installed version control software. While not essential to using GitHub, this can be useful to gain a broader understanding of the workings of both git and GitHub and maybe make sense of some of their additional functionalities. There are also specific lessons on various topics such as developing a static website using just GitHub and GitHub pages.</p>
 <p>Our list below is not intended to be comprehensive but is a selection of what is out there and all have been used by library staff like ourselves!:</p>
+<section id="learn-the-basics" class="level3">
+<h3 class="anchored" data-anchor-id="learn-the-basics">Learn the basics</h3>
 <ul>
-<li>Git &amp; Version Control <a href="https://librarycarpentry.org/lc-git/">Library Carpentry</a> / <a href="https://swcarpentry.github.io/git-novice/">Software Carpentry</a></li>
+<li><a href="https://docs.github.com/en/get-started/start-your-journey/hello-world">This tutorial teaches you GitHub essentials like repositories, branches, commits, and pull requests.</a></li>
+<li><a href="https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project">This tutorial uses the Spoon-Knife project, a test repository that’s hosted on GitHub.com that lets you test the fork and pull request workflow.</a></li>
+<li><a href="https://git-for-librarians.netlify.app/branching">Git-for-librarians exercise on branching</a> and <a href="https://git-for-librarians.netlify.app/forking">one on forking</a></li>
+</ul>
+</section>
+<section id="making-a-website-using-github" class="level3">
+<h3 class="anchored" data-anchor-id="making-a-website-using-github">Making a website using GitHub</h3>
+<ul>
 <li><a href="https://evanwill.github.io/go-go-ghpages-b/">Making a website with GitHub &amp; GitHub Pages</a> (lesson plan with <a href="https://www.youtube.com/watch?v=moJgWrD6dwg&amp;t=96s">video</a>)</li>
 <li><a href="https://www.youtube.com/playlist?list=PLkrJrLs7xfbXcEKhTCKRSr2VXH4yiBeXo">Making a website with GitHub &amp; Quarto / RStudio</a> (video)</li>
-<li><a href="https://docs.github.com/en/get-started/start-your-journey/hello-world">GitHub Docs - Hello World</a></li>
-<li><a href="https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project">GitHub Docs - Contributing to a project on GitHub</a></li>
-<li><a href="https://git-for-librarians.netlify.app/branching">Git-for-librarians exercise on branching</a> and <a href="https://git-for-librarians.netlify.app/forking">one on forking</a></li>
-<li>Programming Historian - Building a static website with Jekyll and GitHub Pages</li>
+<li><a href="https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages">Programming Historian - Building a static website with Jekyll and GitHub Pages</a></li>
 <li><a href="https://programminghistorian.org/en/lessons/collaborative-blog-with-jekyll-github">Programming Historian - Running a collaborative research website and blog with GitHub Pages</a></li>
 </ul>
 <p>As with most platforms, specific functions or tasks may change occasionally on GitHub. So you may find a lesson which refers to an old term or function that is no longer called what it used to be. GitHub documentation should provide up-to-date information on the current practice in most cases.</p>
 </section>
+</section>
 <section id="recommended-readingviewing" class="level2">
 <h2 class="anchored" data-anchor-id="recommended-readingviewing">Recommended Reading/Viewing</h2>
+<p><a href="https://librarycarpentry.org/lc-git/">Library Carpentry Git &amp; Version Control</a> / <a href="https://swcarpentry.github.io/git-novice/">Software Carpentry</a></p>
 <p><a href="https://hybridpedagogy.org/push-pull-fork-github-for-academics/">Push, Pull, Fork: GitHub for Academics (hybridpedagogy.org)</a></p>
 <p><a href="https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=1133&amp;context=kb_pubs#:~:text=Librarians%20who%20code%20presumably%20benefit%20from%20GitHub%20in,and%20it%20improves%20workflows%20via%20robust%20web%20tools.">A Comparative Analysis of the Use of GitHub by Librarians and Non-Librarians</a></p>
 <p><a href="https://gist.github.com/chrisdaaz/1e894dc5af2e2c9cf0cc75d057fcf79f">A reading list for librarians learning about Git and GitHub</a></p>
