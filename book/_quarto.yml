@@ -21,6 +21,7 @@ book:
     - iiif.qmd
     - api.qmd
     - dataviz.qmd
+    - github.qmd
     - part: "**GENERAL RESOURCES**"
       chapters:
         - references.qmd
