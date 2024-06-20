@@ -5,7 +5,8 @@ execute:
   freeze: auto
 
 book:  
-  google-analytics: "G-54HL7T1Z2K"
+  google-analytics: 
+    tracking-id: "G-54HL7T1Z2K"
   reader-mode: true
   search: true
   chapters:
