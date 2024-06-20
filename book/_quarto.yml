@@ -9,6 +9,16 @@ book:
     tracking-id: "G-54HL7T1Z2K"
   reader-mode: true
   search: true
+  page-footer: 
+    border: false
+    background: light
+    left: | 
+      A 2023-2027 <a href="https://libereurope.eu/working-groups">LIBER Working Group</a> collaboration between <a href="https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/">Digital Scholarship and Digital Cultural Heritage </a> and <a href="https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/">Data Science in Libraries</a> 
+    right: |
+      This book was built with <a href="https://quarto.org/docs/books/">Quarto</a>.
+
+
+  
   chapters:
     - part: "**ABOUT**"
       chapters:
@@ -39,7 +49,7 @@ book:
     style: "docked"
     collapse-level: 1
   repo-url: https://github.com/libereurope/ds-essentials
-  repo-actions: [edit]
+  repo-actions: [edit, issue]
   comments: 
     utterances:
       repo: libereurope/ds-essentials
