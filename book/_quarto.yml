@@ -7,7 +7,6 @@ execute:
 book:  
   google-analytics: "G-54HL7T1Z2K"
   reader-mode: true
-  downloads: [pdf]
   search: true
   chapters:
     - part: "**ABOUT**"
@@ -36,6 +35,7 @@ book:
     
   sidebar:
     logo: images/NewLogo.png
+    style: "docked"
     collapse-level: 1
   repo-url: https://github.com/libereurope/ds-essentials
   repo-actions: [edit]
