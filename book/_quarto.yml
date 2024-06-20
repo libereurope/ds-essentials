@@ -4,7 +4,9 @@ project:
 execute: 
   freeze: auto
 
-book:    
+book:  
+  google-analytics: "G-54HL7T1Z2K"
+  reader-mode: true
   chapters:
     - part: "**ABOUT**"
       chapters:
@@ -45,5 +47,4 @@ format:
   html:
     theme: cosmo
 
-google-analytics: "G-54HL7T1Z2K"
-  cookie-consent: true
+
