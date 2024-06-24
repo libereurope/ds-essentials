@@ -292,8 +292,8 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
   <li><a href="#hands-on-activity-and-other-self-guided-tutorials" id="toc-hands-on-activity-and-other-self-guided-tutorials" class="nav-link" data-scroll-target="#hands-on-activity-and-other-self-guided-tutorials"><strong>Hands-on activity and other self-guided tutorial(s)</strong></a>
   <ul class="collapse">
   <li><a href="#activity-explore-natural-language-processing" id="toc-activity-explore-natural-language-processing" class="nav-link" data-scroll-target="#activity-explore-natural-language-processing">Activity: Explore Natural Language Processing</a></li>
-  <li><a href="#activity-explore-chatgpt" id="toc-activity-explore-chatgpt" class="nav-link" data-scroll-target="#activity-explore-chatgpt">Activity: Explore ChatGPT</a></li>
-  <li><a href="#activity-explore-computer-vision" id="toc-activity-explore-computer-vision" class="nav-link" data-scroll-target="#activity-explore-computer-vision">Activity: Explore Computer Vision</a></li>
+  <li><a href="#activity-explore-conversation-generation-chatgpt" id="toc-activity-explore-conversation-generation-chatgpt" class="nav-link" data-scroll-target="#activity-explore-conversation-generation-chatgpt">Activity: Explore Conversation Generation (ChatGPT)</a></li>
+  <li><a href="#activity-explore-computer-vision-handwritten-text-recognition" id="toc-activity-explore-computer-vision-handwritten-text-recognition" class="nav-link" data-scroll-target="#activity-explore-computer-vision-handwritten-text-recognition">Activity: Explore Computer Vision &amp; Handwritten Text Recognition</a></li>
   </ul></li>
   <li><a href="#recommended-readingviewing" id="toc-recommended-readingviewing" class="nav-link" data-scroll-target="#recommended-readingviewing">Recommended Reading/Viewing</a></li>
   <li><a href="#taking-the-next-step" id="toc-taking-the-next-step" class="nav-link" data-scroll-target="#taking-the-next-step">Taking the next step</a></li>
@@ -380,42 +380,44 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <h3 class="anchored" data-anchor-id="natural-language-processing-nlp">Natural Language Processing (NLP)</h3>
 <p>NLP involves the development of a wide range of algorithms, models, and systems for analysing, understanding and extracting meaningful information from textual and speech data representing human language. We can use NLP for things like:</p>
 <section id="subject-indexing-to-enhance-library-catalogue-search" class="level4">
-<h4 class="anchored" data-anchor-id="subject-indexing-to-enhance-library-catalogue-search">Subject indexing to enhance library catalogue search</h4>
+<h4 class="anchored" data-anchor-id="subject-indexing-to-enhance-library-catalogue-search"><strong>Subject indexing to enhance library catalogue search</strong></h4>
 <p><strong>Named Entity Recognition (NER)</strong> is a text analysis process within NLP that helps turn unstructured text into structured text. A sentence or a chunk of text is parsed through to find entities that can be put under categories like names, organisations, locations, quantities, monetary values, percentages, etc.</p>
 <p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/NER.png?raw=true" class="img-fluid"></p>
 <p><br>In the library world it can be used as part of a process to understand what subjects (people, places, concepts) are contained within a digitised text and help us enhance our catalogue records for items or search functionality. There is a very nicely outlined use case here of how the <a href="https://blog.ehri-project.eu/2018/08/27/named-entity-recognition/">United States Holocaust Memorial Museum used NER</a> to automatically extract person names and location from Oral History Transcript to improve indexing and search in their catalogue.</p>
 </section>
 <section id="automatic-language-detection-genre-classification" class="level4">
-<h4 class="anchored" data-anchor-id="automatic-language-detection-genre-classification">Automatic Language Detection &amp; Genre Classification</h4>
+<h4 class="anchored" data-anchor-id="automatic-language-detection-genre-classification"><strong>Automatic Language Detection &amp; Genre Classification</strong></h4>
 <p>The British Library has used different machine learning techniques and experiments derived from the field of NLP to assign language codes and genre classification to catalogue records, in order to enhance resources described. In the first phase of the <a href="https://bl.iro.bl.uk/concern/articles/6c99ffcb-0003-477d-8a58-64cf8c45ecf5">Automated Language Identification of Bibliographic Resources</a> project, language codes were assigned to 1.15 million records with 99.7% confidence. The automated language identification tools developed will be used to contribute to future enhancement of over 4 million legacy records. The <a href="https://living-with-machines.github.io/genre-classification/genre_classification.html">genre classification case study</a> includes a nice description of machine learning as well as references to other use cases for metadata clean up.</p>
 </section>
 <section id="text-conversation-generation" class="level4">
-<h4 class="anchored" data-anchor-id="text-conversation-generation">Text &amp; Conversation Generation</h4>
+<h4 class="anchored" data-anchor-id="text-conversation-generation"><strong>Text &amp; Conversation Generation</strong></h4>
 <p><strong>Language models</strong> are a type of machine learning model designed to predict the likelihood of a sequence of text, which means that they can be set up to predict the most likely way to continue a conversation. A <strong>large language model</strong> (LLM), such as the models behind ChatGPT, are highly complex neural networks that have been exposed to an enormous amount of text from books, articles, websites, and more. They perform natural language processing tasks such as generating and classifying text, answering questions, and translating text and are the backbone of NLP today. On the other hand there are <strong>small language models</strong> (SML) too which, well, you guessed it, are much smaller, as in, they don’t need quite as much data and time to be trained. Whether or not to use either depends on your use case and motivations!</p>
 <p>There are and have been for many years, large language models out there actually but ChatGPT has currently caught the popular imagination because of its publicly available interface and remarkable performance, so it’s worth spending a little time here unpacking just what ChatGPT is and its potential impact on library work.</p>
 <p>The large language models behind ChatGPT have learned something about patterns in grammar and word meaning, including the way that meaning arises contextually across multiple sentences and multiple turns in a conversation. When you ask ChatGPT a question, you are presenting the model with new information it tries to make a prediction on, in this case, it tries to generate a response that matches the pattern of conversation.</p>
 <p>You ask questions or give prompts to the model, and it provides responses in natural language, or rather, estimates what should come next in a conversation. When ChatGPT gives a response, it isn’t actually looking up information and then composing that information into a response; it’s just making an estimation of a response based on patterns it has seen. So, when you ask it factual questions, especially ones with common answers or phrases, it might give you an answer that sounds right but remember this is because it’s mimicking what it has seen in its training data.</p>
 <p>Librarians are still investigating use cases for this new Generative AI applications, but for now at least, ChatGPT is certainly useful as a personal writing assistant or tool to help give you ideas for</p>
-<p>…creating a title for a new exhibition</p>
-<p>…creating exhibition labels</p>
-<p>…outlining a basic structure for an information literacy workshop</p>
-<p>…creating a blog post on a topic for which you are very familiar</p>
-<p>…helping you reword something for different audiences</p>
-<p>…writing a funding proposal!</p>
+<ul>
+<li>creating a title for a new exhibition</li>
+<li>creating exhibition labels</li>
+<li>outlining a basic structure for an information literacy workshop</li>
+<li>creating a blog post on a topic for which you are very familiar</li>
+<li>helping you reword something for different audiences</li>
+<li>writing a funding proposal!</li>
+</ul>
 <p>It’s also good to get in the habit of trying out and being aware of how these particular models work as more and more library users will be using this technology too, and may not know quite have a clear understanding of what’s behind the responses generated by them. We’ve seen librarians having to answer queries about citations that have been made up by ChatGPT, article references which sound very much like they exist, but have just been hallucinated by the model!</p>
 </section>
 </section>
 <section id="computer-vision-cv-use-cases" class="level3">
 <h3 class="anchored" data-anchor-id="computer-vision-cv-use-cases">Computer Vision (CV) use cases</h3>
 <p>We can use computer vision to train models to automatically analyse and understand useful information from images and videos.</p>
-<p>In the library world we can use this to label millions of images, or, as we see below, a model can be trained to classify this image as a newspaper based on objects identified in the layout (for example, a nameplate for the newspaper, a headline, photographs, and illustrations and so on). The model learns how to identify that this is the NYT based on learning from other newspaper images it’s seen (for example, if given NY Tribune, NY Times, and NY Post images, it can distinguish between the various titles).</p>
+<p>In the library world we can use this to label millions of images with descriptive metadata (“this is a picture of a cat”), or, as we see below, a model can be trained to classify this image as a newspaper based on objects identified in the layout (for example, a nameplate for the newspaper, a headline, photographs, and illustrations and so on). The model learns how to identify that this is the NYT based on learning from other newspaper images it’s seen (for example, if given NY Tribune, NY Times, and NY Post images, it can distinguish between the various titles).</p>
 <p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/CV.png?raw=true" class="img-fluid"></p>
 </section>
 <section id="putting-it-altogether-ml-cv-nlp" class="level3">
 <h3 class="anchored" data-anchor-id="putting-it-altogether-ml-cv-nlp">Putting it altogether: ML + CV + NLP</h3>
 <p>One of the state of the art applications of machine learning seen in cultural heritage at the moment is Handwritten Text Recognition (HTR) which we had a look at earlier briefly in our simple example of training a model. The idea with HTR is to convert digitised handwritten documents into searchable and machine readable text. To achieve this HTR actually uses a combination of Computer Vision (CV) and Natural Language Processing (NLP).</p>
-<p>Since handwriting can be tricky and ambiguous you might have a Computer Vision model try to identify possible letters from the shapes, and another to work out what the most likely word is from those shapes. But let’s imagine that there’s a smudge on the page, and the letters and maybe even whole words are completely illegible. In that case you might turn to your NLP language models which look at sentence level predictions, taking into account words in the whole line of text and use that context to work out what words are most likely missing in those smudged spots!</p>
-<p>Sometimes a model trained for a particular task (in the case of this HTR example, identifying a particular handwriting style), it can be applied to similar handwriting styles with very good results. Transkribus has <a href="https://www.transkribus.org/public-models">Public AI Models (transkribus.org)</a> that are shared and can be reused by anyone.</p>
+<p>Since handwriting can be tricky and ambiguous you might have a Computer Vision model try to identify possible letters from the shapes, and another to work out what the most likely word is from those shapes. But let’s imagine that there’s a smudge on the page, and the letters and maybe even whole words are completely illegible. In that case you might turn to your NLP language models which look at sentence level predictions, taking into account words in the whole line of text the model uses that context to work out what words are most likely missing in those smudged spots!</p>
+<p>Sometimes a model trained for a particular task (in the case of this HTR example, identifying a particular handwriting style) can be applied to similar content (other handwriting styles) with very good results. Transkribus has <a href="https://www.transkribus.org/public-models">Public AI Models (transkribus.org)</a> that have been created by users of the system and are then shared and can be reused by anyone.</p>
 </section>
 </section>
 <section id="hands-on-activity-and-other-self-guided-tutorials" class="level2">
@@ -432,8 +434,8 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <li><a href="https://annif.org/">Annif - tool for automated subject indexing</a> There are <a href="http://natlibfi/Annif-tutorial:%20Instructions,%20exercises%20and%20example%20data%20sets%20for%20Annif%20hands-on%20tutorial%20%28github.com%29">many video tutorials here</a> and the ability to demo the tool</li>
 </ul>
 </section>
-<section id="activity-explore-chatgpt" class="level3">
-<h3 class="anchored" data-anchor-id="activity-explore-chatgpt">Activity: Explore ChatGPT</h3>
+<section id="activity-explore-conversation-generation-chatgpt" class="level3">
+<h3 class="anchored" data-anchor-id="activity-explore-conversation-generation-chatgpt">Activity: Explore Conversation Generation (ChatGPT)</h3>
 <p>Login to use the freely available <a href="https://openai.com/chatgpt">ChatGPT (openai.com)</a> interface.</p>
 <p>To get a useful response from ChatGPT, “prompting” is key. If you only ask a simple question, you may not be happy with the results and decide to dismiss the technology too quickly, but today’s purpose is to have a deeper play in order to develop our critical thinking and information evaluation skills, allowing us to make informed decisions about utilising tools like ChatGPT in our endeavours. <a href="https://www.promptingguide.ai/introduction/basics">Basics of Prompting | Prompt Engineering Guide (promptingguide.ai)</a> gives a nice quick walk-through of how to start writing good prompts or you can take a free course !</p>
 <p>Have a play trying to get ChatGPT to generate responses to <a href="https://docs.google.com/document/d/1Mph65vvukDEjZTeH5XSKo6c7T3POY8SbuPHE_OrBN6g/edit">some of the questions here</a> (or come up with your own questions!) Critically evaluate the responses you receive from ChatGPT, what are its strengths and weaknesses, ethical considerations and challenges of using AI tools such as this.</p>
@@ -443,13 +445,13 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <li>Does the information align with what you know from other sources?</li>
 </ul>
 </section>
-<section id="activity-explore-computer-vision" class="level3">
-<h3 class="anchored" data-anchor-id="activity-explore-computer-vision">Activity: Explore Computer Vision</h3>
+<section id="activity-explore-computer-vision-handwritten-text-recognition" class="level3">
+<h3 class="anchored" data-anchor-id="activity-explore-computer-vision-handwritten-text-recognition">Activity: Explore Computer Vision &amp; Handwritten Text Recognition</h3>
 <p>Find an image from somewhere on the web, or from your own collection, and see how each of these cloud services handles it! Try with some images of basic objects to see results (cars, fruit, bicycles…) and images with text within them.</p>
 <ul>
-<li>Google Cloud Vision API – <a href="https://cloud.google.com/vision/docs/drag-and-drop" class="uri">https://cloud.google.com/vision/docs/drag-and-drop</a></li>
-<li>Transkribus <a href="https://www.transkribus.org/" class="uri">https://www.transkribus.org/</a> (Try for free, but does require a free account to login)</li>
+<li><a href="https://cloud.google.com/vision/docs/drag-and-drop">Google Cloud Vision API</a></li>
 <li><a href="https://www.robots.ox.ac.uk/~vgg/demo/">Visual Geometry Group - University of Oxford</a></li>
+<li><a href="https://www.transkribus.org">Transkribus</a>(Try for free, but does require a free account to login)</li>
 </ul>
 </section>
 </section>
