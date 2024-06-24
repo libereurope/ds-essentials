@@ -6,7 +6,7 @@ execute:
 
 book:  
   title: "Digital Scholarship & Data Science Essentials for Library Professionals"
-  favicon: NewLogo.png
+  favicon: Favicon.png
   google-analytics: 
     tracking-id: "G-54HL7T1Z2K"
   reader-mode: true
