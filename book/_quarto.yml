@@ -5,7 +5,7 @@ execute:
   freeze: auto
 
 book:  
-  title: "DS Essentials"
+  title: "Digital Scholarship & Data Science Essentials for Library Professionals"
   google-analytics: 
     tracking-id: "G-54HL7T1Z2K"
   reader-mode: true
