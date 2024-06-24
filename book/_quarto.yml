@@ -33,6 +33,7 @@ book:
     - iiif.qmd
     - dataviz.qmd
     - github.qmd
+    - workingwdata.qmd
     - api.qmd
     - part: "**GENERAL RESOURCES**"
       chapters:
