@@ -10,16 +10,16 @@ Feel free to contact [Nora McGregor](mailto:digitalresearch@bl.uk) if you're kee
 
 - Contribute a new [Topic Guide](topicguides.qmd) (individually or in collaboration with others). Choose from our [existing wishlist](https://docs.google.com/spreadsheets/d/1FYR9UyZ7lWJOfsucZspw5sm9rmnTtHXecaYpCbVvDdI/edit#gid=851320609) or propose a new one. Join an upcoming writing sprint or get in touch with us directly to discuss [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) your idea and we'll help you get started right away!
 
-Specific Topic Guides that we are seeking authors for include: 
+> **_NOTE:_** Specific Topic Guides that we are seeking authors for include: 
+>
+>- Automatic Text Transcription (OCR/HTR)
+>- Demystifying Computational Environments for Digital Scholarship
+>- Climate Change and Sustainability
+>- Cultural Competency & Ethics in Digital Methods
+>- Digital Scholarship/Data Science Project Management, Evaluation and Impact Assessment
+>- Foundation models: When and why to use LLMs or SLMs
 
-- Automatic Text Transcription (OCR/HTR)
-- Demystifying Computational Environments for Digital Scholarship
-- Climate Change and Sustainability
-- Cultural Competency & Ethics in Digital Methods
-- Digital Scholarship/Data Science Project Management, Evaluation and Impact Assessment
-- Foundation models: When and why to use LLMs or SLMs
-
-- Suggest edits to an existing Topic Guide or Additional Resources by opening a new [Issue](https://github.com/libereurope/ds-essentials/issues) or adding to the discussion on existing ones on the project Github. If you're new to GitHub don't worry, we have a Topic Guide for that: [GitHub: How to navigate and contribute to Git-based projects](https://libereurope.github.io/ds-essentials/github.html)!
+- Suggest edits to an existing Topic Guide or Additional Resources by opening a new [Issue](https://github.com/libereurope/ds-essentials/issues) or adding to the discussion on existing ones on the project Github**. If you're new to GitHub don't worry, we have a Topic Guide for that: [GitHub: How to navigate and contribute to Git-based projects](https://libereurope.github.io/ds-essentials/github.html)!
 - Join one of the [LIBER Working Groups Digital Scholarship and Digital Cultural Heritage WG](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/) or [Data Science in Libraries](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/) (open to all staff of [LIBER member institutions](https://libereurope.eu/liber-participants/)) to keep up with the developments and ongoing maintenance of this project!
 
 ## Join a Writing Sprint! 
