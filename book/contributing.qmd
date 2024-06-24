@@ -4,13 +4,11 @@ We are currently working on producing the first complete edition of this resourc
 
 The first edition Topic Guide wishlist draws heavily on the existing skills framework and topics covered in the [British Library’s Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html), as well as those recommended by attendees of development workshops hosted by LIBER working groups throughout 2023/2024.
 
-
-
-Feel free to contact [Nora McGregor](mailto:digitalresearch@bl.uk) with any questions!
+Feel free to contact [Nora McGregor](mailto:digitalresearch@bl.uk) if you're keen to learn more and contribute!
 
 ## Ways to contribute to this project
 
-- Contribute a new [Topic Guide](topicguides.qmd) (individually or in collaboration with others). Choose from our [existing wishlist](https://docs.google.com/spreadsheets/d/1FYR9UyZ7lWJOfsucZspw5sm9rmnTtHXecaYpCbVvDdI/edit#gid=851320609) or propose a new one. Join an upcoming writing sprint or get in touch with us to discuss [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) your idea!
+- Contribute a new [Topic Guide](topicguides.qmd) (individually or in collaboration with others). Choose from our [existing wishlist](https://docs.google.com/spreadsheets/d/1FYR9UyZ7lWJOfsucZspw5sm9rmnTtHXecaYpCbVvDdI/edit#gid=851320609) or propose a new one. Join an upcoming writing sprint or get in touch with us directly to discuss [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) your idea and we'll help you get started right away!
 
 Specific Topic Guides that we are seeking authors for include: 
 
@@ -18,9 +16,10 @@ Specific Topic Guides that we are seeking authors for include:
 - Demystifying Computational Environments for Digital Scholarship
 - Climate Change and Sustainability
 - Cultural Competency & Ethics in Digital Methods
-- Digital Scholarship Project Management, Evaluation and Assessment
+- Digital Scholarship/Data Science Project Management, Evaluation and Impact Assessment
+- Foundation models: When and why to use LLMs or SLMs
 
-- Suggest edits to an existing Topic Guide or Additional Resources by opening an [Issue](https://github.com/libereurope/ds-essentials/issues) or adding to existing ones on the project Github.
+- Suggest edits to an existing Topic Guide or Additional Resources by opening a new [Issue](https://github.com/libereurope/ds-essentials/issues) or adding to the discussion on existing ones on the project Github. If you're new to GitHub don't worry, we have a Topic Guide for that: [GitHub: How to navigate and contribute to Git-based projects](https://libereurope.github.io/ds-essentials/github.html)!
 - Join one of the [LIBER Working Groups Digital Scholarship and Digital Cultural Heritage WG](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/) or [Data Science in Libraries](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/) (open to all staff of [LIBER member institutions](https://libereurope.eu/liber-participants/)) to keep up with the developments and ongoing maintenance of this project!
 
 ## Join a Writing Sprint! 
@@ -31,7 +30,7 @@ Specific Topic Guides that we are seeking authors for include:
 1. Please have a quick read through the [Welcome](index.qmd) and [Topic Guide](topicguides.qmd) pages to familiarise yourself with this resource and its purpose.
 2. When you [Register](https://forms.office.com/Pages/ResponsePage.aspx?id=t0ykIcP5AE-a-r0ejoi82X7ZIEJh0odPq9ej1FnpQEJUNTlTTTQ3WjBWU0gxOTdaNk1WSUpVV1FPRS4u) you'll see a list of our latest Topic Guides on our wishlist. Please check off any and all Topic Guides you would be happy to work on during the day of the sprint. On the day each attendee will focus on writing just one Topic Guide however. The information you provide before the sprint will help us organise this ahead of time so that as many Topic Guides as possible have at least one dedicated author.  
 3. Please have a quick read through the [Author Guidance and Style Guide](guidelines.qmd) section. 
-4. We'll be in touch after we receive your registration to send you more details and useful information ahead of the sprint so look out for our email! If you are sent a copy of the [Topic Guide Template (Google Doc)](https://drive.google.com/drive/folders/1okdNMn1Jg1M8Enzavuqe_elsWH0uV1p1?usp=sharing) that corresponds to your topic of choice ahead of time, add your name to the header, and feel free to add notes or even make a start on drafting your guide before the sprint day if you're keen! 
+4. We'll be in touch after we receive your registration to send you more details and useful information ahead of the sprint so look out for our email! If you are sent a copy of the [Topic Guide Template (Google Doc)](https://drive.google.com/drive/folders/1okdNMn1Jg1M8Enzavuqe_elsWH0uV1p1?usp=sharing) that corresponds to your topic of choice ahead of time, add your name to the header, and feel free to add notes or even make a start on drafting your guide before the sprint day if you're keen!
 
 ### What to expect on the day:
 A two hour writing sprint will generally follow this format:
