@@ -1,9 +1,9 @@
 # GitHub: How to navigate and contribute to Git-based projects {.unnumbered}
->Contributed by: Liam O’Dwyer, [ORCID iD](https://orcid.org/[yourid]), Nora McGregor,[ORCID iD](https://orcid.org/[yourid]) and Liam Green-Hughes, [ORCID iD](https://orcid.org/[yourid])<br>
+>Contributed by: Liam O’Dwyer, [ORCID iD](https://orcid.org/0009-0006-8875-1002), Nora McGregor,[ORCID iD](https://orcid.org/0000-0001-6560-5586) and Liam Green-Hughes, [ORCID iD](https://orcid.org/0000-0002-3852-5879)<br>
 >Original published date: 19/06/2024<br>
 >Last modified: See Github page history
 >
->Suggested Citation: [First Name Last Name], “[Topic Guide Title],” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
+>Suggested Citation: Liam O'Dwyer, Nora McGregor, Liam Green-Hughes, “GitHub: How to navigate and contribute to Git-based projects,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
 
 ## Introduction  
 
@@ -128,7 +128,7 @@ Once on the project GitHub page you can fork your own copy of the repository so 
 ![](https://github.com/libereurope/ds-essentials/blob/main/book/images/GitHub3.png?raw=true)
 
 #### **3. Find the file you would like to change and make your edits**  
-Navigate to the file you would like to edit in your copy of DSEssentials on GitHub that you want to contribute to and click the pencil icon to edit. (Note that one way you’ll know you’re working in your own copy is by seeing your personal username ahead of the repository name). Let’s say the Topic Guide on AI & ML in Libraries Literacies needs an update. Look for a markdown file in the directory which corresponds to the url on the website version and has the file extension .md and (or, because this website was built using Quarto, the file extension in this example is .qmd). For instance if ml-ai.html is the web version, you would look for ml-ai.qmd in the file directory on GitHub.
+Navigate to the file you would like to edit in your own copy of the DSEssentials project and click the pencil icon to edit. (Note that one way you’ll know you’re working in your own copy is by seeing your personal GitHub username ahead of the repository name). Let’s say the Topic Guide on AI & ML in Libraries Literacies needs an update. To find the right file in the directory you can do a search or look for a markdown file in the list which corresponds to the url on the website version and has the file extension .md. Note, because this website was built using Quarto, the file extension in this example is .qmd. For instance if ml-ai.html is the web version, you would look for ml-ai.qmd in the file directory on GitHub.
 
 ![](https://github.com/libereurope/ds-essentials/blob/main/book/images/GitHub4.png?raw=true)
 
@@ -144,17 +144,17 @@ Whenever you are working in a repository that you have forked, you are the Owner
 
 #### **5. Contribute your changes back to the original/main project**
 
-When you are finished with your changes and would like to share your new updated copy with the original project (in this example, incorporating your new text on Generative AI into the main DS Essentials Topic Guide on AI & ML in Libraries) this is when you will start a [_pull request_](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork). Navigate to the Pull Requests section of your project and click on New pull request to start that process.
+When you are finished with your changes and would like to share your new updated copy with the original project (in this example, incorporating your new text on Generative AI into the main DS Essentials Topic Guide on AI & ML in Libraries) this is when you will start a [_pull request_](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork). Navigate to the Pull Requests section of your forked project (repository) and click on New pull request to start that process.
 
 ![](https://github.com/libereurope/ds-essentials/blob/main/book/images/GitHub6.png?raw=true)
 
-This will take you to back to the main project where you can then formally “create a pull request”. Once this has been made your pull request notifies the maintainers of the original project that you have made changes to their project that they may like to consider _merging_ into theirs. Your pull request will show up under their project where you can discuss and review the changes you’re suggesting. Once the review has been completed and everyone is happy with the changes suggested the maintainer of the project will merge your pull request and you will have officially contributed!
+This will take you to back to the original project you forked from, where you can then formally “create a pull request”. Once this has been made your pull request notifies the maintainers of the original project that you have made changes to their project that they may like to consider _merging_ into theirs. Your pull request will show up under their project where you can discuss and review the changes you’re suggesting. Once the review has been completed and everyone is happy with the changes suggested the maintainer of the project will merge your pull request and you will have officially contributed!
 
 ![](https://github.com/libereurope/ds-essentials/blob/main/book/images/GitHub7.png?raw=true)
 
 ### **3. Re-using existing code/content for a new project**   
 
-Let’s say that instead of just contributing to an existing project you may want to make use of the whole thing. This is quite common for instance when looking to reuse software that someone has created and shared on GitHub. And it’s a similar process to the above although in this case it would be more typical to [_clone_](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the repository rather than _fork_ it as cloning allows you to save the whole repository directly to your local machine, rather than within the GitHub platform itself. Developers will find this much more practical as they go through the process of editing and updating the changes they need to make. For instance, we talked about the example of a variety of open source Omeka plugins being available for [install from the Omeka GitHub repository](https://github.com/omeka/omeka-s?tab=readme-ov-file#installing-from-github) in the introduction.
+Let’s say that instead of just contributing code/content to an existing project you want to make use of the whole project, such as a piece of open source software shared there. This is quite common for instance when looking to reuse software that someone has created and shared on GitHub. And it’s a similar process to the above although in this case you might want to [_clone_](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the repository rather than _fork_ it as cloning allows you to save the whole repository directly to your local machine, rather than within the GitHub platform itself in order to implement it. Developers will find this much more practical than working in GitHub as they go through the process of installing, editing, adapting the code as needed to implement it. See for instance the example mentioned earlier of a variety of open source Omeka plugins being available for [install from the Omeka GitHub repository](https://github.com/omeka/omeka-s?tab=readme-ov-file#installing-from-github).
 
 ![](https://github.com/libereurope/ds-essentials/blob/main/book/images/GitHub8.png?raw=true)
 
