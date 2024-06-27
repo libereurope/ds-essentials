@@ -35,6 +35,7 @@ book:
     - dataviz.qmd
     - github.qmd
     - workingwdata.qmd
+    - dstp.qmd
     - api.qmd
     - part: "**GENERAL RESOURCES**"
       chapters:
@@ -42,7 +43,7 @@ book:
         - reports.qmd
         - training-platforms.qmd
         - networks.qmd
-        - dstp.qmd
+        
     
   sidebar:
     logo: images/NewLogo.png
