@@ -20,7 +20,7 @@ In some cases you may need buy-in from managers to allow staff time and space to
 
 Read more about [Graham Jevon's digital transformation journey](https://blogs.bl.uk/digital-scholarship/2024/05/recovered-pages-graham-jevon.html) on the British Library Digital Scholarship blog or have a look at this [series of videos](https://youtube.com/playlist?list=PLVRvouzCZmFdVQZn-pJvI_GXip_16sg_R&feature=shared) we created to mark the 10th Anniversary of the [British Library Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html) in 2022.
 
-[![Watch the video](https://github.com/libereurope/ds-essentials/blob/main/book/images/DSTP.png?raw=true)](https://www.youtube.com/embed/CrCP5rYai9M?si=A9kw93B_TvOoDFnV)
+[![How are you using your new skills in your own work?](https://github.com/libereurope/ds-essentials/blob/main/book/images/DSTP.png?raw=true)](https://www.youtube.com/embed/CrCP5rYai9M?si=A9kw93B_TvOoDFnV)
 
 
 ## Run a monthly Hack & Yack
