@@ -8,7 +8,7 @@ Feel free to contact [Nora McGregor](mailto:digitalresearch@bl.uk) if you're kee
 
 ## Ways to contribute to this project
 
-- Contribute a new [Topic Guide](topicguides.qmd) (individually or in collaboration with others). Choose from our [existing wishlist](https://docs.google.com/spreadsheets/d/1FYR9UyZ7lWJOfsucZspw5sm9rmnTtHXecaYpCbVvDdI/edit#gid=851320609) or propose a new one. Join an upcoming writing sprint or get in touch with us directly to discuss [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) your idea and we'll help you get started right away!
+- Contribute to an existing, or create a new [Topic Guide](topicguides.qmd) (individually or in collaboration with others). Choose from our [existing wishlist](https://docs.google.com/spreadsheets/d/1FYR9UyZ7lWJOfsucZspw5sm9rmnTtHXecaYpCbVvDdI/edit#gid=851320609) or propose a new one. Join an upcoming writing sprint or get in touch with us directly to discuss [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) your idea and we'll help you get started right away!
 
 > **_NOTE:_** Topic Guides we are seeking authors for right now include: 
 >
