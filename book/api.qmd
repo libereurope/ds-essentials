@@ -1,9 +1,9 @@
 # What is an API? {.unnumbered}
 >Contributed by: Name, [ORCID iD](https://orcid.org/0000-0001-6560-5586)<br>
->Original published date: <br>
+>Original published date: _Note: This page is currently being drafted and open to [contributions](https://libereurope.github.io/ds-essentials/contributing.html) from the community._ <br>
 >Last modified: See Github page history
 >
->Suggested Citation: Nora McGregor, “IIIF,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
+>Suggested Citation: Author Name, “What is an API?,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
 
 ## Introduction
 
