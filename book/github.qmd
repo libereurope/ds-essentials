@@ -195,4 +195,4 @@ As with most platforms, specific functions or tasks may change occasionally on G
 
 ## Taking the next step  
 
-\[TODO needs content on networks for help with GitHub\]
+The best way to understand GitHub is to have a play yourself and if you get into trouble we've found that asking questions over on the (GitHub Community Hub)[https://github.com/community] is a great way to get connected with other users. You can also join networks like [AI4LAM] (https://sites.google.com/view/ai4lam) and ask questions of members of the very engaged and helpful community on their [slack](https://join.slack.com/t/ai4lam/shared_invite/zt-1omthldn8-9vrGySjIRdija1nKQm0ltA). 
