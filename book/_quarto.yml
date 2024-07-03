@@ -39,6 +39,7 @@ book:
     - api.qmd
     - part: "**GENERAL RESOURCES**"
       chapters:
+        - dstp.qmd
         - references.qmd
         - reports.qmd
         - training-platforms.qmd
