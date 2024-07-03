@@ -157,6 +157,10 @@ Find an image from somewhere on the web, or from your own collection, and see ho
 - [Visual Geometry Group - University of Oxford](https://www.robots.ox.ac.uk/~vgg/demo/)
 - [Transkribus](https://www.transkribus.org)(Try for free, but does require a free account to login)
 
+### Activities: Exploring Hands-on AI (workshop materials)
+
+The following workshop [Exploring Hands-on AI](https://cdsleiden.github.io/exploring-ai/intro.html) was delivered to LIBER colleagues at the LIBER 2024 Annual Conference, but you can walk through many of the exercises at your own pace independently! Through a series of hands-on exercises, presented via Google Collab sheets, the workshop aimed to clarify how data science, and more particularly, generative AI systems based on Large Language Models (LLMs) can be applied within a library context. 
+
 ## Recommended Reading/Viewing  
 
 Much of this topic guide is based on both a [Library Carpentry Intro to AI for GLAM](https://carpentries-incubator.github.io/machine-learning-librarians-archivists/) lesson I have developed with colleagues and a 2024 talk I gave as part of a Research Libraries UK Digital Shift Forum so if you’d like to view/listen to the content covered in this topic guide as a lecture:
