@@ -35,7 +35,6 @@ book:
     - dataviz.qmd
     - github.qmd
     - workingwdata.qmd
-    - dstp.qmd
     - api.qmd
     - part: "**GENERAL RESOURCES**"
       chapters:
