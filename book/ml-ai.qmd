@@ -68,7 +68,9 @@ As you now know, machine learning algorithms and models underpin all the other s
 - **Natural Language Processing (NLP):** which is concerned with making AI systems more capable of natural and effective interaction with humans **(text and speech)**
 - **Computer Vision (CV):** which is concerned with enabling machines to interpret and make decisions based on **visual data** from the world.
 
-Let’s have a look at these through some use cases:
+For a really great overview of a wider range of AI use cases in Libraries I recommend having a read of Section 3: Library Applications in Cox A & Mazumdar's [Defining artificial intelligence for librarians (2022)](https://journals.sagepub.com/doi/10.1177/09610006221142029#sec-3) from 2022 which covers back-end operations and library services for users. 
+
+Let’s have a look at some NLP and Computervision use cases in a library setting:
 
 ### Natural Language Processing (NLP)
 
