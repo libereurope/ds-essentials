@@ -109,7 +109,7 @@ Though there are many benefits, SPARQL is the means by with Linked Open Data is 
 
 This example shows how to use Wikidata, a community-driven approach based on the Semantic Web and LOD that enables volunteers to edit the metadata, to describe manuscripts. It shows the expressivity of the vocabulary provided by Wikidata and the benefits of using Wikidata as a repository in terms of visibility and reuse.
 
-![](https://github.com/libereurope/ds-essentials/blob/main/book/images/lod4.png?raw=true)
+![](https://github.com/libereurope/ds-essentials/blob/main/book/images/Lod4.png?raw=true)
 
 ## Hands-on activity and other self-guided tutorial(s) 
 
