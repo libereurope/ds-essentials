@@ -18,12 +18,21 @@ Feel free to contact [Nora McGregor](mailto:digitalresearch@bl.uk) if you're kee
 >- Cultural Competency & Ethics in Digital Methods
 >- Digital Scholarship/Data Science Project Management, Evaluation and Impact Assessment
 >- Foundation models: When and why to use LLMs or SLMs
+>- What is an API?
 
 - Suggest edits to an existing [Topic Guide](topicguides.qmd) or any of the General Resources pages by opening a new [Issue](https://github.com/libereurope/ds-essentials/issues) or adding to the discussion on existing Issues on the project Github. If you're new to GitHub don't worry, we have a Topic Guide for that: [GitHub: How to navigate and contribute to Git-based projects](https://libereurope.github.io/ds-essentials/github.html)!
 - Join one of the [LIBER Working Groups Digital Scholarship and Digital Cultural Heritage WG](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/) or [Data Science in Libraries](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/) (open to all staff of [LIBER member institutions](https://libereurope.eu/liber-participants/)) to keep up with the developments and ongoing maintenance of this project!
 
 ## Join a Writing Sprint! 
-> Our first Topic Guide Sprint was held online Tuesday 14 May 2024 and another Tuesday 03 June 2024. To be notified of upcoming sprints check back here for dates/times or join one of our working groups and we'll email out the details!
+Our first Topic Guide Sprints were held online Tuesday 14 May 2024 and another Tuesday 03 June 2024. To be notified of upcoming sprints check back here for dates/times or join one of our working groups and we'll email out the details!
+
+> Our next online writing sprints will be held via Microsoft Teams: 
+
+* **Tuesday, 8 October 9:00-11:00 (BST)**
+* **Tuesday, 5 November 9:00-11:00 (BST)**
+
+[Register today!](https://forms.office.com/e/iw7FVA0L5c)
+
 
 ### Preparing for a sprint:
 
