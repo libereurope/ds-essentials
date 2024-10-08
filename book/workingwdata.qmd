@@ -13,13 +13,13 @@ Data is all around us, and it almost cannot be avoided. Libraries and universiti
 
 Data is often considered to be a number, like the number of times a book has been loaned, but what about who borrowed it, or what their review was? These are all different forms of data, and can provide all new insights to the popularity of a book - maybe a book was borrowed 10 times, but in fact got 10 1-star reviews, versus a book borrowed 5 times with 5 5-star reviews, using this data, which one would you recommend?
 
+This guide will explore the use of data within libraries through; questions to think through when undertaking your own data tasks, alongside practical examples from libraries around the world.
+
 ### What is Data?
 
 Data is often overwhelming (the term ‘Big Data’ floats around a lot!), but that shouldn’t stop you from exploring it, because it can greatly improve your work. Just to clarify, Big Data will not be discussed here, Big Data requires data to be high in volume and velocity, which is not the case for most library data (think about downloading a document every time the hashtag #photooftheday is used).
 
 So first, let's establish some definitions (for this guide at least) while looking at one of our most central collections of data: 
-
-_A new book has arrived, you create a record on the library management system filling in the title, ISBN and price._:
 
 |     | **Definition** |
 ---|---|
@@ -91,25 +91,25 @@ Here are a few real world examples of big data projects within libraries, but re
 The Metropolitan Museum of Art (New York) Watson Library explores their production of data visualisations using Microsoft Power BI in regards to their library activities. Using the library management system (data which they already had), google analytics, digital collections and some manual tallies, they explored six years of library data. This exploration demonstrated the benefit of moving their blog from an external website, created an index of African American Artists,and ease in sharing library metrics for the previous six years publicly.
 
 - [**When is a Year Complete?**](https://openisu.pubpub.org/pub/bcm81w75/release/2) October 2023
-
 It is well known that publications databases take time to update, but how long? Collection Analysis Librarian at Iowa State University, Eric Schares, wanted to know how long to wait before being able to analyse a calendar year of publications, and set about doing so by comparing data from three different publication services (Dimensions, Web of Science and Open Alex). The data (which continues to be updated), documented the rise of Open Alex, and demonstrated part of the effectiveness of each service for Iowa State University - however he also shares his code and thus you can replicate this data question at your own institution.
 
 - [**Use of Institution Data Analysis for Publisher Negotiations**](https://www.repository.cam.ac.uk/items/8eb57acf-0f49-44eb-95af-c1c8d9cba946) July 2023 | [**Utilising Data to Understand the Institutions Relationship with a Publisher**](https://www.youtube.com/watch?v=jZdMvJgSj4Q) March 2024
-
 Data Analyst at the University of Cambridge Library Niamh Malin, was responsible for supporting the many publisher negotiations. The first paper addresses the use of Microsoft Excel and Dimensions publications data to document the relationship of the university with Springer Nature. The second presentation documents the transition to Microsoft Power BI to create data dashboards which ensure every publisher negotiation is informed by usage and publications data.
 
 - **Using Analytics to Extract Value from the Library's Data** - Event [Part One: Analytics Behind the Scenes](https://www.niso.org/events/2018/09/part-one-using-analytics-extract-value-librarys-data) and [Part Two: Actionable Data Analysis](https://www.niso.org/events/2018/09/part-two-using-analytics-extract-value-librarys-data) September 2018.
-
 The National Information Standards Organization (NISO) hosted a two part webinar in 2018 about extracting value from library data. The slides for the six presentations are available, and cover topics such as; setting up a data analysis strategy, analysing metadata, utilising data visualisations, actioning data insights for utilising physical spaces and building confidence in your data analysis skills.
 
-- [**Libraries support data-driven decision making**](https://hangingtogether.org/libraries-support-data-driven-decision-making/) (February 2024). An OCLC-Liber blog post following their “Building for the future” program where librarians had gathered to discuss their understanding and practical interpretations of data driven libraries.
-- [**Utilising new modes of data to enhance research strategy and collaboration**](https://www.timeshighereducation.com/campus/utilising-new-modes-data-enhance-research-strategy-and-collaboration?spMailingID=27812157&spUserID=MTQ4NjQ5NDYyNDE5MgS2&spJobID=2351611476&spReportId=MjM1MTYxMTQ3NgS2) (November 2023). Digital science looks at how institutions can get high-quality insights into research by standardising their data systems.
+- [**Libraries support data-driven decision making**](https://hangingtogether.org/libraries-support-data-driven-decision-making/) February 2024. 
+An OCLC-Liber blog post following their “Building for the future” program where librarians had gathered to discuss their understanding and practical interpretations of data driven libraries.
+
+- [**Utilising new modes of data to enhance research strategy and collaboration**](https://www.timeshighereducation.com/campus/utilising-new-modes-data-enhance-research-strategy-and-collaboration?spMailingID=27812157&spUserID=MTQ4NjQ5NDYyNDE5MgS2&spJobID=2351611476&spReportId=MjM1MTYxMTQ3NgS2) November 2023. 
+Digital science looks at how institutions can get high-quality insights into research by standardising their data systems.
 
 ## Hands-on activity and other self-guided tutorial(s) 
 
 Now that you’ve found some data, and/or you’ve formulated some questions to answer, how do you know the data will be good enough? Let’s take some time to assess the data, and ensure it is fit for purpose, because a key analogy in data analysis is;
 
-**GIGO: Garbage in, garbage out!.**
+        **GIGO: Garbage in, garbage out!.**
 
 The process of utilising data is a cycle, a standard process model that describes a common approach to data is [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/) (Cross-industry standard process for data mining). It has six stages, listed below.
 
@@ -199,6 +199,7 @@ Once the data exists, it must be accessible. There are a variety of software whi
 - Does the file require a software licence to access?
 - What backups are required?
 - How long are files required to be stored?
+Use this webpage for [guidance on different file formats](https://www.geeksforgeeks.org/list-of-file-formats/).
 
 ## Recommended Reading/Viewing  
 
