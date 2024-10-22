@@ -28,9 +28,9 @@ RDF triples are the fundamental building blocks of Linked Open Data. Triples fol
 
 An example of a triple stating "Miguel de Cervantes is author of El Quijote." would look like this:
 
-- **Subject**: &lt;<https://www.wikidata.org/wiki/Q5682>&gt; (Wikidata URI reference to Miguel de Cervantes)
+- **Subject**: &lt;<https://www.wikidata.org/entity/Q5682>&gt; (Wikidata URI reference to Miguel de Cervantes)
 - **Predicate**: &lt;<http://purl.org/dc/terms/creator>&gt; (Dublin Core URI term for creator/author)
-- **Object**: &lt;<https://www.wikidata.org/wiki/Q480>&gt; (Wikidata URI reference to the book El Quijote)
+- **Object**: &lt;<https://www.wikidata.org/entity/Q480>&gt; (Wikidata URI reference to the book El Quijote)
 
 In a [2020 survey](https://libereurope.eu/article/linked-open-data-impressions-challenges-among-europes-research-libraries/#:~:text=LIBER%E2%80%99s%20Linked%20Open%20Data%20Working%20Group%20aims%20to,libraries%20follow%20in%20making%20data%20linked%20and%20open.) of LIBER members, the LIBER Linked Open Data Working Group identified the following as the most frequently used datasets by libraries to enrich their catalogues but there are many more that can be used depending on your needs [Linked Data Survey (oclc.org)](https://www.oclc.org/research/areas/data-science/linkeddata/linked-data-survey.html) and some examples of advanced data models are [Bibliographic Framework (BIBFRAME)](https://www.loc.gov/bibframe/) and [Library Reference Model (LRM)](https://en.wikipedia.org/wiki/IFLA_Library_Reference_Model). In addition, the [lod-cloud](https://lod-cloud.net/) provides more than one thousand LOD repositories classified by categories and based on different domains such as geography and government.  
 
@@ -40,13 +40,13 @@ So let’s go back to our triple that describes the relationship between the res
 
 **Triple 1:** Miguel de Cervantes is author of El Quijote
 
-- **Subject**: &lt;<https://www.wikidata.org/wiki/Q5682>&gt; (Wikidata identifier for the author Miguel de Cervantes)
+- **Subject**: &lt;<https://www.wikidata.org/entity/Q5682>&gt; (Wikidata identifier for the author Miguel de Cervantes)
 - **Predicate**: &lt;<http://purl.org/dc/terms/creator>&gt; (Dublin Core term for creator/author)
-- **Object**: <[https://www.wikidata.org/wiki/Q480](https://www.wikidata.org/wiki/Q480http://dbpedia.org/resource/El_Quijote)\> (Wikidata identifier for the work El Quijote)
+- **Object**: <[https://www.wikidata.org/entity/Q480](https://www.wikidata.org/wiki/Q480http://dbpedia.org/resource/El_Quijote)\> (Wikidata identifier for the work El Quijote)
 
 **Triple 2:** El Quijote is a work of Spanish Literature
 
-- **Subject**: &lt;<https://www.wikidata.org/wiki/Q480>&gt; (Wikidata identifier for the work El Quijote)
+- **Subject**: &lt;<https://www.wikidata.org/entity/Q480>&gt; (Wikidata identifier for the work El Quijote)
 - **Predicate**: &lt;<http://purl.org/dc/terms/subject>&gt; (Dublin Core term for subject)
 - **Object**: <http://dbpedia.org/resource/Spanish_literature\> (DBpedia identifier for Spanish literature)
 
@@ -55,7 +55,7 @@ Here, the object of the first triple (&lt;<https://www.wikidata.org/wiki/Q480>&g
 **&lt;<http://example.org/catalogue/El_Quijote>&gt;**<br>
 >rdf:type schema:Book;<br>
 schema:name "El_Quijote";<br>
-schema:author **&lt;<https://www.wikidata.org/wiki/Q5682>&gt;**;<br>
+schema:author **&lt;<https://www.wikidata.org/entity/Q5682>&gt;**;<br>
 schema:genre &lt;<http://dbpedia.org/resource/Novel>&gt;;<br>
 schema:inLanguage &lt;<http://id.loc.gov/vocabulary/iso639-1/es>&gt;;<br>
 schema:datePublished "1605";<br>
@@ -63,7 +63,7 @@ schema:about &lt;<http://dbpedia.org/resource/Spanish_literature>&gt;;<br>
 schema:about &lt;<http://dbpedia.org/resource/Spanish_Golden_Age>&gt;;<br>
 schema:sameAs &lt;<http://dbpedia.org/resource/Don_Quixote>&gt;.<br>
 
-**&lt;<https://www.wikidata.org/wiki/Q5682>&gt;**<br>
+**&lt;<https://www.wikidata.org/entity/Q5682>&gt;**<br>
 >rdf:type schema:Person;<br>
 schema:name "Miguel de Cervantes";<br>
 schema:birthPlace **&lt;<http://dbpedia.org/resource/Alcala_de_Henares>&gt;**;<br>
