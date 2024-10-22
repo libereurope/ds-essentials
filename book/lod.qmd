@@ -50,7 +50,7 @@ So let’s go back to our triple that describes the relationship between the res
 - **Predicate**: &lt;<http://purl.org/dc/terms/subject>&gt; (Dublin Core term for subject)
 - **Object**: &lt;<http://dbpedia.org/resource/Spanish_literature>&gt; (DBpedia identifier for Spanish literature)
 
-Here, the object of the first triple (&lt;<https://www.wikidata.org/wiki/Q480>&gt;) is the subject of the second triple, linking information about the book to information about its subject matter. So an example catalogue record combining many triples then might look like:
+Here, the object of the first triple (&lt;<http://www.wikidata.org/entity/Q480>&gt;) is the subject of the second triple, linking information about the book to information about its subject matter. So an example catalogue record combining many triples then might look like:
 
 **&lt;<http://example.org/catalogue/El_Quijote>&gt;**<br>
 >rdf:type schema:Book;<br>
