@@ -29,6 +29,7 @@ book:
         - contact.qmd
     - topicguides.qmd
     - ml-ai.qmd
+    - copyright.qmd
     - collectionsasdata.qmd
     - lod.qmd
     - iiif.qmd
