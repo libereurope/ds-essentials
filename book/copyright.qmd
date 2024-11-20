@@ -149,13 +149,13 @@ What is the way to opt out in “appropriate manner, such as machine-readable me
 
 As the DSM is a directive, member states were able to implement certain elements as they see fit and this has led to some disjointed approaches across the EU with some countries taking different approaches. Ireland for example requires that an author is entitled to be informed that the copy has been made for text and data mining purposes and ask for details about the steps taken to ensure the security of the works copied (see [Copyright and Related Rights Act, 2000 (as amended) sections 53A and 53B](http://www.gov.ie/pdf/?file=https://assets.gov.ie/285517/f490a288-606a-4330-b944-c8c60a67ceba.pdf#page=null)). Similar requirement of transparency regarding the materials used for AI training of generative AI models is a key point in the AI Act; the sections concerning generative AI are applicable from August 2025.
 
-#### Example 1
+#### **Example 1**
 
 The library is a partner on a non-commercial collaborative research project at a university where a research team wants to engage in linguistic analysis, using computational methods, of EU newspaper articles the library has made available publicly online. In order to complete the research they need to extract all of the articles during a certain period to build a corpus of data sourced from different EU newspapers. Once the corpus is complete the researcher wants to use a computer program to perform the analysis. As the data is sourced from different newspaper websites, there is some data cleaning required.
 
 All of the copying of the articles for the purposes of this research is permitted as is any data cleaning under the terms of the TDM exception above. The research team is permitted to carry out any steps necessary to obtain and format the data to enable them to complete the analysis using computational methods. If the researchers want to use printed articles those could be digitised and made machine-readable too.  
 
-#### Example 2
+#### **Example 2**
 
 Now the corpus is complete the researcher wants to use a free online AI service to complete the analysis.
 
@@ -210,7 +210,7 @@ The harvesting of vast volumes of online content as training data for AI models 
 
 AI is bringing a new urgency to the requirement of originality, which is a fundamental aspect of copyright. According to the [Berne Convention for the Protection of Literary and Artistic Works](https://www.wipo.int/treaties/en/ip/berne/), a copyright protected work has to reflect/contain the intellectual creation of the author. This requirement of originality is a fundamental part of what copyright protects and is a feature of national and EU legislation endorsed in many court cases.
 
-#### Example 3
+#### **Example 3**
 
 In the US the person or company wishing to register copyright can apply for copyright registration from the US Copyright Office (USCO). USCO received and examined an application containing images that were created by generative AI program and service Midjourney. Users of Midjourney operate through “prompts” (text commands) which include the description of what Midjourney should generate. Midjourney does not interpret prompts as specific instructions to create a particular expressive result, but simply converts words and phrases into smaller tokens that are used for the training of data and to generate an image. The process is not controlled by the user because it is not possible to predict what Midjourney will create ahead of time.
 
@@ -220,7 +220,7 @@ In the US District Court Of Columbia copyright case [Thaler v. Perlmutter](https
 
 In the EU, courts have the same requirement of human authorship and require the ability of the author to control the creative process by making free choices. The Court of Justice of the European Union has considered the originality requirement in the cases C‑5/08 Infopaq and [C-145/10 Painer](https://curia.europa.eu/juris/document/document.jsf?text=&docid=72482&pageIndex=0&doclang=en&mode=lst&dir=&occ=first&part=1&cid=13115427) defining that copyright can only apply to a work which is original in the sense that it is its author’s own intellectual creation. An intellectual creation is an author’s own if it reflects the author’s personality. That is the case if the author was able to express his creative abilities in the production of the work by making free and creative choices. Simple facsimile copies of original works, then would not be copyright works in their own right.
 
-#### Example 4
+#### **Example 4**
 
 Digital copies of historic artworks that are in the Public Domain are created to replicate the original as far as possible. The items are photographed and then the images are uploaded to a website.
 
@@ -228,7 +228,7 @@ These digital surrogates would not contain any originality as defined and would 
 
 There is a parallel here with generative AI perhaps.
 
-#### Example 5
+#### **Example 5**
 
 [In the Czech decision by the Prague Municipal Court 11.10 2023](https://justice.cz/documents/14569/1865919/10C_13_2023_10/108cad3e-d9e8-454f-bfac-d58e1253c83a), a person (claimant) filed a lawsuit against a law firm (defendant) after it published an image on its website without the claimant’s permission. The claimant had created an image with the generative AI service DALL-e. The image shows two hands signing a business contract, and it had been created by the person using the following text prompt : "create a visual representation of two parties signing a business agreement in a formal environment; for example, in a conference room or a law office in Prague. Show only the hands."
 
