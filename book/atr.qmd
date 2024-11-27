@@ -5,7 +5,7 @@
 >
 >Last modified: See Github page history
 >
->Suggested Citation: Adi Keinan-Schoonbaert, “Automatic Text Recognition (OCR/HTR),”\*Digital Scholarship & Data Science Essentials for Library Professionals\* (2024), \[DOI link tbd\]
+>Suggested Citation: Adi Keinan-Schoonbaert, “Automatic Text Recognition (OCR/HTR)", *Digital Scholarship & Data Science Essentials for Library Professionals\* (2024), \[DOI link tbd\]
 
 ## Introduction  
 
