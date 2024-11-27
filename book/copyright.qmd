@@ -4,7 +4,7 @@
 >Original published date: 12/06/2024<br>
 >Last modified: See Github page history
 >
->Suggested Citation: Alex Fenlon, Maria Rehbinder “Copyright & Licensing: Current context and considerations for researchers and libraries using AI in research today]” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
+>Suggested Citation: Alex Fenlon, Maria Rehbinder “Copyright & Licensing: Current context and considerations for researchers and libraries using AI in research today”, *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
 
 ## Introduction
 
