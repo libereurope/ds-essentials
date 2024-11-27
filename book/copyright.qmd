@@ -22,11 +22,11 @@ The purpose of copyright is to protect and reward creators for the works they ha
 
 To qualify for protection the work must be original in the sense that it is an author’s own intellectual creation, i.e. it reflects the author’s personality, the author was able to express their creative abilities in the production of the work by making free and creative choices.
 
-#### Ideas vs expression
+#### **Ideas vs expression**
 
 Copyright protects the artistic or literary form, but not the subject matter. The work that is created is protected, but not to the ideas or theories/ concepts represented. The ideas vs expression debate is a central part of the copyright discourse when looking to build on or reuse the work or ideas of another. If you are using the work itself this is likely to involve copyright issues, but if you are looking to use the ideas rather than the work this may not involve copyright issues at all.
 
-#### Public domain
+#### **Public domain**
 
 Copyright is finite and lasts for a set duration based on the type of work and where it was created.
 
@@ -40,7 +40,7 @@ Another example is the UK. “Some works are protected in the UK until 31st Dece
 
 When a work enters the Public Domain it is free to be used by anyone in any way without the permission of the owner. When copyright expires also the moral rights of the creator expire, so works can be altered and used without crediting the author. However, many countries have given public authorities, such as the Ministry of Education/ Culture the possibility to protect the ‘educational and cultural value’ of works that are in the public domain, Italy for example.
 
-#### Ownership
+#### **Ownership**
 
 Ownership is important as it determines who has control over how and when a work is used, as well as who can access and use it. Owners, also known as rights holders, have the right to control who can access the work, how they can use it, if they can make copies, how it is performed or communicated to the public. They can licence these permissions to use to a licensee or they can sell these rights completely to another party. Ownership is a requirement for licensing, for example for licensing with Creative Commons licences.
 
@@ -50,7 +50,7 @@ Using a work without permission from the copyright owner, usually in the form of
 
 Copyright ownership is granted to the creator of the work in the EU automatically by copyright legislation. However, this can be changed by contract. In the UK for example, the law says the creator is the owner but if a work was created in the course of employment, the employer will own the copyright unless the employment contract says otherwise. The US has a work-for-hire clause in the copyright legislation so that copyright is born to the employer if not otherwise agreed. Even ownership is not quite straightforward and local knowledge is important. 
 
-#### Open Access & Open Data
+#### **Open Access & Open Data**
 
 Owners of copyright works are able to apply any licensing conditions they wish to their work, however research funders may make it a condition of a grant that certain outputs arising from funded research must be released openly. Where this is the case, they will communicate their preferred licensing choice.
 
@@ -70,7 +70,7 @@ Researchers will produce copyright protected works when writing articles, monogr
 
 Researchers will use works created by others- either as a fundamental part of their research methodology or during publication. Where exceptions like those for non-commercial research or non-commercial data mining do not apply, ensuring that licences are in place that allow for the uses within the research activity is essential. The use of research data and the management of data related rights should be considered and outlined within the data management plan which must also take into account how the research data are to be archived and used, as well as how the authors of the data are attributed in compliance with research ethics.
 
-#### Exceptions
+#### **Exceptions**
 
 In order to use the copyright protected work, either permission from the owner, agreements covering the uses, or legislation allowing the use is needed.
 
@@ -80,7 +80,7 @@ Copyright exceptions include for example certain educational uses, the provision
 
 Copyright laws vary by country and, while EU law is largely harmonised, there are differences between member states concerning the copyright exceptions. Understanding local national law exceptions for research and education is important.
 
-#### Anomalies
+#### **Anomalies**
 
 Using archival materials can raise some unusual situations which mean the normal copyright rules don’t apply. Below are a couple of examples of unusual copyright scenarios:
 
