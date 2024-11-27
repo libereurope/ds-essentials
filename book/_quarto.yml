@@ -30,6 +30,7 @@ book:
     - topicguides.qmd
     - ml-ai.qmd
     - copyright.qmd
+    - atr.qmd
     - collectionsasdata.qmd
     - lod.qmd
     - iiif.qmd
