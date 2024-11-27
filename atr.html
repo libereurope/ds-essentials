@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>IIIF – Digital Scholarship &amp; Data Science Essentials for Library Professionals</title>
+<title>Automatic Text Recognition (OCR/HTR) – Digital Scholarship &amp; Data Science Essentials for Library Professionals</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./dataviz.html" rel="next">
-<link href="./lod.html" rel="prev">
+<link href="./collectionsasdata.html" rel="next">
+<link href="./copyright.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -90,7 +90,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./iiif.html">IIIF</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./atr.html">Automatic Text Recognition (OCR/HTR)</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -193,7 +193,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./atr.html" class="sidebar-item-text sidebar-link">
+  <a href="./atr.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Automatic Text Recognition (OCR/HTR)</span></a>
   </div>
 </li>
@@ -211,7 +211,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./iiif.html" class="sidebar-item-text sidebar-link active">
+  <a href="./iiif.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">IIIF</span></a>
   </div>
 </li>
@@ -290,29 +290,23 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction-what-is-iiif" id="toc-introduction-what-is-iiif" class="nav-link active" data-scroll-target="#introduction-what-is-iiif">Introduction: What is IIIF?</a>
-  <ul class="collapse">
-  <li><a href="#open-standard" id="toc-open-standard" class="nav-link" data-scroll-target="#open-standard">Open Standard</a></li>
-  <li><a href="#open-community" id="toc-open-community" class="nav-link" data-scroll-target="#open-community">Open Community</a></li>
-  <li><a href="#what-would-i-need-to-do-to-make-my-collection-iiif-enabled" id="toc-what-would-i-need-to-do-to-make-my-collection-iiif-enabled" class="nav-link" data-scroll-target="#what-would-i-need-to-do-to-make-my-collection-iiif-enabled">What would I need to do to make my collection IIIF enabled?!</a></li>
-  </ul></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#relevance-to-the-library-sector-case-studiesuse-cases" id="toc-relevance-to-the-library-sector-case-studiesuse-cases" class="nav-link" data-scroll-target="#relevance-to-the-library-sector-case-studiesuse-cases">Relevance to the Library Sector (Case Studies/Use Cases)</a>
   <ul class="collapse">
-  <li><a href="#deep-zoom-and-annotations" id="toc-deep-zoom-and-annotations" class="nav-link" data-scroll-target="#deep-zoom-and-annotations">Deep Zoom and Annotations</a></li>
-  <li><a href="#virtual-reconstruction" id="toc-virtual-reconstruction" class="nav-link" data-scroll-target="#virtual-reconstruction">Virtual Reconstruction</a></li>
+  <li><a href="#case-studies" id="toc-case-studies" class="nav-link" data-scroll-target="#case-studies">Case Studies</a></li>
   </ul></li>
   <li><a href="#hands-on-activity-and-other-self-guided-tutorials" id="toc-hands-on-activity-and-other-self-guided-tutorials" class="nav-link" data-scroll-target="#hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</a></li>
   <li><a href="#recommended-readingviewing" id="toc-recommended-readingviewing" class="nav-link" data-scroll-target="#recommended-readingviewing">Recommended Reading/Viewing</a></li>
   <li><a href="#taking-the-next-step" id="toc-taking-the-next-step" class="nav-link" data-scroll-target="#taking-the-next-step">Taking the next step</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/libereurope/ds-essentials/edit/main/iiif.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/libereurope/ds-essentials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/libereurope/ds-essentials/edit/main/atr.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/libereurope/ds-essentials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">IIIF</h1>
+<h1 class="title">Automatic Text Recognition (OCR/HTR)</h1>
 </div>
 
 
@@ -330,83 +324,112 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 
 
 <blockquote class="blockquote">
-<p>Contributed by: Nora McGregor, <a href="https://orcid.org/0000-0001-6560-5586">ORCID iD</a><br> Original published date: 27/03/2024<br> Last modified: See Github page history</p>
-<p>Suggested Citation: Nora McGregor, “IIIF,” <em>Digital Scholarship &amp; Data Science Essentials for Library Professionals</em> (2024), [DOI link tbd]</p>
+<p>Contributed by: Adi Keinan-Schoonbaert, <a href="https://orcid.org/0000-0002-4382-3328">ORCID iD</a><br> Original published date: 27/11/2024<br></p>
+<p>Last modified: See Github page history</p>
+<p>Suggested Citation: Adi Keinan-Schoonbaert, “Automatic Text Recognition (OCR/HTR)”, *Digital Scholarship &amp; Data Science Essentials for Library Professionals* (2024), [DOI link tbd]</p>
 </blockquote>
-<section id="introduction-what-is-iiif" class="level2">
-<h2 class="anchored" data-anchor-id="introduction-what-is-iiif">Introduction: What is IIIF?</h2>
-<p>IIIF (pronounced “triple-eye-eff”) stands for the <a href="https://iiif.io/">International Image Interoperability Framework</a>. Quite a tongue twister that one, but it broadly represents two things:</p>
-<ul>
-<li>a set of open standards for delivering high-quality, attributed digital objects online at scale.</li>
-<li>the open, international community of software developers, libraries, researchers, educators, museums, universities, creative agencies, and more working together to develop and implement the IIIF APIs to make the above open standards happen.</li>
-</ul>
-<section id="open-standard" class="level3">
-<h3 class="anchored" data-anchor-id="open-standard">Open Standard</h3>
-<p>Ever try to look at a large high-resolution digitised manuscript online only for it to take ages to load, and when it finally does you have no way to actually move around the image easily nor see any of the metadata or annotations related to it?</p>
-<p>Or maybe spent months on end negotiating the terms and methods around sending copies of a variety of differently sized individual images to another institution for them to host as part of collaborative project?</p>
-<p>IIIF brings a whole new efficiency to the way in which we in the cultural heritage sector go about sharing and making our digitised collections available online, while greatly expanding the functionality around the way users interact with them. It’s an open standard, collaboratively developed and maintained by a host of cultural heritage institutions around the world that defines a consistent method for the delivery of images and audio/visual files from servers to different environments on the Web where they can then be viewed and interacted with in many ways.</p>
-<p>IIIF basically specifies a way for browsers to display an image or audio/visual files in a way that enables much richer functionality on the Web:</p>
-<ul>
-<li>Makes it easier to display large images on the web in a way that is scalable (enabling deep zoom)</li>
-<li>Allows easy comparison between two objects, connecting and uniting materials across institutional boundaries</li>
-<li>Displays structure and metadata and annotations with the digital collection item. (For a digitised manuscript for instance this might be page order and searchable text, for audio/visual materials, that means being able to deliver complex structures (such as several reels of film that make up a single movie) along with things like captions, transcriptions/translations, annotations, and more.)</li>
-</ul>
-<blockquote class="blockquote">
-<p><em>“At its simplest, IIIF uses APIs to load images quickly and zoom smoothly without additional loading time. But IIIF also allows you to do much more, including pulling IIIF-enabled images from different sites into viewers for comparison without downloading them (at full resolution), and enabling saving links to details of images or portions of A/V files for future reference. IIIF also allows you to use many open-source tools that help you to compare, annotate, transcribe, collaborate, and more. You can even gather multiple IIIF images together from across multiple archival collections and/or institutions to create projects or exhibits without advanced technical skills”</em>. <a href="https://drive.google.com/file/d/1kw_M1XQ80h3QzWbIo8QYkL2Jt8YgZgEy/view">-From IIIF for Archives</a></p>
-</blockquote>
-<p>Making your collections IIIF enabled makes it easier to share your content online in a consistent way, enabling portability across different <a href="https://iiif.io/get-started/iiif-viewers/">IIIF enabled viewers</a>. This means that rather than endlessly creating copies of your images all over the world for different projects, they can stay on your same IIIF Image server, but be accessed and displayed by viewers hosted at institutions elsewhere.</p>
-</section>
-<section id="open-community" class="level3">
-<h3 class="anchored" data-anchor-id="open-community">Open Community</h3>
-<p>The IIIF community is made up of <a href="https://iiif.io/guides/finding_resources/">over 100 major cultural heritage organisations worldwide</a> who have formally adopted it, including many of our very own LIBER members. It was started in 2011 as a collaboration between The British Library, Stanford University, the Bodleian Libraries (Oxford University), the Bibliothèque nationale de France, Nasjonalbiblioteket (National Library of Norway), Los Alamos National Laboratory Research Library, and Cornell University. It’s a really nice example of an open, grassroots but global community effort, backed by a consortium of leading cultural institutions, who have been working together to develop and implement this new capability for decades and solve their shared problems with delivering, managing, sharing, and working with their resources.</p>
-</section>
-<section id="what-would-i-need-to-do-to-make-my-collection-iiif-enabled" class="level3">
-<h3 class="anchored" data-anchor-id="what-would-i-need-to-do-to-make-my-collection-iiif-enabled">What would I need to do to make my collection IIIF enabled?!</h3>
-<p>If you want the deep nitty gritty technical stuff around all the APIs and how they fit together there is quite a bit of <a href="https://iiif.io/get-started/#implementers">implementation documentation</a> on their website that goes into all this. But <em>essentially</em>, the basic set up behind making your own digitised collections “IIIF enabled”, as they say, looks a little something like this:</p>
-<ul>
-<li><strong>Set-up a IIIF image server</strong> (you can choose one developed by the community, or there are IIIF-compatible image servers available from vendors or other web hosts), move your content there and <strong>implement the IIIF Image API</strong> to make those images and audio/video materials available from there.</li>
-<li><strong>Implement the IIIF Presentation API</strong> which creates the all important <strong>IIIF Manifest files</strong> (also many open source or vendor products can help handle this bit too) for each of your objects. This Manifest file is really the prime unit in IIIF, it essentially combines and packages in json code, information about your images and structural data from your metadata source. It lists all the information that makes up your new IIIF enabled object, from how to display it to what information IIIF viewers should (and should not) display (such as structure or the order of pages, or even as minute as where an illustration is located within an image if you like). If you want to see an example of what one looks like this is <a href="https://iiif.bodleian.ox.ac.uk/iiif/manifest/300f251d-1d9e-4212-b8e0-1a483bb26c43.json">a IIIF Manifest</a> from the Bodleian Libraries at University of Oxford relating to this <a href="https://digital.bodleian.ox.ac.uk/objects/300f251d-1d9e-4212-b8e0-1a483bb26c43/">collection item</a>. Each manifest has its own URL and that’s the bit you’ll use to do cool things with the object in different IIIF viewers, such as allowing a manuscript to be easily dragged and dropped into Mirador for instance for comparison with other IIIF enabled manuscripts.</li>
-<li><strong>Choose one of the many <a href="https://iiif.io/get-started/iiif-viewers/">IIIF enabled viewers</a></strong> for displaying your images and add it to your own collection site. Again, looking at that same <a href="https://digital.bodleian.ox.ac.uk/objects/300f251d-1d9e-4212-b8e0-1a483bb26c43/">collection item</a> record above, note in the upper left hand-corner (see image below) there is an option to view in Mirador or Universal Viewer which are two different styles of IIIF viewer that afford different functionalities.</li>
-<li><strong>Consider making your IIIF Manifests available publicly</strong> for download so users can work with them in all the interesting ways you’ve now enabled!</li>
-</ul>
-<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/iiifviewers.png?raw=true" class="img-fluid"></p>
-</section>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Cultural heritage organisations have been digitising their historical collections for several decades, outputting large-scale sets of digitised collection items - printed books, newspapers, manuscripts, maps, and many other content types as simple JPG, PNG, or TIFF images. Though these collections are made available for users to read online, there is often an important layer of accessibility that is missing as the text appearing in these images is not always made searchable, editable, or analysable.</p>
+<p>Automatic Text Recognition (ATR) refers to the process of using software to convert images of text, such as scanned or photographed documents, photos, or printed pages, into machine-readable text. ATR is primarily associated with Optical Character Recognition (OCR) (for print materials) and Handwritten Text Recognition (HTR) technologies (for handwritten materials) that enable computers to identify and extract text from various sources. These technologies are critical for digitising historical and cultural documents, making them searchable, accessible, and preservable for future generations.</p>
+<p>Though ATR technologies have been around in some form or another for nearly as long as we’ve been digitising, results can be patchy for cultural heritage collections. This may be down to costs as these technologies are typically considered an add-on to the basic photographic or scanning services and institutions or projects don’t have the funds available to cover that aspect of digitisation. Or the traditional OCR technology at any given time simply isn’t developed enough to provide very accurate results to handle the anomalies of, for instance, quite worn or warped manuscript pages. Or in the case of handwritten texts, particularly low-resource languages, the existing technology simply cannot cope and text outputs are illegible. The advent of machine learning technologies applied to the challenge of Automatic Text Recognition of handwritten or print materials, and with it, the ability to train a software to recognise specific text based on what it has already seen, however, provides huge opportunities to transform accessibility to the text contained within all manner of historical digitised images.</p>
+<p>So what is the difference between the decades-old OCR technology and the more recent, AI/Machine Learning-based software? Traditional OCR systems rely on a set of predefined rules and templates to recognise characters. These rules are often based on the geometric properties of the text, such as the shapes and patterns of characters. On the other hand, Machine Learning-based OCR, or in other words, Automatic Text Recognition that leverages Artificial Intelligence, uses neural networks to learn to recognise characters from large datasets. These systems can be trained to automatically learn to identify the features that distinguish different characters and predict with some probability what that character could be. AI-OCR can handle a wide variety of fonts, sizes, and styles, and is robust to noisy, distorted, or low-quality images. The models can generalise well to different types of documents and text layouts; and they can continuously improve by retraining on new data, which allows them to adapt to new types of text and writing styles over time.</p>
+<p>When diving deeper into AI-OCR, you may encounter the term ‘<a href="https://www.digitisation.eu/glossary/ground-truth/">Ground Truth</a>’. Ground Truth refers to the accurate, manually created and verified data used as a standard or benchmark to both train and evaluate the performance of OCR/HTR systems. Ground truth data consists of the correct transcription of a document, including precise details about characters, words, and layout. It is used to ‘teach’ software how to recognise and transcribe text, as well as measure the accuracy of OCR/HTR outputs by comparing the machine-recognised text against this gold-standard reference.</p>
+<p>Automatic Text Recognition typically involves multiple stages or elements, which include image pre-processing, binarisation, layout analysis, and text recognition.</p>
+<ol type="1">
+<li><strong>Image Pre-processing</strong>: Pre-processing is the first step and focuses on enhancing the quality of the input image to improve recognition accuracy. This may include tasks such as noise reduction, skew correction (to align slanted images), and contrast adjustment. These operations are crucial when dealing with old or degraded documents, where imperfections in the image can hinder the subsequent stages.</li>
+<li><strong>Binarisation</strong>: Binarisation converts a grayscale or colour image into a binary image, typically using black for the text and white for the background. This simplifies the image, making it easier for the OCR/HTR system to distinguish between the text and non-text elements. This step is especially important for historical documents, where stains, fading, or other degradation can confuse the OCR/HTR engine.</li>
+</ol>
+<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/ATR_I.jpg?raw=true" class="img-fluid" alt="Examples of binarisation and its effects on legibility, created by Peter Smith who worked to improve Chinese HTR processes">{fig-alt=&gt;” <em>Examples of binarisation and its effects on legibility, created by Peter Smith</em>”}</p>
+<ol type="1">
+<li><strong>Layout Analysis</strong>: In layout analysis, the system identifies the structure of the document, distinguishing between various elements such as paragraphs, columns, headings, footnotes, and images. It is essential for documents with complex formatting (e.g.&nbsp;newspapers or tables) to ensure that the text is correctly segmented and processed. This step may also involve detecting text regions in multi-layout documents or distinguishing between handwritten and printed text.</li>
+<li><strong>Text Recognition</strong>: The core of the OCR/HTR process is text recognition, where the system identifies individual characters, words, and sentences within the segmented text regions. Modern OCR/HTR engines use pattern recognition techniques or machine learning algorithms, such as neural networks, to improve accuracy. Some systems also perform language modelling, where the recognised text is checked against a dictionary or corpus to ensure contextual correctness, particularly useful for older languages or scripts.</li>
+<li><strong>Post-Processing</strong>: OCR/HTR often produces errors, especially when dealing with degraded, old, or complex manuscripts. To improve accuracy, post-processing correction is crucial. One effective method for refining OCR/HTR outputs is crowdsourcing text correction, where volunteers, often through online platforms, manually review and correct transcribed text. This method leverages the knowledge and dedication of the public to handle the nuances of historical documents that automated systems struggle with, such as obscure spellings or unusual handwriting styles. Recent experiments in automating text recognition have leveraged Large Language Models (LLMs) to enhance the accuracy of OCR/HTR systems. LLMs, such as GPT-based models, are particularly adept at understanding context and handling ambiguities in textual data, which makes them valuable for recognising and correcting errors in historical documents. LLMs can also be fine-tuned to specific historical corpora, allowing them to better interpret unique vocabulary, syntax, or stylistic variations. And, it should be mentioned that once you have perfectly post-processed OCR/HTR results, you can use those as Ground Truth to retrain models and improve them!</li>
+</ol>
 </section>
 <section id="relevance-to-the-library-sector-case-studiesuse-cases" class="level2">
 <h2 class="anchored" data-anchor-id="relevance-to-the-library-sector-case-studiesuse-cases">Relevance to the Library Sector (Case Studies/Use Cases)</h2>
-<p>IIIF was initiated by a bunch of libraries and cultural heritage collections holders and it shows! It was proposed in late 2011 as a collaboration between The British Library, Stanford University, the Bodleian Libraries (Oxford University), the Bibliothèque nationale de France, Nasjonalbiblioteket (National Library of Norway), Los Alamos National Laboratory Research Library, and Cornell University. The intention of the consortium has always been to combine resource and effort in building viewers that reflected the way we wanted our digital collections to be displayed online, rather than everyone still spending time and resource making our own custom viewers and building our own content silos. It’s brought a huge amount of efficiency too in the way that we share images with each other and researchers. It’s changed the way collaborative projects are undertaken where endless metadata mapping exercises, contract negotiations around re-use and hosting, and the copying and shipping of digitised materials on external hard drives were the norm.</p>
-<p>There are quite a number of use cases and case studies available on the <a href="https://iiif.io/demos/">IIIF Demos page</a> but let’s have a quick look at three real life (and canonical) examples of IIIF in action.</p>
-<section id="deep-zoom-and-annotations" class="level3">
-<h3 class="anchored" data-anchor-id="deep-zoom-and-annotations">Deep Zoom and Annotations</h3>
-<p>The example here is of the <a href="https://web.archive.org/web/20230527005027/https://library.stanford.edu/blogs/digital-library-blog/2015/11/adventures-oversized-imaging-digitizing-omi-kuni-ezu-jin-jiang">Ōmi Kuni-ezu 近江國絵圖 Japanese Tax map</a> created in 1837. It’s meant to be read in the round by someone standing in the middle–you can see the scale when this zooms out– the map is eleven by seventeen FEET, and the person standing next to it, Wayne who works in the library at Stanford, is six feet four inches tall. This image is a composite of 158 individual images with a file size of 1.27Gb. IIIF allows just enough of an image to be delivered to a viewer–going from a whole image to just the part that they are zooming in on. Without IIIF, an end user might have to download an extremely large file, but using IIIF provides a smooth and easy viewing experience.</p>
-<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/JapaneseMap.jpg?raw=true" class="img-fluid"></p>
-<p>Have a play and view this image in their <a href="https://purl.stanford.edu/hs631zg4177">Universal viewer here</a></p>
-</section>
-<section id="virtual-reconstruction" class="level3">
-<h3 class="anchored" data-anchor-id="virtual-reconstruction">Virtual Reconstruction</h3>
-<p>The virtual reconstruction of this damaged manuscript from Châteauroux in France (Grandes Chroniques de France, ca. 1460) is probably one of the most well-known and best examples of the power of IIIF to support this use case (and my own personal favourite!). At some point in the manuscripts history, fourteen of its illuminations were cut out. These illuminations eventually ended up at the Bibliothèque nationale de France in the 19th century and were digitised individually. In the demo you see the reuniting of the miniatures with the full manuscript as IIIF allows a virtual repositioning of the cut out decorations with the text, virtually reconstructing the manuscript online using the Mirador Viewer so it reflects its original state.</p>
-<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/miniatures.png?raw=true" class="img-fluid"></p>
-<p>I highly recommend having a play around with the <a href="https://demos.biblissima.fr/chateauroux/demo/">Mirador Viewer: Châteauroux demo</a>.</p>
+<p>Keeping up with, and even contributing to, developments in Automatic Text Recognition technology is vital for heritage organisations and especially for the library sector, where large volumes of historical and cultural documents are preserved. ATR technologies provide several key benefits:</p>
+<ul>
+<li><strong>Accessibility</strong>: ATR technologies are essential for libraries working to make their text content available for users. Once digitised and converted into searchable text, documents become accessible to a global audience. Researchers and the general public can search and access texts remotely, making previously hidden information available. Creating searchable documents allows users to quickly locate specific terms or phrases within vast collections. This enhances the research process and saves time.</li>
+<li><strong>Content Enrichment</strong>: ATR can help enrich library records by enhancing their metadata; therefore assisting libraries in delivering a better service to their users. Different entities could be extracted from the text, such as author or place of publication, as well as subjects and descriptions. These could be used to enhance catalogue records for the benefit of library users.</li>
+<li><strong>Digital Research</strong>: By converting historical texts into machine-readable formats, ATR technologies support digital humanities projects, where large-scale analysis, such as text mining or linguistic research, can uncover new insights into history, culture, and language development. The ability to extract text from digitised items is fundamental for any downstream tasks and enables unlocking content for large-scale analysis, e.g.&nbsp;text mining, Natural language processing (NLP), Named Entity Recognition (NER), sentiment analysis or topic modelling.​</li>
+</ul>
+<section id="case-studies" class="level3">
+<h3 class="anchored" data-anchor-id="case-studies">Case Studies</h3>
+<p>In collaboration with <a href="http://www.primaresearch.org/">PRImA Research Lab</a>, the British Library ran several OCR/HTR competitions with the aim of encouraging the development of state-of-the-art in text recognition software, facilitating dialogue around the challenges and opportunities of ATR, and creating openly licensed ground truth datasets. Competitions around early Bengali books and Quarterly Lists were run as part of the <a href="https://web.archive.org/web/20231001055233/https://www.bl.uk/projects/two-centuries-of-indian-print">Two Centuries of Indian Print</a> project, and the project used Transkribus to create <a href="https://bl.iro.bl.uk/collections/d4b2009d-b28d-4518-b219-fc0cd53007e7">OCR transcriptions</a> for the Bengali books, in collaboration with the School of Cultural Texts and Records at Jadavpur University. Additional competitions were focused on finding solutions to automatically transcribe <a href="https://web.archive.org/web/20230606024755/http://www.bl.uk/projects/Arabic-htr">historical Arabic scientific manuscripts</a>, using materials digitised by the Library and published on the <a href="https://qdl.qa/en/">Qatar Digital Library (QDL)</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/ATR_2.jpg?raw=true" class="img-fluid figure-img" alt="_Screenshot> from Transkribus, used as the ATR engine in the Two Centuries of Indian Print project_"></p>
+<figcaption><em>Screenshot from Transkribus, used as the ATR engine in the</em> <a href="https://web.archive.org/web/20231001055233/https://www.bl.uk/projects/two-centuries-of-indian-print"><em>Two Centuries of Indian Print</em></a> <em>project</em></figcaption>
+</figure>
+</div>
+<p>The <a href="https://openiti.org/">Open Islamicate Texts Initiative</a> (OpenITI) is a collaborative project involving researchers from Aga Khan University’s Institute for the Study of Muslim Civilisations in London, the Roshan Institute for Persian Studies at the University of Maryland, College Park, and Universität Hamburg. Its goal is to establish the digital infrastructure needed for the study of Islamicate cultures. OpenITI focuses on building digital resources for Islamicate studies by enhancing optical character recognition (OCR) and handwritten text recognition (HTR) for Arabic-script texts, creating standardised OCR and HTR outputs and text encoding, and developing platforms for collaborative work on Islamicate text corpora and digital editions.</p>
+<p>The <a href="https://blogs.bl.uk/digital-scholarship/2023/08/my-ahrc-rluk-professional-practice-fellowship-a-year-on.html">Legacies of Curatorial Voice in the Descriptions of Incunabula Collections at the British Library</a> project was part of Digital Curator Dr Rossitza Atanassova’s AHRC-RLUK funded Professional Practice Fellowship Project (2022–23). It aimed to explore innovative methods for working with digitised catalogues, enhancing the discoverability and usability of the collections they document. The research centred on the <em>Catalogue of Books Printed in the 15th Century Now at the British Museum</em> (BMC), published between 1908 and 2007, which describes over 12,700 volumes in the British Library’s incunabula collection. It used Transkribus as the ATR software and also as a <a href="https://app.transkribus.org/sites/BL-Incunabula">search and publishing web platform</a>. The project could then apply computational techniques and corpus analysis of the catalogue data thanks to the availability of OCRed text and provides fresh insights into this resource!</p>
 </section>
 </section>
 <section id="hands-on-activity-and-other-self-guided-tutorials" class="level2">
 <h2 class="anchored" data-anchor-id="hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</h2>
-<p>The following tutorials are two of my favourite recommendations for colleagues interested in having a play with IIIF manifests yourself and in the process gaining a practical understanding of how they work, and the benefits!</p>
-<ul>
-<li><a href="https://training.iiif.io/iiif-online-workshop/">IIIF Online Workshops</a> The community itself has created a number of excellent and free self-paced tutorials and though they host live online workshops for a fee, these are recorded and available and useful for newcomers for free afterwards. In fact staff at British Library have walked through these self-guided resources online quite often with great success. There is also the opportunity to hire a IIIF Trainer to come to deliver live bespoke training directly to your institution (for a fee), which we have also partaken in!</li>
-<li><a href="https://www.mmmonk.be/en/about-iiif/workshops">Working with IIIF images in education, communication and research</a> This is a self-guided workshop available online in Dutch and English and has some excellent exercises to get you familiar with finding IIIF manifests in catalogues and importing them into different viewers. I highly recommend making some time (they recommend 120 minutes) to read through this and try out some of the exercises.</li>
-</ul>
+<p>Here are some excellent resources to get you started:</p>
+<p><a href="https://harmoniseatr.hypotheses.org/">Automatic Text Recognition: Harmonising ATR workflows</a>: This DARIAH-EU-supported resource is a <em>great</em> place to start. This website features a set of video tutorials on ATR in English, French and German, and also includes really useful blog posts, articles and links.</p>
+<p>Check out the <a href="https://www.youtube.com/@transkribus">Transkribus YouTube</a> channel for a set of beginner-friendly tutorial videos, learning how to get started with Transkribus to effectively digitise and preserve historical documents.</p>
+<p>If you’re interested in eScriptorium, have a look at their thorough <a href="https://escriptorium.readthedocs.io/en/latest/">documentation</a> and tutorials on YouTube created by the OpenITI project. These are split into five parts: <a href="https://www.youtube.com/watch?v=N0hSNC3YvD4&amp;ab_channel=OpenITIProject">Part I</a>, <a href="https://www.youtube.com/watch?v=LDMi5lTEW6Y&amp;ab_channel=OpenITIProject">Part II</a>, <a href="https://www.youtube.com/watch?v=f5KigkLO9_E&amp;ab_channel=OpenITIProject">Part III</a>, <a href="https://www.youtube.com/watch?v=ZRKwhUEB-uo&amp;ab_channel=OpenITIProject">Part IV</a>, and <a href="https://www.youtube.com/watch?v=Lccr-pnHKX4&amp;ab_channel=OpenITIProject">Part V</a>.</p>
+<p>This <a href="https://guides.nyu.edu/tesseract">step-by-step guide</a> will teach you how to use the Tesseract open-source software, and it also recommends some software that helps prepare documents for Tesseract use.</p>
+<p>For more advanced practitioners, there’s an introductory course by Dr William Mattingly teaching you how to automate <a href="https://github.com/wjbmattingly/ocr_python_textbook">OCR in Python</a>. It includes using OpenCV (an open-source library specialising in computer vision and machine learning tasks) and Pytesseract, an OCR tool in Python. Helpfully, this course functions alongside a YouTube series of tutorials on <a href="https://www.youtube.com/playlist?list=PL2VXyKi-KpYuTAZz__9KVl1jQz74bDG7i">OCR in Python</a>.</p>
+<p>Another one for the more confident practitioners is this Programming Historian <a href="https://programminghistorian.org/en/lessons/ocr-with-google-vision-and-tesseract">OCR with Google Vision API and Tesseract</a> tutorial by Isabelle Gribomont, published in March 2023.</p>
+<p>This Programming Historian <a href="https://programminghistorian.org/en/lessons/OCR-and-Machine-Translation">OCR and Machine Translation</a> course by Andrew Akhlaghi (published in January 2021) uses Tesseract for OCR and takes the results to another level - translation.</p>
 </section>
 <section id="recommended-readingviewing" class="level2">
 <h2 class="anchored" data-anchor-id="recommended-readingviewing">Recommended Reading/Viewing</h2>
-<p>There is a useful collection of articles and data related to IIIF being compiled by the community at https://zenodo.org/communities/iiif/records?q=&amp;l=list&amp;p=1&amp;s=10&amp;sort=newest</p>
-<p>The IIIF organisation has also created a number of useful resources alongside their training materials such as <a href="https://iiif.io/get-started/how-iiif-works/">How It Works, a plain-language guide to how the IIIF API’s work</a> and a glossary of “Key concepts you’ll encounter when working with IIIF”</p>
+<p>This is a great blog post by Chris Woodform, simply entitled <a href="https://www.explainthatstuff.com/how-ocr-works.html">Optical character recognition (OCR)</a>. It’s a good place to start! It explains what OCR is and how it works, and even looks at the history of this technology.</p>
+<p><a href="https://github.com/kba/awesome-ocr">Awesome OCR</a> is a resource created by Konstantin Baierer from the OCR-D project. It hasn’t been updated for a while, however, it includes really useful and comprehensive lists of software tools, libraries and literature. It also includes a list of ground truth datasets, so well worth taking a look.</p>
+<p>The <a href="https://www.digitisation.eu/">IMPACT Centre of Competence</a>  is a useful OCR resource. In their words, IMPACT is a ‘not for profit organisation with the mission to make the digitisation of text “better, faster, cheaper” and to further advance the state-of-the-art in the field of document imaging, language technology and the processing of historical text.’ You can find datasets, training materials, blogs and more!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.youtube.com/watch?v=NbGCkxD1PbI&amp;ab_channel=IMPACTCentreofCompetence"><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/ATR_3.png?raw=true" class="img-fluid figure-img" alt="An Introduction to Ground Truth Production with the IMPACT Project"></a></p>
+<figcaption>An Introduction to Ground Truth Production with the IMPACT Project</figcaption>
+</figure>
+</div>
+<p>An excellent guide to newspaper OCR and data analysis is this <a href="https://bookdown.org/yann_ryan/r-for-newspaper-data/">Short Guide to Historical Newspaper Data, Using R</a> by Yann Ryan.</p>
+<p>Many excellent data analysis tools such as NLP can also be found on this <a href="https://github.com/Living-with-machines/dhoxss-text2tech?tab=readme-ov-file">GitHub page</a>, which collated materials used for the Text to Tech workshop at the Digital Humanities Oxford Summer School, by Kaspar von Beelen, Mariona Coll Ardanuy and Federico Nanni (and <a href="https://huggingface.co/learn/nlp-course/chapter1/1">this</a> is another brilliant introduction into NLP!).</p>
+<p>There are many papers on OCR/HTR but here’s a small selection:</p>
+<ul>
+<li>Khan, R., Gupta, N., Sinhababu, A., &amp; Chakravarty, R. (2023). Impact of Conversational and Generative AI Systems on Libraries: A Use Case Large Language Model (LLM). <em>Science &amp; Technology Libraries</em>, 1–15. <a href="https://doi.org/10.1080/0194262X.2023.2254814" class="uri">https://doi.org/10.1080/0194262X.2023.2254814</a></li>
+<li>Neudecker, C., Baierer, K., Federbusch, M., Boenig, M., Würzner, K. M., Hartmann, V., &amp; Herrmann, E. (2019). OCR-D: An end-to-end open source OCR framework for historical printed documents. In <em>Proceedings of the 3rd international conference on digital access to textual cultural heritage</em>, 53-58. <a href="https://dl.acm.org/doi/10.1145/3322905.3322917" class="uri">https://dl.acm.org/doi/10.1145/3322905.3322917</a></li>
+<li>Nguyen, T.T.H., Jatowt, A., Coustaty, M., &amp; Doucet, A. (2021). Survey of Post-OCR Processing Approaches. <em>ACM Computing Surveys (CSUR)</em>, 54(6), 1-37. <a href="https://doi.org/10.1145/3453476" class="uri">https://doi.org/10.1145/3453476</a></li>
+<li>Smith, D.A. &amp; Cordell, R. (2018). <a href="http://hdl.handle.net/2047/D20297452">A Research Agenda for Historical and Multilingual Optical Character Recognition</a>.</li>
+<li>Van Strien, D., Beelen, K., Ardanuy, M., Hosseini, K., McGillivray, B., &amp; Colavizza, G. (2020). <em>Assessing the impact of OCR quality on downstream NLP tasks</em>. SCITEPRESS - Science and Technology Publications. <a href="https://doi.org/10.17863/CAM.52068" class="uri">https://doi.org/10.17863/CAM.52068</a></li>
+</ul>
+<p>Some journals to look out for include, for example, the <a href="https://link.springer.com/journal/10032">International Journal on Document Analysis and Recognition (IJDAR)</a>, <a href="https://www.sciencedirect.com/journal/pattern-recognition">Pattern Recognition</a>, or the <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI)</a>.</p>
 </section>
 <section id="taking-the-next-step" class="level2">
 <h2 class="anchored" data-anchor-id="taking-the-next-step">Taking the next step</h2>
-<p>Learning about IIIF can be overwhelming at first, especially if you’re not a programmer, but the IIIF Community is a very supportive and engaged one and has created a number of ways to get involved and find support and help.</p>
-<p>I recommend checking out their community page <a href="https://iiif.io/community/">IIIF Community</a> to find details of their next open community calls, or to join their Slack Channel where you can post questions and join the discussion with other users.</p>
-<p>There is also a massive list of resources, <a href="https://github.com/IIIF/awesome-iiif">Awesome IIIF</a>, compiled and maintained by the IIIF Community if you are looking to take your knowledge a bit further and dig deeper into some of the exciting implementations of IIIF.</p>
+<p>The team behind the Hypotheses ‘<a href="https://harmoniseatr.hypotheses.org/">Automatic Text Recognition: Harmonising ATR workflows</a>’ resource created this insightful <a href="https://harmoniseatr.hypotheses.org/files/2023/11/Edited_ATR-roadmap_V2.pdf">road map</a> to help you get started with Automatic Text Recognition. The road map is divided into three sections, and asks you to consider the following questions:</p>
+<p>I - General Information</p>
+<ol type="1">
+<li>What type of texts/text collections do you work with?</li>
+<li>How can you integrate Automated Text Recognition in your workflow?</li>
+</ol>
+<p>II - Technical information</p>
+<ol type="1">
+<li>Why do you want to use ATR?</li>
+<li>What is your objective?</li>
+<li>Do you have technical and financial resources?</li>
+</ol>
+<p>III - Setting up ATR in your project</p>
+<ol type="1">
+<li>Choose your tool</li>
+<li>Is there transcription data that can be reused (e.g.&nbsp;training data)?</li>
+<li>Is there an appropriate generic model?</li>
+<li>What are your transcription rules?</li>
+<li>Do you plan to share your ATR training data? What are your ATR predictions?</li>
+<li>Where can you share data? In which format?</li>
+</ol>
+<p>This document also includes links to tutorials and documentation, a selection of articles, ATR tools and where to find ATR ground truth datasets.</p>
+<p>When it comes to ground truth datasets, a good place to look is the <a href="https://htr-united.github.io/">HTR-United</a> resource, which includes training datasets used for both transcription or segmentation models, for different periods and styles of writing.</p>
+<p><a href="https://ocr-d.de/en/">OCR-D</a> is a good place to visit too, and it has a ground truth repository <a href="https://github.com/OCR-D/gt_structure_text/releases">available here</a>.</p>
+<p>Some tools and platforms have solid communities around them which you can get in touch with - or be a part of. <a href="https://www.transkribus.org/">Transkribus</a>, for example, has an active <a href="https://www.facebook.com/transkribus">Facebook</a> page and a <a href="https://www.facebook.com/groups/614090738935143">user group</a>, where Transkribus users can ask questions and get support from the Transkribus team and from each other.</p>
+<p>Several conference series discuss advances in OCR/HTR, and would be a good place to meet colleagues and hear about interesting ATR projects. For example, the International Conference on Document Analysis and Recognition (<a href="https://en.wikipedia.org/wiki/International_Conference_on_Document_Analysis_and_Recognition">ICDAR</a>) and the International Conference on Frontiers in Handwriting Recognition (ICFHR) have been well established. Alternatively, many Digital Humanities conferences will have papers on this topic, e.g.&nbsp;the <a href="https://adho.org/conference/">ADHO DH conference serie</a> or <a href="https://sites.google.com/view/ai4lam">AI4LAM Fantastic Futures</a> conferences.</p>
 
 
 </section>
@@ -833,13 +856,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./lod.html" class="pagination-link" aria-label="Linked Open Data in Library Use Today">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Linked Open Data in Library Use Today</span>
+      <a href="./copyright.html" class="pagination-link" aria-label="Copyright &amp; Licensing: Current context and considerations for researchers and libraries using AI in research today">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Copyright &amp; Licensing: Current context and considerations for researchers and libraries using AI in research today</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./dataviz.html" class="pagination-link" aria-label="Data Visualisation">
-        <span class="nav-page-text">Data Visualisation</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./collectionsasdata.html" class="pagination-link" aria-label="Collections as Data: Getting Started">
+        <span class="nav-page-text">Collections as Data: Getting Started</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -851,7 +874,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/libereurope/ds-essentials/edit/main/iiif.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/libereurope/ds-essentials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/libereurope/ds-essentials/edit/main/atr.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/libereurope/ds-essentials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
