@@ -7,16 +7,31 @@
 
 ## Introduction: 
 
-Computer Vision is a field of Artificial Intelligence (AI) that uses Deep Learning models to teach machines to see and interpret images and videos similar to what mammalian visual system does. At its core, Computer Vision involves functions like acquisition, processing, and analysis of visual data. It uses algorithms to extract meaningful information from images and enables machines to identify objects, recognize patterns, and make decisions based on what they see. It is behind a lot of today’s technology like facial recognition, object detection, or Video Assistant Referees at football matches.
+Computer Vision is a field of Artificial Intelligence (AI) that uses Deep Learning models to teach machines to see and interpret images and videos similar to how mammalian visual system does. At its core, Computer Vision involves functions like processing, detection and analysis of visual data. It uses algorithms to extract meaningful information from images and enables machines to identify objects, recognize patterns, and make decisions based on what they see. It is behind a lot of today’s technology like facial recognition, object detection, or Video Assistant Referees at football matches.
 
 Deep Learning uses neural networks to model complex patterns within data. These networks, much like human brain, consist of interconnected layers of aritificial neurons. During training, these models process massive datasets of images, enabling them to progressively identify features and refine their predictions with increaing accuracy. For instance, a network might initially learn to detect edges and shapes. As training progresses, it learns to identify more complex features such as curves, textures, and ultimately, the entire object itself. This continual process of feature extraction and refinement enables Deep Learning models to archive remarkable accuracy.
 
-Convolutional neural Networks (CNN) have become cornerstone of image recognation as these neural networks are particularly well-suited for processing grid-like data, such as images. CNNs use convolutional layers that extract local features from the input image (edges, corners, etc), which are then combined to form more complex representation in subsequent layers. Allowing the network to learn hierarchical representation of the image content.
+Convolutional Neural Networks (CNN) have become cornerstone of image recognation as these neural networks are particularly well-suited for processing grid-like data, such as images. CNNs use convolutional layers that extract local features from the input image (edges, corners, etc), which are then combined to form more complex representation in subsequent layers. Allowing the network to learn hierarchical representation of the image content.
 
-Key functions include:
-* Object detections - identifying specific objects within an image or video (e.g. [R-CNN](https://www.geeksforgeeks.org/r-cnn-region-based-cnns/), [YOLO](https://docs.ultralytics.com/models/yolo11), [SSD](https://www.geeksforgeeks.org/how-single-shot-detector-ssd-works/))
-* Image segmentation - dividing an image into distinct regions or objects (e.g. U-Net, Mask R-CNN)
+
+### Key functions of Computer Vision include:
+* Image processing - preparation of input images to enhance them, e.g. noise reduction, sharpening, filtering, extraction of colour, etc
+* Object detections - identifying specific objects within an image or video (e.g. [R-CNN](https://www.geeksforgeeks.org/r-cnn-region-based-cnns/), [SSD](https://www.geeksforgeeks.org/how-single-shot-detector-ssd-works/))
+* Scene understanding - analysing the overall context of an image
+* Object classification - assigning specific objects to a category or class (e.g. [AlexNet](https://www.geeksforgeeks.org/ml-getting-started-with-alexnet/), [VGG](https://www.geeksforgeeks.org/vgg-net-architecture-explained/?ref=gcse_outind))
+* Image segmentation - dividing an image into distinct regions or objects (e.g. [U-Net](https://www.geeksforgeeks.org/u-net-architecture-explained/), [Mask R-CNN](https://www.geeksforgeeks.org/mask-r-cnn-ml/))
 * Motion analysis - tracking the movement of objects within a video (e.g. optical flow)
+
+
+### Key challenges in Computer Vision
+* Biases in training data - e.g. facial recognition systems trained predominantly on lighter-skinned people struggle to accurately recognise darker-skinned people.
+* Privacy and ethics - The usage of visual and biometric data rises questions regarding privacy and ethics. Especially, when talking about black box models.
+* Generalisation - Models struggle to generalise objects or environments they were not trained on.
+* Occlusions - Objects in an image are partially blocked by other objects, thus making it difficult for algorithms to correctly identify them. Advanced models, like Mask R-CNN, can help with missing details, but it requires large amounts of training data with occlusion examples.
+* Fine-graining - Distinguishing between classes or very similar categories is difficult, e.g. it's rather easy to differentiate between a cat and a dog, but it is challening to distinguish dog breeds.
+* Lighting - Changes in lighting conditions can alter the appearance of objects in an image.
+* Resources needs - Training of models requires a lot of computational recources.
+
 
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)
