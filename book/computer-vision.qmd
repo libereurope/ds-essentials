@@ -1,0 +1,31 @@
+# Computer Vision {.unnumbered}
+>Contributed by: Greete Veesalu, [ORCID iD](https://orcid.org/0009-0002-6742-1873)<br>
+>Original published date: dd/mm/yyyy<br>
+>Last modified: See Github page history
+>
+>Suggested Citation: Greete Veesalu, “Computer Vision,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2025), [DOI link tbd]
+
+## Introduction: 
+
+Computer Vision is a field of Artificial Intelligence (AI) that uses Deep Learning models to teach machines to see and interpret images and videos similar to what mammalian visual system does. At its core, Computer Vision involves functions like acquisition, processing, and analysis of visual data. It uses algorithms to extract meaningful information from images and enables machines to identify objects, recognize patterns, and make decisions based on what they see. It is behind a lot of today’s technology like facial recognition, object detection, or Video Assistant Referees at football matches.
+
+Deep Learning uses neural networks to model complex patterns within data. These networks, much like human brain, consist of interconnected layers of aritificial neurons. During training, these models process massive datasets of images, enabling them to progressively identify features and refine their predictions with increaing accuracy. For instance, a network might initially learn to detect edges and shapes. As training progresses, it learns to identify more complex features such as curves, textures, and ultimately, the entire object itself. This continual process of feature extraction and refinement enables Deep Learning models to archive remarkable accuracy.
+
+Convolutional neural Networks (CNN) have become cornerstone of image recognation as these neural networks are particularly well-suited for processing grid-like data, such as images. CNNs use convolutional layers that extract local features from the input image (edges, corners, etc), which are then combined to form more complex representation in subsequent layers. Allowing the network to learn hierarchical representation of the image content.
+
+Key functions include:
+* Object detections - identifying specific objects within an image or video (e.g. [R-CNN](https://www.geeksforgeeks.org/r-cnn-region-based-cnns/), [YOLO](https://docs.ultralytics.com/models/yolo11), [SSD](https://www.geeksforgeeks.org/how-single-shot-detector-ssd-works/))
+* Image segmentation - dividing an image into distinct regions or objects (e.g. U-Net, Mask R-CNN)
+* Motion analysis - tracking the movement of objects within a video (e.g. optical flow)
+
+
+## Relevance to the Library Sector (Case Studies/Use Cases)
+
+
+## Hands-on activity and other self-guided tutorial(s)
+
+
+## Recommended Reading/Viewing 
+
+
+## Taking the next step
