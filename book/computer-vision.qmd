@@ -5,36 +5,53 @@
 >
 >Suggested Citation: Greete Veesalu, “Computer Vision,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2025), [DOI link tbd]
 
+
 ## Introduction: 
 
-Computer Vision is a field of Artificial Intelligence (AI) that uses Deep Learning models to teach machines to see and interpret images and videos similar to how mammalian visual system does. At its core, Computer Vision involves functions like processing, detection and analysis of visual data. It uses algorithms to extract meaningful information from images and enables machines to identify objects, recognize patterns, and make decisions based on what they see. It is behind a lot of today’s technology like facial recognition, object detection, or Video Assistant Referees at football matches.
+Computer Vision is a field of Artificial Intelligence (AI) that uses Deep Learning models to teach machines to see and interpret images and videos similar to how the mammalian visual system does. At its core, Computer Vision involves functions like processing, detection, and analysis of visual data. It uses algorithms to extract meaningful information from images and enables machines to identify objects, recognize patterns, and make decisions based on what they see. It is behind a lot of today’s technology like facial recognition, object detection, or Video Assistant Referees at football matches.
 
-Deep Learning uses neural networks to model complex patterns within data. These networks, much like human brain, consist of interconnected layers of aritificial neurons. During training, these models process massive datasets of images, enabling them to progressively identify features and refine their predictions with increaing accuracy. For instance, a network might initially learn to detect edges and shapes. As training progresses, it learns to identify more complex features such as curves, textures, and ultimately, the entire object itself. This continual process of feature extraction and refinement enables Deep Learning models to archive remarkable accuracy.
+Deep Learning uses neural networks to model complex patterns within data. These networks, much like the human brain, consist of interconnected layers of artificial neurons. During training, these models process massive datasets of images, enabling them to progressively identify features and refine their predictions with increasing accuracy. For instance, a network might initially learn to detect edges and shapes. As training progresses, it learns to identify more complex features such as curves, textures, and ultimately, the entire object itself. This continual process of feature extraction and refinement enables Deep Learning models to achieve remarkable accuracy.
 
-Convolutional Neural Networks (CNN) have become cornerstone of image recognation as these neural networks are particularly well-suited for processing grid-like data, such as images. CNNs use convolutional layers that extract local features from the input image (edges, corners, etc), which are then combined to form more complex representation in subsequent layers. Allowing the network to learn hierarchical representation of the image content.
-
+Convolutional Neural Networks (CNN) have become a cornerstone of image recognition as these neural networks are particularly well-suited for processing grid-like data, such as images. CNNs use convolutional layers that extract local features from the input image (edges, corners, etc.), which are then combined to form more complex representations in subsequent layers, allowing the network to learn hierarchical representations of the image content.
 
 ### Key functions of Computer Vision include:
-* Image processing - preparation of input images to enhance them, e.g. noise reduction, sharpening, filtering, extraction of colour, etc
-* Object detections - identifying specific objects within an image or video (e.g. [R-CNN](https://www.geeksforgeeks.org/r-cnn-region-based-cnns/), [SSD](https://www.geeksforgeeks.org/how-single-shot-detector-ssd-works/))
-* Scene understanding - analysing the overall context of an image
-* Object classification - assigning specific objects to a category or class (e.g. [AlexNet](https://www.geeksforgeeks.org/ml-getting-started-with-alexnet/), [VGG](https://www.geeksforgeeks.org/vgg-net-architecture-explained/?ref=gcse_outind))
-* Image segmentation - dividing an image into distinct regions or objects (e.g. [U-Net](https://www.geeksforgeeks.org/u-net-architecture-explained/), [Mask R-CNN](https://www.geeksforgeeks.org/mask-r-cnn-ml/))
-* Motion analysis - tracking the movement of objects within a video (e.g. optical flow)
+* Image processing - Preparation of input images to enhance them, e.g., noise reduction, sharpening, filtering, extraction of color, etc.
+* Object detection - Identifying specific objects within an image or video (e.g. [R-CNN](https://www.geeksforgeeks.org/r-cnn-region-based-cnns/), [SSD](https://www.geeksforgeeks.org/how-single-shot-detector-ssd-works/))
+* Scene understanding - Analyzing the overall context of an image.
+* Object classification - Assigning specific objects to a category or class (e.g., AlexNet (e.g. [AlexNet](https://www.geeksforgeeks.org/ml-getting-started-with-alexnet/), [VGG](https://www.geeksforgeeks.org/vgg-net-architecture-explained/?ref=gcse_outind))
+* Image segmentation - Dividing an image into distinct regions or objects (e.g. [U-Net](https://www.geeksforgeeks.org/u-net-architecture-explained/), [Mask R-CNN](https://www.geeksforgeeks.org/mask-r-cnn-ml/))
+* Motion analysis - Tracking the movement of objects within a video (e.g. optical flow)
 
-
-### Key challenges in Computer Vision
-* Biases in training data - e.g. facial recognition systems trained predominantly on lighter-skinned people struggle to accurately recognise darker-skinned people.
-* Privacy and ethics - The usage of visual and biometric data rises questions regarding privacy and ethics. Especially, when talking about black box models.
-* Generalisation - Models struggle to generalise objects or environments they were not trained on.
-* Occlusions - Objects in an image are partially blocked by other objects, thus making it difficult for algorithms to correctly identify them. Advanced models, like Mask R-CNN, can help with missing details, but it requires large amounts of training data with occlusion examples.
-* Fine-graining - Distinguishing between classes or very similar categories is difficult, e.g. it's rather easy to differentiate between a cat and a dog, but it is challening to distinguish dog breeds.
+### Key challenges in Computer Vision include:
+* Biases in training data - For example, facial recognition systems trained predominantly on lighter-skinned people struggle to accurately recognize darker-skinned people.
+* Privacy and ethics - The usage of visual and biometric data raises questions regarding privacy and ethics, especially when dealing with black-box models.
+* Generalization - Models struggle to generalize objects or environments they were not trained on.
+* Occlusions - Objects in an image are partially blocked by other objects, making it difficult for algorithms to correctly identify them. Advanced models, like Mask R-CNN, can help with missing details, but it requires large amounts of training data with occlusion examples.
+* Fine-graining - Distinguishing between classes or very similar categories is difficult. For instance, it's relatively easy to differentiate between a cat and a dog, but it is challenging to distinguish dog breeds.
 * Lighting - Changes in lighting conditions can alter the appearance of objects in an image.
-* Resources needs - Training of models requires a lot of computational recources.
+Resource needs: Training models require a lot of computational resources.
 
+### Computer Vision in the Library Sector
+Computer Vision addresses the challenges posed by vast and diverse collections, enabling libraries to improve services and access to knowledge.
+
+* Image Classification and Cataloging - Libraries manage extensive digital archives containing very different material. Computer Vision and automated cataloging automate the classification of the collections, thus reducing the manual labor required and improving discoverability.
+* Object Detection and Description - Models can automatically detect features and items in the material, this is useful for creating detailed metadata in large collections. Libraries can also use object detection to improve accessibility, by generating descriptive metadata for images and videos.
+* Automatic Optical Character Recognition (OCR) and Handwritten Text Recognition (HTR) - OCR/HTR helps libraries to make printed texts and handwritten documents digital. Thus, libraries use OCR/HTR to create searchable digital archives of books, manuscripts, newspapers, etc. OCR/HTR also supports accessibility, enabling text-to-speech conversions for visually impaired users.
+* Visual Search and Content-Based Retrieval - Computer Vision improves search functionality in digital libraries through visual search. This allows users to upload an image and retrieve visually similar items from the collection. Content-based image retrieval also supports researchers by enabling them to find works that are similar.
 
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)
+
+Computer Vision is transforming the enrichment of library collections by automating the classification and annotation of visual materials. With the help of object detection and image recognition, it identifies objects, patterns, and relationships within images, enabling the creation of richer metadata and contextual information. This not only improves discoverability but also allows for deeper insights into the historical, artistic, or cultural significance of the materials. One example could be [Saint George on a Bike](https://saintgeorgeonabike.eu/) which was a project led by [Europeana](https://www.europeana.eu/) with the aim to improve the quality of cultural heritage objects' classification and metadata. Partners used CNNs for object detection to identify and create semantic context for the images.
+
+Similarly, Computer Vision is improving access, delivery, and research within library collections by enabling more intuitive and sophisticated ways to explore and analyze visual data. Through developments in image recognition and retrieval, these technologies allow users to discover connections, find similar materials, and engage with collections in entirely new ways. 
+[imgs.ai](https://imgs.ai/interface) is a text-based visual search engine for digital collections, using approximate k-NN algorithms and integrating the OpenAI CLIP model.
+[Maken](https://www.nb.no/maken/) is a service developed by the National Library of Norway and it uses Computer Vision (object detection) to find similar images from the library's digital collection.
+[PixPlot](https://dhlab.yale.edu/projects/pixplot/) is a project by the digital humanities lab of Yale University Library, it uses CNNs to cluster similar images.
+
+Semantic segmentation of maps - Computer Vision can be of use for identifying and categorising distinct elements within maps, such as roads, buildings, water bodies, and land use regions. Using CNNs and U-Net architectures, models partition maps into meaningful segments, allowing for detailed analysis and improved usability. This supports historical research, geographic analysis, and so on, by extracting structured data from complex cartographic sources.
+[JADIS](https://bnf-jadis.github.io/#) is developed by the National Library of France, it is a tool for semantically segmented, georeferenced, and geocoded maps of Paris.
+[MapReader](https://mapreader.readthedocs.io/en/v1.1.1/index.html) is an outcome of the [Living with the Machines project](https://livingwithmachines.ac.uk/). It's a Computer Vision pipeline for analysing large collections of historical maps.
 
 
 ## Hands-on activity and other self-guided tutorial(s)
