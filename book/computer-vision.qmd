@@ -5,8 +5,9 @@
 >
 >Suggested Citation: Greete Veesalu, “Computer Vision,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2025), [DOI link tbd]
 
+<br/>
 
-## Introduction: 
+## Introduction
 
 Computer Vision is a field of Artificial Intelligence (AI) that uses Deep Learning models to teach machines to see and interpret images and videos similar to how the mammalian visual system does. At its core, Computer Vision involves functions like processing, detection, and analysis of visual data. It uses algorithms to extract meaningful information from images and enables machines to identify objects, recognize patterns, and make decisions based on what they see. It is behind a lot of today’s technology like facial recognition, object detection, or Video Assistant Referees at football matches.
 
@@ -16,16 +17,16 @@ Convolutional Neural Networks (CNN) have become a cornerstone of image recogniti
 
 ### Key functions of Computer Vision include:
 * Image processing - Preparation of input images to enhance them, e.g., noise reduction, sharpening, filtering, extraction of color, etc.
-* Object detection - Identifying specific objects within an image or video (e.g. [R-CNN](https://www.geeksforgeeks.org/r-cnn-region-based-cnns/), [SSD](https://www.geeksforgeeks.org/how-single-shot-detector-ssd-works/))
-* Scene understanding - Analyzing the overall context of an image.
-* Object classification - Assigning specific objects to a category or class (e.g., AlexNet (e.g. [AlexNet](https://www.geeksforgeeks.org/ml-getting-started-with-alexnet/), [VGG](https://www.geeksforgeeks.org/vgg-net-architecture-explained/?ref=gcse_outind))
-* Image segmentation - Dividing an image into distinct regions or objects (e.g. [U-Net](https://www.geeksforgeeks.org/u-net-architecture-explained/), [Mask R-CNN](https://www.geeksforgeeks.org/mask-r-cnn-ml/))
-* Motion analysis - Tracking the movement of objects within a video (e.g. optical flow)
+* Object detection - Identifying specific objects within an image or video (e.g. [R-CNN](https://www.geeksforgeeks.org/r-cnn-region-based-cnns/), [SSD](https://www.geeksforgeeks.org/how-single-shot-detector-ssd-works/)).
+* Scene understanding - Analysing the overall context of an image.
+* Object classification - Assigning specific objects to a category or class (e.g., AlexNet (e.g. [AlexNet](https://www.geeksforgeeks.org/ml-getting-started-with-alexnet/), [VGG](https://www.geeksforgeeks.org/vgg-net-architecture-explained/?ref=gcse_outind)).
+* Image segmentation - Dividing an image into distinct regions or objects (e.g. [U-Net](https://www.geeksforgeeks.org/u-net-architecture-explained/), [Mask R-CNN](https://www.geeksforgeeks.org/mask-r-cnn-ml/)).
+* Motion analysis - Tracking the movement of objects within a video (e.g. optical flow).
 
 ### Key challenges in Computer Vision include:
-* Biases in training data - For example, facial recognition systems trained predominantly on lighter-skinned people struggle to accurately recognize darker-skinned people.
+* Biases in training data - For example, facial recognition systems trained predominantly on lighter-skinned people struggle to accurately recognise darker-skinned people.
 * Privacy and ethics - The usage of visual and biometric data raises questions regarding privacy and ethics, especially when dealing with black-box models.
-* Generalization - Models struggle to generalize objects or environments they were not trained on.
+* Generalisation - Models struggle to generalise objects or environments they were not trained on.
 * Occlusions - Objects in an image are partially blocked by other objects, making it difficult for algorithms to correctly identify them. Advanced models, like Mask R-CNN, can help with missing details, but it requires large amounts of training data with occlusion examples.
 * Fine-graining - Distinguishing between classes or very similar categories is difficult. For instance, it's relatively easy to differentiate between a cat and a dog, but it is challenging to distinguish dog breeds.
 * Lighting - Changes in lighting conditions can alter the appearance of objects in an image.
@@ -38,7 +39,7 @@ Computer Vision addresses the challenges posed by vast and diverse collections, 
 * Object Detection and Description - Models can automatically detect features and items in the material, this is useful for creating detailed metadata in large collections. Libraries can also use object detection to improve accessibility, by generating descriptive metadata for images and videos.
 * Automatic Optical Character Recognition (OCR) and Handwritten Text Recognition (HTR) - OCR/HTR helps libraries to make printed texts and handwritten documents digital. Thus, libraries use OCR/HTR to create searchable digital archives of books, manuscripts, newspapers, etc. OCR/HTR also supports accessibility, enabling text-to-speech conversions for visually impaired users.
 * Visual Search and Content-Based Retrieval - Computer Vision improves search functionality in digital libraries through visual search. This allows users to upload an image and retrieve visually similar items from the collection. Content-based image retrieval also supports researchers by enabling them to find works that are similar.
-
+<br/><br/>
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)
 Having explored the foundational concepts of Computer Vision, let's now delve into how it is being applied in the library sector. We will take a look at some key applications within areas like collection enrichment, access and delivery, and accessibility.
@@ -50,27 +51,32 @@ A [case study conducted by the University of Calgary’s Libraries and Cultural 
 
 ### Access and delivery
 Similarly, Computer Vision is improving access, delivery, and research within library collections by enabling more intuitive and sophisticated ways to explore and analyse visual data. Advances in image recognition and retrieval allow users to discover connections, find similar materials, and engage with collections in entirely new ways, improving both the efficiency and depth of exploration. 
+
 For example, [imgs.ai](https://imgs.ai/interface) is a text-based visual search engine designed for digital collections. It uses approximate k-NN algorithms and integrates the OpenAI CLIP model to link textual queries with visually similar content, offering new ways to navigate collections.
 Similarly, [MAKEN](https://www.nb.no/maken/), a service developed by the National Library of Norway, uses object detection to identify and retrieve similar images from the library's digital collection. Thus providing users with yet another possibility of engaging with visual material. These examples show how Computer Vision is making it easier to access digital collections,helping users to find connections, and discover materials quickly and effortlessly.
 
 ### Accessibility
 Computer Vision significantly improves accessibility in libraries by working alongside technologies like OCR and HTR. OCR/HTR convert printed and handwritten texts into machine-readable formats, enabling text-to-speech applications for users with visual impairments. Read more about OCR and HTR from [Automatic Text Recognition (OCR/HTR) topic guide](https://libereurope.github.io/ds-essentials/atr.html).
+
 Beyond text, Computer Vision enables creation of descriptive metadata for visual materials, such as photographs, maps, or videos, thus providing richer contextual information that benefits users with cognitive or visual disabilities. For instance, a visually impaired user might hear a description of a painting that includes details about the objects and people depicted. This richer contextual information ensures that libraries remain inclusive spaces where all users can access and engage with collections in a meaningful way.
 
 ### Semantic segmentation of maps
 Semantic segmentation in an exciting frontier where Computer Vision can be of use for identifying and categorising distinct elements within maps, such as roads, buildings, water bodies, and land use regions. By using CNNs and U-Net architectures, models partition maps into meaningful segments, allowing for detailed analysis and improved usability. This supports historical research, geographic analysis, and so on, by extracting structured data from complex cartographic sources.
+
 For example, [JADIS](https://bnf-jadis.github.io/#), developed by the National Library of France, it is a tool designed for semantically segmented, georeferenced, and geocoded maps of Paris.
 Similarly, [MapReader](https://mapreader.readthedocs.io/en/v1.1.1/index.html), an outcome of [the Living with the Machines project](https://livingwithmachines.ac.uk/), offers a Computer Vision pipeline for analysing large collections of historical maps.
-
+<br/><br/>
 
 ## Hands-on activity and other self-guided tutorial(s)
-There are plenty of Computer Vision tutorials on Google Colab Notebooks, [one great example being](https://github.com/domingomery/visioncolab).
-
+There are plenty of Computer Vision tutorials on Google Colab Notebooks, [one great example being this one](https://github.com/domingomery/visioncolab).<br/>
+[TensorFlow Playground](https://playground.tensorflow.org/) allows you to experiment with neural network architectures in order to understand how those work.<br/>
 Versatile tutorials are found at [OpenCV](https://docs.opencv.org/5.x/index.html) and Computer Vision related tutorials can also be found at [the Programming Historian](https://programminghistorian.org/en/lessons/?search=computer+vision).
-
+<br/><br/>
 
 ## Recommended Reading/Viewing 
-There are numerous publications on Computer Vision, some of them being:
-Arnold, T., Tilton, L. (2023). Distant viewing: Computational Exploration of Digital Images. The MIT Press. https://doi.org/10.7551/mitpress/14046.001.0001
+There are numerous publications on Computer Vision, but a couple worth highlighting:<br/>
+Arnold, T., Tilton, L. (2023). Distant viewing: Computational Exploration of Digital Images. The MIT Press. [https://doi.org/10.7551/mitpress/14046.001.0001](https://doi.org/10.7551/mitpress/14046.001.0001)<br/>
+Szeliski, T. (2022). Computer Vision: Algorithms and Applications. Springer. [https://doi.org/10.1007/978-3-030-34372-9](https://doi.org/10.1007/978-3-030-34372-9)
+<br/><br/>
 
 ## Taking the next step
