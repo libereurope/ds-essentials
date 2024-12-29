@@ -19,7 +19,7 @@ Convolutional Neural Networks (CNN) have become a cornerstone of image recogniti
 * Image processing - Preparation of input images to enhance them, e.g., noise reduction, sharpening, filtering, extraction of color, etc.
 * Object detection - Identifying specific objects within an image or video (e.g. [R-CNN](https://www.geeksforgeeks.org/r-cnn-region-based-cnns/), [SSD](https://www.geeksforgeeks.org/how-single-shot-detector-ssd-works/)).
 * Scene understanding - Analysing the overall context of an image.
-* Object classification - Assigning specific objects to a category or class (e.g., AlexNet (e.g. [AlexNet](https://www.geeksforgeeks.org/ml-getting-started-with-alexnet/), [VGG](https://www.geeksforgeeks.org/vgg-net-architecture-explained/?ref=gcse_outind)).
+* Object classification - Assigning specific objects to a category or class (e.g. [AlexNet](https://www.geeksforgeeks.org/ml-getting-started-with-alexnet/), [VGG](https://www.geeksforgeeks.org/vgg-net-architecture-explained/?ref=gcse_outind)).
 * Image segmentation - Dividing an image into distinct regions or objects (e.g. [U-Net](https://www.geeksforgeeks.org/u-net-architecture-explained/), [Mask R-CNN](https://www.geeksforgeeks.org/mask-r-cnn-ml/)).
 * Motion analysis - Tracking the movement of objects within a video (e.g. optical flow).
 
@@ -53,7 +53,7 @@ A [case study conducted by the University of Calgary’s Libraries and Cultural 
 Similarly, Computer Vision is improving access, delivery, and research within library collections by enabling more intuitive and sophisticated ways to explore and analyse visual data. Advances in image recognition and retrieval allow users to discover connections, find similar materials, and engage with collections in entirely new ways, improving both the efficiency and depth of exploration. 
 
 For example, [imgs.ai](https://imgs.ai/interface) is a text-based visual search engine designed for digital collections. It uses approximate k-NN algorithms and integrates the OpenAI CLIP model to link textual queries with visually similar content, offering new ways to navigate collections.
-Similarly, [MAKEN](https://www.nb.no/maken/), a service developed by the National Library of Norway, uses object detection to identify and retrieve similar images from the library's digital collection. Thus providing users with yet another possibility of engaging with visual material. These examples show how Computer Vision is making it easier to access digital collections,helping users to find connections, and discover materials quickly and effortlessly.
+Similarly, [MAKEN](https://www.nb.no/maken/), a service developed by the National Library of Norway, uses object detection to identify and retrieve similar images from the library's digital collection. Thus providing users with yet another possibility of engaging with visual material. These examples show how Computer Vision is making it easier to access digital collections, helping users to find connections, and discover materials quickly and effortlessly.
 
 ### Accessibility
 Computer Vision significantly improves accessibility in libraries by working alongside technologies like OCR and HTR. OCR/HTR convert printed and handwritten texts into machine-readable formats, enabling text-to-speech applications for users with visual impairments. Read more about OCR and HTR from [Automatic Text Recognition (OCR/HTR) topic guide](https://libereurope.github.io/ds-essentials/atr.html).
@@ -68,15 +68,25 @@ Similarly, [MapReader](https://mapreader.readthedocs.io/en/v1.1.1/index.html), a
 <br/><br/>
 
 ## Hands-on activity and other self-guided tutorial(s)
-There are plenty of Computer Vision tutorials on Google Colab Notebooks, [one great example being this one](https://github.com/domingomery/visioncolab).<br/>
-[TensorFlow Playground](https://playground.tensorflow.org/) allows you to experiment with neural network architectures in order to understand how those work.<br/>
-Versatile tutorials are found at [OpenCV](https://docs.opencv.org/5.x/index.html) and Computer Vision related tutorials can also be found at [the Programming Historian](https://programminghistorian.org/en/lessons/?search=computer+vision).
+For those new to the field, Google Colab Notebooks offer a good starting point with plenty of notebooks on Computer Vision, one great example being [this collection](https://github.com/domingomery/visioncolab).<br/>
+[The TensorFlow Playground](https://playground.tensorflow.org/) allows users to experiment with neural network architectures in an interactive way, offering insight into the understanding of how those work.<br/>
+[GLAM Workbench](https://glam-workbench.net/) is a hands-on guide that focuses on applying Computer Vision to GLAM collections, mainly from New Zealand and Australia. It explores how digitised images can be analysed to identify patterns and improve the accessibility of digital heritage.<br/>
+For practical coding experience, versatile tutorials are found at [OpenCV](https://docs.opencv.org/5.x/index.html) and interesting tutorials can be found at [RealPython](https://realpython.com/).<br/>
+If a more humanities oriented point of view is desired, then Computer Vision related tutorials can also be found at [the Programming Historian](https://programminghistorian.org/en/lessons/?search=computer+vision).
 <br/><br/>
 
 ## Recommended Reading/Viewing 
-There are numerous publications on Computer Vision, but a couple worth highlighting:<br/>
+For those looking to get a deeper understanding of Computer Vision, some key resources include:<br/>
 Arnold, T., Tilton, L. (2023). Distant viewing: Computational Exploration of Digital Images. The MIT Press. [https://doi.org/10.7551/mitpress/14046.001.0001](https://doi.org/10.7551/mitpress/14046.001.0001)<br/>
-Szeliski, T. (2022). Computer Vision: Algorithms and Applications. Springer. [https://doi.org/10.1007/978-3-030-34372-9](https://doi.org/10.1007/978-3-030-34372-9)
+Krizhevsky, A., Sutskever, I., Hinton, G. (2012). ImageNet Classification with Deep Convolutional Neural Networks. Advances in Neural Information Processing Systems 25 (NIPS 2012). Retrieved from [https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf](https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)<br/>
+Szeliski, T. (2022). Computer Vision: Algorithms and Applications. Springer. [https://doi.org/10.1007/978-3-030-34372-9](https://doi.org/10.1007/978-3-030-34372-9)<br/>
+
+Stanford University’s course [CS231n](https://cs231n.stanford.edu/) Convolutional Neural Networks for Visual Recognition 2016 and 2017 lectures are up on [YouTube](https://youtube.com/playlist?list=PL-myaKI4DslVRBatz03okSjJjj1UVzhhF&feature=shared).
 <br/><br/>
 
 ## Taking the next step
+There are several communities like [AI4LAM](https://sites.google.com/view/ai4lam), [CENL network group ‘AI in libraries’](https://www.cenl.org/network_groups/ai-in-libraries-network-group/), [IFLA Artificial Intelligence Special Interest Group](https://www.ifla.org/units/ai/). In the IIIF community there is [AI/ML community group](https://iiif.io/community/groups/AIML/). There are also conferences like Fantastic Futures.
+
+Top universities like [Harvard](https://pll.harvard.edu/catalog) and [Stanford](https://online.stanford.edu/) offer, sometimes free, online courses. Also sites like Coursera, FutureLearn, and Udemy are worth a look. Open-source tools like [OpenCV](https://docs.opencv.org/5.x/index.html) and [TensorFlow](https://playground.tensorflow.org/) mentioned above, but also [PyTorch](https://pytorch.org/) are handy.
+
+One can join Slack workspaces of [AI4LAM](https://ai4lam.slack.com/join/shared_invite/zt-1kknojl1j-rsoXJRllrzvNuu3lh~GXpA#/shared-invite/email) or [IIIF](https://docs.google.com/forms/d/e/1FAIpQLSdGV9QSFo8i2z1R5iIMP7B2JVhS9akHqcykWF5_y4mtWqVrBA/viewform).
