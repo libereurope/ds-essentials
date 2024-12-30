@@ -9,14 +9,14 @@
 
 ## Introduction
 
-Computer Vision is a field of Artificial Intelligence (AI) that uses Deep Learning models to teach machines to see and interpret images and videos similar to how the mammalian visual system does. At its core, Computer Vision involves functions like processing, detection, and analysis of visual data. It uses algorithms to extract meaningful information from images and enables machines to identify objects, recognize patterns, and make decisions based on what they see. It is behind a lot of today’s technology like facial recognition, object detection, or Video Assistant Referees at football matches.
+Computer Vision is a field of Artificial Intelligence (AI) that uses Deep Learning models to teach machines to see and interpret images and videos similar to how the human visual system does. At its core, Computer Vision involves functions like process, detection, and analysis of visual data. It uses algorithms to extract meaningful information from images and enables machines to identify objects, recognise patterns, and make decisions based on what they see. It is behind a lot of today’s technology like facial recognition, object detection, or Video Assistant Referees at football matches.
 
 Deep Learning uses neural networks to model complex patterns within data. These networks, much like the human brain, consist of interconnected layers of artificial neurons. During training, these models process massive datasets of images, enabling them to progressively identify features and refine their predictions with increasing accuracy. For instance, a network might initially learn to detect edges and shapes. As training progresses, it learns to identify more complex features such as curves, textures, and ultimately, the entire object itself. This continual process of feature extraction and refinement enables Deep Learning models to achieve remarkable accuracy.
 
 Convolutional Neural Networks (CNN) have become a cornerstone of image recognition as these neural networks are particularly well-suited for processing grid-like data, such as images. CNNs use convolutional layers that extract local features from the input image (edges, corners, etc.), which are then combined to form more complex representations in subsequent layers, allowing the network to learn hierarchical representations of the image content.
 
 ### Key functions of Computer Vision include:
-* Image processing - Preparation of input images to enhance them, e.g., noise reduction, sharpening, filtering, extraction of color, etc.
+* Image processing - Preparation of input images to enhance them, e.g., noise reduction, sharpening, filtering, extraction of colour, etc.
 * Object detection - Identifying specific objects within an image or video (e.g. [R-CNN](https://www.geeksforgeeks.org/r-cnn-region-based-cnns/), [SSD](https://www.geeksforgeeks.org/how-single-shot-detector-ssd-works/)).
 * Scene understanding - Analysing the overall context of an image.
 * Object classification - Assigning specific objects to a category or class (e.g. [AlexNet](https://www.geeksforgeeks.org/ml-getting-started-with-alexnet/), [VGG](https://www.geeksforgeeks.org/vgg-net-architecture-explained/?ref=gcse_outind)).
@@ -27,17 +27,17 @@ Convolutional Neural Networks (CNN) have become a cornerstone of image recogniti
 * Biases in training data - For example, facial recognition systems trained predominantly on lighter-skinned people struggle to accurately recognise darker-skinned people.
 * Privacy and ethics - The usage of visual and biometric data raises questions regarding privacy and ethics, especially when dealing with black-box models.
 * Generalisation - Models struggle to generalise objects or environments they were not trained on.
-* Occlusions - Objects in an image are partially blocked by other objects, making it difficult for algorithms to correctly identify them. Advanced models, like Mask R-CNN, can help with missing details, but it requires large amounts of training data with occlusion examples.
+* Occlusions - Often objects in an image are partially blocked by other objects, making it difficult for algorithms to correctly identify them. Advanced models, like Mask R-CNN, can help with missing details, but it requires large amounts of training data with occlusion examples.
 * Fine-graining - Distinguishing between classes or very similar categories is difficult. For instance, it's relatively easy to differentiate between a cat and a dog, but it is challenging to distinguish dog breeds.
 * Lighting - Changes in lighting conditions can alter the appearance of objects in an image.
-* Resource needs - Training and running deep learning models require a lot of computational resources.
+* Resource needs - Training and running Deep Learning models require a lot of computational resources.
 
 ### Computer Vision in the Library Sector
 Computer Vision addresses the challenges posed by vast and diverse collections, enabling libraries to improve services and access to knowledge.
 
-* Image Classification and Cataloging - Libraries manage extensive digital archives containing very different material. Computer Vision and automated cataloging automate the classification of the collections, thus reducing the manual labor required and improving discoverability.
+* Image Classification and Cataloging - Libraries manage large digital libraries containing very different material. Computer Vision and automated cataloging automate the classification of the collections, thus reducing the manual labor required and improving discoverability.
 * Object Detection and Description - Models can automatically detect features and items in the material, this is useful for creating detailed metadata in large collections. Libraries can also use object detection to improve accessibility, by generating descriptive metadata for images and videos.
-* Automatic Optical Character Recognition (OCR) and Handwritten Text Recognition (HTR) - OCR/HTR helps libraries to make printed texts and handwritten documents digital. Thus, libraries use OCR/HTR to create searchable digital archives of books, manuscripts, newspapers, etc. OCR/HTR also supports accessibility, enabling text-to-speech conversions for visually impaired users.
+* Automatic Optical Character Recognition (OCR) and Handwritten Text Recognition (HTR) - OCR/HTR helps libraries to make printed texts and handwritten documents digital. Thus, libraries use OCR/HTR to create searchable digital collections of books, manuscripts, newspapers, etc. OCR/HTR also supports accessibility, enabling text-to-speech conversions for visually impaired users.
 * Visual Search and Content-Based Retrieval - Computer Vision improves search functionality in digital libraries through visual search. This allows users to upload an image and retrieve visually similar items from the collection. Content-based image retrieval also supports researchers by enabling them to find works that are similar.
 <br/><br/>
 
@@ -52,7 +52,7 @@ A [case study conducted by the University of Calgary’s Libraries and Cultural 
 ### Access and delivery
 Similarly, Computer Vision is improving access, delivery, and research within library collections by enabling more intuitive and sophisticated ways to explore and analyse visual data. Advances in image recognition and retrieval allow users to discover connections, find similar materials, and engage with collections in entirely new ways, improving both the efficiency and depth of exploration. 
 
-For example, [imgs.ai](https://imgs.ai/interface) is a text-based visual search engine designed for digital collections. It uses approximate k-NN algorithms and integrates the OpenAI CLIP model to link textual queries with visually similar content, offering new ways to navigate collections.
+For instance, [imgs.ai](https://imgs.ai/interface) is a text-based visual search engine designed for digital collections. It uses approximate k-NN algorithms and integrates the OpenAI CLIP model to link textual queries with visually similar content, offering new ways to navigate collections.
 Similarly, [MAKEN](https://www.nb.no/maken/), a service developed by the National Library of Norway, uses object detection to identify and retrieve similar images from the library's digital collection. Thus providing users with yet another possibility of engaging with visual material. These examples show how Computer Vision is making it easier to access digital collections, helping users to find connections, and discover materials quickly and effortlessly.
 
 ### Accessibility
@@ -61,7 +61,7 @@ Computer Vision significantly improves accessibility in libraries by working alo
 Beyond text, Computer Vision enables creation of descriptive metadata for visual materials, such as photographs, maps, or videos, thus providing richer contextual information that benefits users with cognitive or visual disabilities. For instance, a visually impaired user might hear a description of a painting that includes details about the objects and people depicted. This richer contextual information ensures that libraries remain inclusive spaces where all users can access and engage with collections in a meaningful way.
 
 ### Semantic segmentation of maps
-Semantic segmentation in an exciting frontier where Computer Vision can be of use for identifying and categorising distinct elements within maps, such as roads, buildings, water bodies, and land use regions. By using CNNs and U-Net architectures, models partition maps into meaningful segments, allowing for detailed analysis and improved usability. This supports historical research, geographic analysis, and so on, by extracting structured data from complex cartographic sources.
+Semantic segmentation in an exciting frontier where Computer Vision can be of use for identifying and categorising distinct elements within maps, such as roads, buildings, water bodies, and land use regions. By using CNNs and U-Net architectures, models partition maps into meaningful segments, allowing for detailed analysis and improved usability. This supports historical research, geographic analysis, and so on, by extracting structured data from cartographic sources.
 
 For example, [JADIS](https://bnf-jadis.github.io/#), developed by the National Library of France, it is a tool designed for semantically segmented, georeferenced, and geocoded maps of Paris.
 Similarly, [MapReader](https://mapreader.readthedocs.io/en/v1.1.1/index.html), an outcome of [the Living with the Machines project](https://livingwithmachines.ac.uk/), offers a Computer Vision pipeline for analysing large collections of historical maps.
@@ -71,22 +71,22 @@ Similarly, [MapReader](https://mapreader.readthedocs.io/en/v1.1.1/index.html), a
 For those new to the field, Google Colab Notebooks offer a good starting point with plenty of notebooks on Computer Vision, one great example being [this collection](https://github.com/domingomery/visioncolab).<br/>
 [The TensorFlow Playground](https://playground.tensorflow.org/) allows users to experiment with neural network architectures in an interactive way, offering insight into the understanding of how those work.<br/>
 [GLAM Workbench](https://glam-workbench.net/) is a hands-on guide that focuses on applying Computer Vision to GLAM collections, mainly from New Zealand and Australia. It explores how digitised images can be analysed to identify patterns and improve the accessibility of digital heritage.<br/>
-For practical coding experience, versatile tutorials are found at [OpenCV](https://docs.opencv.org/5.x/index.html) and interesting tutorials can be found at [RealPython](https://realpython.com/).<br/>
+For practical coding experience, versatile tutorials are found at [OpenCV](https://docs.opencv.org/5.x/index.html) and [RealPython](https://realpython.com/).<br/>
 If a more humanities oriented point of view is desired, then Computer Vision related tutorials can also be found at [the Programming Historian](https://programminghistorian.org/en/lessons/?search=computer+vision).
 <br/><br/>
 
 ## Recommended Reading/Viewing 
 For those looking to get a deeper understanding of Computer Vision, some key resources include:<br/>
-Arnold, T., Tilton, L. (2023). Distant viewing: Computational Exploration of Digital Images. The MIT Press. [https://doi.org/10.7551/mitpress/14046.001.0001](https://doi.org/10.7551/mitpress/14046.001.0001)<br/>
-Krizhevsky, A., Sutskever, I., Hinton, G. (2012). ImageNet Classification with Deep Convolutional Neural Networks. Advances in Neural Information Processing Systems 25 (NIPS 2012). Retrieved from [https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf](https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)<br/>
-Szeliski, T. (2022). Computer Vision: Algorithms and Applications. Springer. [https://doi.org/10.1007/978-3-030-34372-9](https://doi.org/10.1007/978-3-030-34372-9)<br/>
+Arnold, T., Tilton, L. (2023). *Distant viewing: Computational Exploration of Digital Images.* The MIT Press. [https://doi.org/10.7551/mitpress/14046.001.0001](https://doi.org/10.7551/mitpress/14046.001.0001)<br/>
+Krizhevsky, A., Sutskever, I., Hinton, G. (2012). ImageNet Classification with Deep Convolutional Neural Networks. *Advances in Neural Information Processing Systems 25 (NIPS 2012).* Retrieved from [https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf](https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)<br/>
+Szeliski, T. (2022). *Computer Vision: Algorithms and Applications.* Springer. [https://doi.org/10.1007/978-3-030-34372-9](https://doi.org/10.1007/978-3-030-34372-9)<br/>
 
 Stanford University’s course [CS231n](https://cs231n.stanford.edu/) Convolutional Neural Networks for Visual Recognition 2016 and 2017 lectures are up on [YouTube](https://youtube.com/playlist?list=PL-myaKI4DslVRBatz03okSjJjj1UVzhhF&feature=shared).
 <br/><br/>
 
 ## Taking the next step
-There are several communities like [AI4LAM](https://sites.google.com/view/ai4lam), [CENL network group ‘AI in libraries’](https://www.cenl.org/network_groups/ai-in-libraries-network-group/), [IFLA Artificial Intelligence Special Interest Group](https://www.ifla.org/units/ai/). In the IIIF community there is [AI/ML community group](https://iiif.io/community/groups/AIML/). There are also conferences like Fantastic Futures.
+There are [AI4LAM](https://sites.google.com/view/ai4lam), [CENL network group ‘AI in libraries’](https://www.cenl.org/network_groups/ai-in-libraries-network-group/) and [IFLA Artificial Intelligence Special Interest Group](https://www.ifla.org/units/ai/) communities, while in the IIIF community there is [AI/ML community group](https://iiif.io/community/groups/AIML/). There are also conferences like Fantastic Futures.
 
-Top universities like [Harvard](https://pll.harvard.edu/catalog) and [Stanford](https://online.stanford.edu/) offer, sometimes free, online courses. Also sites like Coursera, FutureLearn, and Udemy are worth a look. Open-source tools like [OpenCV](https://docs.opencv.org/5.x/index.html) and [TensorFlow](https://playground.tensorflow.org/) mentioned above, but also [PyTorch](https://pytorch.org/) are handy.
+Top universities, for example [Harvard](https://pll.harvard.edu/catalog), [Stanford](https://online.stanford.edu/) and [Helsinki](https://www.mooc.fi/en/), offer, sometimes free, online courses. Also sites like Coursera, FutureLearn, and Udemy are worth a look. Open-source tools like [OpenCV](https://docs.opencv.org/5.x/index.html) and [TensorFlow](https://playground.tensorflow.org/) mentioned above, but also [PyTorch](https://pytorch.org/) are handy.
 
 One can join Slack workspaces of [AI4LAM](https://ai4lam.slack.com/join/shared_invite/zt-1kknojl1j-rsoXJRllrzvNuu3lh~GXpA#/shared-invite/email) or [IIIF](https://docs.google.com/forms/d/e/1FAIpQLSdGV9QSFo8i2z1R5iIMP7B2JVhS9akHqcykWF5_y4mtWqVrBA/viewform).
