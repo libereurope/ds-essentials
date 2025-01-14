@@ -60,7 +60,7 @@ Here are some examples of library activity on GitHub from [Week one reading for 
 - Storing scripts for executing metadata ingests and transformations \[[example](https://github.com/utlib/dspace-exams-ingest-scripts), [example](https://github.com/preservica/metadata-management), \[[example](https://github.com/Digital-Repository-of-Ireland/dri-open-refine-split)\]
 - Archiving the source texts of open educational resources \[[example](https://github.com/moderndive/ModernDive_book)\]
 - Websites for library workshops, to share course material or sample datasets \[[example](https://github.com/librarycarpentry/lc-git/), [example](https://github.com/NCSU-Libraries/digital-scholarship-workshops/tree/master), [example](https://dculibrary.github.io/open-refine-workshop/)\], 
-- Collaborating on and contributing to a project \[Digital Scholarship & Data Science Essentials for Library Professionals](https://libereurope.github.io/ds-essentials/)
+- Collaborating on and contributing to a project [Digital Scholarship & Data Science Essentials for Library Professionals](https://libereurope.github.io/ds-essentials/)
 
 Let's look more closely at some practical ways you can get started navigating GitHub and contributing and making use of GitHub based projects for your library work! 
 
@@ -180,7 +180,7 @@ Our list below is not intended to be comprehensive but is a selection of what is
 - [Programming Historian - Running a collaborative research website and blog with GitHub Pages](https://programminghistorian.org/en/lessons/collaborative-blog-with-jekyll-github)
 
 ### Writing in Markdown (tools to try)
-- [Markdown Live Preview](https://markdownlivepreview.com/) is a tiny web tool to preview Markdown formatted text.(https://markdownlivepreview.com/)
+- [Markdown Live Preview](https://markdownlivepreview.com/) is a tiny web tool to preview Markdown formatted text.
 - [Word to MD](https://word2md.com/) is a useful tool for uploading word files and transforming it into markdown
 
 As with most platforms, specific functions or tasks may change occasionally on GitHub. So you may find a lesson which refers to an old term or function that is no longer called what it used to be. GitHub documentation should provide up-to-date information on the current practice in most cases.
@@ -195,4 +195,4 @@ As with most platforms, specific functions or tasks may change occasionally on G
 
 ## Taking the next step  
 
-The best way to understand GitHub is to have a play yourself and if you get into trouble we've found that asking questions over on the (GitHub Community Hub)[https://github.com/community] is a great way to get connected with other users. You can also join networks like [AI4LAM] (https://sites.google.com/view/ai4lam) and ask questions of members of the very engaged and helpful community on their [slack](https://join.slack.com/t/ai4lam/shared_invite/zt-1omthldn8-9vrGySjIRdija1nKQm0ltA). 
+The best way to understand GitHub is to have a play yourself and if you get into trouble we've found that asking questions over on the [GitHub Community Hub](https://github.com/community) is a great way to get connected with other users. You can also join networks like [AI4LAM](https://sites.google.com/view/ai4lam) and ask questions of members of the very engaged and helpful community on their [slack](https://join.slack.com/t/ai4lam/shared_invite/zt-1omthldn8-9vrGySjIRdija1nKQm0ltA). 
