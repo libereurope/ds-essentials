@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Author Guidance and Style Guide – Digital Scholarship &amp; Data Science Essentials for Library Professionals</title>
+<title>Computer Vision – Digital Scholarship &amp; Data Science Essentials for Library Professionals</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./licensing.html" rel="next">
-<link href="./contributing.html" rel="prev">
+<link href="./lod.html" rel="next">
+<link href="./collectionsasdata.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -90,7 +90,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><strong>ABOUT</strong></a></li><li class="breadcrumb-item"><a href="./guidelines.html">Author Guidance and Style Guide</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./computer-vision.html">Computer Vision</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -128,13 +128,13 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
  <span class="menu-text"><strong>ABOUT</strong></span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
@@ -155,7 +155,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidelines.html" class="sidebar-item-text sidebar-link active">
+  <a href="./guidelines.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Author Guidance and Style Guide</span></a>
   </div>
 </li>
@@ -205,7 +205,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./computer-vision.html" class="sidebar-item-text sidebar-link">
+  <a href="./computer-vision.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Computer Vision</span></a>
   </div>
 </li>
@@ -290,28 +290,31 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#structuring-the-topic-guide" id="toc-structuring-the-topic-guide" class="nav-link active" data-scroll-target="#structuring-the-topic-guide">Structuring the Topic Guide</a>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
   <ul class="collapse">
-  <li><a href="#header-section" id="toc-header-section" class="nav-link" data-scroll-target="#header-section">Header Section</a></li>
-  <li><a href="#i-introduction-to-the-topic-approximately-500-700-words" id="toc-i-introduction-to-the-topic-approximately-500-700-words" class="nav-link" data-scroll-target="#i-introduction-to-the-topic-approximately-500-700-words">I: Introduction to the topic (<em>Approximately 500-700 words</em>)</a></li>
-  <li><a href="#ii-relevance-to-the-library-sector-approximately-300-500-words" id="toc-ii-relevance-to-the-library-sector-approximately-300-500-words" class="nav-link" data-scroll-target="#ii-relevance-to-the-library-sector-approximately-300-500-words">II: Relevance to the Library Sector (<em>Approximately 300-500 words</em>)</a></li>
-  <li><a href="#iii-hands-on-activity-and-other-self-guided-tutorials" id="toc-iii-hands-on-activity-and-other-self-guided-tutorials" class="nav-link" data-scroll-target="#iii-hands-on-activity-and-other-self-guided-tutorials">III: Hands-on activity and other self-guided tutorial(s)</a></li>
-  <li><a href="#iv-recommended-reading-viewing-approximately-200-400-words" id="toc-iv-recommended-reading-viewing-approximately-200-400-words" class="nav-link" data-scroll-target="#iv-recommended-reading-viewing-approximately-200-400-words">IV: Recommended Reading &amp; Viewing (<em>Approximately 200-400 words</em>)</a></li>
-  <li><a href="#v-taking-the-next-steps-approximately-200-400-words" id="toc-v-taking-the-next-steps-approximately-200-400-words" class="nav-link" data-scroll-target="#v-taking-the-next-steps-approximately-200-400-words">V: Taking the next steps (<em>Approximately 200-400 words</em>)</a></li>
+  <li><a href="#key-functions-of-computer-vision-include" id="toc-key-functions-of-computer-vision-include" class="nav-link" data-scroll-target="#key-functions-of-computer-vision-include">Key functions of Computer Vision include:</a></li>
+  <li><a href="#key-challenges-in-computer-vision-include" id="toc-key-challenges-in-computer-vision-include" class="nav-link" data-scroll-target="#key-challenges-in-computer-vision-include">Key challenges in Computer Vision include:</a></li>
+  <li><a href="#computer-vision-in-the-library-sector" id="toc-computer-vision-in-the-library-sector" class="nav-link" data-scroll-target="#computer-vision-in-the-library-sector">Computer Vision in the Library Sector</a></li>
   </ul></li>
-  <li><a href="#style-guidelines" id="toc-style-guidelines" class="nav-link" data-scroll-target="#style-guidelines">Style Guidelines</a>
+  <li><a href="#relevance-to-the-library-sector-case-studiesuse-cases" id="toc-relevance-to-the-library-sector-case-studiesuse-cases" class="nav-link" data-scroll-target="#relevance-to-the-library-sector-case-studiesuse-cases">Relevance to the Library Sector (Case Studies/Use Cases)</a>
   <ul class="collapse">
-  <li><a href="#writing-accessible-natural-and-internationally-inclusive-content" id="toc-writing-accessible-natural-and-internationally-inclusive-content" class="nav-link" data-scroll-target="#writing-accessible-natural-and-internationally-inclusive-content">Writing Accessible, Natural, and Internationally Inclusive Content</a></li>
+  <li><a href="#enrichment-of-collections" id="toc-enrichment-of-collections" class="nav-link" data-scroll-target="#enrichment-of-collections">Enrichment of collections</a></li>
+  <li><a href="#access-and-delivery" id="toc-access-and-delivery" class="nav-link" data-scroll-target="#access-and-delivery">Access and delivery</a></li>
+  <li><a href="#accessibility" id="toc-accessibility" class="nav-link" data-scroll-target="#accessibility">Accessibility</a></li>
+  <li><a href="#semantic-segmentation-of-maps" id="toc-semantic-segmentation-of-maps" class="nav-link" data-scroll-target="#semantic-segmentation-of-maps">Semantic segmentation of maps</a></li>
   </ul></li>
+  <li><a href="#hands-on-activity-and-other-self-guided-tutorials" id="toc-hands-on-activity-and-other-self-guided-tutorials" class="nav-link" data-scroll-target="#hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</a></li>
+  <li><a href="#recommended-readingviewing" id="toc-recommended-readingviewing" class="nav-link" data-scroll-target="#recommended-readingviewing">Recommended Reading/Viewing</a></li>
+  <li><a href="#taking-the-next-step" id="toc-taking-the-next-step" class="nav-link" data-scroll-target="#taking-the-next-step">Taking the next step</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/libereurope/ds-essentials/edit/main/guidelines.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/libereurope/ds-essentials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/libereurope/ds-essentials/edit/main/computer-vision.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/libereurope/ds-essentials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><strong>ABOUT</strong></a></li><li class="breadcrumb-item"><a href="./guidelines.html">Author Guidance and Style Guide</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Author Guidance and Style Guide</h1>
+<h1 class="title">Computer Vision</h1>
 </div>
 
 
@@ -328,80 +331,92 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </header>
 
 
-<section id="structuring-the-topic-guide" class="level2">
-<h2 class="anchored" data-anchor-id="structuring-the-topic-guide">Structuring the Topic Guide</h2>
-<p>Each Topic Guide follows a distinct structure, beginning with a Header Section composing of a title, contributor information, published date, last modified info, and suggested citation followed by five key content blocks detailed below. Please have a look at the <a href="./iiif.html">IIIF Guide</a> as an example of how these pieces all fit together into one complete Topic Guide.</p>
-<section id="header-section" class="level3">
-<h3 class="anchored" data-anchor-id="header-section">Header Section</h3>
-<ul>
-<li><strong>Topic Guide Title</strong>: IIIF</li>
-<li><strong>Contributor(s) Name and (Orcid ID)</strong>: Nora McGregor <a href="https://orcid.org/0000-0001-6560-5586">(ORCID iD)</a></li>
-<li><strong>Published date</strong>: 27/03/2024</li>
-<li><strong>Suggested Citation</strong>: Nora McGregor, “IIIF,” <em>Digital Scholarship &amp; Data Science Essentials for Library Professionals</em> (2024), [DOI link]</li>
-</ul>
-<p><em>Note: The project team will ensure each Topic Guide is given an individual DOI either through British Library Research Repository or Zenodo.</em></p>
-</section>
-<section id="i-introduction-to-the-topic-approximately-500-700-words" class="level3">
-<h3 class="anchored" data-anchor-id="i-introduction-to-the-topic-approximately-500-700-words">I: Introduction to the topic (<em>Approximately 500-700 words</em>)</h3>
-<p>This introduction section should be pitched at a beginner/foundational level and gives a concise overview of the topic. It should be written in a relaxed and natural way. This section does not need to contain the world’s knowledge, just enough high-level knowledge to get the key concepts across.</p>
 <blockquote class="blockquote">
-<p>Imagine that a colleague has come to you casually asking about the topic over tea. How might you go about explaining it to them in your own words? During the course of that casual conversation what key things would you leave in and what might you leave out in the interest of getting them to a basic understanding quickly?</p>
+<p>Contributed by: Greete Veesalu, <a href="https://orcid.org/0009-0002-6742-1873">ORCID iD</a><br> Original published date: 22/01/2025<br> Last modified: See Github page history</p>
+<p>Suggested Citation: Greete Veesalu, “Computer Vision,” <em>Digital Scholarship &amp; Data Science Essentials for Library Professionals</em> (2025), [DOI link tbd]</p>
 </blockquote>
-<p>Linking can be used liberally for jargon busting throughout if explaining a particular term is more complex than our word count allows. Please see the Style Guidelines below for more writing tips!</p>
-</section>
-<section id="ii-relevance-to-the-library-sector-approximately-300-500-words" class="level3">
-<h3 class="anchored" data-anchor-id="ii-relevance-to-the-library-sector-approximately-300-500-words">II: Relevance to the Library Sector (<em>Approximately 300-500 words</em>)</h3>
-<p>This section provides a clear explanation of the topics’ specific relevance to the work of libraries.</p>
-<p>It should contain:</p>
+<p><br></p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Computer Vision is a field of Artificial Intelligence (AI) that uses Deep Learning models to teach machines to see and interpret images and videos similar to how the human visual system does. At its core, Computer Vision involves functions like process, detection, and analysis of visual data. It uses algorithms to extract meaningful information from images and enables machines to identify objects, recognise patterns, and make decisions based on what they see. It is behind a lot of today’s technology like facial recognition, object detection, or Video Assistant Referees at football matches.</p>
+<p>Deep Learning uses neural networks to model complex patterns within data. These networks, much like the human brain, consist of interconnected layers of artificial neurons. During training, these models process massive datasets of images, enabling them to progressively identify features and refine their predictions with increasing accuracy. For instance, a network might initially learn to detect edges and shapes. As training progresses, it learns to identify more complex features such as curves, textures, and ultimately, the entire object itself. This continual process of feature extraction and refinement enables Deep Learning models to achieve remarkable accuracy.</p>
+<p>Convolutional Neural Networks (CNN) have become a cornerstone of image recognition as these neural networks are particularly well-suited for processing grid-like data, such as images. CNNs use convolutional layers that extract local features from the input image (edges, corners, etc.), which are then combined to form more complex representations in subsequent layers, allowing the network to learn hierarchical representations of the image content.</p>
+<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/c-v_CNN_architecture.png?raw=true" class="img-fluid"> Image retrieved from <a href="https://www.pinecone.io/learn/series/image-search/cnn/#What-Makes-a-CNN">https://www.pinecone.io/learn/series/image-search/cnn/#What-Makes-a-CNN</a>.</p>
+<section id="key-functions-of-computer-vision-include" class="level3">
+<h3 class="anchored" data-anchor-id="key-functions-of-computer-vision-include">Key functions of Computer Vision include:</h3>
 <ul>
-<li>A short paragraph or two setting the scene as to why the topic is relevant to the work of libraries. Here you might also like to present opportunities and, if relevant, potential challenges for libraries around the topic as well.</li>
-<li>Up to 3 examples of real world (or potential) applications/case studies/projects briefly explained in a 100 max word summary provided each with links to further information if available. Note that it is not necessary to write up or create a new case study yourself here! Rather, we’re looking for briefly summarised references to existing ones. If there are quite a few other examples the contributor would like to reference include, links to these can be added at the end of this section (Example: “For further case studies, visit….”).</li>
+<li>Image processing - Preparation of input images to enhance them, e.g., noise reduction, sharpening, filtering, extraction of colour, etc.</li>
+<li>Object detection - Identifying specific objects within an image or video (e.g.&nbsp;<a href="https://www.geeksforgeeks.org/r-cnn-region-based-cnns/">R-CNN</a>, <a href="https://www.geeksforgeeks.org/how-single-shot-detector-ssd-works/">SSD</a>).</li>
+<li>Scene understanding - Analysing the overall context of an image.</li>
+<li>Object classification - Assigning specific objects to a category or class (e.g.&nbsp;<a href="https://www.geeksforgeeks.org/ml-getting-started-with-alexnet/">AlexNet</a>, <a href="https://www.geeksforgeeks.org/vgg-net-architecture-explained/?ref=gcse_outind">VGG</a>).</li>
+<li>Image segmentation - Dividing an image into distinct regions or objects (e.g.&nbsp;<a href="https://www.geeksforgeeks.org/u-net-architecture-explained/">U-Net</a>, <a href="https://www.geeksforgeeks.org/mask-r-cnn-ml/">Mask R-CNN</a>).</li>
+<li>Motion analysis - Tracking the movement of objects within a video (e.g.&nbsp;optical flow).</li>
 </ul>
 </section>
-<section id="iii-hands-on-activity-and-other-self-guided-tutorials" class="level3">
-<h3 class="anchored" data-anchor-id="iii-hands-on-activity-and-other-self-guided-tutorials">III: Hands-on activity and other self-guided tutorial(s)</h3>
-<p>The objective of this section of the topic guide is to enable learners to familiarise themselves with the basics of the topic through active practice via self-paced tutorials and hand-on activities. Authors are not expected to create new activities or tutorials in this section, but rather to provide selected links to existing hands on tutorials which are known by them to have proven value and can be personally recommended for library professionals in particular.</p>
-<p>The tutorials recommended should be free, online and suitable for independent study, and ideally, focussed on the library professional perspective where possible. Authors may wish to link to practical exercises or quizzes, specific online lessons that may exist in other online platforms, Juptyer Notebooks and GLAM workbench materials that provide detailed explanations of the steps learners can follow.</p>
-<p>For the sake of consistency across the various topic guides, it is helpful if tutorial references are structured as follows:</p>
+<section id="key-challenges-in-computer-vision-include" class="level3">
+<h3 class="anchored" data-anchor-id="key-challenges-in-computer-vision-include">Key challenges in Computer Vision include:</h3>
 <ul>
-<li>The title/name of the activity/tutorial, the URL (added as a hyperlink), and citation information (please use <a href="https://apastyle.apa.org/instructional-aids/reference-guide.pdf">APA Style</a> and/or provide a DOI if there is one)</li>
-<li>A brief, personal explanation below it (no more than 200 words) as to why the author recommends this particular tutorial, and, optionally, an indication of topics covered and the level of complexity.</li>
+<li>Biases in training data - For example, facial recognition systems trained predominantly on lighter-skinned people struggle to accurately recognise darker-skinned people.</li>
+<li>Privacy and ethics - The usage of visual and biometric data raises questions regarding privacy and ethics, especially when dealing with black-box models.</li>
+<li>Generalisation - Models struggle to generalise objects or environments they were not trained on.</li>
+<li>Occlusions - Often objects in an image are partially blocked by other objects, making it difficult for algorithms to correctly identify them. Advanced models, like Mask R-CNN, can help with missing details, but it requires large amounts of training data with occlusion examples.</li>
+<li>Fine-graining - Distinguishing between classes or very similar categories is difficult. For instance, it’s relatively easy to differentiate between a cat and a dog, but it is challenging to distinguish dog breeds.</li>
+<li>Lighting - Changes in lighting conditions can alter the appearance of objects in an image.</li>
+<li>Resource needs - Training and running Deep Learning models require a lot of computational resources.</li>
 </ul>
 </section>
-<section id="iv-recommended-reading-viewing-approximately-200-400-words" class="level3">
-<h3 class="anchored" data-anchor-id="iv-recommended-reading-viewing-approximately-200-400-words">IV: Recommended Reading &amp; Viewing (<em>Approximately 200-400 words</em>)</h3>
-<p>The section on recommended reading and viewing contains references to more passive learning resources such as:</p>
+<section id="computer-vision-in-the-library-sector" class="level3">
+<h3 class="anchored" data-anchor-id="computer-vision-in-the-library-sector">Computer Vision in the Library Sector</h3>
+<p>Computer Vision addresses the challenges posed by vast and diverse collections, enabling libraries to improve services and access to knowledge.</p>
 <ul>
-<li>Open access articles discussing the topic at a general level, or containing contextual information.</li>
-<li>Video recordings of lectures about the topic, which do not demand practical activities from the viewer Podcasts about the topic</li>
-</ul>
-<p>When including citations please make sure to either write them in APA Style and/or simply provide the DOI with your text so that the project team can compile a dedicated Zotero Library.</p>
-</section>
-<section id="v-taking-the-next-steps-approximately-200-400-words" class="level3">
-<h3 class="anchored" data-anchor-id="v-taking-the-next-steps-approximately-200-400-words">V: Taking the next steps (<em>Approximately 200-400 words</em>)</h3>
-<p>This section provides guidance to library professionals on where to take their learning journey further. It should include:</p>
-<ul>
-<li>Where to find (local/national/international) Communities of Practice or other relevant networks and organisations who can help with furthering their understanding of the topic.</li>
-<li>If relevant you might also point to specific summer school courses, conferences and events that may further enhance learning.</li>
+<li>Image Classification and Cataloging - Libraries manage large digital libraries containing very different material. Computer Vision and automated cataloging automate the classification of the collections, thus reducing the manual labor required and improving discoverability.</li>
+<li>Object Detection and Description - Models can automatically detect features and items in the material, this is useful for creating detailed metadata in large collections. Libraries can also use object detection to improve accessibility, by generating descriptive metadata for images and videos.</li>
+<li>Automatic Optical Character Recognition (OCR) and Handwritten Text Recognition (HTR) - OCR/HTR helps libraries to make printed texts and handwritten documents digital. Thus, libraries use OCR/HTR to create searchable digital collections of books, manuscripts, newspapers, etc. OCR/HTR also supports accessibility, enabling text-to-speech conversions for visually impaired users.</li>
+<li>Visual Search and Content-Based Retrieval - Computer Vision improves search functionality in digital libraries through visual search. This allows users to upload an image and retrieve visually similar items from the collection. Content-based image retrieval also supports researchers by enabling them to find works that are similar. <br><br></li>
 </ul>
 </section>
 </section>
-<section id="style-guidelines" class="level2">
-<h2 class="anchored" data-anchor-id="style-guidelines">Style Guidelines</h2>
-<section id="writing-accessible-natural-and-internationally-inclusive-content" class="level3">
-<h3 class="anchored" data-anchor-id="writing-accessible-natural-and-internationally-inclusive-content">Writing Accessible, Natural, and Internationally Inclusive Content</h3>
-<p>To ensure consistency and inclusivity across our content, please consider these general guidelines:</p>
-<ul>
-<li><strong>Clarity and Simplicity</strong>: Write in a clear and straightforward manner, using simple language that is easy to understand for learners of all backgrounds and proficiency levels.</li>
-<li><strong>Linking to Technical Terms</strong>: When introducing technical terms or concepts that may be unfamiliar to some learners, provide hyperlinks to additional resources or definitions where they can learn more. This helps to enhance understanding and allows learners to explore topics in more depth at their own pace. Ensure that the linked resources are reliable and authoritative to provide accurate information to the learners.</li>
-<li><strong>Avoid Colloquialisms and Regionalisms</strong>: While it’s essential to maintain a casual and natural tone, please refrain from using colloquial expressions or regionalisms that may not be universally understood by our diverse audience.</li>
-<li><strong>Cultural Sensitivity</strong>: Be mindful of cultural differences and avoid language or examples that may be offensive or insensitive to any group of people. When providing examples or references, strive for universality and inclusivity.</li>
-<li><strong>Gender Neutrality</strong>: Use gender-neutral language whenever possible to ensure inclusivity and avoid assumptions about gender roles or identities.</li>
-<li><strong>Global Perspective</strong>: Consider the international nature of our audience when crafting examples, scenarios, and references. Aim for content that resonates with learners from various cultural backgrounds and geographical locations.</li>
-</ul>
+<section id="relevance-to-the-library-sector-case-studiesuse-cases" class="level2">
+<h2 class="anchored" data-anchor-id="relevance-to-the-library-sector-case-studiesuse-cases">Relevance to the Library Sector (Case Studies/Use Cases)</h2>
+<p>Having explored the foundational concepts of Computer Vision, let’s now delve into how it is being applied in the library sector. We will take a look at some key applications within areas like collection enrichment, access and delivery, and accessibility.</p>
+<section id="enrichment-of-collections" class="level3">
+<h3 class="anchored" data-anchor-id="enrichment-of-collections">Enrichment of collections</h3>
+<p>Computer Vision is transforming the enrichment of library collections by automating the classification and annotation of visual materials. With the help of object detection and image recognition, it identifies objects, patterns, and relationships within images, enabling the creation of richer metadata and contextual information. This not only improves discoverability, allowing users to locate materials more easily, but also allows for deeper insights into the historical, artistic, or cultural significance of the materials.</p>
+<p>A <a href="https://journal.code4lib.org/articles/17186">case study conducted by the University of Calgary’s Libraries and Cultural Resources</a> explored the use of <a href="https://sheeko.org/">Sheeko</a>, a metadata generation software, to create descriptive metadata from images using pre-trained models. The study concluded that, with moderate human intervention, both the descriptions and titles generated by the pre-trained models were usable. Similarly, <a href="https://saintgeorgeonabike.eu/">Saint George on a Bike</a> which was a project led by Europeana, aimed to improve the classification and metadata of cultural heritage objects, by using CNNs for object detection to identify and create semantic context for the images. These examples demonstrate the potential of combining automated AI-powered tools with human expertise to improve metadata creation, while enriching cultural heritage collections and making them more accessible and meaningful for diverse audiences. <img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/c-v_SGoaB.png?raw=true" class="img-fluid"></p>
+</section>
+<section id="access-and-delivery" class="level3">
+<h3 class="anchored" data-anchor-id="access-and-delivery">Access and delivery</h3>
+<p>Similarly, Computer Vision is improving access, delivery, and research within library collections by enabling more intuitive and sophisticated ways to explore and analyse visual data. Advances in image recognition and retrieval allow users to discover connections, find similar materials, and engage with collections in entirely new ways, improving both the efficiency and depth of exploration.</p>
+<p>For instance, <a href="https://imgs.ai/interface">imgs.ai</a> is a text-based visual search engine designed for digital collections. It uses approximate k-NN algorithms and integrates the OpenAI CLIP model to link textual queries with visually similar content, offering new ways to navigate collections. Similarly, <a href="https://www.nb.no/maken/">MAKEN</a>, a service developed by the National Library of Norway, uses object detection to identify and retrieve similar images from the library’s digital collection. Thus providing users with yet another possibility of engaging with visual material. These examples show how Computer Vision is making it easier to access digital collections, helping users to find connections, and discover materials quickly and effortlessly.</p>
+<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/c-v_MAKEN.png?raw=true" class="img-fluid"> <a href="https://dhlab.yale.edu/projects/pixplot/">PixPlot</a> is a project by the digital humanities lab of Yale University Library, it uses CNNs to cluster similar images.</p>
+</section>
+<section id="accessibility" class="level3">
+<h3 class="anchored" data-anchor-id="accessibility">Accessibility</h3>
+<p>Computer Vision significantly improves accessibility in libraries by working alongside technologies like OCR and HTR. OCR/HTR convert printed and handwritten texts into machine-readable formats, enabling text-to-speech applications for users with visual impairments. Read more about OCR and HTR from <a href="https://libereurope.github.io/ds-essentials/atr.html">Automatic Text Recognition (OCR/HTR) topic guide</a>.</p>
+<p>Beyond text, Computer Vision enables creation of descriptive metadata for visual materials, such as photographs, maps, or videos, thus providing richer contextual information that benefits users with cognitive or visual disabilities. For instance, a visually impaired user might hear a description of a painting that includes details about the objects and people depicted. This richer contextual information ensures that libraries remain inclusive spaces where all users can access and engage with collections in a meaningful way.</p>
+</section>
+<section id="semantic-segmentation-of-maps" class="level3">
+<h3 class="anchored" data-anchor-id="semantic-segmentation-of-maps">Semantic segmentation of maps</h3>
+<p>Semantic segmentation in an exciting frontier where Computer Vision can be of use for identifying and categorising distinct elements within maps, such as roads, buildings, water bodies, and land use regions. By using CNNs and U-Net architectures, models partition maps into meaningful segments, allowing for detailed analysis and improved usability. This supports historical research, geographic analysis, and so on, by extracting structured data from cartographic sources.</p>
+<p>For example, <a href="https://bnf-jadis.github.io/#">JADIS</a>, developed by the National Library of France, it is a tool designed for semantically segmented, georeferenced, and geocoded maps of Paris. <img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/c-v_JADIS.png?raw=true" class="img-fluid"> Similarly, <a href="https://mapreader.readthedocs.io/en/v1.1.1/index.html">MapReader</a>, an outcome of <a href="https://livingwithmachines.ac.uk/">the Living with the Machines project</a>, offers a Computer Vision pipeline for analysing large collections of historical maps. <br><br></p>
+</section>
+</section>
+<section id="hands-on-activity-and-other-self-guided-tutorials" class="level2">
+<h2 class="anchored" data-anchor-id="hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</h2>
+<p>For those new to the field, Google Colab Notebooks offer a good starting point with plenty of notebooks on Computer Vision, one great example being <a href="https://github.com/domingomery/visioncolab">this collection</a>.<br> <a href="https://playground.tensorflow.org/">The TensorFlow Playground</a> allows users to experiment with neural network architectures in an interactive way, offering insight into the understanding of how those work.<br> <a href="https://glam-workbench.net/">GLAM Workbench</a> is a hands-on guide that focuses on applying Computer Vision to GLAM collections, mainly from New Zealand and Australia. It explores how digitised images can be analysed to identify patterns and improve the accessibility of digital heritage.<br> For practical coding experience, versatile tutorials are found at <a href="https://docs.opencv.org/5.x/index.html">OpenCV</a> and <a href="https://realpython.com/">RealPython</a>.<br> If a more humanities oriented point of view is desired, then Computer Vision related tutorials can also be found at <a href="https://programminghistorian.org/en/lessons/?search=computer+vision">the Programming Historian</a>. <br><br></p>
+</section>
+<section id="recommended-readingviewing" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-readingviewing">Recommended Reading/Viewing</h2>
+<p>For those looking to get a deeper understanding of Computer Vision, some key resources include:<br> Arnold, T., Tilton, L. (2023). <em>Distant viewing: Computational Exploration of Digital Images.</em> The MIT Press. <a href="https://doi.org/10.7551/mitpress/14046.001.0001">https://doi.org/10.7551/mitpress/14046.001.0001</a><br> Krizhevsky, A., Sutskever, I., Hinton, G. (2012). ImageNet Classification with Deep Convolutional Neural Networks. <em>Advances in Neural Information Processing Systems 25 (NIPS 2012).</em> Retrieved from <a href="https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf</a><br> Szeliski, T. (2022). <em>Computer Vision: Algorithms and Applications.</em> Springer. <a href="https://doi.org/10.1007/978-3-030-34372-9">https://doi.org/10.1007/978-3-030-34372-9</a><br></p>
+<p>Stanford University’s course <a href="https://cs231n.stanford.edu/">CS231n</a> Convolutional Neural Networks for Visual Recognition 2016 and 2017 lectures are up on <a href="https://youtube.com/playlist?list=PL-myaKI4DslVRBatz03okSjJjj1UVzhhF&amp;feature=shared">YouTube</a>. <br><br></p>
+</section>
+<section id="taking-the-next-step" class="level2">
+<h2 class="anchored" data-anchor-id="taking-the-next-step">Taking the next step</h2>
+<p>There are <a href="https://sites.google.com/view/ai4lam">AI4LAM</a>, <a href="https://www.cenl.org/network_groups/ai-in-libraries-network-group/">CENL network group ‘AI in libraries’</a> and <a href="https://www.ifla.org/units/ai/">IFLA Artificial Intelligence Special Interest Group</a> communities, while in the IIIF community there is <a href="https://iiif.io/community/groups/AIML/">AI/ML community group</a>. There are also conferences like Fantastic Futures.</p>
+<p>Top universities, for example <a href="https://pll.harvard.edu/catalog">Harvard</a>, <a href="https://online.stanford.edu/">Stanford</a> and <a href="https://www.mooc.fi/en/">Helsinki</a>, offer, sometimes free, online courses. Also sites like Coursera, FutureLearn, and Udemy are worth a look. Open-source tools like <a href="https://docs.opencv.org/5.x/index.html">OpenCV</a> and <a href="https://playground.tensorflow.org/">TensorFlow</a> mentioned above, but also <a href="https://pytorch.org/">PyTorch</a> are handy.</p>
+<p>One can join Slack workspaces of <a href="https://ai4lam.slack.com/join/shared_invite/zt-1kknojl1j-rsoXJRllrzvNuu3lh~GXpA#/shared-invite/email">AI4LAM</a> or <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGV9QSFo8i2z1R5iIMP7B2JVhS9akHqcykWF5_y4mtWqVrBA/viewform">IIIF</a>.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -826,13 +841,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./contributing.html" class="pagination-link" aria-label="Contribute to Our Project">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Contribute to Our Project</span>
+      <a href="./collectionsasdata.html" class="pagination-link" aria-label="Collections as Data: Getting Started">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Collections as Data: Getting Started</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./licensing.html" class="pagination-link" aria-label="Licensing &amp; Re-use">
-        <span class="nav-page-text">Licensing &amp; Re-use</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./lod.html" class="pagination-link" aria-label="Linked Open Data in Library Use Today">
+        <span class="nav-page-text">Linked Open Data in Library Use Today</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -844,7 +859,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/libereurope/ds-essentials/edit/main/guidelines.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/libereurope/ds-essentials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/libereurope/ds-essentials/edit/main/computer-vision.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/libereurope/ds-essentials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
