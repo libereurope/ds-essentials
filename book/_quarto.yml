@@ -32,6 +32,7 @@ book:
     - copyright.qmd
     - atr.qmd
     - collectionsasdata.qmd
+    - computer-vision.qmd
     - lod.qmd
     - iiif.qmd
     - dataviz.qmd
