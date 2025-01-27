@@ -85,11 +85,11 @@ If a more humanities oriented point of view is desired, then Computer Vision rel
 
 ## Recommended Reading/Viewing 
 For those looking to get a deeper understanding of Computer Vision, some key resources include:<br/>
-Arnold, T., Tilton, L. (2023). *Distant viewing: Computational Exploration of Digital Images.* The MIT Press. [https://doi.org/10.7551/mitpress/14046.001.0001](https://doi.org/10.7551/mitpress/14046.001.0001)<br/>
-Krizhevsky, A., Sutskever, I., Hinton, G. (2012). ImageNet Classification with Deep Convolutional Neural Networks. *Advances in Neural Information Processing Systems 25 (NIPS 2012).* Retrieved from [https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf](https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)<br/>
-Szeliski, T. (2022). *Computer Vision: Algorithms and Applications.* Springer. [https://doi.org/10.1007/978-3-030-34372-9](https://doi.org/10.1007/978-3-030-34372-9)<br/>
 
-Stanford University’s course [CS231n](https://cs231n.stanford.edu/) Convolutional Neural Networks for Visual Recognition 2016 and 2017 lectures are up on [YouTube](https://youtube.com/playlist?list=PL-myaKI4DslVRBatz03okSjJjj1UVzhhF&feature=shared).
+- Arnold, T., Tilton, L. (2023). *Distant viewing: Computational Exploration of Digital Images.* The MIT Press. [https://doi.org/10.7551/mitpress/14046.001.0001](https://doi.org/10.7551/mitpress/14046.001.0001)<br/>
+- Krizhevsky, A., Sutskever, I., Hinton, G. (2012). ImageNet Classification with Deep Convolutional Neural Networks. *Advances in Neural Information Processing Systems 25 (NIPS 2012).* Retrieved from [https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf](https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)<br/>
+- Szeliski, T. (2022). *Computer Vision: Algorithms and Applications.* Springer. [https://doi.org/10.1007/978-3-030-34372-9](https://doi.org/10.1007/978-3-030-34372-9)<br/>
+- Stanford University’s course [CS231n](https://cs231n.stanford.edu/) Convolutional Neural Networks for Visual Recognition 2016 and 2017 lectures are up on [YouTube](https://youtube.com/playlist?list=PL-myaKI4DslVRBatz03okSjJjj1UVzhhF&feature=shared).
 <br/><br/>
 
 ## Taking the next step
