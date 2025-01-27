@@ -1,1 +1,106 @@
+# Digital Mapping {.unnumbered}
+>Contributed by: Valentina Vavassori, [ORCID iD](https://orcid.org/0000-0003-1130-642X)<br>
+>Original published date: 27/01/2025<br>
+>Last modified: See Github page history
+>
+>Suggested Citation: Valentina Vavassori, “Digital Mapping,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2025), [DOI link tbd]
 
+<br/>
+
+## Introduction  
+
+Cultural Heritage collections are full of object stories. Objects move through time and space and encounter multiple people and other objects. Additionally, as explained in the guide on [data visualisation](https://libereurope.github.io/ds-essentials/dataviz.html), humans are better able to see and interpret data based on visualising them with colours and shapes.
+
+When we combine these two concepts, it is therefore not surprising that one of the most common visualisations for cultural heritage collections, and library collections specifically, are maps.
+
+However, creating a map or adding objects on a map are not neutral processes: maps reproduce ways of seeing, giving specific interpretations of the world. For example, a map created according to a Mercator [projection](https://desktop.arcgis.com/en/arcmap/latest/map/projections/about-map-projections.htm) ([created by Gerardus Mercator in 1569)](https://en.wikipedia.org/wiki/Mercator_projection) will expand the lands above the Equator, therefore making Madagascar as big as Great Britain while it is actually twice the size. This projection reflects a view of the world that is western-centric. Despite criticism, this projection is actually the base of Web Mercator.
+
+[Web Mercator](https://en.wikipedia.org/wiki/Web_Mercator_projection) is a de facto standard for Web Mapping and it is used by Google Maps, Bing Maps and OpenStreetMap, therefore continuing the reinforcement of the same way of seeing the world while hiding the fact that it is a way of seeing the world.
+
+Recognising that every map is not neutral and it is instead a cultural artefact is particularly important when approaching the digital mapping of collections as the maps may enhance their partiality.
+
+At the same time, using maps as a visualisation tool has the potential both to make libraries aware of new and unheard stories within their collections, to connect collections from multiple institutions (see for example [Heritage for All](https://britishlibrary.github.io/locating-a-national-collection/Heritage_for_All.html)) and to identify gaps that may be worth exploring.
+
+Because of their ubiquity, they have the potential to be [easy to explore for different audiences,](https://bl.iro.bl.uk/concern/reports/877f3e85-93bf-4e27-bdfa-9a8bb91033d5) keeping in mind that accessibility and usability, as much as with other visualisations and interfaces, need to be kept at the centre of their development.
+
+Knowing [who will use the maps and for what purpose is therefore](https://bl.iro.bl.uk/concern/reports/877f3e85-93bf-4e27-bdfa-9a8bb91033d5) essential as much as being aware of the interpretation that the map is proposing and how this interpretation is influenced by the adoption of a specific technology and how the process of mapping happened.
+
+For example, visualising indigenous knowledge in a Web Mercator-based application may be problematic as the approach to place and its visualisation may be different than the one presented on some platforms and may require a [discussion with communities](https://notanatlas.org/maps/indigenous-cartography-in-acre/) on how to best represent their interpretation of place and their culture.
+
+To digitally map collections, there are a few options available in terms of tools and softwares:
+
+- First of all, there are specialistic software available such as [QGIS](https://qgis.org/) and [ArcGIS](https://www.arcgis.com/index.html) where geolocated data (that is data that have coordinates) can be visualised on maps chosen by the librarian/researcher and historical maps can be associated with coordinates.
+- It is possible to visualise geolocated data on online platforms designed for digital mapping that are not specifically for the Humanities, such as [Google Maps.](https://www.google.co.uk/maps)
+- There are online tools designed to visualise humanities data in multiple ways and have an option of visualising data on a map such as [Recogito](https://recogito.pelagios.org/), where annotated places on a text can be visualised, or [Palladio](https://hdlab.stanford.edu/palladio/) that is used to visualise data as networks.
+- There are generic visualisation tools such as [Tableau](https://www.tableau.com/), that has been explored in the data visualisation guide.
+- Finally, it is worth mentioning the work the [IIIF](https://libereurope.github.io/ds-essentials/iiif.html) community in standardising the [georeferencing of maps in IIIF](https://allmaps.org/) and creating geospatial annotations.
+
+## Relevance to the Library Sector (Case Studies/Use Cases)  
+
+Having introduced the importance of maps to visualise people, objects and relationships in cultural heritage, it is not surprising that digital mapping provides multiple potential applications and challenges for libraries. Maps can be used, as I said before, to communicate an interpretation with audiences, to let them explore collections or to analyse their collections as data, to see gaps and uncover stories.
+
+For example, the project [Mapping the Republic of Letters](http://republicofletters.stanford.edu/casestudies/voltairepub.html) by Stanford University has used maps to visualise and let users explore the places where editions of Voltaire were published between 1712 and 1800 or to visualise the places tourists explored during the Grand Tour.
+
+If the previous example illustrates how geolocated data can help study editions and letters and see the bigger picture, maps can also be used to let users explore collections, as mentioned before with [Heritage for All](https://britishlibrary.github.io/locating-a-national-collection/Heritage_for_All.html). An example is [WarSampo](https://www.sotasampo.fi/en/places/) that lets users explore the relevant places, events, people and photographs linked to Finland during World War II using [LOD](https://libereurope.github.io/ds-essentials/lod.html), or the [Holocaust refugee map](https://www.refugeemap.org/) developed by The Weiner Holocaust Library that includes not only documents and photographs but also recorded interviews.
+
+Finally, digital mapping can be used for digital storytelling, narrating stories related to places such as with [Curiocity](https://curiocity.nlb.gov.sg/) by the National Library of Singapore. The library has curated, along with the National Archives, stories related to places in Singapore, mixing maps and photographs to explore their past and present cultural significance.
+
+## Hands-on activity and other self-guided tutorial(s)  
+
+<br/>Here are some helpful tools that can used to begin digital mapping. They are divided by typology: web-based, software, and coding-based. Some are designed specifically for humanities and cultural heritage collections data while others are designed for more generic geospatial data. Most have great documentation and tutorials available.
+
+### Web-based tools
+
+- [Palladio](https://hdlab.stanford.edu/palladio/) is useful for testing multiple visualisations with Humanities data. It offers the option to upload .csv files, structure them and visualise them in maps, timelines and networks. There are a few tutorials for beginners available [here](https://hdlab.stanford.edu/palladio/help/).
+- [Recogito](https://recogito.pelagios.org/) is a platform for annotating text. It is also possible to apply Name Entity Recognition, disambiguate places and visualise them on the map feature provided (see this [10 minutes tutorial](https://recogito.pelagios.org/help/tutorial)).
+- [Google Maps](https://www.google.co.uk/maps) allows saving and sharing places and trails. It is also possible to create, customise and share maps through My Maps. To understand how it works and how it differs from Google Earth Pro, there is a tutorial on [Programming Historian](https://doi.org/10.46430/phen0028).
+- [AllMaps](https://allmaps.org/) is designed to visualise and georeference maps in IIIF.
+
+### Softwares
+
+- [ArcGIS](https://www.arcgis.com/index.html) is based on the concept of Geographic Information System (GIS) and it provides enhanced capabilities compared to the previous web-based options, including spatial data analysis. For a brief introduction to GIS and its basic components, [this guide](https://libguides.umn.edu/c.php?g=921727&p=7791720) is particularly handy along with [this course](https://ocw.mit.edu/courses/res-str-001-geographic-information-system-gis-tutorial-january-iap-2022/pages/gis-level-1/) by the MIT. ArcGIS requires a subscription to be used and it offers an [online option](https://www.esriuk.com/en-gb/arcgis/products/arcgis-online/overview) as well. There are a few beginner tutorials in the [documentation provided by Esri](https://desktop.arcgis.com/en/arcmap/latest/get-started/main/get-started-with-arcmap.htm).
+- [QGIS](https://qgis.org/) is an open-source and free software that offers some of the capabilities of ArcGIS. There are beginner tutorials on Programming Historian on [installing it](https://doi.org/10.46430/phen0031) and [creating layers](https://doi.org/10.46430/phen0034) and a comprehensive documentation on the [official website](https://docs.qgis.org/3.34/en/docs/training_manual/index.html).
+- [Google Earth Pro](https://www.google.co.uk/intl/en_uk/earth/about/versions/) is a free software based on Google Earth but offers enhanced capabilities for handling geospatial data and performing some basic data analysis (for the difference with Google Maps see [here](https://doi.org/10.46430/phen0028))
+
+### Coding
+
+There are multiple libraries for digital mapping, depending on the programming language used.
+
+- For **Python**, [geopandas](https://geopandas.org/en/stable/index.html), [basemap](https://matplotlib.org/basemap/stable/) and [matplotlib](https://matplotlib.org/) are good for static maps, while [Folium](https://python-visualization.github.io/folium/latest/), [Plotly](https://plotly.com/python/), [Dash](https://dash.plotly.com/) (for dashboards) and [ipyleaflet](https://ipyleaflet.readthedocs.io/en/latest/) are used to create interactive maps in Python and in Jupyter Notebooks.
+- For **R,** for static maps there is [ggplot](https://ggplot2.tidyverse.org/) while, for interactive maps, [leaflet](https://rstudio.github.io/leaflet/) is a good option.
+- Finally, it is worth mentioning the [D3 Javascript Library](https://d3js.org/) that is specifically designed for data visualisation and includes a lot of coded examples of maps.
+
+
+## Recommended Reading/Viewing  
+
+There are a few additional readings that may be interesting to get more information or to explore additional options for digital mapping.
+
+### Other library guides on digital mapping and GIS
+
+1. NYU Libraries. (n.d.). _Mapping and timelines_. Retrieved January 21, 2025, from <https://guides.nyu.edu/digital-humanities/tools-and-software/mapping-and-timelines>
+2. UC Berkeley Library. (n.d.). _Digital mapping_. Retrieved January 21, 2025, from <https://guides.lib.berkeley.edu/dh/mapping#s-lg-box-33113349>
+3. UBC Library. (n.d.). _Getting started with GIS_. Retrieved January 21, 2025, from <https://guides.library.ubc.ca/gis/gettingstarted>
+4. University of Reading Library. (n.d.). _Digital maps_. Retrieved January 21, 2025, from <https://libguides.reading.ac.uk/maps/digitalmaps>
+
+### Additional tutorials
+
+#### QGIS and ArcGIS
+
+1. Clifford, J., MacFadyen, J., & Macfarlane, D. (2013). Georeferencing in QGIS 2.0. _Programming Historian, 2_. <https://doi.org/10.46430/phen0027>
+2. Colson, J. (2017). Geocoding historical data using QGIS. _Programming Historian, 6_. <https://doi.org/10.46430/phen0066>
+3. Geospatial Historian. (n.d.) _Lessons_. Retrieved January 22 2025.[Lessons – Geospatial Historian](https://geospatialhistorian.wordpress.com/lessons/)
+
+#### Programming in Python and R
+
+1. Pham, K. (2017). Web mapping with Python and Leaflet. _Programming Historian, 6_. <https://doi.org/10.46430/phen0070>
+2. Ryan, Y. (2022). Making an interactive web application with R and Shiny. _Programming Historian, 11_. <https://doi.org/10.46430/phen0105>
+
+## Taking the next step  
+
+If you are interested in knowing more about digital mapping, there are a few communities of practice, conferences and summer schools that you may be interested to attend.
+
+- The [Spatial Humanities Conference](https://spathum.uni-bamberg.de/) is held annually and it is specialised in geospatial technologies, geodata and the Humanities.
+- The [GeoHumanities community](https://geohumanities.org/?page_id=2) is a special interest group part of the ADHO (Alliance of Digital Humanities Organisations).
+- IIIF has an active community working on creating [standards for mapping](https://iiif.io/community/groups/maps/).
+- The [Digital Humanities Oxford Summer School](https://digitalscholarship.web.ox.ac.uk/digital-humanities-oxford-summer-school) offers multiple DH courses, both theoretical and practical. Humanities Data is a good introduction to Humanities data processing and it usually includes some coursework on GIS. If there is an interest in data visualisation and programming at a more advanced level, there is a course specialised on Applied Data Analysis that explores, among others, geomapping.
+- The [Cultural Heritage Data School](https://www.cdh.cam.ac.uk/dataschools/) by the University of Cambridge is dedicated to exploring cultural heritage data using digital methods and approaches. The programme changes every year and may include lectures on digital mapping.
