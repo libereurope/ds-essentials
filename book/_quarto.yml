@@ -36,6 +36,7 @@ book:
     - lod.qmd
     - iiif.qmd
     - dataviz.qmd
+    - digitalmapping.qmd
     - github.qmd
     - workingwdata.qmd
     - part: "**GENERAL RESOURCES**"
