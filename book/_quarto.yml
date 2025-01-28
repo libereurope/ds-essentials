@@ -37,6 +37,7 @@ book:
     - iiif.qmd
     - dataviz.qmd
     - digitalmapping.qmd
+    - crowdsourcing.qmd
     - github.qmd
     - workingwdata.qmd
     - part: "**GENERAL RESOURCES**"
