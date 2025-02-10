@@ -9,7 +9,8 @@ language:
 website: 
   google-analytics: 
     tracking-id: "G-54HL7T1Z2K"
-   
+  repo-url: https://github.com/noramcgregor/ds-essentials
+  repo-actions: [edit, source, issue] 
   navbar:
     background: primary
     search: true
@@ -128,8 +129,7 @@ book:
     logo: images/NewLogo.png
     style: "docked"
     collapse-level: 1
-  repo-url: https://github.com/libereurope/ds-essentials
-  repo-actions: [edit, issue]
+
   comments: 
     utterances:
       repo: libereurope/ds-essentials
