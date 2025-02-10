@@ -8,6 +8,7 @@ website:
   navbar:
     background: primary
     search: true
+    logo: images/NewLogo.png
     left:
       - text: "Home"
         href: index.qmd
@@ -21,7 +22,6 @@ website:
         - reports.qmd 
 
   sidebar:
-      logo: images/NewLogo.png
       - title: "Topic Guides"
         style: "docked"
         background: light
