@@ -56,8 +56,8 @@ format:
   html:
     theme: flatly
     toc: true
-    toc-location: body
-    
+    toc-location: right
+    toc-title: Jump to...
     toc-depth: 2
 
 
