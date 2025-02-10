@@ -45,8 +45,10 @@ format:
     theme: sandstone
     toc: true
     toc-location: body
+    toc-title: Contents
+    toc-depth: 1
     mainfont: "'Trade Gothic Next', Garamond, serif"
-    fontsize: 1.1em
+    fontsize: 2.1em
 
 
 
