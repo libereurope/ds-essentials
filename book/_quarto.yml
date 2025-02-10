@@ -12,6 +12,7 @@ website:
     left:
       - text: "DS Essentials"
         href: index.qmd
+    right:
       - text: "About"
         href: project-overview.qmd 
       - text: "Topic Guides"
