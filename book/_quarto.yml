@@ -44,7 +44,8 @@ format:
     theme: sandstone
     toc: true
     toc-location: body
-
+    mainfont: "'Quattrocento', Verdana, sans-serif"
+    fontsize: 1.1em
 
 
 
