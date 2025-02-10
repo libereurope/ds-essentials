@@ -12,6 +12,8 @@ website:
       - text: "Home"
         href: index.qmd
       - project-overview.qmd 
+      - text: "Topic Guides"
+        href: topicguides.qmd
       - text: "Additional Resources"
         menu:
         - dstp.qmd
