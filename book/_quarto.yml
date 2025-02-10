@@ -70,6 +70,12 @@ format:
     toc-location: right
     toc-title: Jump to...
     toc-depth: 2
+    - icon: github
+        menu:
+          - text: Source Code
+            href:  https://code.com
+          - text: Report a Bug
+            href:  https://bugs.com
 
 
 
