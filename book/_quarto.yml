@@ -4,7 +4,7 @@ project:
 execute: 
   freeze: auto
 
-Website:  
+website:  
   title: "Digital Scholarship & Data Science Essentials for Library Professionals"
   google-analytics: 
     tracking-id: "G-54HL7T1Z2K"
