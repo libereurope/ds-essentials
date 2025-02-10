@@ -20,6 +20,31 @@ website:
         - references.qmd 
         - reports.qmd 
 
+  sidebar:
+      - title: "Topic Guides"
+        style: "docked"
+        background: light
+        contents:
+          - ml-ai.qmd
+          - copyright.qmd
+          - atr.qmd
+          - collectionsasdata.qmd
+          - computer-vision.qmd
+          - lod.qmd
+          - iiif.qmd
+          - dataviz.qmd
+          - digitalmapping.qmd
+          - crowdsourcing.qmd
+          - github.qmd
+          - workingwdata.qmd
+
+
+
+
+
+
+
+
 #About DS Essentials - Topic Guides  -   Additional Resources  -  Contribute   -   Search
 
 book:  
