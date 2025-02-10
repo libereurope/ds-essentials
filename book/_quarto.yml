@@ -25,6 +25,7 @@ website:
         style: "docked"
         background: light
         contents:
+          - topicguides.qmd
           - ml-ai.qmd
           - copyright.qmd
           - atr.qmd
