@@ -1,10 +1,28 @@
-# Collections as Data: Getting Started {.unnumbered}
-
->Contributed by: Gustavo Candela, [ORCID iD](https://orcid.org/0000-0001-6122-0777)<br>  
->Original published date: \[04/06/2024\] <br> 
-Last modified: See Github page history
->
->Suggested Citation: Gustavo Candela, “Collections as Data: Getting Started,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd] 
+---
+title: "Collections as Data: Getting Started"
+date: 2024-06-04
+author:
+  - name: Gustavo Candela
+    id: jc
+    orcid: 0000-0001-6122-0777
+    email: gcandela@ua.es
+    affiliation: 
+      - name: University of Alicante
+        city: Alicante
+        country: Spain
+        url: https://cvnet.cpd.ua.es/curriculum-breve/en/candela-romero-gustavo/10165
+abstract: > 
+  A quick overview of the Collections as Data movement and what it can do for your library, along with some practical advice on how to take steps to transform your own library collections. 
+keywords:
+  - TBD
+  - TBD
+license: "CC BY"
+citation: 
+  container-title: Digital Scholarship & Data Science Essentials
+  volume: 1
+  issue: 1
+  doi: TBD
+---
 
 ## Introduction: What is the concept of Collections as Data and how can my institution get started?  
 
