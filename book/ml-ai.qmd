@@ -1,12 +1,28 @@
-# AI & ML in Libraries Literacies {.unnumbered}
->Contributed by: Nora McGregor, [ORCID iD](https://orcid.org/0000-0001-6560-5586)<br>
->Original published date: 04/06/2024<br>
->Last modified: See Github page history
->
->Suggested Citation: Nora McGregor, “AI & ML in Libraries Literacies,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
-
-
-
+---
+title: "AI & Machine Learning in Libraries"
+date: 2024-06-04
+author:
+  - name: Nora McGregor
+    id: jc
+    orcid: 0000-0001-6560-5586
+    email: Digitalresearch@bl.uk
+    affiliation: 
+      - name: British Library
+        city: London
+        country: UK
+        url: https://www.bl.uk
+abstract: > 
+  A gentle introduction to AI & Machine Learning demystifying concepts and technologies through the examples of practical applications in library work today.
+keywords:
+  - TBD
+  - TBD
+license: "CC BY"
+citation: 
+  container-title: Digital Scholarship & Data Science Essentials
+  volume: 1
+  issue: 1
+  doi: TBD
+---
 ## Introduction: AI & ML terms demystified  
 
 AI is mentioned absolutely everywhere these days, first it was just in movies, the news, but now it’s cropping up in our library meetings and strategies and funding calls, but what does it really mean, particularly in a library context? Let’s try to get to the bottom of this!
