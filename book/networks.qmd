@@ -1,7 +1,8 @@
 # Useful Networks {.unnumbered .unlisted}
 ## LIBER Working Groups
 
-Working groups are open to staff at participating [LIBER Member institutions](https://libereurope.eu/liber-participants/): 
+Working groups are open to staff at participating [LIBER Member institutions](https://libereurope.eu/liber-participants/):
+
 - [LIBER Data Science in Libraries](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/)
 - [LIBER Digital Scholarship & Digital Cultural Heritage](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/)
 - Or have a look at the other [LIBER Working Groups - LIBER Europe](https://libereurope.eu/working-groups/)
