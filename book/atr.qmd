@@ -1,41 +1,29 @@
 # Automatic Text Recognition (OCR/HTR) {.unnumbered}
 ---
-title: "Toward a Unified Theory of High-Energy Metaphysics: Silly String Theory"
-date: 2008-02-29
+title: "Automatic Text Recognition (OCR/HTR)"
+date: 2024-11-27
 author:
-  - name: Josiah Carberry
+  - name: Adi Keinan-Schoonbaert
     id: jc
-    orcid: 0000-0002-1825-0097
+    orcid: 0000-0002-4382-3328
     email: josiah@psychoceramics.org
     affiliation: 
-      - name: Brown University
-        city: Providence
-        state: RI
-        url: www.brown.edu
+      - name: British Library
+        city: London
+        country: UK
+        url: www.bl.uk
 abstract: > 
-  The characteristic theme of the works of Stone is 
-  the bridge between culture and society. ...
+  Demystifying the process behind automatic text recognition and offering practical tips on how anyone can get started in their your own library.
 keywords:
-  - Metaphysics
-  - String Theory
+  - Handwritten Text Recognition
+  - Optical Character Recognition
 license: "CC BY"
-copyright: 
-  holder: Josiah Carberry
-  year: 2008
 citation: 
-  container-title: Journal of Psychoceramics
+  container-title: Digital Scholarship & Data Science Essentials
   volume: 1
   issue: 1
   doi: 10.5555/12345678
-funding: "The author received no specific funding for this work."
 ---
-
->Contributed by: Adi Keinan-Schoonbaert, [ORCID iD](https://orcid.org/0000-0002-4382-3328)<br>
->Original published date: 27/11/2024<br>
->
->Last modified: See Github page history
->
->Suggested Citation: Adi Keinan-Schoonbaert, “Automatic Text Recognition (OCR/HTR)", *Digital Scholarship & Data Science Essentials for Library Professionals\* (2024), \[DOI link tbd\]
 
 ## Introduction  
 
