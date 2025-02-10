@@ -1,20 +1,20 @@
 # **TOPIC GUIDES** {.unnumbered .unlisted}
 
-**Topic Guides** are at the centre of *Digital Scholarship and Data Science Essentials for Library Professionals*. The aim of each is to provide research library professionals with a gentle and concise introduction to the key topics in this area today. They offer those with no prior knowledge, quick and curated guidance to personally recommended hands-on tutorials, use-cases, articles, videos, networks and communities of practice to deepen learning.
+**Topic Guides** are the heart of *Digital Scholarship and Data Science Essentials for Library Professionals*. Written by LIBER professionals working in research libraries all across Europe, the aim of each guide is to provide a gentle and concise introduction to the key topics in this area today. The guides offer those with no prior knowledge, quick and curated guidance, from fellow library colleagues, to personally recommended hands-on tutorials, use-cases, articles, videos, networks and communities of practice to deepen learning.
 
-Each **Topic Guide** follows a fixed structure, consisting of a descriptive header and five key components in order to make it easier to quickly find the information you might need: 
+Each **Topic Guide** follows a fixed structure, in order to make it easier to quickly find the information you might need: 
 
 - Introduction to the topic
 - Relevance to the library sector (case studies/use cases)
 - Hands-on activities and other self-guided tutorial(s)
 - Recommended reading & viewing
-- Taking the next steps (finding Communities of Practice)
+- Finding Communities of Practice
 
 The guides are not presented, nor meant to be completed, in any particular order, rather, you are invited to jump in and out of individual topics as personal curiosity or practical need dictates.
 
 The Topic Guide list in this first edition draws heavily on the existing skills framework and topics covered in the British Library’s Digital Scholarship Training Programme, as well as those recommended by attendees of a series of development workshops held with LIBER working groups throughout 2023.
 
-Our current wishlist for future editions includes but is not limited to topics such as:
+Our current wishlist for future editions in 2025/2026 includes but is not limited to topics such as:
 
 - Demystifying Computational Environments for Digital Scholarship
 - Climate Change and Sustainability
