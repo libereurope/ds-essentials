@@ -44,7 +44,7 @@ format:
     theme: sandstone
     toc: true
     toc-location: body
-    mainfont: "'Quattrocento', Verdana, sans-serif"
+    mainfont: "'Trade Gothic Next', Garamond, serif"
     fontsize: 1.1em
 
 
