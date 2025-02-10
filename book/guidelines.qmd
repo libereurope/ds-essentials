@@ -1,4 +1,4 @@
-# Author Guidance and Style Guide {.unnumbered}
+# Author Guidance and Style Guide {.unnumbered .unlisted}
 
 ## Structuring the Topic Guide
 
