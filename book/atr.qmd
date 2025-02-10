@@ -5,7 +5,7 @@ author:
   - name: Adi Keinan-Schoonbaert
     id: jc
     orcid: 0000-0002-4382-3328
-    email: josiah@psychoceramics.org
+    email: digitalresearch@bl.uk
     affiliation: 
       - name: British Library
         city: London
@@ -23,7 +23,7 @@ citation:
   issue: 1
   doi: 10.5555/12345678
 ---
-# Automatic Text Recognition (OCR/HTR) {.unnumbered}
+
 ## Introduction  
 
 Cultural heritage organisations have been digitising their historical collections for several decades, outputting large-scale sets of digitised collection items - printed books, newspapers, manuscripts, maps, and many other content types as simple JPG, PNG, or TIFF images. Though these collections are made available for users to read online, there is often an important layer of accessibility that is missing as the text appearing in these images is not always made searchable, editable, or analysable.
