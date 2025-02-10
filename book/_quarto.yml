@@ -10,9 +10,10 @@ website:
     search: true
     logo: images/NewLogo.png
     left:
-      - text: "Home"
+      - text: "DS Essentials"
         href: index.qmd
-      - project-overview.qmd 
+      - text: "About"
+        href: project-overview.qmd 
       - text: "Topic Guides"
         href: topicguides.qmd
       - text: "Additional Resources"
@@ -20,6 +21,14 @@ website:
         - dstp.qmd
         - references.qmd 
         - reports.qmd 
+      - text: "Contribute"
+        menu:
+        - contributing.qmd
+        - guidelines.qmd
+        - licensing.qmd
+      - text: "Contact"
+        href: contact.qmd    
+
 
   sidebar:
       - title: "Topic Guides"
