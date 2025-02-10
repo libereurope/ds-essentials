@@ -39,7 +39,11 @@ website:
           - github.qmd
           - workingwdata.qmd
 
-
+format:
+  html:
+    theme: sandstone
+    toc: true
+    toc-location: body
 
 
 
