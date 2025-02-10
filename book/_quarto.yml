@@ -3,11 +3,13 @@ project:
 
 execute: 
   freeze: auto
-
+language: 
+  search-text-placeholder: Search
 website: 
   navbar:
     background: primary
     search: true
+    type: overlay 
     logo: images/NewLogo.png
     left:
       - text: "DS Essentials"
