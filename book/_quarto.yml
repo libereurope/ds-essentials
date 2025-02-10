@@ -107,8 +107,6 @@ book:
 
 bibliography: references.bib
 
-format:
-  html:
-    theme: sandstone
+
 
 
