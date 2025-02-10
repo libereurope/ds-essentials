@@ -1,4 +1,4 @@
-# Contact {.unnumbered}
+# Contact {.unnumbered .unlisted}
 
 If you’d like to ask a question of the project team you can please send an email to Nora McGregor, [nora.mcgregor@bl.uk](mailto:nora.mcgregor@bl.uk) or any of Co-Chairs and select Members of the collaborating WGs listed here who act as the core project delivery team and editors of this resource.
 
