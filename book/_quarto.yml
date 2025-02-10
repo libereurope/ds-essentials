@@ -57,7 +57,7 @@ format:
     theme: flatly
     toc: true
     toc-location: body
-    toc-title: Contents
+    
     toc-depth: 2
 
 
