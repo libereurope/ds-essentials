@@ -1,4 +1,4 @@
-# Contribute to Our Project {.unnumbered}
+# Contribute to Our Project {.unnumbered .unlisted}
 
 We are currently working on producing the first complete edition of this resource for launch at the [54th LIBER Annual Conference 2025](https://liberconference.eu/) in 2-4 July 2025 in Lausanne, Switzerland. Topic Guides are currently being produced through a series of in-person and online writing sprints of LIBER working group members and by direct invitation. When complete, the first edition will be deposited in the [British Library Research Repository](https://bl.iro.bl.uk/), captured in the UK Web Archive, and a DOI provided for both the overall resources and individual guides. 
 
