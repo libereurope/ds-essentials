@@ -5,7 +5,12 @@ execute:
   freeze: auto
 language: 
   search-text-placeholder: Search
+
 website: 
+  google-analytics: 
+    tracking-id: "G-54HL7T1Z2K"
+  reader-mode: true
+  
   navbar:
     background: primary
     search: true
@@ -33,10 +38,10 @@ website:
         href: contact.qmd    
 
 
-  sidebar:
-        logo: images/NewLogo.png
+  sidebar:        
       - title: "Topic Guides"
         style: "docked"
+        logo: images/NewLogo.png
         background: light
         contents:
           - topicguides.qmd
@@ -52,6 +57,11 @@ website:
           - iiif.qmd
           - lod.qmd
           - workingwdata.qmd
+page-footer: 
+    border: false
+    background: dark
+    left: | 
+      A 2023-2027 <a href="https://libereurope.eu/working-groups">LIBER Working Group</a> collaboration between <a href="https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/">Digital Scholarship and Digital Cultural Heritage </a> and <a href="https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/">Data Science in Libraries</a> 
 
 format:
   html:
