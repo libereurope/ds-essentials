@@ -54,7 +54,7 @@ website:
 
 format:
   html:
-    theme: sandstone
+    theme: flatly
     toc: true
     toc-location: body
     toc-title: Contents
