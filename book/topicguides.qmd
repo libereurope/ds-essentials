@@ -1,4 +1,4 @@
-# **TOPIC GUIDES** {.unnumbered}
+# **TOPIC GUIDES** {.unnumbered .unlisted}}
 
 **Topic Guides** are at the centre of *Digital Scholarship and Data Science Essentials for Library Professionals*. The aim of each is to provide research library professionals with a gentle and concise introduction to the key topics in this area today. They offer those with no prior knowledge, quick and curated guidance to personally recommended hands-on tutorials, use-cases, articles, videos, networks and communities of practice to deepen learning.
 
