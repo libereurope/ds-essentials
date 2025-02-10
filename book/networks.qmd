@@ -26,8 +26,8 @@ Working groups are open to staff at participating [LIBER Member institutions](ht
 
 - [RLUK Digital Scholarship Network](https://www.rluk.ac.uk/rluk-dsn/)
 
-::: {.callout-tip}
-## Have an idea for an improvement to this page?
-We'd love to hear it! Suggest edits by opening a new Issue or adding to the discussion on existing Issues on the project Github. If you’re new to GitHub don’t worry, we have a Topic Guide for that: GitHub: How to navigate and contribute to Git-based projects! Or contact us!
+::: {.callout-tip collapse=true}
+## Think we're missing something?
+We'd love to hear it! Suggest edits by opening a new Issue or adding to the discussion on existing Issues on the project Github. If you’re new to GitHub don’t worry, we have a Topic Guide for that: GitHub: How to navigate and contribute to Git-based projects! Or just drop us a line! 
 :::
 
