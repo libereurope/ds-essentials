@@ -9,8 +9,8 @@ language:
 website: 
   google-analytics: 
     tracking-id: "G-54HL7T1Z2K"
-  repo-url: https://github.com/noramcgregor/ds-essentials/book/
-  repo-actions: [edit, source, issue] 
+  repo-url: https://github.com/noramcgregor/ds-essentials/edit/main/book
+  repo-actions: [source, issue] 
   navbar:
     background: primary
     search: true
