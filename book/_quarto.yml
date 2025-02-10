@@ -19,8 +19,6 @@ website:
       - text: "Digital Scholarship & Data Science Essentials for Library Professionals"
         href: index.qmd
     right:
-      - text: "About"
-        href: project-overview.qmd 
       - text: "Topic Guides"
         href: topicguides.qmd
       - text: "Additional Resources"
@@ -33,6 +31,8 @@ website:
         - contributing.qmd
         - guidelines.qmd
         - licensing.qmd
+      - text: "About"
+        href: project-overview.qmd 
       - text: "Contact"
         href: contact.qmd    
 
