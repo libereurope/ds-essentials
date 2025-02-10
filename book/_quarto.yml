@@ -9,8 +9,7 @@ language:
 website: 
   google-analytics: 
     tracking-id: "G-54HL7T1Z2K"
-  reader-mode: true
-  
+   
   navbar:
     background: primary
     search: true
@@ -40,8 +39,7 @@ website:
 
   sidebar:        
       - title: "Topic Guides"
-        style: "docked"
-        logo: images/NewLogo.png
+        style: "floating"
         background: light
         contents:
           - topicguides.qmd
