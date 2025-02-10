@@ -55,7 +55,7 @@ website:
           - iiif.qmd
           - lod.qmd
           - workingwdata.qmd
-page-footer: 
+  page-footer: 
     border: false
     background: dark
     left: | 
