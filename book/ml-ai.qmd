@@ -1,7 +1,7 @@
 ---
 title: "AI & Machine Learning in Libraries"
 date: 2024-06-04
-date-modified: 
+date-modified: 2025-02-10
 author:
   - name: Nora McGregor
     id: jc
