@@ -21,6 +21,7 @@ website:
         - reports.qmd 
 
   sidebar:
+    logo: images/NewLogo.png
       - title: "Topic Guides"
         style: "docked"
         background: light
