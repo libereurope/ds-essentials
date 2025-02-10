@@ -1,11 +1,28 @@
-# Computer Vision {.unnumbered}
->Contributed by: Greete Veesalu, [ORCID iD](https://orcid.org/0009-0002-6742-1873)<br>
->Original published date: 22/01/2025<br>
->Last modified: See Github page history
->
->Suggested Citation: Greete Veesalu, “Computer Vision,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2025), [DOI link tbd]
-
-<br/>
+---
+title: "Computer Vision"
+date: 2024-06-04
+author:
+  - name: Greete Veesalu
+    id: jc
+    orcid: 0009-0002-6742-1873
+    email: greete.veesalu@rara.ee
+    affiliation: 
+      - name: National Library of Estonia
+        city: Tallin
+        country: Estonia
+        url: https://libereurope.eu/member/greete-veesalu/
+abstract: > 
+  An overview of computer vision, how it works and it's various uses in making digital collections more accessible...
+keywords:
+  - TBD
+  - TBD
+license: "CC BY"
+citation: 
+  container-title: Digital Scholarship & Data Science Essentials
+  volume: 1
+  issue: 1
+  doi: TBD
+---
 
 ## Introduction
 
