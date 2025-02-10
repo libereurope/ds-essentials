@@ -40,16 +40,16 @@ website:
         contents:
           - topicguides.qmd
           - ml-ai.qmd
-          - copyright.qmd
           - atr.qmd
           - collectionsasdata.qmd
           - computer-vision.qmd
-          - lod.qmd
-          - iiif.qmd
+          - copyright.qmd
+          - crowdsourcing.qmd
           - dataviz.qmd
           - digitalmapping.qmd
-          - crowdsourcing.qmd
           - github.qmd
+          - iiif.qmd
+          - lod.qmd
           - workingwdata.qmd
 
 format:
