@@ -72,7 +72,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: yeti
     toc: true
     toc-location: right
     toc-title: Jump to...
