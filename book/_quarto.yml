@@ -18,9 +18,10 @@ website:
     background: primary
     search: true
     type: overlay
-    logo: https://github.com/libereurope/ds-essentials/blob/main/book/images/NewLogo.png
+    
 
     left:
+      logo: https://github.com/libereurope/ds-essentials/blob/main/book/images/NewLogo.png
       - text: "Digital Scholarship & Data Science Essentials for Library Professionals"
         href: index.qmd
     right:
