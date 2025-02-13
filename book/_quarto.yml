@@ -72,7 +72,7 @@ website:
 
 format:
   html:
-    theme: flatly
+    theme: [flatly, custom.scss]
     toc: true
     toc-location: right
     toc-title: Jump to...
