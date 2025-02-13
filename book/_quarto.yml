@@ -69,7 +69,7 @@ website:
         href: https://github.com/noramcgregor/ds-essentials
 format:
   html:
-    theme: flatly
+    theme: litera
     toc: true
     toc-location: right
     toc-title: Jump to...
