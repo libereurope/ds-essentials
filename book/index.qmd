@@ -2,7 +2,7 @@
 title: "Welcome to Digital Scholarship & Data Science Essentials"
 format: 
    html:
-     backgroundcolor: light 
+     background: light 
      page-layout: full
 ---
 _Digital Scholarship & Data Science Essentials for Library Professionals_ (**DS Essentials**) aims to make it easier for LIBER library professionals to quickly gain a concise overview of the new technologies and concepts that underpin digital scholarship and data science practice in research libraries today, and find trusted training material recommendations to start their professional learning journey.
