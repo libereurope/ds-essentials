@@ -13,9 +13,9 @@ Are you someone working in or around research libraries with an interest in lear
 
 Then this resource is for you!
 
-It is very important to us that this resource is inclusive and intellectually accessible, challenging but not terrifying and as such we focus primarily on an introductory audience where no programming or particular digital skills are required.
+It is very important to us that the guides here are inclusive and intellectually accessible, challenging but not terrifying and as such we focus primarily on an introductory audience where no programming or particular digital skills are required.
 
-Though written from the research library professional perspective these guides will be useful for anyone currently (or aspiring to be) working in and around digital collections and data in heritage institutions:
+Though written from the research library professional perspective we think these guides will be useful for anyone currently (or aspiring to be) working in and around digital collections and data in heritage institutions:
 
 - Library & Information Science students
 - Project managers
