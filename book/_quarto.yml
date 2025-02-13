@@ -21,7 +21,6 @@ website:
     
 
     left:
-        logo: https://github.com/libereurope/ds-essentials/blob/main/book/images/NewLogo.png
       - text: "Digital Scholarship & Data Science Essentials for Library Professionals"
         href: index.qmd
     right:
@@ -48,6 +47,7 @@ website:
   sidebar:        
       - title: "Topic Guides"
         style: "floating"
+        logo: images/NewLogo.png
         background: light
         contents:
           - topicguides.qmd
