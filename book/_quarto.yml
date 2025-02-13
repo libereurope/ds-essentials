@@ -21,7 +21,7 @@ website:
     logo: images/NewLogo.png
     
     left:
-      - text: "DS Essentials"
+      - text: "Digital Scholarship & Data Science Essentials for Library Professionals"
         href: index.qmd
 
     right:
