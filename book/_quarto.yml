@@ -23,6 +23,7 @@ website:
     left:
       - text: "Digital Scholarship & Data Science Essentials for Library Professionals"
         href: index.qmd
+        logo: images/NewLogo.png
     right:
       - text: "Topic Guides"
         href: topicguides.qmd
@@ -47,7 +48,6 @@ website:
   sidebar:        
       - title: "Topic Guides"
         style: "floating"
-        logo: images/NewLogo.png
         background: light
         contents:
           - topicguides.qmd
