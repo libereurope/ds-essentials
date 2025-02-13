@@ -18,12 +18,12 @@ website:
     background: primary
     search: true
     type: overlay
+    logo: images/NewLogo.png
     
-
     left:
       - text: "Digital Scholarship & Data Science Essentials for Library Professionals"
         href: index.qmd
-        logo: images/NewLogo.png
+
     right:
       - text: "Topic Guides"
         href: topicguides.qmd
