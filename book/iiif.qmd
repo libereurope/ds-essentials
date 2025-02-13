@@ -1,11 +1,29 @@
-# IIIF {.unnumbered}
->Contributed by: Nora McGregor, [ORCID iD](https://orcid.org/0000-0001-6560-5586)<br>
->Original published date: 27/03/2024<br>
->Last modified: See Github page history
->
->Suggested Citation: Nora McGregor, “IIIF,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
-
-## Introduction: What is IIIF? 
+---
+title: "IIIF"
+date: 2024-11-27
+author:
+  - name: Nora McGregor
+    id: jc
+    orcid: 0000-0001-6560-5586
+    email: digitalresearch@bl.uk
+    affiliation: 
+      - name: British Library
+        city: London
+        country: UK
+        url: www.bl.uk
+abstract: > 
+  Demystifying the process behind automatic text recognition and offering practical tips on how anyone can get started in their your own library.
+keywords:
+  - TBD
+  - TBD
+license: "CC BY"
+citation: 
+  container-title: Digital Scholarship & Data Science Essentials
+  volume: 1
+  issue: 1
+  doi: TBD
+---
+## Introduction 
 
 IIIF (pronounced “triple-eye-eff”) stands for the [International Image Interoperability Framework](https://iiif.io/). Quite a tongue twister that one, but it broadly represents two things: 
 
@@ -76,13 +94,15 @@ This is a self-guided workshop available online in Dutch and English and has som
 
 ## Recommended Reading/Viewing 
 
-There is a useful collection of articles and data related to IIIF being compiled by the community at https://zenodo.org/communities/iiif/records?q=&l=list&p=1&s=10&sort=newest 
+There is a useful collection of articles and data related to IIIF being compiled by the community on [Zenodo](https://zenodo.org/communities/iiif/records?q=&l=list&p=1&s=10&sort=newest) 
 
-The IIIF organisation has also created a number of useful resources alongside their training materials such as [How It Works, a plain-language guide to how the IIIF API’s work](https://iiif.io/get-started/how-iiif-works/) and a glossary of “Key concepts you’ll encounter when working with IIIF”
+The IIIF organisation has also created a number of useful resources alongside their training materials such as [How It Works, a plain-language guide to how the IIIF API’s work](https://iiif.io/get-started/how-iiif-works/) and a glossary of “Key concepts you’ll encounter when working with IIIF”.
 
-## Taking the next step
+It's worth having a look at how other institutions have provided [IIIF Resources](https://iiif.io/guides/finding_resources/).
+
+There is also a massive list of learning resources, [Awesome IIIF](https://github.com/IIIF/awesome-iiif), compiled and maintained by the IIIF Community if you are looking to take your knowledge a bit further and dig deeper into some of the exciting implementations of IIIF. 
+
+## Finding Communities of Practice
 Learning about IIIF can be overwhelming at first, especially if you’re not a programmer, but the IIIF Community is a very supportive and engaged one and has created a number of ways to get involved and find support and help. 
 
 I recommend checking out their community page [IIIF Community](https://iiif.io/community/) to find details of their next open community calls, or to join their Slack Channel where you can post questions and join the discussion with other users. 
-
-There is also a massive list of resources, [Awesome IIIF](https://github.com/IIIF/awesome-iiif), compiled and maintained by the IIIF Community if you are looking to take your knowledge a bit further and dig deeper into some of the exciting implementations of IIIF. 
