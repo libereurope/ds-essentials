@@ -17,7 +17,8 @@ website:
   navbar:
     background: primary
     search: true
-    type: overlay 
+    type: overlay
+    logo: NewLogo.png
 
     left:
       - text: "Digital Scholarship & Data Science Essentials for Library Professionals"
