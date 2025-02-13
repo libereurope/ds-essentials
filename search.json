@@ -602,7 +602,7 @@
     "href": "iiif.html#recommended-readingviewing",
     "title": "IIIF",
     "section": "Recommended Reading/Viewing",
-    "text": "Recommended Reading/Viewing\nThere is a useful collection of articles and data related to IIIF being compiled by the community at https://zenodo.org/communities/iiif/records?q=&l=list&p=1&s=10&sort=newest\nThe IIIF organisation has also created a number of useful resources alongside their training materials such as How It Works, a plain-language guide to how the IIIF API’s work and a glossary of “Key concepts you’ll encounter when working with IIIF”",
+    "text": "Recommended Reading/Viewing\nThere is a useful collection of articles and data related to IIIF being compiled by the community on Zenodo\nThe IIIF organisation has also created a number of useful resources alongside their training materials such as How It Works, a plain-language guide to how the IIIF API’s work and a glossary of “Key concepts you’ll encounter when working with IIIF”.\nIt’s worth having a look at how other institutions have provided IIIF Resources.\nThere is also a massive list of learning resources, Awesome IIIF, compiled and maintained by the IIIF Community if you are looking to take your knowledge a bit further and dig deeper into some of the exciting implementations of IIIF.",
     "crumbs": [
       "IIIF"
     ]
@@ -612,7 +612,7 @@
     "href": "iiif.html#taking-the-next-step",
     "title": "IIIF",
     "section": "Taking the next step",
-    "text": "Taking the next step\nLearning about IIIF can be overwhelming at first, especially if you’re not a programmer, but the IIIF Community is a very supportive and engaged one and has created a number of ways to get involved and find support and help.\nI recommend checking out their community page IIIF Community to find details of their next open community calls, or to join their Slack Channel where you can post questions and join the discussion with other users.\nThere is also a massive list of resources, Awesome IIIF, compiled and maintained by the IIIF Community if you are looking to take your knowledge a bit further and dig deeper into some of the exciting implementations of IIIF.",
+    "text": "Taking the next step\nLearning about IIIF can be overwhelming at first, especially if you’re not a programmer, but the IIIF Community is a very supportive and engaged one and has created a number of ways to get involved and find support and help.\nI recommend checking out their community page IIIF Community to find details of their next open community calls, or to join their Slack Channel where you can post questions and join the discussion with other users.",
     "crumbs": [
       "IIIF"
     ]
