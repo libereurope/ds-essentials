@@ -72,7 +72,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     toc: true
     toc-location: right
     toc-title: Jump to...
