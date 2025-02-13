@@ -12,13 +12,7 @@ website:
   repo-url: https://github.com/noramcgregor/ds-essentials/
   repo-subdir: book
   repo-actions: [source, issue] 
-format:
-  html:
-    theme: lux
-    toc: true
-    toc-location: right
-    toc-title: Jump to...
-    toc-depth: 2
+
     
   navbar:
     background: primary
@@ -76,7 +70,13 @@ format:
       - icon: github
         href: https://github.com/noramcgregor/ds-essentials
 
-
+format:
+  html:
+    theme: lux
+    toc: true
+    toc-location: right
+    toc-title: Jump to...
+    toc-depth: 2
 
 
 
