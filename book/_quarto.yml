@@ -63,6 +63,7 @@ website:
           - github.qmd
           - iiif.qmd
           - lod.qmd
+          - api.qmd
           - workingwdata.qmd
   page-footer: 
     border: false
