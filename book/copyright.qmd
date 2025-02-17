@@ -6,21 +6,21 @@ author:
   - name: Alex Fenlon
     id: jc
     orcid: 0000-0003-0059-6855
-    email: Digitalresearch@bl.uk
+    email: a.fenlon@bham.ac.uk
     affiliation: 
-      - name: British Library
-        city: London
+      - name: University of Birmingham
+        city: Birmingham
         country: UK
-        url: https://www.bl.uk
+        url: https://libereurope.eu/member/alex-fenlon/
   - name: Maria Rehbinder
     id: jc
     orcid: 0000-0001-8427-9421
-    email: Digitalresearch@bl.uk
+    email: maria.rehbinder@aalto.fi
     affiliation: 
-      - name: British Library
-        city: London
-        country: UK
-        url: https://www.bl.uk
+      - name: Aalto University
+        city: Helsinki
+        country: Finland
+        url: https://libereurope.eu/member/maria-rehbinder/
 abstract: > 
   This guide aims to provide library professionals at European research institutions, particularly those supporting or undertaking activities that combines AI tools and methods and digital cultural heritage collections and data, with a brief overview of the current copyright and licensing context for such research today.
 keywords:
