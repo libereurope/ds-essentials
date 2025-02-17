@@ -1,6 +1,7 @@
 ---
 title: "IIIF"
 date: 2024-11-27
+date-modified: 2025-02-10
 author:
   - name: Nora McGregor
     id: jc
@@ -12,7 +13,7 @@ author:
         country: UK
         url: www.bl.uk
 abstract: > 
-  Demystifying the process behind automatic text recognition and offering practical tips on how anyone can get started in their your own library.
+  A one page guide introducing the basics of the IIIF standard with case studies and practical advice for getting started.
 keywords:
   - TBD
   - TBD
