@@ -13,7 +13,7 @@ author:
         country: UK
         url: https://osc.cam.ac.uk/contact-us
 abstract: > 
-This guide explores the use of data within libraries through presenting questions to think through when undertaking your own data tasks, alongside practical examples from libraries around the world.
+  This guide explores the use of data within libraries through presenting questions to think through when undertaking your own data tasks, alongside practical examples from libraries around the world.
 
 keywords:
   - TBD
