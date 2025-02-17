@@ -25,7 +25,7 @@ citation:
   doi: TBD
 ---
 
-## Introduction: What is the concept of Collections as Data and how can my institution get started?  
+## Introduction   
 
 GLAM (Galleries, Libraries, Archives and Museums) institutions have been making their content available to the public and researchers in a variety of formats for different purposes for decades. From maps, images, text, historical newspapers or postcards, digitising collections and displaying our items online are at the core of making this information accessible for research and enjoyment. But recent advances in and expansion of the use of [AI and Machine Learning](ml-ai.html) in library work and library research have transformed the way in which we and our users expect to access, view, use and search our collections. As the demand for computationally accessible cultural heritage collections continues to grow, and we’re being asked to provide our collections in the form of datasets for instance, how do we go about this practically?
 
@@ -73,6 +73,6 @@ If you’d like to get a sense of how people are reusing collections published a
 
 If you are interested in reading more about the collections as data concept we highly recommend the [Zotero | Groups > collections as data - projects, initiatives, readings, tools, datasets](https://www.zotero.org/groups/2171423/collections_as_data_-_projects_initiatives_readings_tools_datasets) which is an open bibliography collaboratively maintained by the community of practice of projects, readings, initiatives, tools, and datasets that are in some way or another related to collections as data.
 
-## Taking the next step  
+## Finding Communities of Practice 
 
 Joining the [International GLAM Labs Community](https://glamlabs.io/) is a great way to get started on the path of opening your collections up as data as well as the [Collections as Data - Google Group](https://groups.google.com/g/collectionsasdata) as both communities are very active and have a wide range of experience and expertise to share on this topic.
