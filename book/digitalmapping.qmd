@@ -113,7 +113,7 @@ There are a few additional readings that may be interesting to get more informat
 1. Pham, K. (2017). Web mapping with Python and Leaflet. _Programming Historian, 6_. <https://doi.org/10.46430/phen0070>
 2. Ryan, Y. (2022). Making an interactive web application with R and Shiny. _Programming Historian, 11_. <https://doi.org/10.46430/phen0105>
 
-## Taking the next step  
+## Finding Communities of Practice 
 
 If you are interested in knowing more about digital mapping, there are a few communities of practice, conferences and summer schools that you may be interested to attend.
 
