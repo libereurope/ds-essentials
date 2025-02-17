@@ -12,15 +12,15 @@ author:
         city: Guildford
         country: UK
         url: https://www.surrey.ac.uk/library/open-research/teams-advance-open-research-surrey
-    - name: Jodie Double
-      id: jc
-      orcid: 0000-0001-8544-1670
-      email: J.L.Double@leeds.ac.uk
-      affiliation: 
-       - name: University of Leeds
-         city: Leeds
-         country: UK
-         url: https://libereurope.eu/member/jodie-double/
+  - name: Jodie Double
+    id: jc
+    orcid: 0000-0001-8544-1670
+    email: J.L.Double@leeds.ac.uk
+    affiliation: 
+      - name: University of Leeds
+        city: Leeds
+        country: UK
+        url: https://libereurope.eu/member/jodie-double/
 abstract: > 
   A short guide explaining the aim and value of Open Research/Open Science.
 keywords:
