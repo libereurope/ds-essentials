@@ -110,7 +110,7 @@ book:
         - licensing.qmd
         - contact.qmd
     - topicguides.qmd
-    - ml-ai.qmd
+    - ai-ml.qmd
     - copyright.qmd
     - atr.qmd
     - collectionsasdata.qmd
