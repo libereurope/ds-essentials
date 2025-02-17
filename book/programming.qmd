@@ -80,7 +80,7 @@ There are a number of useful resources to improve your programming skills specif
 
 ## Recommended Reading/Viewing  
 
-Paul Vierthaler’s [Hacking the Humanities Tutorials](https://www.youtube.com/playlist?list=PL6kqrM2i6BPIpEF5yHPNkYhjHm-FYWh17\) video series is quite useful for beginners.
+Paul Vierthaler’s [Hacking the Humanities Tutorials](https://www.youtube.com/playlist?list=PL6kqrM2i6BPIpEF5yHPNkYhjHm-FYWh17) video series is quite useful for beginners.
 
 We can highly recommend this recent book _Hands-On Data Science for Librarians_ written by Sarah Lin and Dorris Scot (Boca Raton : CRC Press, 2023, ISBN 978-1-032-10999-2).
 
