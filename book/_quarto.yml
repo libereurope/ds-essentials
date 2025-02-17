@@ -7,7 +7,7 @@ language:
   search-text-placeholder: Search
 
 website: 
-  favicon: images/Favicon.png
+  favicon: ![](https://github.com/noramcgregor/ds-essentials/blob/main/book/images/Favicon.png?raw=true)
   google-analytics: 
     tracking-id: "G-54HL7T1Z2K"
   repo-url: https://github.com/noramcgregor/ds-essentials/
