@@ -12,7 +12,6 @@ author:
         city: London
         country: UK
         url: https://www.bl.uk
-author:
   - name: Maria Rehbinder
     id: jc
     orcid: 0000-0001-8427-9421
