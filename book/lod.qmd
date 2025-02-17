@@ -173,7 +173,7 @@ Some examples of research articles to read providing additional details and info
 
 You can also find innovative ideas in the research articles published at the [Semantic Web Journal](https://www.semantic-web-journal.net/).
 
-## Taking the next step  
+## Finding Communities of Practice  
 
 The [LD4 Community](http://ld4.io/) is a community of practice for linked data in libraries.
 
