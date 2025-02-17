@@ -1,9 +1,47 @@
-# GitHub: How to navigate and contribute to Git-based projects {.unnumbered}
->Contributed by: Liam O’Dwyer, [ORCID iD](https://orcid.org/0009-0006-8875-1002), Nora McGregor,[ORCID iD](https://orcid.org/0000-0001-6560-5586) and Liam Green-Hughes, [ORCID iD](https://orcid.org/0000-0002-3852-5879)<br>
->Original published date: 19/06/2024<br>
->Last modified: See Github page history
->
->Suggested Citation: Liam O'Dwyer, Nora McGregor, Liam Green-Hughes, “GitHub: How to navigate and contribute to Git-based projects,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
+---
+title: "GitHub: How to navigate and contribute to Git-based projects"
+date: 2024-06-04
+date-modified: 2025-02-10
+author:
+  - name: Nora McGregor
+    id: jc
+    orcid: 0000-0001-6560-5586
+    email: Digitalresearch@bl.uk
+    affiliation: 
+      - name: British Library
+        city: London
+        country: UK
+        url: https://libereurope.eu/member/nora-mcgregor/
+  - name: Liam Green-Hughes
+    id: jc
+    orcid: 0000-0002-3852-5879
+    email: labs@bl.uk
+    affiliation: 
+      - name: British Library
+        city: London
+        country: UK
+        url: https://www.bl.uk
+  - name: Liam O'Dwyer
+    id: jc
+    orcid: 0009-0006-8875-1002
+    email: Digitalresearch@bl.uk
+    affiliation: 
+      - name: Dublin City University
+        city: Dublin 
+        country: Ireland
+        url: https://libereurope.eu/member/liam-odwyer/
+abstract: > 
+  A practical introduction to navigating the GitHub interface with tips on how to use it for contributing and creating projects relevant to library work.
+keywords:
+  - TBD
+  - TBD
+license: "CC BY"
+citation: 
+  container-title: Digital Scholarship & Data Science Essentials
+  volume: 1
+  issue: 1
+  doi: TBD
+---
 
 ## Introduction  
 
