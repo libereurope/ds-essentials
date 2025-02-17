@@ -1,10 +1,39 @@
-# Copyright & Licensing: Current context and considerations for researchers and libraries using AI in research today {.unnumbered}
->Contributed by: Alex Fenlon, [ORCID iD](https://orcid.org/0000-0003-0059-6855) and Maria Rehbinder, [ORCID iD](https://orcid.org/0000-0001-8427-9421)<br>
->
->Original published date: 12/06/2024<br>
->Last modified: See Github page history
->
->Suggested Citation: Alex Fenlon, Maria Rehbinder “Copyright & Licensing: Current context and considerations for researchers and libraries using AI in research today”, *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
+---
+title: "Copyright & Licensing: Current context and considerations for researchers and libraries using AI in research today"
+date: 2024-06-04
+date-modified: 2025-02-10
+author:
+  - name: Alex Fenlon
+    id: jc
+    orcid: 0000-0003-0059-6855
+    email: Digitalresearch@bl.uk
+    affiliation: 
+      - name: British Library
+        city: London
+        country: UK
+        url: https://www.bl.uk
+author:
+  - name: Maria Rehbinder
+    id: jc
+    orcid: 0000-0001-8427-9421
+    email: Digitalresearch@bl.uk
+    affiliation: 
+      - name: British Library
+        city: London
+        country: UK
+        url: https://www.bl.uk
+abstract: > 
+  This guide aims to provide library professionals at European research institutions, particularly those supporting or undertaking activities that combines AI tools and methods and digital cultural heritage collections and data, with a brief overview of the current copyright and licensing context for such research today.
+keywords:
+  - TBD
+  - TBD
+license: "CC BY"
+citation: 
+  container-title: Digital Scholarship & Data Science Essentials
+  volume: 1
+  issue: 1
+  doi: TBD
+---
 
 ## Introduction
 
