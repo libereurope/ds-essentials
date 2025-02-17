@@ -101,7 +101,7 @@ The [Collective Wisdom Handbook](https://doi.org/10.21428/a5d7554f.1b80974b) is 
 - [Planning crowdsourcing events](https://britishlibrary.pubpub.org/pub/planning-crowdsourcing-events)
 - [Evaluating your crowdsourcing project](https://britishlibrary.pubpub.org/pub/evaluating-your-crowdsourcing-project)
 
-## Taking the next step  
+## Finding Communities of Practice
 
 When you're ready to think about creating crowdsourcing projects or working with crowdsourcing data it’s useful to reach out to existing communities of practice for support and feedback.  
 
