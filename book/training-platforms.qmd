@@ -1,4 +1,10 @@
-# Training Platforms {.unnumbered .unlisted}
+---
+title: "Training Platforms"
+format: 
+   html:
+     page-layout: full
+sidebar: false
+---
 
 When you’re ready to go further and have a better idea of the specific skills you need for a particular task, we can recommend having a good search through these excellent platforms which host or link to a great many in-depth training materials:
 
