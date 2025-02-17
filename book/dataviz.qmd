@@ -1,9 +1,29 @@
-# Data Visualisation {.unnumbered}
->Contributed by: Harry Lloyd, [ORCID iD](https://orcid.org/0009-0009-3519-171X)<br>
->Original published date: 13/06/2024<br>
->Last modified: See Github page history
->
->Suggested Citation: Harry Lloyd, “Data Visualisation,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
+---
+title: "Data Visualisation"
+date: 2025-01-28
+date-modified: 2025-01-28
+author:
+  - name: Harry Lloyd
+    id: jc
+    orcid: 0009-0009-3519-171X
+    email: digitalresearch@bl.uk
+    affiliation: 
+      - name: British Library
+        city: London
+        country: UK
+        url: https://www.bl.uk/
+abstract: > 
+  Demystifying the process behind visualising data and offering practical tips on how anyone can get started in their your own library.
+keywords:
+  - TBD
+  - TBD
+license: "CC BY"
+citation: 
+  container-title: Digital Scholarship & Data Science Essentials
+  volume: 1
+  issue: 1
+  doi: 10.5555/12345678
+---
 
 ## Introduction 
 Why do we visualise data? For data to tell us something we need to look for patterns, and we are much better at finding these patterns in colours and shapes than in a table of raw data. Visualisations are key to developing the story we want to tell with our data. 
