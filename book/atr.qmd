@@ -1,6 +1,7 @@
 ---
 title: "Automatic Text Recognition (OCR/HTR)"
 date: 2024-11-27
+date-modified: 2025-02-10
 author:
   - name: Adi Keinan-Schoonbaert
     id: jc
