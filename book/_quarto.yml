@@ -19,7 +19,7 @@ website:
     background: primary
     search: true
     type: overlay
-    logo: images/NewLogo.png
+    logo: images/Favicon.png
     
     left:
       - text: "Digital Scholarship & Data Science Essentials for Library Professionals"
