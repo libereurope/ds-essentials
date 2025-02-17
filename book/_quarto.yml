@@ -53,6 +53,7 @@ website:
         contents:
           - topicguides.qmd
           - ai-ml.qmd
+          - api.qmd
           - atr.qmd
           - collectionsasdata.qmd
           - computer-vision.qmd
@@ -63,7 +64,7 @@ website:
           - github.qmd
           - iiif.qmd
           - lod.qmd
-          - api.qmd
+          - openresearch.qmd
           - workingwdata.qmd
   page-footer: 
     border: false
