@@ -1,4 +1,10 @@
-# Recommended Reading Lists {.unnumbered}
+---
+title: "Recommended Reading Lists"
+format: 
+   html:
+     page-layout: full
+---
+
 There is no shortage of recommended reading lists out there, here we try and highlight a few of the most up to date and useful lists out there for the sector today!
 
 Zotero Library for Digital Scholarship and Data Science Essentials for Library Professionals
