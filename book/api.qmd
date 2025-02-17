@@ -27,9 +27,9 @@ citation:
 
 ## Introduction
 
-API (Application Programming Interface) can sound intimidating, but the ideas behind them are not unfamiliar. An [application programming interface (API)](https://en.wikipedia.org/wiki/API) allows a connection between computers or between computer programs, it is a type of software interface offering a service to other pieces of software. A common analogy that can be helpful in understanding the process of how APIs work is the restaurant analogy.
+APIs (Application Programming Interfaces) can sound intimidating, but the ideas behind them are not unfamiliar. An [application programming interface (API)](https://en.wikipedia.org/wiki/API) allows a connection between computers or between computer programs, it is a type of software interface offering a service to other pieces of software. A common analogy that can be helpful in understanding the process of how APIs work is the restaurant analogy.
 
-Imagine going to a restaurant (server). You first consult the menu provided (API documentation/specification) to understand what is available for you to order (request). After consulting the menu (documentation) you have a good idea of what is likely to result in a successful order from the kitchen. The waiter is a bit like the restaurant’s API. Behind the waiter is a whole world of kitchen staff, bar staff, wholesalers, suppliers, shareholders and so on. You don’t need to worry about any of them, you probably won’t even ever speak to them. All your food orders (requests) and any extra instructions such as “chips or mash?” (parameters) will be passed to the kitchen (server) by the waiter (API). The kitchen (server) prepares your order (request) and passes it to the waiter (API) to deliver to your meal (response).
+Imagine going to a restaurant (server). You first consult the menu provided (API documentation / specification) to understand what is available for you to order (request). After consulting the menu (documentation) you have a good idea of what is likely to result in a successful order from the kitchen. The waiter is a bit like the restaurant’s API. Behind the waiter is a whole world of kitchen staff, bar staff, wholesalers, suppliers, shareholders and so on. You don’t need to worry about any of them, you probably won’t even ever speak to them. All your food orders (requests) and any extra instructions such as “chips or mash?” (parameters) will be passed to the kitchen (server) by the waiter (API). The kitchen (server) prepares your order (request) and passes it to the waiter (API) to deliver to your meal (response).
 
 ![](https://github.com/noramcgregor/ds-essentials/blob/main/book/images/api1.png?raw=true)
 
@@ -53,7 +53,7 @@ Different types of requests are made to an API depending on what you want to do 
 
 The main HTTP request methods are described in the table below:
 
-| Request | Description |
+| Http Request Method | Description |
 | --- | --- |
 | GET | Reads information from an API, does not change what is on the server, e.g. a list of available images or in individual image |
 | POST | Adds a new resource to the server, e.g. upload a new image to the server with its metadata |
@@ -82,6 +82,7 @@ You will notice that the first part of the address, <http://api.example.org>, is
 
 The rest we can break down like this:
 
+| --- | --- |
 | --- | --- |
 | GET | The type of request we are making (see above). In this case we are reading information, not changing it or deleting it. |
 | /v1 | The version number of the API. Having versions of the API allows providers to provide new versions of APIs, that may work in different ways, without breaking existing API requests. |
@@ -158,17 +159,17 @@ Sometimes, circumstances change around a system. It might be that requirements c
 
 Let’s try a few real-world examples of getting information from an API as this is the easiest way to understand the process.
 
-### Exercise 1: Using an API for the very first time(adapted from [Using an API: a hands on exercise](http://www.meanboyfriend.com/overdue_ideas/2014/10/using-an-api-hands-on-exercise/) a tutorial created for British Library staff by Owen Stephens)
+### **Exercise 1: Using an API for the very first time** 
 
 **1. Introduction**
 
-In this exercise, you are going to use a Google Spreadsheet to retrieve records from the Flickr API and display the results.
+In this exercise, adapted from [Using an API: a hands on exercise](http://www.meanboyfriend.com/overdue_ideas/2014/10/using-an-api-hands-on-exercise/) a tutorial created for British Library staff by Owen Stephens) you are going to use a Google Spreadsheet to retrieve records from the Flickr API and display the results.
 
 The API you are going to use simply allows you to submit some search terms and get a list of results in a format called RSS. You are going to use a Spreadsheet to submit a search to the API, and display the results.
 
 **2. Understanding the API**
 
-The API you are going to use is an interface to Flickr. Flickr has a very powerful API with lots of functions, but for simplicity in this exercise you are just going to use the Flickr RSS feeds, rather than the full API which is more complex and requires you to register.
+The API you are going to use is an interface to [Flickr](https://www.flickr.com/commons), a photo sharing website where many cultural heritage institutions have hosted some of their collection images. Flickr has a very [powerful API with lots of functions](https://www.flickr.com/services/api/), but for simplicity in this exercise you are just going to use the Flickr RSS feeds, rather than the full API which is more complex and requires you to register.
 
 Before you can start working with the API, you need to understand how it works. To do this, we are going to look at an example URL:
 
@@ -252,7 +253,7 @@ This searches for all photos tagged with ‘food’ from a specific user (user i
 
 By adding a row to the spreadsheet, for this parameter, and modifying the ‘concatenate’ statement that builds the API Call, can you make the spreadsheet only return images with a specific tag in the British Library Flickr collection? (The Flickr ID for the British Library is ‘12403504@N02’
 
-### Exercise 2: Find out information for a location using Google APIs
+### **Exercise 2: Find out information for a location using Google APIs**
 
 **1.** Go to <https://developers.google.com/maps/documentation/places/web-service/text-search> in your browser </br>
 **2.** Click on “Web Service” as the platform</br>
