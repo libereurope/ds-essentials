@@ -1,5 +1,5 @@
 ---
-title: "API's for Librarians"
+title: "Using API's: A starter guide for Librarians"
 date: 2024-06-04
 date-modified: 2025-02-10
 author:
