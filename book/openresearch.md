@@ -12,7 +12,7 @@ author:
         city: Guildford
         country: UK
         url: https://www.surrey.ac.uk/library/open-research/teams-advance-open-research-surrey
-  - name: Jodie Double
+  - name: Jodie Double 
     id: jc
     orcid: 0000-0001-8544-1670
     email: J.L.Double@leeds.ac.uk
