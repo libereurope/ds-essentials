@@ -24,7 +24,7 @@ author:
   - name: Liam O'Dwyer
     id: jc
     orcid: 0009-0006-8875-1002
-    email: Digitalresearch@bl.uk
+    email: liam.odwyer@dcu.ie
     affiliation: 
       - name: Dublin City University
         city: Dublin 
