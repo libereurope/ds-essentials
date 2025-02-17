@@ -1,11 +1,29 @@
-# Digital Mapping {.unnumbered}
->Contributed by: Valentina Vavassori, [ORCID iD](https://orcid.org/0000-0003-1130-642X)<br>
->Original published date: 27/01/2025<br>
->Last modified: See Github page history
->
->Suggested Citation: Valentina Vavassori, “Digital Mapping,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2025), [DOI link tbd]
-
-<br/>
+---
+title: "Digital Mapping"
+date: 2025-01-27
+date-modified: 2025-01-27
+author:
+  - name: Valentina Vavassori
+    id: jc
+    orcid: 0000-0003-1130-642X
+    email: digitalresearch@bl.uk
+    affiliation: 
+      - name: British Library
+        city: London
+        country: UK
+        url: https://www.bl.uk
+abstract: > 
+  A brief overview of digital mapping and practical tips on how anyone can get started in their your own library.
+keywords:
+  - TBD
+  - TBD
+license: "CC BY"
+citation: 
+  container-title: Digital Scholarship & Data Science Essentials
+  volume: 1
+  issue: 1
+  doi: 10.5555/12345678
+---
 
 ## Introduction  
 
