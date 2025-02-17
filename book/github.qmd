@@ -231,6 +231,6 @@ As with most platforms, specific functions or tasks may change occasionally on G
 - [A reading list for librarians learning about Git and GitHub](https://gist.github.com/chrisdaaz/1e894dc5af2e2c9cf0cc75d057fcf79f)
 - [Week one reading for "Git and GitHub for Librarians" course.](https://gist.github.com/chrisdaaz/c0f93b9d30ae3a1fc19e9d8394efad12#file-git-for-librarians-md)
 
-## Taking the next step  
+## Finding Communities of Practice
 
 The best way to understand GitHub is to have a play yourself and if you get into trouble we've found that asking questions over on the [GitHub Community Hub](https://github.com/community) is a great way to get connected with other users. You can also join networks like [AI4LAM](https://sites.google.com/view/ai4lam) and ask questions of members of the very engaged and helpful community on their [slack](https://join.slack.com/t/ai4lam/shared_invite/zt-1omthldn8-9vrGySjIRdija1nKQm0ltA). 
