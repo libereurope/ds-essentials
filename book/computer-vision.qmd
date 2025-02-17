@@ -110,7 +110,7 @@ For those looking to get a deeper understanding of Computer Vision, some key res
 * Stanford University’s course [CS231n](https://cs231n.stanford.edu/) Convolutional Neural Networks for Visual Recognition 2016 and 2017 lectures are up on [YouTube](https://youtube.com/playlist?list=PL-myaKI4DslVRBatz03okSjJjj1UVzhhF&feature=shared).
 <br/><br/>
 
-## Taking the next step
+## Finding Communities of Practice
 There are [AI4LAM](https://sites.google.com/view/ai4lam), [CENL network group ‘AI in libraries’](https://www.cenl.org/network_groups/ai-in-libraries-network-group/) and [IFLA Artificial Intelligence Special Interest Group](https://www.ifla.org/units/ai/) communities, while in the IIIF community there is [AI/ML community group](https://iiif.io/community/groups/AIML/). There are also conferences like Fantastic Futures.
 
 Top universities, for example [Harvard](https://pll.harvard.edu/catalog), [Stanford](https://online.stanford.edu/) and [Helsinki](https://www.mooc.fi/en/), offer, sometimes free, online courses. Also sites like Coursera, FutureLearn, and Udemy are worth a look. Open-source tools like [OpenCV](https://docs.opencv.org/5.x/index.html) and [TensorFlow](https://playground.tensorflow.org/) mentioned above, but also [PyTorch](https://pytorch.org/) are handy.
