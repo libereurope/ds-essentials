@@ -49,7 +49,7 @@ Each Topic Guide follows a fixed structure, consisting of five components in ord
 - Relevance to the library sector (Case studies/Use cases)
 - Hands-on activities and other self-guided tutorial(s)
 - Recommended Reading & Viewing
-- Taking the next steps (Communities of Practice)
+- Finding Communities of Practice
 
 ## How to use this resource
 
