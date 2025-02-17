@@ -3,6 +3,7 @@ title: "Recommended Reading Lists"
 format: 
    html:
      page-layout: full
+sidebar: false
 ---
 
 There is no shortage of recommended reading lists out there, here we try and highlight a few of the most up to date and useful lists out there for the sector today!
