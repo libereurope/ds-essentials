@@ -52,7 +52,7 @@ website:
         background: light
         contents:
           - topicguides.qmd
-          - ml-ai.qmd
+          - ai-ml.qmd
           - atr.qmd
           - collectionsasdata.qmd
           - computer-vision.qmd
