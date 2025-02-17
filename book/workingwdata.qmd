@@ -6,7 +6,7 @@ author:
   - name: Niamh Malin
     id: jc
     orcid: 0000-0002-4735-2113
-    email: Digitalresearch@bl.uk
+    email: MalinNiamh@gmail.com 
     affiliation: 
       - name: University of Cambridge
         city: Cambridge
