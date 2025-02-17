@@ -65,7 +65,7 @@ website:
           - iiif.qmd
           - lod.qmd
           - openresearch.qmd
-          - workingwdata.qmd
+          - workingwdata.qmd 
   page-footer: 
     border: false
     background: "#EEB111"
