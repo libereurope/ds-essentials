@@ -1,6 +1,7 @@
 ---
 title: "Computer Vision"
 date: 2024-06-04
+date-modified: 2025-02-10
 author:
   - name: Greete Veesalu
     id: jc
