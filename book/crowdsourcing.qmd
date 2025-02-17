@@ -13,7 +13,7 @@ author:
         country: UK
         url: https://libereurope.eu/member/mia-ridge/
 abstract: > 
-  Demystifying the process behind automatic text recognition and offering practical tips on how anyone can get started in their your own library.
+  A quick guide offering practical tips on how anyone can get started with crowdsourcing in their your own library or cultural heritage institution.
 keywords:
   - TBD
   - TBD
