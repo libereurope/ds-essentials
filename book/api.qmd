@@ -47,14 +47,15 @@ The main thing to keep in mind is the idea that an API enables the exchange of d
 
 ### Making an API request
 
-#### **Types of Requests**
+#### Types of Requests
 
 Different types of requests are made to an API depending on what you want to do and whether you just want to read from the API or maybe send some information back. In a REST Api we call these types of requests “HTTP request _methods_”, and they are designed as a simple way to describe what you are trying to do. Have a look at [Mozilla’s pages on methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) for more in-depth details.
 
 The main HTTP request methods are described in the table below:
 
-| GET | Reads information from an API, does not change what is on the server, e.g. a list of available images or in individual image |
+| Request | Description |
 | --- | --- |
+| GET | Reads information from an API, does not change what is on the server, e.g. a list of available images or in individual image |
 | POST | Adds a new resource to the server, e.g. upload a new image to the server with its metadata |
 | PUT | Amends a resource on a server, e.g. edit the metadata of one of the images |
 | DELETE | Removes a resource from the server. |
@@ -65,7 +66,7 @@ Our editor starts the day by GETting a draft version of a book, dropped off by t
 
 Occasionally, our editor will not be happy with the book at all. In which case they will ask the publisher to put every existing copy in the bin and thus DELETE it.
 
-#### **Working out the right web address (URL)**
+#### Working out the right web address (URL)
 
 In our restaurant example, sending our requests to the right person, in this case the waiter or waitress, is essential. We do not want to accidentally ask another customer for our food! When using APIs it is essential to also make sure that we are sending our requests to the right place. However, when using APIs this can be a little more complicated as we must construct a web address that corresponds with what we want to do.
 
@@ -81,8 +82,8 @@ You will notice that the first part of the address, <http://api.example.org>, is
 
 The rest we can break down like this:
 
-| GET | The type of request we are making (see above). In this case we are reading information, not changing it or deleting it. |
 | --- | --- |
+| GET | The type of request we are making (see above). In this case we are reading information, not changing it or deleting it. |
 | /v1 | The version number of the API. Having versions of the API allows providers to provide new versions of APIs, that may work in different ways, without breaking existing API requests. |
 | desserts | This part of the URL tells you the type of resource you will be working. In this case dessert listings on our menu. |
 | {id} | A unique identifier for the resource. This could be a number such as 56 or a string such as “sticky-toffee-pudding" |
@@ -91,7 +92,7 @@ Assuming your request was successful, the response from the server could be any 
 
 For instance, a response from our fictional restaurant menu API above which might look like this:
 
-{“id”: 56, “title”: “Rhubarb Crumble”, “description”: “A modern take on a classic pudding, served with custard or ice cream”, “gluten_free”: false, “vegetarian”: true, “vegan”: true, “price”: 5.99}
+**{“id”: 56, “title”: “Rhubarb Crumble”, “description”: “A modern take on a classic pudding, served with custard or ice cream”, “gluten_free”: false, “vegetarian”: true, “vegan”: true, “price”: 5.99}**
 
 Sometimes you might not want to work with an individual resource, but instead a group. In this case the call will look slightly different, and we might use a parameter after a “?” symbol.
 
@@ -101,17 +102,17 @@ For example, let us find all the vegan desserts in our menu. To do this we need 
 
 There will be some practical examples that will step you through how to make different API calls like this in the next section.
 
-#### **How did the request go?**
+#### How did the request go?
 
 When you make a request to an API you will get a three-digit number returned. This is called the _HTTP status code_. These codes can be broadly classified as follows:
 
-2XX: The request was understood, the right authorisation was present, and the server could process your request
+**2XX**: The request was understood, the right authorisation was present, and the server could process your request
 
-3XX: The web address you are trying to use is now at a different web address
+**3XX**: The web address you are trying to use is now at a different web address
 
-4XX: You have made an error, this could be caused by the server not understanding your request, or an authorisation problem
+**4XX**: You have made an error, this could be caused by the server not understanding your request, or an authorisation problem
 
-5XX: There was an error on the server side. This could be a temporary or permanent problem, it could be caused by things like a fault in the server-side code, or a database being down.
+**5XX**: There was an error on the server side. This could be a temporary or permanent problem, it could be caused by things like a fault in the server-side code, or a database being down.
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)
 
