@@ -64,6 +64,7 @@ website:
           - github.qmd
           - iiif.qmd
           - lod.qmd
+          - programming.qmd
           - openresearch.qmd
           - workingwdata.qmd 
   page-footer: 
