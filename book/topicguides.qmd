@@ -22,5 +22,4 @@ Our current wishlist for future editions in 2025/2026 includes but is not limite
 - Digital Scholarship Project Management, Evaluation and Assessment
 - Digital Storytelling
 - Foundation models: When and why to use LLMs or SLMs
-- Getting started in programming
 - Wikimedia
