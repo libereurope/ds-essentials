@@ -16,12 +16,11 @@ The Topic Guide list in this first edition draws heavily on the existing skills 
 
 Our current wishlist for future editions in 2025/2026 includes but is not limited to topics such as:
 
-- Demystifying Computational Environments for Digital Scholarship
 - Climate Change and Sustainability
 - Cultural Competency & Ethics
+- Demystifying Computational Environments for Digital Scholarship
 - Digital Scholarship Project Management, Evaluation and Assessment
 - Digital Storytelling
+- Foundation models: When and why to use LLMs or SLMs
 - Getting started in programming
-- Open Research
-- Research Data Management
 - Wikimedia
