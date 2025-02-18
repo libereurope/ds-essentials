@@ -12,14 +12,12 @@ Feel free to contact [Nora McGregor](mailto:digitalresearch@bl.uk) if you're kee
 
 > **_NOTE:_** Our current wishlist for future editions includes but is not limited to topics such as:
 >
->- Demystifying Computational Environments for Digital Scholarship
 >- Climate Change and Sustainability
 >- Cultural Competency & Ethics in Digital Methods
+>- Demystifying Computational Environments for Digital Scholarship
 >- Digital Scholarship/Data Science Project Management, Evaluation and Impact Assessment
 >- Digital Storytelling
 >- Foundation models: When and why to use LLMs or SLMs
->- Getting started in programming
->- Open Research
 >- Research Data Management
 >- Wikimedia 
 
