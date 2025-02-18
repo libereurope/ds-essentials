@@ -48,7 +48,7 @@ website:
 
   sidebar:        
       - title: "Topic Guides"
-        style: "floating"
+        style: "docked"
         background: light
         contents:
           - topicguides.qmd
