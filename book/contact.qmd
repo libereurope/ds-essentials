@@ -5,6 +5,5 @@ If you’d like to ask a question of the project team you can please send an ema
 [Jodie Double](https://libereurope.eu/member/jodie-double/), Editor [DSDCH](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/)  
 [Péter Király](https://libereurope.eu/member/peter-kiraly-phd/), Editor [DSLib](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/)  
 [Nora McGregor](https://libereurope.eu/member/nora-mcgregor/), Editor [DSDCH](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/)  
-[Neha Moopen](https://libereurope.eu/member/neha-moopen/), Site Maintainer [DSLib](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/)  
 [Peter Verhaar](https://libereurope.eu/member/peter_verhaar/), Editor [DSLib](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/)
 
