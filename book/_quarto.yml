@@ -50,7 +50,7 @@ website:
   sidebar:  
       - title: "Topic Guides"
         style: "floating"
-        line-height: 3.5;
+        linestretch: 2.5;
         background: light
         contents:
           - topicguides.qmd
