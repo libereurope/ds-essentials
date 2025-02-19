@@ -27,23 +27,23 @@ website:
         href: index.qmd
 
     right:
-      - text: "Topic Guides"
+      - text: "TOPIC GUIDES"
         href: topicguides.qmd
-      - text: "Additional Resources"
+      - text: "ADDITIONAL RESOURCES"
         menu:
         - references.qmd
         - dstp.qmd
         - reports.qmd 
         - training-platforms.qmd
         - networks.qmd
-      - text: "Contribute"
+      - text: "CONTRIBUTE"
         menu:
         - contributing.qmd
         - guidelines.qmd
         - licensing.qmd
-      - text: "About"
+      - text: "ABOUT"
         href: project-overview.qmd 
-      - text: "Contact"
+      - text: "CONTACT"
         href: contact.qmd    
 
 
