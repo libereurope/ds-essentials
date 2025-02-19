@@ -1,10 +1,4 @@
----
-title: "Skills Competency Frameworks & Key Reports"
-format: 
-   html:
-     page-layout: full
-sidebar: false
----
+# **SKILLS COMPETENCY FRAMEWORKS & REPORTS** {.unnumbered .unlisted}
 
 The following are Skills Competency Frameworks & Key Reports relating to supporting Digital Scholarship and Data Science for library staff
 
