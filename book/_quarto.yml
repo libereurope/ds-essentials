@@ -58,18 +58,31 @@ website:
           - ai-ml.qmd
           - text: "---"
           - api.qmd
+          - text: "---"
           - atr.qmd
+          - text: "---"
           - collectionsasdata.qmd
+          - text: "---"
           - computer-vision.qmd
+          - text: "---"
           - copyright.qmd
+          - text: "---"
           - crowdsourcing.qmd
+          - text: "---"
           - dataviz.qmd
+          - text: "---"
           - digitalmapping.qmd
+          - text: "---"
           - github.qmd
+          - text: "---"
           - iiif.qmd
+          - text: "---"
           - lod.qmd
+          - text: "---"
           - programming.qmd
+          - text: "---"
           - openresearch.qmd
+          - text: "---"
           - workingwdata.qmd 
   page-footer: 
     border: false
