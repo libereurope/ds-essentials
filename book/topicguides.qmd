@@ -1,4 +1,7 @@
-# **TOPIC GUIDES** {.unnumbered .unlisted}
+---
+title: "Topic Guides"
+sidebar: false
+---
 
 **Topic Guides** are the heart of *Digital Scholarship and Data Science Essentials for Library Professionals*. Written by LIBER professionals working in research libraries all across Europe, the aim of each guide is to provide a gentle and concise introduction to the key topics in this area today. The guides offer those with no prior knowledge, quick and curated guidance, from fellow library colleagues, to personally recommended hands-on tutorials, use-cases, articles, videos, networks and communities of practice to deepen learning.
 
