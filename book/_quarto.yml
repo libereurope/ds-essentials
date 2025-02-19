@@ -47,9 +47,9 @@ website:
 
 
   sidebar:  
-      line-height: 2.5;
       - title: "Topic Guides"
         style: "floating"
+        line-height: 2.5;
         background: light
         contents:
           - topicguides.qmd
