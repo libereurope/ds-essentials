@@ -50,7 +50,6 @@ website:
   sidebar:  
       - title: "Topic Guides"
         style: "floating"
-        linestretch: 2.5;
         background: light
         contents:
           - topicguides.qmd
@@ -87,7 +86,7 @@ website:
   page-footer: 
     border: false
     background: "#EEB111"
-    left: | 
+    center: | 
       A 2023-2027 <a href="https://libereurope.eu/working-groups">LIBER Working Group</a> collaboration between <a href="https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/">Digital Scholarship and Digital Cultural Heritage </a> and <a href="https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/">Data Science in Libraries</a> 
     right:
       - icon: github
