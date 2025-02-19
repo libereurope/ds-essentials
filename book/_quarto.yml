@@ -17,6 +17,7 @@ website:
     
   navbar:
     background: primary
+    pinned: true
     search: true
     type: overlay
     logo: Favicon.png
@@ -49,7 +50,7 @@ website:
   sidebar:  
       - title: "Topic Guides"
         style: "floating"
-        line-height: 2.5;
+        line-height: 3.5;
         background: light
         contents:
           - topicguides.qmd
