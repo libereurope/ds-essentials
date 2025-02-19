@@ -1,4 +1,4 @@
-# Licensing & Re-use {.unnumbered .unlisted}
+# **LICENSING & RE-USE** {.unnumbered .unlisted}
 
 The project team behind this resource is committed to upholding the values of open source and open science and are keen for the Topic Guides and other content provided here to be used widely and adapted where necessary for local contexts. To enable this, _Digital Scholarship & Data Science Essentials for Library Professionals_, including all Topic Guides published here, are contributed under a [CC BY 4.0 Deed | Attribution 4.0 International | Creative Commons](https://creativecommons.org/licenses/by/4.0/) license.
 
