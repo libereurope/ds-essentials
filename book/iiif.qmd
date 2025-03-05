@@ -107,3 +107,4 @@ There is also a massive list of learning resources, [Awesome IIIF](https://githu
 Learning about IIIF can be overwhelming at first, especially if you’re not a programmer, but the IIIF Community is a very supportive and engaged one and has created a number of ways to get involved and find support and help. 
 
 I recommend checking out their community page [IIIF Community](https://iiif.io/community/) to find details of their next open community calls, or to join their Slack Channel where you can post questions and join the discussion with other users. 
+
