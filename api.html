@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Liam Green-Hughes">
+<meta name="dcterms.date" content="2024-06-04">
+<meta name="keywords" content="TBD, TBD">
+
+<title>APIs: A starter guide for Librarians</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/Favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-4e463049768ec781b502135f06fe4e5c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "Search",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-54HL7T1Z2K"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
+</script>
+
+
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./Favicon.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text"><strong>Digital Scholarship &amp; Data Science Essentials for Library Professionals</strong></span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./topicguides.html" aria-current="page"> 
+<span class="menu-text">TOPIC GUIDES</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-additional-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">ADDITIONAL RESOURCES</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-additional-resources">    
+        <li>
+    <a class="dropdown-item" href="./references.html">
+ <span class="dropdown-text"><strong>RECOMMENDED READING LISTS</strong></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./dstp.html">
+ <span class="dropdown-text"><strong>START A LOCAL TRAINING PROGRAMME</strong></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./reports.html">
+ <span class="dropdown-text"><strong>SKILLS COMPETENCY FRAMEWORKS &amp; REPORTS</strong></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./training-platforms.html">
+ <span class="dropdown-text"><strong>TRAINING PLATFORMS</strong></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./networks.html">
+ <span class="dropdown-text"><strong>USEFUL NETWORKS</strong></span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-contribute" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">CONTRIBUTE</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-contribute">    
+        <li>
+    <a class="dropdown-item" href="./contributing.html">
+ <span class="dropdown-text"><strong>CONTRIBUTE TO OUR PROJECT</strong></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./guidelines.html">
+ <span class="dropdown-text"><strong>AUTHOR GUIDANCE &amp; STYLE GUIDE</strong></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./licensing.html">
+ <span class="dropdown-text"><strong>LICENSING &amp; RE-USE</strong></span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./project-overview.html"> 
+<span class="menu-text">ABOUT</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">CONTACT</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./api.html">APIs: A starter guide for Librarians</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./topicguides.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>TOPIC GUIDES</strong></span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai-ml.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">AI &amp; Machine Learning in Libraries</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./api.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">APIs: A starter guide for Librarians</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./atr.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Automatic Text Recognition (OCR/HTR)</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./collectionsasdata.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Collections as Data: Getting Started</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./computer-vision.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Computer Vision</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./copyright.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Copyright &amp; Licensing: Current context and considerations for researchers and libraries using AI in research today</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./crowdsourcing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crowdsourcing and Citizen Science in Cultural Heritage</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dataviz.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Visualisation</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./digitalmapping.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Digital Mapping</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./github.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">GitHub: How to navigate and contribute to Git-based projects</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./iiif.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">IIIF</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lod.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Linked Open Data in Library Use Today</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./programming.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Programming for Librarians: Where to begin</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./openresearch.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Open Research (Open Science)</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./workingwdata.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Working with Data</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Jump to…</h2>
+   
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#relevance-to-the-library-sector-case-studiesuse-cases" id="toc-relevance-to-the-library-sector-case-studiesuse-cases" class="nav-link" data-scroll-target="#relevance-to-the-library-sector-case-studiesuse-cases">Relevance to the Library Sector (Case Studies/Use Cases)</a></li>
+  <li><a href="#hands-on-activity-and-other-self-guided-tutorials" id="toc-hands-on-activity-and-other-self-guided-tutorials" class="nav-link" data-scroll-target="#hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</a></li>
+  <li><a href="#recommended-readingviewing" id="toc-recommended-readingviewing" class="nav-link" data-scroll-target="#recommended-readingviewing">Recommended Reading/Viewing</a></li>
+  <li><a href="#finding-communities-of-practice" id="toc-finding-communities-of-practice" class="nav-link" data-scroll-target="#finding-communities-of-practice">Finding Communities of Practice</a></li>
+  </ul>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/noramcgregor/ds-essentials/blob/main/book/api.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/noramcgregor/ds-essentials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">APIs: A starter guide for Librarians</h1>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Liam Green-Hughes <a href="mailto:labs@bl.uk" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-3852-5879" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://www.bl.uk">
+            British Library
+            </a>
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 4, 2024</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">February 10, 2025</p>
+    </div>
+  </div>
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>A short guide explaining what an API is, how they work and examples of practical uses in library work today.</p>
+  </div>
+</div>
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>TBD, TBD</p>
+  </div>
+</div>
+
+</header>
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>APIs (Application Programming Interfaces) can sound intimidating, but the ideas behind them are not unfamiliar. An <a href="https://en.wikipedia.org/wiki/API">application programming interface (API)</a> allows a connection between computers or between computer programs, it is a type of software interface offering a service to other pieces of software. A common analogy that can be helpful in understanding the process of how APIs work is the restaurant analogy.</p>
+<p>Imagine going to a restaurant (server). You first consult the menu provided (API documentation / specification) to understand what is available for you to order (request). After consulting the menu (documentation) you have a good idea of what is likely to result in a successful order from the kitchen. The waiter is a bit like the restaurant’s API. Behind the waiter is a whole world of kitchen staff, bar staff, wholesalers, suppliers, shareholders and so on. You don’t need to worry about any of them, you probably won’t even ever speak to them. All your food orders (requests) and any extra instructions such as “chips or mash?” (parameters) will be passed to the kitchen (server) by the waiter (API). The kitchen (server) prepares your order (request) and passes it to the waiter (API) to deliver to your meal (response).</p>
+<p><img src="https://github.com/noramcgregor/ds-essentials/blob/main/book/images/api1.png?raw=true" class="img-fluid"></p>
+<p>Just as in our analogy above, sites will offer an API, and anyone can use it without having to know anything about the internal workings of that system. You don’t need to see the source code, the technologies they used to build it or know the name of the person who keeps it running at weekends. All you need to know is how to make a request to the API, and for this, APIs will normally have a site that will document what you can request and how. A good example is <a href="https://openlibrary.org/developers/api">OpenLibrary’s API</a> pages. API Documentation will detail individual <em>methods</em> (GET, POST, etc) with any <em>parameters</em> (see <a href="https://openlibrary.org/dev/docs/api/lists">Lists API | Open Library</a> for examples) you will need to pass for a successful response. It may also state any security considerations such as needing authentication (an API Key) or a log in before using the method.</p>
+<p>This Topic Guide will focus on REST APIs as an example as it’s the most likely you’ll encounter in your day to day library work, just be aware that REST APIs are not the only type of API though, there are other API types such as:</p>
+<ul>
+<li>SOAP</li>
+<li>GraphQL</li>
+<li>RPC</li>
+</ul>
+<p>You can find some information on those here: <a href="https://www.postman.com/what-is-an-api/#api-architectural-styles" class="uri">https://www.postman.com/what-is-an-api/#api-architectural-styles</a></p>
+<p>The main thing to keep in mind is the idea that an API enables the exchange of data and information between two systems and provides a kind of contract between both sides as to how to do this. The user gets a documented way to find out how to interact with a system and understand everything that comes back from it. The provider of the service also knows exactly how their system is being interacted with. There should be no “backdoors” or undocumented ways of working with the system, and service providers who provide APIs should be careful not to change how the API is being served in such a way that it negatively affects users. Again, thinking about this idea in the context of a restaurant, a restaurant might find itself being hugely successful, so makes the decision to move to larger or multiple premises and upgrade its kitchen. If they keep the same menu, then the effect of this on you is minimal – you can still order your favourite dish, despite all the changes.</p>
+<section id="making-an-api-request" class="level3">
+<h3 class="anchored" data-anchor-id="making-an-api-request">Making an API request</h3>
+<section id="types-of-requests" class="level4">
+<h4 class="anchored" data-anchor-id="types-of-requests">Types of Requests</h4>
+<p>Different types of requests are made to an API depending on what you want to do and whether you just want to read from the API or maybe send some information back. In a REST Api we call these types of requests “HTTP request <em>methods</em>”, and they are designed as a simple way to describe what you are trying to do. Have a look at <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">Mozilla’s pages on methods</a> for more in-depth details.</p>
+<p>The main HTTP request methods are described in the table below:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Http Request Method</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GET</td>
+<td>Reads information from an API, does not change what is on the server, e.g.&nbsp;a list of available images or in individual image</td>
+</tr>
+<tr class="even">
+<td>POST</td>
+<td>Adds a new resource to the server, e.g.&nbsp;upload a new image to the server with its metadata</td>
+</tr>
+<tr class="odd">
+<td>PUT</td>
+<td>Amends a resource on a server, e.g.&nbsp;edit the metadata of one of the images</td>
+</tr>
+<tr class="even">
+<td>DELETE</td>
+<td>Removes a resource from the server.</td>
+</tr>
+</tbody>
+</table>
+<p>To make these more understandable, let’s substitute in an editor of books in place of all this technology. Our editor character is the equivalent to the user of our API, and the author they are working with is the equivalent of the API itself, the mail is the equivalent of the Internet and the draft pages of the book are the resources handled by the API.</p>
+<p>Our editor starts the day by GETting a draft version of a book, dropped off by the local postman. Throughout the day they work on the book and PUTs onto the pages with a pen any corrections or amendments to the text. Usually these will be small corrections or suggestions, but sometimes it might be a suggestion to add some new content. As our character here is an editor, they would not write the additional material themselves but instead ask the original author to POST the new content.</p>
+<p>Occasionally, our editor will not be happy with the book at all. In which case they will ask the publisher to put every existing copy in the bin and thus DELETE it.</p>
+</section>
+<section id="working-out-the-right-web-address-url" class="level4">
+<h4 class="anchored" data-anchor-id="working-out-the-right-web-address-url">Working out the right web address (URL)</h4>
+<p>In our restaurant example, sending our requests to the right person, in this case the waiter or waitress, is essential. We do not want to accidentally ask another customer for our food! When using APIs it is essential to also make sure that we are sending our requests to the right place. However, when using APIs this can be a little more complicated as we must construct a web address that corresponds with what we want to do.</p>
+<p>API web addresses are made up of several parts. Take this URL as an example:</p>
+<p><a href="https://api.example.org/v1/desserts/56" class="uri">https://api.example.org/v1/desserts/56</a></p>
+<p>When you consult the documentation for an API, you might see that a request is documented something like this:</p>
+<p><strong>GET /v1/desserts/{id}</strong></p>
+<p>You will notice that the first part of the address, <a href="http://api.example.org" class="uri">http://api.example.org</a>, is omitted. This part of the web address routes to the whole API. Think of it as an address for a company, and everything that follows is different departments.</p>
+<p>The rest we can break down like this:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>—</th>
+<th>—</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GET</td>
+<td>The type of request we are making (see above). In this case we are reading information, not changing it or deleting it.</td>
+</tr>
+<tr class="even">
+<td>/v1</td>
+<td>The version number of the API. Having versions of the API allows providers to provide new versions of APIs, that may work in different ways, without breaking existing API requests.</td>
+</tr>
+<tr class="odd">
+<td>desserts</td>
+<td>This part of the URL tells you the type of resource you will be working. In this case dessert listings on our menu.</td>
+</tr>
+<tr class="even">
+<td>{id}</td>
+<td>A unique identifier for the resource. This could be a number such as 56 or a string such as “sticky-toffee-pudding”</td>
+</tr>
+</tbody>
+</table>
+<p>Assuming your request was successful, the response from the server could be any sort of file type, it depends on the resources it handles. If the endpoint deals with metadata, then you might get back a <a href="https://www.json.org/json-en.html">JSON</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction">XML</a> encoded document. These are both ways of representing data in a way that can be easily understood by a computer program.</p>
+<p>For instance, a response from our fictional restaurant menu API above which might look like this:</p>
+<p><strong>{“id”: 56, “title”: “Rhubarb Crumble”, “description”: “A modern take on a classic pudding, served with custard or ice cream”, “gluten_free”: false, “vegetarian”: true, “vegan”: true, “price”: 5.99}</strong></p>
+<p>Sometimes you might not want to work with an individual resource, but instead a group. In this case the call will look slightly different, and we might use a parameter after a “?” symbol.</p>
+<p>For example, let us find all the vegan desserts in our menu. To do this we need to “search”:</p>
+<p><a href="https://api.example.org/v1/desserts/search?vegan=true" class="uri">https://api.example.org/v1/desserts/search?vegan=true</a></p>
+<p>There will be some practical examples that will step you through how to make different API calls like this in the next section.</p>
+</section>
+<section id="how-did-the-request-go" class="level4">
+<h4 class="anchored" data-anchor-id="how-did-the-request-go">How did the request go?</h4>
+<p>When you make a request to an API you will get a three-digit number returned. This is called the <em>HTTP status code</em>. These codes can be broadly classified as follows:</p>
+<p><strong>2XX</strong>: The request was understood, the right authorisation was present, and the server could process your request</p>
+<p><strong>3XX</strong>: The web address you are trying to use is now at a different web address</p>
+<p><strong>4XX</strong>: You have made an error, this could be caused by the server not understanding your request, or an authorisation problem</p>
+<p><strong>5XX</strong>: There was an error on the server side. This could be a temporary or permanent problem, it could be caused by things like a fault in the server-side code, or a database being down.</p>
+</section>
+</section>
+</section>
+<section id="relevance-to-the-library-sector-case-studiesuse-cases" class="level2">
+<h2 class="anchored" data-anchor-id="relevance-to-the-library-sector-case-studiesuse-cases">Relevance to the Library Sector (Case Studies/Use Cases)</h2>
+<p>Why do Libraries and cultural heritage organisations provide and/or use APIs? <a href="https://www.apis4librarians.com/"></a><a href="https://www.apis4librarians.com/">APIs for Librarians</a> gives a really nice view of the various ways librarians may want to use APIs big and small for various purposes, from displaying Word of the Day on your website to providing access to Internet Archive material and <a href="https://www.emerald.com/insight/content/doi/10.1108/lht-03-2017-0056/full/html">Overcoming disintermediation: a call for librarians to learn to use web service APIs | Emerald Insight</a> outlines what APIs can enable for our institutions and users. Below are some additional use cases for providing and using APIs in a cultural heritage context:</p>
+<section id="integrate" class="level3">
+<h3 class="anchored" data-anchor-id="integrate">Integrate</h3>
+<p>The technological beating heart of a modern library is the Library Management System (LMS). This is the electronic brain of a library, but to be able to do its job it must link to many other systems, usually through APIs. This is called Systems integration.</p>
+<p>An example of this is obtaining details about a book that has been bought. The LMS can talk to the Publisher’s website through an API to get all the details needed to catalogue the item without the need for someone to manually type it in.</p>
+</section>
+<section id="encourage-reuse" class="level3">
+<h3 class="anchored" data-anchor-id="encourage-reuse">Encourage Reuse</h3>
+<p>APIs are a great way to help people interact with cultural heritage collections. They allow people to develop new applications that could access your API, maybe in conjunction with many others, to search for types of items across many collections. They enable users, both inside and outside organisations to be able to analyse information, create visualisations and integrate collections data with other systems and workflows.</p>
+<p>In the case of digital resources, they can make it easier to reuse and share those resources. For example, the <a href="https://iiif.io/api/image/3.0/">IIIF standard</a> enables images from a cultural heritage institutions’ collection to be easily embedded into learning materials produced by a completely different organisation.</p>
+</section>
+<section id="authentication" class="level3">
+<h3 class="anchored" data-anchor-id="authentication">Authentication</h3>
+<p>Most APIs will require authentication in some way in order to use them, ensuring data providers retain some confidence and control over how the data provided is interacted with. This is in place of logging into the website.</p>
+<p>There are several main types of authentication that you will use:</p>
+<ol type="1">
+<li>Username and password</li>
+<li>API Key – this is a long alphanumeric bit of text that uniquely identifies you to the system.</li>
+<li>OAuth – this is a bit like an API key, but every so often it gets exchanged for a new one. This is more secure as we are not using one card for an extended period of time but can be more complicated to set up.</li>
+</ol>
+</section>
+<section id="extend" class="level3">
+<h3 class="anchored" data-anchor-id="extend">Extend</h3>
+<p>An organisation’s requirements for what it needs from a computer will change over time as technology and society develops. Having an API is a good way to ensure that you will always be able to extend your system to deal with new requirements. Extending functionality in this way is much easier and less risky than modifying a system that has been written as one monolithic unity.</p>
+<p>An example here could be if you had to generate a new report from your system. It may already provide some reporting but up until now you have had to take the information from an old report and manipulate it in Excel. This can be error prone and time consuming. Instead, you can use the API to get the information you need and write a program to turn this information into a report. Using an API also has the advantage that you can use an existing system without modifying it or interrupting its uptime. Your code can be entirely separate. (Case Study <a href="https://www.openathens.net/case-studies/new-openathens-reporting-api-helps-librarians-demonstrate-value/">OpenAthens Reporting API helps librarians demonstrate value</a>)</p>
+</section>
+<section id="extract" class="level3">
+<h3 class="anchored" data-anchor-id="extract">Extract</h3>
+<p>Eventually, a computer system will come to the end of its life and need replacing, or maybe a system is being replaced because it did not live up to expectations. In this scenario, being able to get all your data out of that system is critical. An API is an excellent way to do this. It may even be possible to write a program that use the API of your old system to supply the API of your new system with information, saving everybody a lot of time!</p>
+</section>
+<section id="insurance" class="level3">
+<h3 class="anchored" data-anchor-id="insurance">Insurance</h3>
+<p>Sometimes, circumstances change around a system. It might be that requirements change, or an organisation finds itself doing something new. An API is a kind of insurance policy in these circumstances. It potentially allows you to extend the functionality of a system to meet new challenges. These might be something you need to do continuously, or just once. For example, you might want to bulk update the classification of some books. With an API you could write a program that would go through your collection, look for matching criteria and update accordingly. By always having access to your own data via an API, you have the insurance of being able to react flexibly if circumstances change.</p>
+</section>
+</section>
+<section id="hands-on-activity-and-other-self-guided-tutorials" class="level2">
+<h2 class="anchored" data-anchor-id="hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</h2>
+<p>Let’s try a few real-world examples of getting information from an API as this is the easiest way to understand the process.</p>
+<section id="exercise-1-using-an-api-for-the-very-first-time" class="level3">
+<h3 class="anchored" data-anchor-id="exercise-1-using-an-api-for-the-very-first-time"><strong>Exercise 1: Using an API for the very first time</strong></h3>
+<p><strong>1. Introduction</strong></p>
+<p>In this exercise, adapted from <a href="http://www.meanboyfriend.com/overdue_ideas/2014/10/using-an-api-hands-on-exercise/">Using an API: a hands on exercise</a> a tutorial created for British Library staff by Owen Stephens) you are going to use a Google Spreadsheet to retrieve records from the Flickr API and display the results.</p>
+<p>The API you are going to use simply allows you to submit some search terms and get a list of results in a format called RSS. You are going to use a Spreadsheet to submit a search to the API, and display the results.</p>
+<p><strong>2. Understanding the API</strong></p>
+<p>The API you are going to use is an interface to <a href="https://www.flickr.com/commons">Flickr</a>, a photo sharing website where many cultural heritage institutions have hosted some of their collection images. Flickr has a very <a href="https://www.flickr.com/services/api/">powerful API with lots of functions</a>, but for simplicity in this exercise you are just going to use the Flickr RSS feeds, rather than the full API which is more complex and requires you to register.</p>
+<p>Before you can start working with the API, you need to understand how it works. To do this, we are going to look at an example URL:</p>
+<p><a href="https://api.flickr.com/services/feeds/photos_public.gne?tags=food&amp;format=rss"><strong>https://api.flickr.com/services/feeds/photos_public.gne?tags=food&amp;format=rss</strong></a></p>
+<p>The first part of the URL is the address of the API. Everything after the ‘?’ are ‘parameters’ which form the input to the API. There are two parameters listed and they each consist of the parameter name, followed by an ‘=’ sign, then a value.</p>
+<p>The URL and parameters breakdown like this:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><strong>URL Part</strong></th>
+<th><strong>Explanation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="https://api.flickr.com/services/feeds/photos_public.gne"><strong>https://api.flickr.com/services/feeds/photos_public.gne</strong></a></td>
+<td>The address of the API</td>
+</tr>
+<tr class="even">
+<td>tags=food</td>
+<td>The ‘tags parameter – contains a list of tags (separated by commas) to be used to filter the list of images returned by the API. In this case just the single tag ‘food’ is listed.</td>
+</tr>
+<tr class="odd">
+<td>format=rss</td>
+<td>format=rss</td>
+</tr>
+</tbody>
+</table>
+<p><strong>3. Using the API</strong></p>
+<p>To use the API, you are going to use a Google Spreadsheet. Go to <a href="http://drive.google.com" class="uri">http://drive.google.com</a> and login to your Google account. Create a Google Spreadsheet</p>
+<p>The first thing to do is build the API call (the query you are going to submit to the API).</p>
+<p>First some labels:</p>
+<p>In cell A1 enter the text ‘API Address’<br>
+In cell A2 enter the text ‘Tags’<br>
+In cell A3 enter the text ‘Format’<br>
+In cell A4 enter ‘API Call’<br>
+In cell A5 enter ‘Results’</p>
+<p>Now, based on the information we were able to obtain by understanding the API we can fill values into column B as follows:</p>
+<p>In cell B1 enter the address of the API<br>
+In cell B2 enter a simple, one word tag<br>
+In cell B3 enter the text ‘rss’ (omitting the inverted commas)</p>
+<p>The first three rows of the spreadsheet should look something like (with whatever tag you’ve chased to search in B2):</p>
+<p><img src="https://github.com/noramcgregor/ds-essentials/blob/main/book/images/api2.png?raw=true" class="img-fluid"></p>
+<p>You now have all the parameters we need to build the API call. To do this you want to create a URL very similar to the one you looked at above. You can do this using a handy spreadsheet function/formula called ‘Concatenate’ which allows you to combine the contents of a number of spreadsheet cells with other text.</p>
+<p>In Cell B4 type the following formula:</p>
+<p>=CONCATENATE(B1,“?”,“tags=”,B2,“&amp;format=”,B3)</p>
+<p>This joins the contents of cells B1, B2 with the text included in inverted commas in formula. Once you have entered this formula and pressed enter your spreadsheet should look like:</p>
+<p><img src="https://github.com/noramcgregor/ds-essentials/blob/main/book/images/api3.png?raw=true" class="img-fluid"></p>
+<p>The final step is to send this query, and retrieve and display the results. This is where the fact that the API returns results as an RSS feed comes in extremely useful. Google Spreadsheets has a special function for retrieving and displaying RSS feeds.</p>
+<p>To use this, in Cell B5 type the following formula:</p>
+<p>=importFeed(B4)</p>
+<p>Because Google Spreadsheets knows what an RSS feed is, and understands it will contain one or more ‘items’ with a ‘title’ and a ‘link’ it will do the rest for us. Hit enter, and see the results.</p>
+<p><strong>Congratulations! You have built an API query, and displayed the results.</strong></p>
+<p>You have:<br>
+* Explored an API for Flickr<br>
+* Seen how you can ‘call’ the API by adding some parameters to a URL<br>
+* Understood how the API returns results in RSS format<br>
+* Used this knowledge to build a Google Spreadsheet which searches for a tag on Flickr and displays the results</p>
+<p><strong>4. Going Further</strong></p>
+<p>Further parameters that this API accepts are:</p>
+<ul>
+<li>id</li>
+<li>ids</li>
+<li>tagmode</li>
+<li>format</li>
+<li>lang</li>
+</ul>
+<p>These are documented at <a href="https://www.flickr.com/services/feeds/docs/photos_public/" class="uri">https://www.flickr.com/services/feeds/docs/photos_public/</a>. When adding parameters to a URL, you use the ‘&amp;’ sign between each parameter e.g.</p>
+<p><a href="https://api.flickr.com/services/feeds/photos_public.gne?tags=food&amp;id=23577728@N07" class="uri">https://api.flickr.com/services/feeds/photos_public.gne?tags=food&amp;id=23577728@N07</a></p>
+<p>This searches for all photos tagged with ‘food’ from a specific user (user id = 23577728@N07)</p>
+<p>By adding a row to the spreadsheet, for this parameter, and modifying the ‘concatenate’ statement that builds the API Call, can you make the spreadsheet only return images with a specific tag in the British Library Flickr collection? (The Flickr ID for the British Library is ‘12403504@N02’</p>
+</section>
+<section id="exercise-2-find-out-information-for-a-location-using-google-apis" class="level3">
+<h3 class="anchored" data-anchor-id="exercise-2-find-out-information-for-a-location-using-google-apis"><strong>Exercise 2: Find out information for a location using Google APIs</strong></h3>
+<p><strong>1.</strong> Go to <a href="https://developers.google.com/maps/documentation/places/web-service/text-search" class="uri">https://developers.google.com/maps/documentation/places/web-service/text-search</a> in your browser <br> <strong>2.</strong> Click on “Web Service” as the platform<br> <strong>3.</strong> You may be asked to log in using your Google account.<br> <strong>4.</strong> Click on the “API” button in the right-hand section.<br> <strong>5.</strong> Click on the “Fullscreen” icon along the top of this section, it is the icon that looks like edges of a square.<br> <strong>6.</strong> In the APIs Explorer window, click on “HTTP” – this lets you see the API request in terms of the web requests that are made.<br> <strong>7.</strong> The “Request Body” is the information you are going to send. In this case, the name of the place you would like to know more about.<br> <strong>8.</strong> Try a place you know, e.g.&nbsp;“British Library” as the value<br> <strong>9.</strong> Click “Execute”<br> <strong>10.</strong> You may be prompted to authorise the request, do so.</p>
+<p>All being well you will see a response in the right-hand side. “200” will be prominently displayed, you might remember this code from the “How did the request go?” section earlier. Underneath, you will see a structured response with everything Google knows about that place. Notice lots of information mixed in together, what type of location it is, coordinates on a map and opening hours are examples of what you might see.</p>
+</section>
+<section id="other-online-tutorials-for-beginners-to-try" class="level3">
+<h3 class="anchored" data-anchor-id="other-online-tutorials-for-beginners-to-try">Other online tutorials for beginners to try:</h3>
+<ul>
+<li>Joshua Dull has created a useful workshop in the style of the Library Carpentries you could have a look at called <a href="https://joshuadull.github.io/APIs-for-Libraries/">APIs for Libraries</a></li>
+<li>OpenLibrary has some APIs you can experiment with just in a browser <a href="https://openlibrary.org/developers/api" class="uri">https://openlibrary.org/developers/api</a> and in particular I can recommend having a play around in their sandbox which gives a great illustration of the code involved in API requests and API responses <a href="https://openlibrary.org/swagger/docs">swagger/docs | Open Library</a></li>
+<li>The Programming Historian has a lot of great <a href="https://programminghistorian.org/en/lessons/?topic=api">API tutorials</a> you can try which will walk you through using APIs for different purposes such as <a href="https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine">Fetching and Parsing Data from the Web with OpenRefine | Programming Historian</a></li>
+</ul>
+</section>
+<section id="once-youre-feeling-a-little-more-confident-these-tutorials-will-help-you-go-further" class="level3">
+<h3 class="anchored" data-anchor-id="once-youre-feeling-a-little-more-confident-these-tutorials-will-help-you-go-further">Once you’re feeling a little more confident, these tutorials will help you go further:</h3>
+<ul>
+<li>Wikimedia offers some incredibly useful APIs of particular interest to libraries who contribute to or have collection items there. They have a whole tutorial to help beginners: <a href="https://api.wikimedia.org/wiki/Getting_started_with_Wikimedia_APIs">Getting started with Wikimedia APIs - API Portal</a></li>
+<li>Dataquest has a nice tutorial on using the Python language to call APIs: <a href="https://www.dataquest.io/blog/api-in-python/" class="uri">https://www.dataquest.io/blog/api-in-python/</a></li>
+<li>You can even use APIs to integrate with the latest AI tools, some examples from OpenAI are here: <a href="https://platform.openai.com/docs/quickstart?language-preference=curl" class="uri">https://platform.openai.com/docs/quickstart?language-preference=curl</a></li>
+<li>Once you are a bit more confident with how APIs work, why not try designing one? For example, how would you go about designing an API for a publisher to allow them to keep track of books, editions and authors?</li>
+</ul>
+</section>
+</section>
+<section id="recommended-readingviewing" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-readingviewing">Recommended Reading/Viewing</h2>
+<p>Many great resources are available on the web to tell you more about APIs.</p>
+<ul>
+<li><a href="https://campus.dariah.eu/resource/posts/introduction-to-apis">Introduction to APIs | DARIAH-Campus</a> (embed video)</li>
+<li>What is an API? IBM <a href="https://www.ibm.com/think/topics/api" class="uri">https://www.ibm.com/think/topics/api</a></li>
+<li>What is a REST API? Postman: <a href="https://www.youtube.com/watch?v=PfujVETI-i4" class="uri">https://www.youtube.com/watch?v=PfujVETI-i4</a></li>
+<li>What is a REST API? IBM: <a href="https://www.youtube.com/watch?v=lsMQRaeKNDk" class="uri">https://www.youtube.com/watch?v=lsMQRaeKNDk</a></li>
+<li>UK Government list of APIs: <a href="https://www.api.gov.uk/#uk-public-sector-apis"></a><a href="https://www.api.gov.uk/#uk-public-sector-apis" class="uri">https://www.api.gov.uk/#uk-public-sector-apis</a></li>
+<li>What is an API? <a href="https://glam-workbench.net/trove/#:~:text=An%20API%20is%20an%20Application,programs%20talk%20to%20each%20other.">Trove API introduction - GLAM Workbench</a></li>
+</ul>
+</section>
+<section id="finding-communities-of-practice" class="level2">
+<h2 class="anchored" data-anchor-id="finding-communities-of-practice">Finding Communities of Practice</h2>
+<p>This guide is intended only as a first step for starting your journey with APIs and as you start experimenting and getting hands-on experience you will undoubtedly have further questions or need for support from those who have experience with APIs. Many organisations providing APIs will have support or contact info for questions and troubleshooting so look out for those. You can also join a community such as AI4LAM community where you can connect with lots of professionals working at the intersection of technology and cultural heritage. <a href="https://stackoverflow.com/questions/">Stackexchange</a> is a popular discussion board where you can post your software related questions.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/libereurope\.github\.io\/ds-essentials\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>A 2023-2027 <a href="https://libereurope.eu/working-groups">LIBER Working Group</a> collaboration between <a href="https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/">Digital Scholarship and Digital Cultural Heritage </a> and <a href="https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/">Data Science in Libraries</a></p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/noramcgregor/ds-essentials/blob/main/book/api.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/noramcgregor/ds-essentials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/noramcgregor/ds-essentials">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

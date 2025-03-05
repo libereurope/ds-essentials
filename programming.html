@@ -6,11 +6,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Nora McGregor">
-<meta name="dcterms.date" content="2024-11-27">
+<meta name="author" content="Péter Király">
+<meta name="author" content="Peter Verhaar">
+<meta name="dcterms.date" content="2024-06-04">
 <meta name="keywords" content="TBD, TBD">
 
-<title>IIIF</title>
+<title>Programming for Librarians: Where to begin</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -174,7 +175,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./iiif.html">IIIF</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./programming.html">Programming for Librarians: Where to begin</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -265,7 +266,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./iiif.html" class="sidebar-item-text sidebar-link active">
+  <a href="./iiif.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">IIIF</span></a>
   </div>
 </li>
@@ -279,7 +280,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./programming.html" class="sidebar-item-text sidebar-link">
+  <a href="./programming.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Programming for Librarians: Where to begin</span></a>
   </div>
 </li>
@@ -313,28 +314,38 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
   <li><a href="#recommended-readingviewing" id="toc-recommended-readingviewing" class="nav-link" data-scroll-target="#recommended-readingviewing">Recommended Reading/Viewing</a></li>
   <li><a href="#finding-communities-of-practice" id="toc-finding-communities-of-practice" class="nav-link" data-scroll-target="#finding-communities-of-practice">Finding Communities of Practice</a></li>
   </ul>
-<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/noramcgregor/ds-essentials/blob/main/book/iiif.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/noramcgregor/ds-essentials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/noramcgregor/ds-essentials/blob/main/book/programming.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/noramcgregor/ds-essentials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">IIIF</h1>
+<h1 class="title">Programming for Librarians: Where to begin</h1>
 </div>
 
 
 <div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Author</div>
-  <div class="quarto-title-meta-heading">Affiliation</div>
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author">Nora McGregor <a href="mailto:digitalresearch@bl.uk" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0001-6560-5586" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+    <p class="author">Péter Király <a href="mailto:peter.kiraly@gwdg.de" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-8749-4597" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
-            <a href="www.bl.uk">
-            British Library
+            <a href="https://libereurope.eu/member/peter-kiraly-phd/">
+            Göttingen eResearch Alliance
+            </a>
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Peter Verhaar <a href="mailto:P.A.F.Verhaar@library.leidenuniv.nl" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-8469-6804" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://libereurope.eu/member/peter_verhaar/">
+            Leiden University Centre for Digital Scholarship
             </a>
           </p>
       </div>
@@ -346,7 +357,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 27, 2024</p>
+      <p class="date">June 4, 2024</p>
     </div>
   </div>
   
@@ -362,7 +373,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <div>
   <div class="abstract">
     <div class="block-title">Abstract</div>
-    <p>A one page guide introducing the basics of the IIIF standard with case studies and practical advice for getting started.</p>
+    <p>This guide aims to provide library professionals with some guidance on how and where to begin their journey into learning a programming language.</p>
   </div>
 </div>
 
@@ -378,79 +389,50 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>IIIF (pronounced “triple-eye-eff”) stands for the <a href="https://iiif.io/">International Image Interoperability Framework</a>. Quite a tongue twister that one, but it broadly represents two things:</p>
-<ul>
-<li>a set of open standards for delivering high-quality, attributed digital objects online at scale.</li>
-<li>the open, international community of software developers, libraries, researchers, educators, museums, universities, creative agencies, and more working together to develop and implement the IIIF APIs to make the above open standards happen.</li>
-</ul>
-<section id="open-standard" class="level3">
-<h3 class="anchored" data-anchor-id="open-standard">Open Standard</h3>
-<p>Ever try to look at a large high-resolution digitised manuscript online only for it to take ages to load, and when it finally does you have no way to actually move around the image easily nor see any of the metadata or annotations related to it?</p>
-<p>Or maybe spent months on end negotiating the terms and methods around sending copies of a variety of differently sized individual images to another institution for them to host as part of collaborative project?</p>
-<p>IIIF brings a whole new efficiency to the way in which we in the cultural heritage sector go about sharing and making our digitised collections available online, while greatly expanding the functionality around the way users interact with them. It’s an open standard, collaboratively developed and maintained by a host of cultural heritage institutions around the world that defines a consistent method for the delivery of images and audio/visual files from servers to different environments on the Web where they can then be viewed and interacted with in many ways.</p>
-<p>IIIF basically specifies a way for browsers to display an image or audio/visual files in a way that enables much richer functionality on the Web:</p>
-<ul>
-<li>Makes it easier to display large images on the web in a way that is scalable (enabling deep zoom)</li>
-<li>Allows easy comparison between two objects, connecting and uniting materials across institutional boundaries</li>
-<li>Displays structure and metadata and annotations with the digital collection item. (For a digitised manuscript for instance this might be page order and searchable text, for audio/visual materials, that means being able to deliver complex structures (such as several reels of film that make up a single movie) along with things like captions, transcriptions/translations, annotations, and more.)</li>
-</ul>
-<blockquote class="blockquote">
-<p><em>“At its simplest, IIIF uses APIs to load images quickly and zoom smoothly without additional loading time. But IIIF also allows you to do much more, including pulling IIIF-enabled images from different sites into viewers for comparison without downloading them (at full resolution), and enabling saving links to details of images or portions of A/V files for future reference. IIIF also allows you to use many open-source tools that help you to compare, annotate, transcribe, collaborate, and more. You can even gather multiple IIIF images together from across multiple archival collections and/or institutions to create projects or exhibits without advanced technical skills”</em>. <a href="https://drive.google.com/file/d/1kw_M1XQ80h3QzWbIo8QYkL2Jt8YgZgEy/view">-From IIIF for Archives</a></p>
-</blockquote>
-<p>Making your collections IIIF enabled makes it easier to share your content online in a consistent way, enabling portability across different <a href="https://iiif.io/get-started/iiif-viewers/">IIIF enabled viewers</a>. This means that rather than endlessly creating copies and different access versions of your images to send all over the world for different projects, they can stay on your same IIIF Image server, but be accessed and displayed by viewers hosted at institutions elsewhere in any fashion you require.</p>
-</section>
-<section id="open-community" class="level3">
-<h3 class="anchored" data-anchor-id="open-community">Open Community</h3>
-<p>The IIIF community is made up of <a href="https://iiif.io/guides/finding_resources/">over 100 major cultural heritage organisations worldwide</a> who have formally adopted it, including many of our very own LIBER members. It was started in 2011 as a collaboration between The British Library, Stanford University, the Bodleian Libraries (Oxford University), the Bibliothèque nationale de France, Nasjonalbiblioteket (National Library of Norway), Los Alamos National Laboratory Research Library, and Cornell University. It’s a really nice example of an open, grassroots but global community effort, backed by a consortium of leading cultural institutions, who have been working together to develop and implement this new capability for decades and solve their shared problems with delivering, managing, sharing, and working with their resources.</p>
-</section>
-<section id="what-would-i-need-to-do-to-make-my-collection-iiif-enabled" class="level3">
-<h3 class="anchored" data-anchor-id="what-would-i-need-to-do-to-make-my-collection-iiif-enabled">What would I need to do to make my collection IIIF enabled?!</h3>
-<p>If you want the deep nitty gritty technical stuff around all the APIs and how they fit together there is quite a bit of <a href="https://iiif.io/get-started/#implementers">implementation documentation</a> on their website that goes into all this. But <em>essentially</em>, the basic set up behind making your own digitised collections “IIIF enabled”, as they say, looks a little something like this:</p>
-<ul>
-<li><strong>Set-up a IIIF image server</strong> (you can choose one developed by the community, or there are IIIF-compatible image servers available from vendors or other web hosts), move your content there and <strong>implement the IIIF Image API</strong> to make those images and audio/video materials available from there.</li>
-<li><strong>Implement the IIIF Presentation API</strong> which creates the all important <strong>IIIF Manifest files</strong> (also many open source or vendor products can help handle this bit too) for each of your objects. This Manifest file is really the prime unit in IIIF, it essentially combines and packages in json code, information about your images and structural data from your metadata source. It lists all the information that makes up your new IIIF enabled object, from how to display it to what information IIIF viewers should (and should not) display (such as structure or the order of pages, or even as minute as where an illustration is located within an image if you like). If you want to see an example of what one looks like this is <a href="https://iiif.bodleian.ox.ac.uk/iiif/manifest/300f251d-1d9e-4212-b8e0-1a483bb26c43.json">a IIIF Manifest</a> from the Bodleian Libraries at University of Oxford relating to this <a href="https://digital.bodleian.ox.ac.uk/objects/300f251d-1d9e-4212-b8e0-1a483bb26c43/">collection item</a>. Each manifest has its own URL and that’s the bit you’ll use to do cool things with the object in different IIIF viewers, such as allowing a manuscript to be easily dragged and dropped into Mirador for instance for comparison with other IIIF enabled manuscripts.</li>
-<li><strong>Choose one of the many <a href="https://iiif.io/get-started/iiif-viewers/">IIIF enabled viewers</a></strong> for displaying your images and add it to your own collection site. Again, looking at that same <a href="https://digital.bodleian.ox.ac.uk/objects/300f251d-1d9e-4212-b8e0-1a483bb26c43/">collection item</a> record above, note in the upper left hand-corner (see image below) there is an option to view in Mirador or Universal Viewer which are two different styles of IIIF viewer that afford different functionalities.</li>
-<li><strong>Consider making your IIIF Manifests available publicly</strong> for download so users can work with them in all the interesting ways you’ve now enabled!</li>
-</ul>
-<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/iiifviewers.png?raw=true" class="img-fluid"></p>
+<p>Many of the tasks taking place within libraries encompass activities which can be automated. Librarians may need to do bulk downloads of resources from the web, adjust the values in a database or manipulate images. Instead of doing such tasks manually, it is evidently more efficient to develop computer code which can perform such clerical tasks repeatedly. It can be very helpful for librarians, because of this, to become proficient in a programming language. Examples of programming languages include Python, R, Java, Perl or PHP.</p>
+<p>Programming can be described as the process of using computers to address specific problems. Computer programs essentially consist of a sequence of statements which explain how an activity can be automated. Programming languages generally implement a certain algorithm. An algorithm is an explicit and unambiguous description of the steps that need to be followed to arrive at a well-defined end result. The algorithm constitutes the logic of the program. The statements or commands in a programming language also need to be expressed in a format that computers can understand. They need to be expressed using a syntax, which prescribes how words, numbers of punctuation marks ought to be used</p>
+<p>There are a number of different languages in which you can write computer code. While it is difficult to find reliable data about this, it feels safe to claim that Python and R are currently the most widely used languages in the library sector. When you start learning how to program, it is probably best to focus on one language initially and to develop skills in one specific programming language. It must be stressed, however, that when you develop your expertise in one concrete language, this will inevitably help you to improve your computational thinking and to broaden your understanding of how programming languages function in general. Once you have learned about the nuts and bolts of one language, it becomes much easier to gain mastery over another language.</p>
+<section id="which-programming-language-should-you-focus-on-python-vs-r" class="level3">
+<h3 class="anchored" data-anchor-id="which-programming-language-should-you-focus-on-python-vs-r">Which programming language should you focus on? Python vs R?</h3>
+<p><strong>Python</strong>, firstly, is a free and open source, general purpose language. It is widely used to carry out data science tasks, such as cleaning, enriching, analysing and visualising data. Python makes use of a sparsee, readable and intuitive syntax, and this makes the language relatively easy to learn for beginners. Within the Python community, numerous code libraries have been shared which extend the basic functionalities of the language.</p>
+<p><strong>R</strong>, is another free and open source programming language that was created originally with a specific focus: to support statistical analyses. Later it was developed towards a more general direction with the help of thousands of software packages created by the R community and today it is used to solve as many types of problems as Python or Java. R’s syntax and its most important data structures are quite different from that of Python, and it requires a different way of thinking.</p>
+<p>Because of this strong data analysis background we suggest you choose R if you would like to run core data analysis tasks that require a more advanced statistical toolbox, and does not require many additional steps before and after the calculations. Python on the other hand provides somewhat less statistical functionalities, but supports much more general purpose tasks out of the box like file management, string, date and time manipulation, computer networks etc. None of these tasks are impossible with the other programming languages, but their conveniences are different. In data science related tasks they are quite close, e.g.&nbsp;Python’s Pandas library and R’s data frames (particularly in the Tidyverse package) have similar functionalities. Another - subjective - factor of the decision could be the aesthetics of the graphics Python and R produces: both of them have more than one plotting libraries, each are easy to recognise by their distinctive graphical style.</p>
 </section>
 </section>
 <section id="relevance-to-the-library-sector-case-studiesuse-cases" class="level2">
 <h2 class="anchored" data-anchor-id="relevance-to-the-library-sector-case-studiesuse-cases">Relevance to the Library Sector (Case Studies/Use Cases)</h2>
-<p>IIIF was initiated by a bunch of libraries and cultural heritage collections holders and it shows! It was proposed in late 2011 as a collaboration between The British Library, Stanford University, the Bodleian Libraries (Oxford University), the Bibliothèque nationale de France, Nasjonalbiblioteket (National Library of Norway), Los Alamos National Laboratory Research Library, and Cornell University. The intention of the consortium has always been to combine resource and effort in building viewers that reflected the way we wanted our digital collections to be displayed online, rather than everyone still spending time and resource making our own custom viewers and building our own content silos. It’s brought a huge amount of efficiency too in the way that we share images with each other and researchers. It’s changed the way collaborative projects are undertaken where endless metadata mapping exercises, contract negotiations around re-use and hosting, and the copying and shipping of digitised materials on external hard drives were the norm.</p>
-<p>There are quite a number of use cases and case studies available on the <a href="https://iiif.io/demos/">IIIF Demos page</a> but let’s have a quick look at three real life (and canonical) examples of IIIF in action.</p>
-<section id="deep-zoom-and-annotations" class="level3">
-<h3 class="anchored" data-anchor-id="deep-zoom-and-annotations">Deep Zoom and Annotations</h3>
-<p>The example here is of the <a href="https://web.archive.org/web/20230527005027/https://library.stanford.edu/blogs/digital-library-blog/2015/11/adventures-oversized-imaging-digitizing-omi-kuni-ezu-jin-jiang">Ōmi Kuni-ezu 近江國絵圖 Japanese Tax map</a> created in 1837. It’s meant to be read in the round by someone standing in the middle–you can see the scale when this zooms out– the map is eleven by seventeen FEET, and the person standing next to it, Wayne who works in the library at Stanford, is six feet four inches tall. This image is a composite of 158 individual images with a file size of 1.27Gb. IIIF allows just enough of an image to be delivered to a viewer–going from a whole image to just the part that they are zooming in on. Without IIIF, an end user might have to download an extremely large file, but using IIIF provides a smooth and easy viewing experience.</p>
-<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/JapaneseMap.jpg?raw=true" class="img-fluid"></p>
-<p>Have a play and view this image in their <a href="https://purl.stanford.edu/hs631zg4177">Universal viewer here</a></p>
-</section>
-<section id="virtual-reconstruction" class="level3">
-<h3 class="anchored" data-anchor-id="virtual-reconstruction">Virtual Reconstruction</h3>
-<p>The virtual reconstruction of this damaged manuscript from Châteauroux in France (Grandes Chroniques de France, ca. 1460) is probably one of the most well-known and best examples of the power of IIIF to support this use case (and my own personal favourite!). At some point in the manuscripts history, fourteen of its illuminations were cut out. These illuminations eventually ended up at the Bibliothèque nationale de France in the 19th century and were digitised individually. In the demo you see the reuniting of the miniatures with the full manuscript as IIIF allows a virtual repositioning of the cut out decorations with the text, virtually reconstructing the manuscript online using the Mirador Viewer so it reflects its original state.</p>
-<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/miniatures.png?raw=true" class="img-fluid"></p>
-<p>I highly recommend having a play around with the <a href="https://demos.biblissima.fr/chateauroux/demo/">Mirador Viewer: Châteauroux demo</a>.</p>
-</section>
+<p>Programming languages can be used for a variety of library tasks.</p>
+<ul>
+<li>A common application is to convert one data format into another data format. A computer system may export descriptions in the MARCXML format, while another application may demand JSON input. Such transformations can be carried out using a computer program.</li>
+<li>It is also possible to download large numbers of files using computer code.</li>
+<li>Programming languages can also be used to analyse and to visualise data in a spreadsheet or in a CSV format. As such, they may help others to interpret the data or to see patterns or regularities in large datasets.</li>
+<li>Applications based on AI and Machine Learning are typically created using a programming language.</li>
+</ul>
+<p>The British Library, The National Archives and Birkbeck University in the UK partnered on a trial of a one-year part-time postgraduate Certificate (PGCert), Computing for Cultural Heritage, as part of a £4.8 million University skills drive in 2019-2021. The <a href="https://blogs.bl.uk/digital-scholarship/2024/05/recovered-pages-cfch-student-projects.html">20 staff projects devised and undertaken by the students</a> demonstrate the wide range of what programming skills can enable for those working in a library setting.</p>
+<p>The <a href="https://code4lib.org/">code4lib</a> journal publishes many articles with case studies on applications in library contexts.</p>
 </section>
 <section id="hands-on-activity-and-other-self-guided-tutorials" class="level2">
 <h2 class="anchored" data-anchor-id="hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</h2>
-<p>The following tutorials are two of my favourite recommendations for colleagues interested in having a play with IIIF manifests yourself and in the process gaining a practical understanding of how they work, and the benefits!</p>
+<p>To develop a basic understanding of the main features of Python, you can follow the <a href="https://cdsleiden.github.io/python-tutorial/Welcome.html">Introductory course on Python</a> that was developed at the University of Leiden.</p>
+<p>It is a self-paced course which you can follow to familiarise yourself with central concepts such as variables, operators, flow control, data structures and functions. The tutorial also explains some of the code libraries which can be used more specifically for data science tasks such as data acquisition, working with APIs, data analysis and data visualisation. The tutorial includes a large number of exercises with which you hone your programming skills, together with model answers which can help you if you get stuck.</p>
+<p>Once you gained a basic proficiency of the central Python concepts, you can follow the tutorial <a href="http://librarycarpentry.github.io/library-python/">“Python for Librarians”</a>, which was developed by the Library Carpentry.</p>
+<p>To get started with R we recommend the Library Carpenty’s tutorial <a href="https://librarycarpentry.org/lc-r/">“Introduction to R”</a> which teaches you how to do basic data science tasks on tabular data, such as spreadsheets or relational database tables.</p>
+<p>There are a number of useful resources to improve your programming skills specifically with library related materials.</p>
 <ul>
-<li><a href="https://training.iiif.io/iiif-online-workshop/">IIIF Online Workshops</a> The community itself has created a number of excellent and free self-paced tutorials and though they host live online workshops for a fee, these are recorded and available and useful for newcomers for free afterwards. In fact staff at British Library have walked through these self-guided resources online quite often with great success. There is also the opportunity to hire a IIIF Trainer to come to deliver live bespoke training directly to your institution (for a fee), which we have also partaken in!</li>
-<li><a href="https://www.mmmonk.be/en/about-iiif/workshops">Working with IIIF images in education, communication and research</a> This is a self-guided workshop available online in Dutch and English and has some excellent exercises to get you familiar with finding IIIF manifests in catalogues and importing them into different viewers. I highly recommend making some time (they recommend 120 minutes) to read through this and try out some of the exercises.</li>
+<li><a href="https://glam-workbench.net/">Tim Sherratt: GLAM Workbench (2021-)</a>. As its introduction says: “The GLAM Workbench is a collection of Jupyter notebooks to help you explore and use data from GLAM institutions (that’s galleries, libraries, archives, and museums). It includes tools, tutorials, examples, hacks, and even some pre-harvested datasets.” Sherratt focuses on Australian and New Zealand datasets, but you can reuse the code for other sources. The notebooks are written in Python. <a href="https://jupyter.org/%3E">Jupyter Notebook</a>, a web-based interactive computing platform that combines live code, equations, narrative text, visualisations, interactive dashboards and other media. You can find many tutorials and GLAM related scripts in this form.</li>
+<li><a href="https://programminghistorian.org/">Programming Historian</a> is a set of programming tutorials (both in Python and R) focusing on particular computational problems (such as network analysis, data managements, APIs, machine learning) made mainly for historians, but several tutorials use GLAM data.</li>
 </ul>
 </section>
 <section id="recommended-readingviewing" class="level2">
 <h2 class="anchored" data-anchor-id="recommended-readingviewing">Recommended Reading/Viewing</h2>
-<p>There is a useful collection of articles and data related to IIIF being compiled by the community on <a href="https://zenodo.org/communities/iiif/records?q=&amp;l=list&amp;p=1&amp;s=10&amp;sort=newest">Zenodo</a></p>
-<p>The IIIF organisation has also created a number of useful resources alongside their training materials such as <a href="https://iiif.io/get-started/how-iiif-works/">How It Works, a plain-language guide to how the IIIF API’s work</a> and a glossary of “Key concepts you’ll encounter when working with IIIF”.</p>
-<p>It’s worth having a look at how other institutions have provided <a href="https://iiif.io/guides/finding_resources/">IIIF Resources</a>.</p>
-<p>There is also a massive list of learning resources, <a href="https://github.com/IIIF/awesome-iiif">Awesome IIIF</a>, compiled and maintained by the IIIF Community if you are looking to take your knowledge a bit further and dig deeper into some of the exciting implementations of IIIF.</p>
+<p>Paul Vierthaler’s <a href="https://www.youtube.com/playlist?list=PL6kqrM2i6BPIpEF5yHPNkYhjHm-FYWh17">Hacking the Humanities Tutorials</a> video series is quite useful for beginners.</p>
+<p>We can highly recommend this recent book <em>Hands-On Data Science for Librarians</em> written by Sarah Lin and Dorris Scot (Boca Raton : CRC Press, 2023, ISBN 978-1-032-10999-2).</p>
+<p>Though not written specifically for librarians, but probably the best introduction to the topic of data science with R is <a href="https://r4ds.hadley.nz/"><em>R for Data Science</em></a>. 2nd edition by Hadley Wickham, Mine Çetinkaya-Rundel and Garrett Grolemund (O’Reilly, 2023, ISBN 978–1-492-09740-2), and available online.</p>
 </section>
 <section id="finding-communities-of-practice" class="level2">
 <h2 class="anchored" data-anchor-id="finding-communities-of-practice">Finding Communities of Practice</h2>
-<p>Learning about IIIF can be overwhelming at first, especially if you’re not a programmer, but the IIIF Community is a very supportive and engaged one and has created a number of ways to get involved and find support and help.</p>
-<p>I recommend checking out their community page <a href="https://iiif.io/community/">IIIF Community</a> to find details of their next open community calls, or to join their Slack Channel where you can post questions and join the discussion with other users.</p>
+<p>When you’re first getting started in programming, being able to ask others questions when you get stuck is so important! Code4lib is a volunteer-driven collective of folks that has been around since 2003 and amongst their many resources are a large range of chat rooms for folks interested in the convergence of technology and cultural heritage. Visit <a href="https://code4lib.org/irc/">Chat | Code4Lib</a> to find the discussion you need or join their mailing list.</p>
+<p>You might also want to have a look on Github, which is one of the largest source code repositories on the web, for the <a href="https://github.com/topics/code4lib">“code4lib” tag</a> to denote repositories that are somewhat relevant for the library community. They are not tutorials, but during your learning process you can check if there is a software solution there already for your particular problem, and you can even try to engage with one or more tools as a contributor. Contributions are always welcome on #code4lib projects, and even if you have just begun programming you can provide important feedback about the usage of a tool, or you can improve documentation as a first step. See our page on using GitHub for more on that!</p>
 
 
 </section>
@@ -881,7 +863,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>A 2023-2027 <a href="https://libereurope.eu/working-groups">LIBER Working Group</a> collaboration between <a href="https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/">Digital Scholarship and Digital Cultural Heritage </a> and <a href="https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/">Data Science in Libraries</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/noramcgregor/ds-essentials/blob/main/book/iiif.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/noramcgregor/ds-essentials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/noramcgregor/ds-essentials/blob/main/book/programming.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/noramcgregor/ds-essentials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
