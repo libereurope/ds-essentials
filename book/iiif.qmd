@@ -1,11 +1,30 @@
-# IIIF {.unnumbered}
->Contributed by: Nora McGregor, [ORCID iD](https://orcid.org/0000-0001-6560-5586)<br>
->Original published date: 27/03/2024<br>
->Last modified: See Github page history
->
->Suggested Citation: Nora McGregor, “IIIF,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
-
-## Introduction: What is IIIF? 
+---
+title: "IIIF"
+date: 2024-11-27
+date-modified: 2025-02-10
+author:
+  - name: Nora McGregor
+    id: jc
+    orcid: 0000-0001-6560-5586
+    email: digitalresearch@bl.uk
+    affiliation: 
+      - name: British Library
+        city: London
+        country: UK
+        url: www.bl.uk
+abstract: > 
+  A one page guide introducing the basics of the IIIF standard with case studies and practical advice for getting started.
+keywords:
+  - TBD
+  - TBD
+license: "CC BY"
+citation: 
+  container-title: Digital Scholarship & Data Science Essentials
+  volume: 1
+  issue: 1
+  doi: TBD
+---
+## Introduction 
 
 IIIF (pronounced “triple-eye-eff”) stands for the [International Image Interoperability Framework](https://iiif.io/). Quite a tongue twister that one, but it broadly represents two things: 
 
@@ -28,7 +47,7 @@ IIIF basically specifies a way for browsers to display an image or audio/visual 
 
 > *“At its simplest, IIIF uses APIs to load images quickly and zoom smoothly without additional loading time. But IIIF also allows you to do much more, including pulling IIIF-enabled images from different sites into viewers for comparison without downloading them (at full resolution), and enabling saving links to details of images or portions of A/V files for future reference. IIIF also allows you to use many open-source tools that help you to compare, annotate, transcribe, collaborate, and more. You can even gather multiple IIIF images together from across multiple archival collections and/or institutions to create projects or exhibits without advanced technical skills”*. [-From IIIF for Archives](https://drive.google.com/file/d/1kw_M1XQ80h3QzWbIo8QYkL2Jt8YgZgEy/view)
 
-Making your collections IIIF enabled makes it easier to share your content online in a consistent way, enabling portability across different [IIIF enabled viewers](https://iiif.io/get-started/iiif-viewers/). This means that rather than endlessly creating copies of your images all over the world for different projects, they can stay on your same IIIF Image server, but be accessed and displayed by viewers hosted at institutions elsewhere. 
+Making your collections IIIF enabled makes it easier to share your content online in a consistent way, enabling portability across different [IIIF enabled viewers](https://iiif.io/get-started/iiif-viewers/). This means that rather than endlessly creating copies and different access versions of your images to send all over the world for different projects, they can stay on your same IIIF Image server, but be accessed and displayed by viewers hosted at institutions elsewhere in any fashion you require. 
 
 ### Open Community
 The IIIF community is made up of [over 100 major cultural heritage organisations worldwide](https://iiif.io/guides/finding_resources/) who have formally adopted it, including many of our very own LIBER members. It was started in 2011 as a collaboration between The British Library, Stanford University, the Bodleian Libraries (Oxford University), the Bibliothèque nationale de France, Nasjonalbiblioteket (National Library of Norway), Los Alamos National Laboratory Research Library, and Cornell University. It's a really nice example of an open, grassroots but global community effort, backed by a consortium of leading cultural institutions, who have been working together to develop and implement this new capability for decades and solve their shared problems with delivering, managing, sharing, and working with their resources. 
@@ -84,9 +103,8 @@ It's worth having a look at how other institutions have provided [IIIF Resources
 
 There is also a massive list of learning resources, [Awesome IIIF](https://github.com/IIIF/awesome-iiif), compiled and maintained by the IIIF Community if you are looking to take your knowledge a bit further and dig deeper into some of the exciting implementations of IIIF. 
 
-## Taking the next step
+## Finding Communities of Practice
 Learning about IIIF can be overwhelming at first, especially if you’re not a programmer, but the IIIF Community is a very supportive and engaged one and has created a number of ways to get involved and find support and help. 
 
 I recommend checking out their community page [IIIF Community](https://iiif.io/community/) to find details of their next open community calls, or to join their Slack Channel where you can post questions and join the discussion with other users. 
-
 

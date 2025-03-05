@@ -1,8 +1,111 @@
 project:
-  type: book
+  type: website
 
 execute: 
   freeze: auto
+language: 
+  search-text-placeholder: Search
+
+website: 
+  favicon: images/Favicon.png
+  google-analytics: 
+    tracking-id: "G-54HL7T1Z2K"
+  repo-url: https://github.com/noramcgregor/ds-essentials/
+  repo-subdir: book
+  repo-actions: [source, issue] 
+
+    
+  navbar:
+    background: primary
+    pinned: true
+    search: true
+    type: overlay
+    logo: Favicon.png
+    
+    left:
+      - text: "**Digital Scholarship & Data Science Essentials for Library Professionals**"
+        href: index.qmd
+
+    right:
+      - text: "TOPIC GUIDES"
+        href: topicguides.qmd
+      - text: "ADDITIONAL RESOURCES"
+        menu:
+        - references.qmd
+        - dstp.qmd
+        - reports.qmd 
+        - training-platforms.qmd
+        - networks.qmd
+      - text: "CONTRIBUTE"
+        menu:
+        - contributing.qmd
+        - guidelines.qmd
+        - licensing.qmd
+      - text: "ABOUT"
+        href: project-overview.qmd 
+      - text: "CONTACT"
+        href: contact.qmd    
+
+
+  sidebar:  
+      - title: "TOPIC GUIDES"
+        style: "floating"
+        background: light
+        contents:
+          - topicguides.qmd
+          - text: "---"
+          - ai-ml.qmd
+          - text: "---"
+          - api.qmd
+          - text: "---"
+          - atr.qmd
+          - text: "---"
+          - collectionsasdata.qmd
+          - text: "---"
+          - computer-vision.qmd
+          - text: "---"
+          - copyright.qmd
+          - text: "---"
+          - crowdsourcing.qmd
+          - text: "---"
+          - dataviz.qmd
+          - text: "---"
+          - digitalmapping.qmd
+          - text: "---"
+          - github.qmd
+          - text: "---"
+          - iiif.qmd
+          - text: "---"
+          - lod.qmd
+          - text: "---"
+          - programming.qmd
+          - text: "---"
+          - openresearch.qmd
+          - text: "---"
+          - workingwdata.qmd 
+  page-footer: 
+    border: false
+    background: "#EEB111"
+    center: | 
+      A 2023-2027 <a href="https://libereurope.eu/working-groups">LIBER Working Group</a> collaboration between <a href="https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/">Digital Scholarship and Digital Cultural Heritage </a> and <a href="https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/">Data Science in Libraries</a> 
+    right:
+      - icon: github
+        href: https://github.com/noramcgregor/ds-essentials
+
+format:
+  html:
+    theme: [flatly, custom.scss]
+    toc: true
+    toc-location: right
+    toc-title: Jump to...
+    toc-depth: 2
+
+
+
+
+
+
+#About DS Essentials - Topic Guides  -   Additional Resources  -  Contribute   -   Search
 
 book:  
   title: "Digital Scholarship & Data Science Essentials for Library Professionals"
@@ -15,8 +118,6 @@ book:
     background: dark
     left: | 
       A 2023-2027 <a href="https://libereurope.eu/working-groups">LIBER Working Group</a> collaboration between <a href="https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/">Digital Scholarship and Digital Cultural Heritage </a> and <a href="https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/">Data Science in Libraries</a> 
-    
-
   
   chapters:
     - part: "**ABOUT**"
@@ -28,7 +129,7 @@ book:
         - licensing.qmd
         - contact.qmd
     - topicguides.qmd
-    - ml-ai.qmd
+    - ai-ml.qmd
     - copyright.qmd
     - atr.qmd
     - collectionsasdata.qmd
@@ -53,16 +154,13 @@ book:
     logo: images/NewLogo.png
     style: "docked"
     collapse-level: 1
-  repo-url: https://github.com/libereurope/ds-essentials
-  repo-actions: [edit, issue]
+
   comments: 
     utterances:
       repo: libereurope/ds-essentials
 
 bibliography: references.bib
 
-format:
-  html:
-    theme: cosmo
+
 
 

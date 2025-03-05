@@ -1,11 +1,30 @@
-# Working with Data {.unnumbered} 
+---
+title: "Working with Data"
+date: 2024-06-04
+date-modified: 2025-02-10
+author:
+  - name: Niamh Malin
+    id: jc
+    orcid: 0000-0002-4735-2113
+    email: MalinNiamh@gmail.com 
+    affiliation: 
+      - name: University of Cambridge
+        city: Cambridge
+        country: UK
+        url: https://osc.cam.ac.uk/contact-us
+abstract: > 
+  This guide explores the use of data within libraries through presenting questions to think through when undertaking your own data tasks, alongside practical examples from libraries around the world.
 
->Contributed by: Niamh Malin, [ORCID](https://orcid.org/0000-0002-4735-2113)  
->Original published date: \[DD/MM/YYYY\]  
->Last modified: See Github page history
->
->Suggested Citation: Niamh Malin, “Working with Data,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
-
+keywords:
+  - TBD
+  - TBD
+license: "CC BY"
+citation: 
+  container-title: Digital Scholarship & Data Science Essentials
+  volume: 1
+  issue: 1
+  doi: TBD
+---
 ## Introduction 
 
 
@@ -13,7 +32,7 @@ Data is all around us, and it almost cannot be avoided. Libraries and universiti
 
 Data is often considered to be a number, like the number of times a book has been loaned, but what about who borrowed it, or what their review was? These are all different forms of data, and can provide all new insights to the popularity of a book - maybe a book was borrowed 10 times, but in fact got 10 1-star reviews, versus a book borrowed 5 times with 5 5-star reviews, using this data, which one would you recommend?
 
-This guide will explore the use of data within libraries through; questions to think through when undertaking your own data tasks, alongside practical examples from libraries around the world.
+This guide will explore the use of data within libraries through proposing questions to think through when undertaking your own data tasks, alongside practical examples from libraries around the world.
 
 ### What is Data?
 

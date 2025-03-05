@@ -1,11 +1,29 @@
-# Automatic Text Recognition (OCR/HTR) {.unnumbered}
-
->Contributed by: Adi Keinan-Schoonbaert, [ORCID iD](https://orcid.org/0000-0002-4382-3328)<br>
->Original published date: 27/11/2024<br>
->
->Last modified: See Github page history
->
->Suggested Citation: Adi Keinan-Schoonbaert, “Automatic Text Recognition (OCR/HTR)", *Digital Scholarship & Data Science Essentials for Library Professionals\* (2024), \[DOI link tbd\]
+---
+title: "Automatic Text Recognition (OCR/HTR)"
+date: 2024-11-27
+date-modified: 2025-02-10
+author:
+  - name: Adi Keinan-Schoonbaert
+    id: jc
+    orcid: 0000-0002-4382-3328
+    email: digitalresearch@bl.uk
+    affiliation: 
+      - name: British Library
+        city: London
+        country: UK
+        url: www.bl.uk
+abstract: > 
+  Demystifying the process behind automatic text recognition and offering practical tips on how anyone can get started in their your own library.
+keywords:
+  - Handwritten Text Recognition
+  - Optical Character Recognition
+license: "CC BY"
+citation: 
+  container-title: Digital Scholarship & Data Science Essentials
+  volume: 1
+  issue: 1
+  doi: 10.5555/12345678
+---
 
 ## Introduction  
 
@@ -92,8 +110,6 @@ There are many papers on OCR/HTR but here’s a small selection:
 
 Some journals to look out for include, for example, the [International Journal on Document Analysis and Recognition (IJDAR)](https://link.springer.com/journal/10032), [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition), or the [IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34).
 
-## Taking the next step  
-
 The team behind the Hypotheses ‘[Automatic Text Recognition: Harmonising ATR workflows](https://harmoniseatr.hypotheses.org/)’ resource created this insightful [road map](https://harmoniseatr.hypotheses.org/files/2023/11/Edited_ATR-roadmap_V2.pdf) to help you get started with Automatic Text Recognition. The road map is divided into three sections, and asks you to consider the following questions:
 
 I - General Information
@@ -122,6 +138,7 @@ When it comes to ground truth datasets, a good place to look is the [HTR-United]
 
 [OCR-D](https://ocr-d.de/en/) is a good place to visit too, and it has a ground truth repository [available here](https://github.com/OCR-D/gt_structure_text/releases).
 
+## Finding Communities of Practice 
 Some tools and platforms have solid communities around them which you can get in touch with - or be a part of. [Transkribus](https://www.transkribus.org/), for example, has an active [Facebook](https://www.facebook.com/transkribus) page and a [user group](https://www.facebook.com/groups/614090738935143), where Transkribus users can ask questions and get support from the Transkribus team and from each other.
 
 Several conference series discuss advances in OCR/HTR, and would be a good place to meet colleagues and hear about interesting ATR projects. For example, the International Conference on Document Analysis and Recognition ([ICDAR](https://en.wikipedia.org/wiki/International_Conference_on_Document_Analysis_and_Recognition)) and the International Conference on Frontiers in Handwriting Recognition (ICFHR) have been well established. Alternatively, many Digital Humanities conferences will have papers on this topic, e.g. the [ADHO DH conference serie](https://adho.org/conference/) or [AI4LAM Fantastic Futures](https://sites.google.com/view/ai4lam) conferences.

@@ -1,9 +1,29 @@
-# Data Visualisation {.unnumbered}
->Contributed by: Harry Lloyd, [ORCID iD](https://orcid.org/0009-0009-3519-171X)<br>
->Original published date: 13/06/2024<br>
->Last modified: See Github page history
->
->Suggested Citation: Harry Lloyd, “Data Visualisation,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
+---
+title: "Data Visualisation"
+date: 2025-01-28
+date-modified: 2025-01-28
+author:
+  - name: Harry Lloyd
+    id: jc
+    orcid: 0009-0009-3519-171X
+    email: digitalresearch@bl.uk
+    affiliation: 
+      - name: British Library
+        city: London
+        country: UK
+        url: https://www.bl.uk/
+abstract: > 
+  Demystifying the process behind visualising data and offering practical tips on how anyone can get started in their your own library.
+keywords:
+  - TBD
+  - TBD
+license: "CC BY"
+citation: 
+  container-title: Digital Scholarship & Data Science Essentials
+  volume: 1
+  issue: 1
+  doi: 10.5555/12345678
+---
 
 ## Introduction 
 Why do we visualise data? For data to tell us something we need to look for patterns, and we are much better at finding these patterns in colours and shapes than in a table of raw data. Visualisations are key to developing the story we want to tell with our data. 
@@ -75,7 +95,7 @@ If visualisation is communication and how we understand visual communication is 
 With these considerations in mind there are graphics catalogues that help guide you towards the best visualisation for your purposes. [from Data to Viz](https://www.data-to-viz.com/) starts with types of data and leads you to appropriate graphs, while the Financial Times [Visual Vocabulary](https://ft-interactive.github.io/visual-vocabulary/) starts with relationships between elements of your data and guides from there. Both are valuable.
 
 
-## Taking the next step
+## Finding Communities of Practice
 Data visualisation, like any other skill, takes practice and familiarity with tools to get the best results. It is, however, relatively easy to make simple but effective visualisations that help you understand your data or explain it to someone else. So take some of your data and begin to play around with it. Play is an important word, you are being creative! Make mistakes and do the unexpected as you learn and you will be better for it. It is, unfortunately, just as easy to make bad visualisations that confuse you and your audience. Start simply, more complex visualisations will come with time. 
 
 If you haven’t done any visualisation before start with something like [RAWGraphs](https://www.rawgraphs.io/) or Excel for tabular data, or [Voyant Tools](http://docs.voyant-tools.org/) for text data. If you have geographic data find a GIS specialist, or use the tutorials for QGIS or ArcGIS. If you have some experience with visualisations then tailor your choice of tool to your data. And if you’re familiar with programming then look at the plotting packages available, and enjoy the flexibility and reproducibility they give you. 

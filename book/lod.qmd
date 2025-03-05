@@ -1,16 +1,35 @@
-# Linked Open Data in Library Use Today {.unnumbered}
+---
+title: "Linked Open Data in Library Use Today"
+date: 2024-06-04
+date-modified: 2025-02-10
+author:
+  - name: Gustavo Candela
+    id: jc
+    orcid: 0000-0001-6122-0777
+    email: gcandela@ua.es
+    affiliation: 
+      - name: University of Alicante
+        city: Alicante
+        country: Spain
+        url: https://cvnet.cpd.ua.es/curriculum-breve/en/candela-romero-gustavo/10165
+abstract: > 
+  A quick overview of the Collections as Data movement and what it can do for your library, along with some practical advice on how to take steps to transform your own library collections. 
+keywords:
+  - TBD
+  - TBD
+license: "CC BY"
+citation: 
+  container-title: Digital Scholarship & Data Science Essentials
+  volume: 1
+  issue: 1
+  doi: TBD
+---
 
->Contributed by: Gustavo Candela, [ORCID iD](https://orcid.org/0000-0001-6122-0777)<br>
->Original published date: 13/06/2024<br>
->Last modified: See Github page history
->
->Suggested Citation: Gustavo Candela, “Linked Open Data in Library Use Today,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd\]
-
-## Introduction: What does publishing linked open data enable?  
+## Introduction
 
 The Semantic Web was first introduced in the 2000s by Tim Berners Lee as an extension of the current Web. Instead of providing information in the form of _documents_ and unstructured text like in traditional webpages, the Semantic Web facilitates the publication of machine-readable _data_ on the web through standards such as [Resource Description Framework (RDF)](https://www.w3.org/TR/rdf12-concepts/) and [Web Ontology Language (OWL)](https://www.w3.org/TR/owl2-overview/).
 
-Linked Open Data (LOD) is a method of publishing structured data about things using the [RDF](https://www.w3.org/TR/rdf12-concepts/) to enable interlinking and semantic queries across datasets. The data is organised in “triples”, each consisting of a subject (e.g., Named Person), predicate (IsAuthorOf), and object (Book Title), identified by Uniform Resource Identifiers (URIs) to ensure global uniqueness and interoperability. It allows metadata to be connected and enriched, so that different representations of the same content can be found, and links made between related resources.
+What does publishing linked open data enable? Linked Open Data (LOD) is a method of publishing structured data about things using the [RDF](https://www.w3.org/TR/rdf12-concepts/) to enable interlinking and semantic queries across datasets. The data is organised in “triples”, each consisting of a subject (e.g., Named Person), predicate (IsAuthorOf), and object (Book Title), identified by Uniform Resource Identifiers (URIs) to ensure global uniqueness and interoperability. It allows metadata to be connected and enriched, so that different representations of the same content can be found, and links made between related resources.
 
 Have a quick look at this video from Europeana explaining the high-level basic principle of LOD before we dive a bit deeper into how it practically works:
 
@@ -154,7 +173,7 @@ Some examples of research articles to read providing additional details and info
 
 You can also find innovative ideas in the research articles published at the [Semantic Web Journal](https://www.semantic-web-journal.net/).
 
-## Taking the next step  
+## Finding Communities of Practice  
 
 The [LD4 Community](http://ld4.io/) is a community of practice for linked data in libraries.
 
