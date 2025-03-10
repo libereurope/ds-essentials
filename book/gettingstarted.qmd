@@ -53,4 +53,33 @@ Zotero | Groups > collections as data - projects, initiatives, readings, tools, 
 Ongoing collection of projects, readings, initiatives, tools, and datasets that are in some way or another related to collections as data. This group is an open resource, welcoming contributions from anyone who has a resource to share.
 
 ## Finding Communities of Practice
+You might want to esplore any of the existing communities of practice 
 
+## LIBER Working Groups
+
+Working groups are open to staff at participating [LIBER Member institutions](https://libereurope.eu/liber-participants/):
+- [LIBER Data Science in Libraries](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/)
+- [LIBER Digital Scholarship & Digital Cultural Heritage](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/)
+- Or have a look at the other [LIBER Working Groups - LIBER Europe](https://libereurope.eu/working-groups/)
+
+## International Networks
+- [AI4LAM](https://sites.google.com/view/ai4lam)
+- [Code4Lib](https://code4lib.org/about/)
+- [Electronic Literature Organisation](https://eliterature.org/)
+- [Flickr Commons](https://www.flickr.com/commons)
+- [Glam Labs International](https://glamlabs.io/)
+- [IIIF/UV Open Collective](https://iiif.io/)
+- [IMPACT Centre of Competence](https://www.digitisation.eu/)
+- [Museums Computer Group](https://museumscomputergroup.org.uk/)
+- [Transkribus](https://readcoop.eu/transkribus/)
+- [Wikidata Community)](https://www.wikidata.org/wiki/Special:MyLanguage/Project:Community_portal)
+
+## National Networks (European)
+
+### Ireland/UK
+- [RLUK Digital Scholarship Network](https://www.rluk.ac.uk/rluk-dsn/)
+
+::: {.callout-tip collapse=true}
+## Think we're missing something?
+We'd love to hear it! Suggest edits by opening a new Issue or adding to the discussion on existing Issues on the project Github. If you’re new to GitHub don’t worry, we have a Topic Guide for that: GitHub: How to navigate and contribute to Git-based projects! Or just drop us a line! 
+:::

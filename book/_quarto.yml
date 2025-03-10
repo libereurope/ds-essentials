@@ -54,6 +54,8 @@ website:
         contents:
           - topicguides.qmd
           - text: "---"
+          - gettingstarted.qmd
+          - text: "---"
           - ai-ml.qmd
           - text: "---"
           - api.qmd
