@@ -35,14 +35,22 @@ citation:
 ---
 
 ## Introduction
-
+This guide provides a general introduction to all resources available to you via publications, platforms of network. 
 
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)  
 
 
 ## Recommended Reading/Viewing  
+There is no shortage of recommended reading lists out there, here we try and highlight a few of the most up to date and useful lists out there for the sector today!
 
+Zotero Library for Digital Scholarship and Data Science Essentials for Library Professionals
+
+This library contains links to all of the resources referenced within Topic Guides and across our site.
+
+Zotero | Groups > collections as data - projects, initiatives, readings, tools, datasets
+
+Ongoing collection of projects, readings, initiatives, tools, and datasets that are in some way or another related to collections as data. This group is an open resource, welcoming contributions from anyone who has a resource to share.
 
 ## Finding Communities of Practice
 
