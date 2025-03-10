@@ -742,35 +742,55 @@
     "href": "gettingstarted.html",
     "title": "Getting Started in DS",
     "section": "",
-    "text": "This guide provides a general introduction to all resources available to you via publications, platforms of network."
+    "text": "This guide provides a general introduction to all resources available to you via publications, platforms of network.",
+    "crumbs": [
+      "TOPIC GUIDES",
+      "Getting Started in DS"
+    ]
   },
   {
     "objectID": "gettingstarted.html#introduction",
     "href": "gettingstarted.html#introduction",
     "title": "Getting Started in DS",
     "section": "",
-    "text": "This guide provides a general introduction to all resources available to you via publications, platforms of network."
+    "text": "This guide provides a general introduction to all resources available to you via publications, platforms of network.",
+    "crumbs": [
+      "TOPIC GUIDES",
+      "Getting Started in DS"
+    ]
   },
   {
     "objectID": "gettingstarted.html#relevance-to-the-library-sector-case-studiesuse-cases",
     "href": "gettingstarted.html#relevance-to-the-library-sector-case-studiesuse-cases",
     "title": "Getting Started in DS",
     "section": "Relevance to the Library Sector (Case Studies/Use Cases)",
-    "text": "Relevance to the Library Sector (Case Studies/Use Cases)"
+    "text": "Relevance to the Library Sector (Case Studies/Use Cases)",
+    "crumbs": [
+      "TOPIC GUIDES",
+      "Getting Started in DS"
+    ]
   },
   {
     "objectID": "gettingstarted.html#recommended-readingviewing",
     "href": "gettingstarted.html#recommended-readingviewing",
     "title": "Getting Started in DS",
     "section": "Recommended Reading/Viewing",
-    "text": "Recommended Reading/Viewing\nThere is no shortage of recommended reading lists out there, here we try and highlight a few of the most up to date and useful lists out there for the sector today!\nZotero Library for Digital Scholarship and Data Science Essentials for Library Professionals\nThis library contains links to all of the resources referenced within Topic Guides and across our site.\nZotero | Groups &gt; collections as data - projects, initiatives, readings, tools, datasets\nOngoing collection of projects, readings, initiatives, tools, and datasets that are in some way or another related to collections as data. This group is an open resource, welcoming contributions from anyone who has a resource to share."
+    "text": "Recommended Reading/Viewing\nThere is no shortage of recommended reading lists out there, here we try and highlight a few of the most up to date and useful lists out there for the sector today!\nZotero Library for Digital Scholarship and Data Science Essentials for Library Professionals\nThis library contains links to all of the resources referenced within Topic Guides and across our site.\nZotero | Groups &gt; collections as data - projects, initiatives, readings, tools, datasets\nOngoing collection of projects, readings, initiatives, tools, and datasets that are in some way or another related to collections as data. This group is an open resource, welcoming contributions from anyone who has a resource to share.",
+    "crumbs": [
+      "TOPIC GUIDES",
+      "Getting Started in DS"
+    ]
   },
   {
     "objectID": "gettingstarted.html#finding-communities-of-practice",
     "href": "gettingstarted.html#finding-communities-of-practice",
     "title": "Getting Started in DS",
     "section": "Finding Communities of Practice",
-    "text": "Finding Communities of Practice"
+    "text": "Finding Communities of Practice",
+    "crumbs": [
+      "TOPIC GUIDES",
+      "Getting Started in DS"
+    ]
   },
   {
     "objectID": "networks.html",
