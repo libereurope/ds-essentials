@@ -10,7 +10,7 @@ website:
   favicon: images/Favicon.png
   google-analytics: 
     tracking-id: "G-54HL7T1Z2K"
-  repo-url: https://github.com/noramcgregor/ds-essentials/
+  repo-url: https://github.com/libereurope/ds-essentials/
   repo-subdir: book
   repo-actions: [source, issue] 
 
