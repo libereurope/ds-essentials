@@ -1,4 +1,4 @@
-# Digital Scholarship & Data Science Essentials for Library Professionals
+# Digital Scholarship & Data Science Topic Guides for Library Professionals
 
 [Digital Scholarship & Data Science Essentials for Library Professionals](https://libereurope.github.io/ds-essentials/) is an open and collaboratively curated training reference resource. It aims to make it easier for LIBER library professionals and others to gain a concise overview of the new technologies that underpin digital scholarship and data science practice in research libraries today, and find trusted training materials recommendations to start their professional learning journey.
 
