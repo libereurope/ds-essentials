@@ -39,7 +39,27 @@ This guide provides a general introduction to all resources available to you via
 
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)  
+# **TRAINING PLATFORMS** {.unnumbered .unlisted}
 
+When you’re ready to go further and have a better idea of the specific skills you need for a particular task, we can recommend having a good search through these excellent platforms which host or link to a great many in-depth training materials:
+
+### DARIAH-Campus [https://campus.dariah.eu/](https://campus.dariah.eu/)
+DARIAH is a pan-European infrastructure for arts and humanities scholars working with computational methods. It supports digital research as well as the teaching of digital research methods. Though not specific to the library professional context, tutorials here are useful for applying techniques to digital collections. 
+
+### The Glam Workbench [https://glam-workbench.net/](https://glam-workbench.net/)
+The GLAM Workbench is the brainchild of Tim Sherratt, a historian, and is a collection of Jupyter notebooks to help you explore and use data from GLAM institutions (galleries, libraries, archives, and museums). It includes tools, tutorials, examples, hacks, and even some pre-harvested datasets. It's aimed at researchers in the humanities but has useful tutorials for anyone interested in working with GLAM data.
+
+### Ineo [https://www.ineo.tools/](https://www.ineo.tools/)
+Ineo is a project developed and maintained by CLARIAH that lets you search, browse, find and select digital resources for research in humanities and social sciences. At the end of 2024 it will offer access to thousands of tools, datasets, workflows, standards and learning material. It is a work in progress so do keep that in mind when browsing.
+
+### Library Carpentry [https://librarycarpentry.org/](https://librarycarpentry.org/)
+Library Carpentry is an international volunteer community, under the Carpentries, focussed building software and data skills within library and information-related communities. The lessons here are meant to be taught as workshops led by a Carpentries certified instructor (for a fee) but you may find it useful to have a read through the content which is open and available to all. 
+
+### The Programming Historian [https://programminghistorian.org/en/](https://programminghistorian.org/en/)
+The Programming Historian has been publishing peer-reviewed tutorials on digital tools and techniques for humanists since 2008 and though they’re generally aimed at academic researchers, staff at British Library have found them highly useful over the years in their own work! 
+
+### Social Sciences & Humanities Open Marketplace [https://marketplace.sshopencloud.eu/search?order=score&categories=training-material](https://marketplace.sshopencloud.eu/search?order=score&categories=training-material)
+Built as part of the Social Sciences and Humanities Open Cloud project (SSHOC), the Social Sciences and Humanities Open Marketplace is a discovery portal which pools and contextualises resources for Social Sciences and Humanities research communities: tools, services, training materials, datasets, publications and workflows. The Marketplace highlights and showcases solutions and research practices for every step of the SSH research data life cycle. 
 
 ## Recommended Reading/Viewing  
 There is no shortage of recommended reading lists out there, here we try and highlight a few of the most up to date and useful lists out there for the sector today!
