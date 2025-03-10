@@ -3,15 +3,15 @@ title: "Getting Started in DS"
 date: 2024-06-04
 date-modified: 2025-02-10
 author:
-  - name: 
+   name: Eleonora Gandolfi
     id: jc
-    orcid: 0000-0003-0059-6855
-    email: a.fenlon@bham.ac.uk
+    orcid: 0000-0001-8544-1670
+    email: openresearch@surrey.ac.uk
     affiliation: 
-      - name: University of Birmingham
-        city: Birmingham
+      - name: University of Surrey
+        city: Guildford
         country: UK
-        url: https://libereurope.eu/member/alex-fenlon/
+        url: https://www.surrey.ac.uk/library/open-research/teams-advance-open-research-surrey
   - name: Maria Rehbinder
     id: jc
     orcid: 0000-0001-8427-9421
