@@ -1,17 +1,17 @@
-# **AUTHOR GUIDANCE & STYLE GUIDE** {.unnumbered .unlisted}
+---
+title: "Author Guidance & Style Guide"
+format: 
+   html:
+     page-layout: full
+sidebar: false
 
 ## Structuring the Topic Guide
 
-Each Topic Guide follows a distinct structure, beginning with a Header Section composing of a title, contributor information, published date, last modified info, and suggested citation followed by five key content blocks detailed below. Please have a look at the [IIIF Guide](iiif.qmd) as an example of how these pieces all fit together into one complete Topic Guide.
+Each Topic Guide follows a distinct structure, beginning with a Header Section composing of a title, contributor information, published date, last modified info, and suggested citation followed by five key content blocks detailed below. Please have a look at the [IIIF Guide](iiif.qmd) as an example of how these pieces all fit together into one complete DS Topic Guide.
 
-### Header Section
+### Front Matter
 
-- **Topic Guide Title**: IIIF
-- **Contributor(s) Name and (Orcid ID)**:  Nora McGregor [(ORCID iD)](https://orcid.org/0000-0001-6560-5586)
-- **Published date**: 27/03/2024
-- **Suggested Citation**:  Nora McGregor, “IIIF,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link]
-
-*Note: The project team will ensure each Topic Guide is given an individual DOI either through British Library Research Repository or Zenodo.* 
+This markdown template shows an example of what information is required for the header, and how each section should be formatted. Note: The project team will ensure each Topic Guide is given an individual DOI either through Zenodo once published. 
 
 ### I: Introduction to the topic (*Approximately 500-700 words*)
 This introduction section should be pitched at a beginner/foundational level and gives a concise overview of the topic. It should be written in a relaxed and natural way. This section does not need to contain the world’s knowledge, just enough high-level knowledge to get the key concepts across. 
