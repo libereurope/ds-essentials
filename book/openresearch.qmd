@@ -45,7 +45,7 @@ The aim of Open Research is:
 
 ### How does this benefit society?
 
-Universities and researchers are recognising that Open Research has benefits extending wat beyond each individual institution:
+Universities and researchers are recognising that Open Research has benefits extending far beyond each individual institution:
 
 - The general public has free access to quality information that matters in their lives
 - Practitioners and policy makers can put the findings of research into practice more quickly and easily
