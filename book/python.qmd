@@ -1,3 +1,0 @@
-# Python {.unnumbered}
-
-All things Python :)
