@@ -1,8 +1,0 @@
-# Ongoing Maintenance and Content Review {.unnumbered}
-
-Throughout 2023/2024 we are working on producing the first complete edition of this resource for launch at the [LIBER Annual Conference](https://liberconference.eu/) 3-5 July 2024. That edition will be deposited in the British Library Research Repository, captured in the UK Web Archive, and a DOI provided. Topic Guides are currently being produced by direct invitation, as well as through a series of in-person and online writing sprints of working group members.
-
-The first edition Topic Guide list draws heavily on the existing skills framework and topics covered in the British Library’s Digital Scholarship Training Programme, as well as those recommended by attendees of development workshops hosted by LIBER working groups throughout 2023.
-
-We view this resource as capturing a snapshot in time and will endeavour to fully review all content a minimum of once annually to check for link rot, and content relevancy. The project team editors are committed to make quick fixes when raised throughout the year, while formal sprints and reviews coinciding with LIBER Annual Summer Conference and Winter events will be used for soliciting new content and undertaking more complex updates to the resource each year.
-
