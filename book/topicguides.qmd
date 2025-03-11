@@ -1,8 +1,16 @@
 # **TOPIC GUIDES** {.unnumbered .unlisted}
 
-**Topic Guides** are the heart of *Digital Scholarship and Data Science Essentials for Library Professionals*. Written by LIBER professionals working in research libraries all across Europe, the aim of each guide is to provide a gentle and concise introduction to the key topics in this area today. The guides offer those with no prior knowledge, quick and curated guidance, from fellow library colleagues, to personally recommended hands-on tutorials, use-cases, articles, videos, networks and communities of practice to deepen learning.
+Written by LIBER professionals working in research libraries all across Europe, the aim of each guide is to provide a gentle and concise introduction to the key topics in this area today. The guides offer those with no prior knowledge, quick and curated guidance, from fellow library colleagues, to personally recommended hands-on tutorials, use-cases, articles, videos, networks and communities of practice to deepen learning.
 
-Each **Topic Guide** follows a fixed structure, in order to make it easier to quickly find the information you might need: 
+## How to use this resource
+
+This resource has a dual purpose; it is written as a tool for self-study and quick reference, but also as a guide for individuals and institutions interested in establishing their own local training programmes. 
+
+### Self-study & Quick Reference
+
+As a self-study resource, we hope it can serve as a useful first point of entry into complex topics in digital scholarship and data science and their application in the library world. It is not meant to be completed in any particular order, rather, learners are invited to jump in and out of individual topic guides as personal curiosity or practical need dictates.
+
+Each **Topic Guide** is designed to make it easy to quickly find the information you might need: 
 
 - Introduction to the topic
 - Relevance to the library sector (case studies/use cases)
@@ -10,16 +18,7 @@ Each **Topic Guide** follows a fixed structure, in order to make it easier to qu
 - Recommended reading & viewing
 - Finding Communities of Practice
 
-The guides are not presented, nor meant to be completed, in any particular order, rather, you are invited to jump in and out of individual topics as personal curiosity or practical need dictates.
+### Use in teaching or your own local training programme
 
-The Topic Guide list in this first edition draws heavily on the existing skills framework and topics covered in the British Library’s Digital Scholarship Training Programme, as well as those recommended by attendees of a series of development workshops held with LIBER working groups throughout 2023.
+The materials here can also be utilised in group study, as part of a reading group or even a hands-on workshop. See our Topic Guide on how to [Start your own training programme](https://libereurope.github.io/ds-essentials/dstp.html) for some tips and tricks from British Library Digital Research Team colleagues on utilising the materials referenced here at your own library or within your network. 
 
-Our current wishlist for future editions in 2025/2026 includes but is not limited to topics such as:
-
-- Climate Change and Sustainability
-- Cultural Competency & Ethics
-- Demystifying Computational Environments for Digital Scholarship
-- Digital Scholarship Project Management, Evaluation and Assessment
-- Digital Storytelling
-- Foundation models: When and why to use LLMs or SLMs
-- Wikimedia
