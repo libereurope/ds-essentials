@@ -27,26 +27,13 @@ citation:
 
 ## Introduction 
 
-## Relevance to the Library Sector (Case Studies/Use Cases)  
-
-## Hands-on activity and other self-guided tutorial(s)
-
-## Recommended Reading/Viewing  
-
-## Finding Communities of Practice
-
 The Digital Research Team at the British Library has been providing training to staff for over a decade through our bespoke [British Library Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html). 
 
-The following are a few things we've learned along the way, and pointers for how to practically use the materials presented here on DS Essentials to start your own localised and sustainable digital scholarship and data science training programme at your own institutions! 
+This Topic Guide shares a few things we've learned along the way about establishing an internal community of practice and training programme, with pointers for how to practically use the materials presented here to start your own localised and sustainable digital scholarship and data science training programme at your own institutions! 
 
-### Find your people
-Get a small group of willing colleagues at your institution together and set up a way for them to communicate regularly, preferably asynchronously/remotely. We use a corporate wide MS Teams channel for this but you could also set up things like a slack channel or even a whatsapp channel. Focus on your purpose of bringing people together, think about the messaging and keep it light, "learn new stuff together that can help make your job easier" usually suffices! Try not to be too targeted, cast the net wide as people of all interests/academic disciplines/job profiles, abilities and backgrounds will undoubtedly have something to contribute: digital scholarship and data science is a collaborative affair and your group will be all the better for its diversity.
+## Relevance to the Library Sector (Case Studies/Use Cases)  
 
-### Identify shared needs
-What are problems colleagues at your institution are facing (cataloguing backlogs? etc.), and what computational methods might help them to solve these? By framing digital scholarship/data science skill training as an investment that can be a helpful tool for colleagues to resolve long standing issues you will find a more willing audience for your efforts. Quick wins in the digital realm (for instance in learning a tool like [Open Refine](https://openrefine.org/) to normalise and analyse catalogue records) can often build confidence very quickly and open the door to trying out new technologies. 
-
-### Get Buy-in (if you need to!)
-In some cases you may need buy-in from managers to allow staff time and space to dedicate to learning these new skills. It can be difficult to convince managers sometimes of the value of learning skills now which may take some years to truly embed or come to practical fruition. Digital Scholarship & Data Science Essentials contains loads of evidence to share with your management for why investing in digital scholarship and data science staff skills is key to sustainable digital transformation over time. Have a look at the [Skills Competency Frameworks & Key Reports](https://libereurope.github.io/ds-essentials/reports.html) sections for the latest supporting research on this. Each Topic Guide also contains useful real-life applications of new technologies being put into action under the **Relevance to the Library Sector (Case Studies/Use Cases)**. At the British Library we've started to capture individual staff digital transformation stories as well which help to demonstrate the tangible value to individuals and institutions. 
+You only need to take a look at a few of the Topic Guides, **Relevance to the Library Sector (Case Studies/Use Cases)** contains useful real-life applications of new technologies being put into action to understand the importance of supporting the development of digital skills amongst Library professionals. At the British Library we've started to capture individual staff digital transformation stories as well which help to demonstrate the tangible value to individuals and institutions.
 
 >_"The Digital Scholarship Training Programme has introduced me to new software, opened my eyes to digital opportunities, provided inspiration for me to improve, and helped me attain new skills"_ -Graham Jevon, British Library
 
@@ -54,8 +41,20 @@ Read more about [Graham Jevon's digital transformation journey](https://blogs.bl
 
 [![How are you using your new skills in your own work?](https://github.com/libereurope/ds-essentials/blob/main/book/images/DSTP.png?raw=true)](https://www.youtube.com/embed/CrCP5rYai9M?si=A9kw93B_TvOoDFnV)
 
+## Hands-on activity and other self-guided tutorial(s)
 
-## Run a monthly Hack & Yack
+The following steps can be used as a guide towards building your own local training programme!
+
+### Find your people
+Get a small group of willing colleagues at your institution together and set up a way for them to communicate regularly, preferably asynchronously/remotely. We use a corporate wide MS Teams channel for this at British Library but you could also set up things like a slack channel or even a whatsapp channel. Focus on your purpose of bringing people together, think about the messaging and keep it light, "learn new stuff together that can help make your job easier" usually suffices! Try not to be too targeted, cast the net wide as people of all interests/academic disciplines/job profiles, abilities and backgrounds will undoubtedly have something to contribute: digital scholarship and data science is a collaborative affair and your group will be all the better for its diversity.
+
+### Identify shared needs
+What are problems colleagues at your institution are facing (cataloguing backlogs? fear of AI etc.), and how might your fledgling interest group help them to solve these? By framing digital scholarship/data science skill training as an investment, a helpful tool for colleagues to resolve long standing issues, you will find a more willing audience for your efforts. Quick wins in the digital realm (for instance in learning a tool like [Open Refine](https://openrefine.org/) to normalise and analyse catalogue records) can often build confidence very quickly and open the door to trying out new technologies. 
+
+### Get Buy-in (if you need to!)
+In some cases you may need buy-in from managers to allow staff time and space to dedicate to learning these new skills. It can be difficult to convince managers sometimes of the value of learning skills now which may take some years to truly embed or come to practical fruition. Digital Scholarship & Data Science Topic Guides contains loads of evidence to share with your management for why investing in digital scholarship and data science staff skills is key to sustainable digital transformation over time. Have a look at the [Getting Started in DS Topic Guide](https://libereurope.github.io/ds-essentials/gettingstarted.html), particularly the section on [Relevance to the Library Sector](https://libereurope.github.io/ds-essentials/gettingstarted.html#relevance-to-the-library-sector-case-studiesuse-cases) for the latest supporting reports and competency & skills frameworks on this.  
+
+## Try running a monthly "Hack & Yack"
 Establishing a regular Hack & Yack style meeting is a really nice way to learn something new with other colleagues. At the British Library our Hack & Yack's are once a month for two hours on a set day and time. It is a casual, hands-on session where colleagues from across all departments of the institution come together to understand a current topic or digital method and work through an online tutorial at everyone's own pace but with support of colleagues. 
 
 We use it as an opportunity to explore new tools/techniques/applications relevant to digital research and keep our own skills up to speed. Note this is not a formal training session, we're all learning together and come to the tutorials with a variety of experience/knowledge/skills.  
@@ -64,7 +63,7 @@ Each Hack & Yack usually starts with one person, which may or may not be the org
 
 Within each of these Topic Guides is a **Hands-on activity and other self-guided tutorial(s)** section that would make a perfect start for your first Hack & Yacks! 
 
-## Start a discussion group
+## Start a discussion/reading group
 Whether you call it a 'reading group', a discussion group, a lunchtime series - the point is to provide regular opportunities for people to get together, and learn and support each other through discussion. You might set an article, blog post or chapter, a video or podcast.
 
 Things we've found useful:
@@ -77,6 +76,15 @@ Each Topic Guide has a **Recommended Reading/Viewing** section and you can also 
 
 ## Create an identity
 After your group of the willing has been running for awhile it's useful to create an identify for yourselves. Perhaps you consider yourselves a network, or an interest group or maybe you'd like to start formalising your gatherings under a "training programme" moniker. Whatever you decide, it helps to bring in new folks when there is an established identity and even maybe a logo in advertisements.
+
+
+## Recommended Reading/Viewing  
+
+## Finding Communities of Practice
+
+
+
+
 
 
 
