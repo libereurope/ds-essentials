@@ -29,20 +29,16 @@ website:
     right:
       - text: "TOPIC GUIDES"
         href: topicguides.qmd
+      - text: "ABOUT"
+        href: project-overview.qmd 
       - text: "CONTRIBUTE"
         menu:
         - contributing.qmd
         - guidelines.qmd
         - licensing.qmd
-      - text: "ABOUT"
-        href: project-overview.qmd 
-      - text: "CONTACT"
-        href: contact.qmd    
-
-
   sidebar:  
       - title: "TOPIC GUIDES"
-        style: "floating"
+        style: "static"
         background: light
         contents:
           - topicguides.qmd
