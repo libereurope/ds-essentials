@@ -21,6 +21,8 @@ Each Topic Guide aims to provide a gentle, quick and curated introduction to the
 - Recommended Reading & Viewing
 - Finding Communities of Practice
 
+[Take me to the Topic Guides](topicguides.qmd){.btn .btn-outline-primary .btn role="button"} 
+
 ## Are **DS Topic Guides** for me?
 Are you someone working in or around research libraries with an interest in learning more about how to do cool and interesting things with digital collections and data at your institution? Wondering how data science techniques can help you in your work? Are you interested in gaining valuable digital literacy skills and knowledge to support emerging areas of modern scholarship such as Digital Humanities? Do you need some of the technology jargon you hear about these days demystified?
 
