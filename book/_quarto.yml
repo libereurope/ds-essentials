@@ -84,6 +84,8 @@ website:
           - text: "---"
           - openresearch.qmd
           - text: "---"
+          - dstp.qmd
+          - text: "---"
           - workingwdata.qmd 
   page-footer: 
     border: false
