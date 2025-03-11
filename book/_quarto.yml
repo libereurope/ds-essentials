@@ -29,13 +29,6 @@ website:
     right:
       - text: "TOPIC GUIDES"
         href: topicguides.qmd
-      - text: "ADDITIONAL RESOURCES"
-        menu:
-        - references.qmd
-        - dstp.qmd
-        - reports.qmd 
-        - training-platforms.qmd
-        - networks.qmd
       - text: "CONTRIBUTE"
         menu:
         - contributing.qmd
