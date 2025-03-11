@@ -38,7 +38,7 @@ website:
         - licensing.qmd
   sidebar:  
       - title: "TOPIC GUIDES"
-        style: "static"
+        style: "docked"
         background: light
         contents:
           - topicguides.qmd
