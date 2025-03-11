@@ -21,9 +21,13 @@ Contribute a new [Topic Guide](topicguides.qmd) (individually or in collaboratio
 >- Research Data Management
 >- Wikimedia 
 
-## Suggest edits to an existing [Topic Guide](topicguides.qmd) by opening a new [Issue](https://github.com/libereurope/ds-essentials/issues) or adding to the discussion on existing Issues on the project Github. If you're new to GitHub don't worry, we have a Topic Guide for that: [GitHub: How to navigate and contribute to Git-based projects](https://libereurope.github.io/ds-essentials/github.html)!
+## Suggest edits to an existing [Topic Guide](topicguides.qmd)
 
-## Join one of the [LIBER Working Groups Digital Scholarship and Digital Cultural Heritage WG](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/) or [Data Science in Libraries](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/) (open to all staff of [LIBER member institutions](https://libereurope.eu/liber-participants/)) to keep up with the developments and ongoing maintenance of this project!
+Know of a good case study, report or community of practice that LIBER members should know about? Open a new [Issue](https://github.com/libereurope/ds-essentials/issues) or add to the discussion on existing Issues on the project Github. If you're new to GitHub don't worry, we have a Topic Guide for that: [GitHub: How to navigate and contribute to Git-based projects](https://libereurope.github.io/ds-essentials/github.html)!
+
+## Join a working group and help with ongoing maintenance and review
+
+We view this resource as capturing a snapshot in time and will endeavour to fully review all content a minimum of once annually to check for link rot, and content relevancy. The project team editors are committed to making quick fixes when raised throughout the year, while formal sprints and reviews coinciding with LIBER Annual Summer Conference and Winter events will be used for soliciting new content and undertaking more complex updates to the resource each year and creating new editions as necessary. Join one of the [LIBER Working Groups Digital Scholarship and Digital Cultural Heritage WG](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/) or [Data Science in Libraries](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/) (open to all staff of [LIBER member institutions](https://libereurope.eu/liber-participants/)) to keep up with the developments and help out with ongoing maintenance of this project! 
 
 ## Take part in a Writing Sprint! 
 
