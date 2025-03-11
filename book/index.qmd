@@ -1,15 +1,13 @@
 ---
-title: "Welcome to Digital Scholarship & Data Science Essentials"
+title: "Welcome to Digital Scholarship & Data Science Topic Guides"
 format: 
    html:
      background: "#f8f9fa" 
      page-layout: full
 ---
-_Digital Scholarship & Data Science Essentials for Library Professionals_ (**DS Essentials**) aims to make it easier for LIBER library professionals to quickly gain a concise overview of the new technologies and concepts that underpin digital scholarship and data science practice in research libraries today, and find trusted training material recommendations to start their professional learning journey.
+_Digital Scholarship & Data Science Topic Guides for Library Professionals_ (**DS Topic Guides**) aims to make it easier for LIBER library professionals to provide quickly gain a concise overview of the new technologies and concepts that underpin digital scholarship and data science practice in research libraries today, and find trusted training material recommendations to start their professional learning journey.
 
-![](https://github.com/noramcgregor/ds-essentials/blob/main/book/images/Front.png?raw=true)
-
-## Is **DS Essentials** for me?
+## Are **DS Topic Guides** for me?
 Are you someone working in or around research libraries with an interest in learning more about how to do cool and interesting things with digital collections and data at your institution? Wondering how data science techniques can help you in your work? Are you interested in gaining valuable digital literacy skills and knowledge to support emerging areas of modern scholarship such as Digital Humanities? Do you need some of the technology jargon you hear about these days demystified?
 
 Then this resource is for you!
@@ -35,13 +33,13 @@ Over the past few decades, the development of excellent self-paced tutorials and
 
 For library professionals who are relatively new to this area however, it can be hard to know where to begin! Without knowing a little bit about the context of how new technologies are being deployed in research libraries, this dearth of resources can seem quite daunting. Even if you might have an idea of what learning you’d like to undertake, it can be difficult and time consuming to try and navigate the wealth of individual training resources out there on your own.
 
-*Digital Scholarship & Data Science Essentials for Library Professionals* is a training reference resource we have developed to remove some of the barrier of having to hunt for recommended training and resources to get you on the learning ladder. 
+*Digital Scholarship & Data Science Topic Guides for Library Professionals* is a training reference resource we have developed to remove some of the barrier of having to hunt for recommended training and resources to get you on the learning ladder. 
 
 From working with data, automatic handwritten recognition technologies and more, our Topic Guides provide contextualised and gentle introductions, written from the library practitioners perspective, to a wide range of key topics and technologies relevant to working innovatively with our digital collections and data. 
 
 ## What are Topic Guides?
 
-Topic Guides are the heart and soul of *Digital Scholarship & Data Science Essentials for Library Professionals*. The aim of each is to provide research library professionals with a gentle and concise introduction to the key topics in this area today. They offer those with no prior knowledge, quick and curated guidance to personally recommended hands-on tutorials, use-cases, articles, videos, networks and communities of practice to deepen learning.
+Topic Guides are the heart and soul of *Digital Scholarship & Data Science Topic Guides for Library Professionals*. The aim of each is to provide research library professionals with a gentle and concise introduction to the key topics in this area today. They offer those with no prior knowledge, quick and curated guidance to personally recommended hands-on tutorials, use-cases, articles, videos, networks and communities of practice to deepen learning.
 
 Each Topic Guide follows a fixed structure, consisting of five components in order to make it easier to quickly find what you might need: 
 
