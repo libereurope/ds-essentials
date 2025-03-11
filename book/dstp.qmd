@@ -1,20 +1,51 @@
-# **START A LOCAL TRAINING PROGRAMME** {.unnumbered .unlisted}
+---
+title: "Start your own local DS Training Programme"
+date: 2025-03-11
+date-modified: 2025-03-11
+author:
+  - name: Nora McGregor
+    id: jc
+    orcid: 0000-0001-6560-5586
+    email: Digitalresearch@bl.uk
+    affiliation: 
+      - name: British Library
+        city: London
+        country: UK
+        url: https://www.bl.uk
+abstract: > 
+  A gentle introduction to AI & Machine Learning demystifying concepts and technologies through the examples of practical applications in library work today.
+keywords:
+  - TBD
+  - TBD
+license: "CC BY"
+citation: 
+  container-title: Digital Scholarship & Data Science Essentials
+  volume: 1
+  issue: 1
+  doi: TBD
+---
 
->Contributed by: Nora McGregor, [ORCID iD](https://orcid.org/0000-0001-6560-5586) and Mia Ridge, [ORCID iD](https://orcid.org/0000-0003-3733-8120)<br>
->Original published date: 27/03/2024<br>
->Last modified: See Github page history
->
->Suggested Citation: Nora McGregor, Mia Ridge, “Start your own local training programme,” *Digital Scholarship & Data Science Essentials for Library Professionals* (2024), [DOI link tbd]
+## Introduction 
 
-The Digital Research Team at the British Library has been providing training to staff for over a decade through our bespoke [British Library Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html). The following are a few things we've learned along the way, and pointers for how to practically use the materials presented here on DS Essentials to start your own localised and sustainable digital scholarship and data science training programme at your own institutions! 
+## Relevance to the Library Sector (Case Studies/Use Cases)  
 
-## Find your people
+## Hands-on activity and other self-guided tutorial(s)
+
+## Recommended Reading/Viewing  
+
+## Finding Communities of Practice
+
+The Digital Research Team at the British Library has been providing training to staff for over a decade through our bespoke [British Library Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html). 
+
+The following are a few things we've learned along the way, and pointers for how to practically use the materials presented here on DS Essentials to start your own localised and sustainable digital scholarship and data science training programme at your own institutions! 
+
+### Find your people
 Get a small group of willing colleagues at your institution together and set up a way for them to communicate regularly, preferably asynchronously/remotely. We use a corporate wide MS Teams channel for this but you could also set up things like a slack channel or even a whatsapp channel. Focus on your purpose of bringing people together, think about the messaging and keep it light, "learn new stuff together that can help make your job easier" usually suffices! Try not to be too targeted, cast the net wide as people of all interests/academic disciplines/job profiles, abilities and backgrounds will undoubtedly have something to contribute: digital scholarship and data science is a collaborative affair and your group will be all the better for its diversity.
 
-## Identify shared needs
+### Identify shared needs
 What are problems colleagues at your institution are facing (cataloguing backlogs? etc.), and what computational methods might help them to solve these? By framing digital scholarship/data science skill training as an investment that can be a helpful tool for colleagues to resolve long standing issues you will find a more willing audience for your efforts. Quick wins in the digital realm (for instance in learning a tool like [Open Refine](https://openrefine.org/) to normalise and analyse catalogue records) can often build confidence very quickly and open the door to trying out new technologies. 
 
-## Get Buy-in (if you need to!)
+### Get Buy-in (if you need to!)
 In some cases you may need buy-in from managers to allow staff time and space to dedicate to learning these new skills. It can be difficult to convince managers sometimes of the value of learning skills now which may take some years to truly embed or come to practical fruition. Digital Scholarship & Data Science Essentials contains loads of evidence to share with your management for why investing in digital scholarship and data science staff skills is key to sustainable digital transformation over time. Have a look at the [Skills Competency Frameworks & Key Reports](https://libereurope.github.io/ds-essentials/reports.html) sections for the latest supporting research on this. Each Topic Guide also contains useful real-life applications of new technologies being put into action under the **Relevance to the Library Sector (Case Studies/Use Cases)**. At the British Library we've started to capture individual staff digital transformation stories as well which help to demonstrate the tangible value to individuals and institutions. 
 
 >_"The Digital Scholarship Training Programme has introduced me to new software, opened my eyes to digital opportunities, provided inspiration for me to improve, and helped me attain new skills"_ -Graham Jevon, British Library
