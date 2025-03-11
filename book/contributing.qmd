@@ -1,14 +1,14 @@
 # **CONTRIBUTE TO OUR PROJECT** {.unnumbered .unlisted}
 
-We are currently working on producing the first complete edition of this resource for launch at the [54th LIBER Annual Conference 2025](https://liberconference.eu/) in 2-4 July 2025 in Lausanne, Switzerland. Topic Guides are currently being produced through a series of in-person and online writing sprints of LIBER working group members and by direct invitation. When complete, the first edition will be deposited in the [British Library Research Repository](https://bl.iro.bl.uk/), captured in the UK Web Archive, and a DOI provided for both the overall resources and individual guides. 
+The first edition of _Digital Scholarship & Data Science Topic Guides for Library Professionals_, launched at the LIBER Annual Conference in Summer 2025, draws heavily on the existing skills framework and topics covered in the [British Library’s Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html), as well as those recommended by attendees of development workshops hosted by LIBER working groups throughout 2023/2024.
 
-The first edition Topic Guide wishlist draws heavily on the existing skills framework and topics covered in the [British Library’s Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html), as well as those recommended by attendees of development workshops hosted by LIBER working groups throughout 2023/2024.
+There are several ways to contribute to the ongoing update and future development of this resource.
 
-Feel free to contact [Nora McGregor](mailto:digitalresearch@bl.uk) if you're keen to learn more and contribute!
+Feel free to contact [Nora McGregor](mailto:digitalresearch@bl.uk) if you're keen to discuss!
 
-## Ways to contribute to this project
+## Help us with our wishlist!
 
-- Contribute to an existing, or create a new [Topic Guide](topicguides.qmd) (individually or in collaboration with others). Choose from our current wishlist or propose a new one. Join an upcoming writing sprint or get in touch with us directly to discuss [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) your idea and we'll help you get started right away!
+Contribute a new [Topic Guide](topicguides.qmd) (individually or in collaboration with others). Choose from our current wishlist or propose a new one. Contact [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) with your idea or submit an [Issue](https://github.com/libereurope/ds-essentials/issues) and we'll help you get started right away!
 
 > **_NOTE:_** Our current wishlist for future editions includes but is not limited to topics such as:
 >
@@ -21,10 +21,11 @@ Feel free to contact [Nora McGregor](mailto:digitalresearch@bl.uk) if you're kee
 >- Research Data Management
 >- Wikimedia 
 
-- Suggest edits to an existing [Topic Guide](topicguides.qmd) or any of the General Resources pages by opening a new [Issue](https://github.com/libereurope/ds-essentials/issues) or adding to the discussion on existing Issues on the project Github. If you're new to GitHub don't worry, we have a Topic Guide for that: [GitHub: How to navigate and contribute to Git-based projects](https://libereurope.github.io/ds-essentials/github.html)!
-- Join one of the [LIBER Working Groups Digital Scholarship and Digital Cultural Heritage WG](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/) or [Data Science in Libraries](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/) (open to all staff of [LIBER member institutions](https://libereurope.eu/liber-participants/)) to keep up with the developments and ongoing maintenance of this project!
+## Suggest edits to an existing [Topic Guide](topicguides.qmd) by opening a new [Issue](https://github.com/libereurope/ds-essentials/issues) or adding to the discussion on existing Issues on the project Github. If you're new to GitHub don't worry, we have a Topic Guide for that: [GitHub: How to navigate and contribute to Git-based projects](https://libereurope.github.io/ds-essentials/github.html)!
 
-## Join a Writing Sprint! 
+## Join one of the [LIBER Working Groups Digital Scholarship and Digital Cultural Heritage WG](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/) or [Data Science in Libraries](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/) (open to all staff of [LIBER member institutions](https://libereurope.eu/liber-participants/)) to keep up with the developments and ongoing maintenance of this project!
+
+## Take part in a Writing Sprint! 
 
 We held four online Topic Guide Sprints in 2024. 
  
@@ -35,14 +36,14 @@ We held four online Topic Guide Sprints in 2024.
 
 To be notified of future sprints check back here for dates/times or join one of our working groups and we'll email out the details!
 
-### Preparing for a sprint:
+#### Preparing for a sprint:
 
 1. Please have a quick read through the [Welcome](index.qmd) and [Topic Guide](topicguides.qmd) pages to familiarise yourself with this resource and its purpose.
 2. When you [Register](https://forms.office.com/Pages/ResponsePage.aspx?id=t0ykIcP5AE-a-r0ejoi82X7ZIEJh0odPq9ej1FnpQEJUNTlTTTQ3WjBWU0gxOTdaNk1WSUpVV1FPRS4u) you'll see a list of our latest Topic Guides on our wishlist. Please check off any and all Topic Guides you would be happy to work on during the day of the sprint. On the day each attendee will focus on writing just one Topic Guide however. The information you provide before the sprint will help us organise this ahead of time so that as many Topic Guides as possible have at least one dedicated author.  
 3. Please have a quick read through the [Author Guidance and Style Guide](guidelines.qmd) section. 
 4. We'll be in touch after we receive your registration to send you more details and useful information ahead of the sprint so look out for our email! If you are sent a copy of the Topic Guide Template (Google Doc) that corresponds to your topic of choice ahead of time, add your name to the header, and feel free to add notes or even make a start on drafting your guide before the sprint day if you're keen!
 
-### What to expect on the day:
+#### What to expect on the day:
 A two hour writing sprint will generally follow this format:
 
 1. Welcome and participant introductions (10 minutes)  
@@ -52,15 +53,11 @@ A two hour writing sprint will generally follow this format:
 5. Wrapping Up & Logging progress through Github Issues (15 minutes): We have provided an [Issue Template](https://github.com/libereurope/ds-essentials/issues) which is pre-formatted as a Topic Guide submission checklist and will walk participants through the process of opening a new issue for your draft submission. Please fill in the issue template and provide the necessary information relating to where your draft submission is currently at. Once the issue is saved, it can continue to serve as a space to continue discussion of the ongoing status of your submission and log updates where necessary, including notifying us of when it is fully ready for final review by maintainers. 
 6. Closing Remarks & Next Steps (5 minutes)
 
-### After the sprint:
+#### After the sprint:
 
 During the sprint, you’ve drafted your Topic Guide in a Google Doc. This Google Doc can continue to serve as a ‘living document’ following the sprint until you feel the content is ready to be published. Throughout this process, we will use your Github issue to maintain an overview of the docs in terms of their status and action points so please keep this updated. Each Topic Guide will be allocated a specific Maintainer contact (one of the co-chairs) who will be in touch and work with you to see the process through to completion. You may request placing your Google Doc under restricted access if you wish. We will not do this by default, but we respect that some contributors would like to keep drafts private until fully ready for submission.
 
 When your Topic Guide is ready for our review in Google Docs, please let us know by logging an update over on Github as a comment on the Issue stating this. You can also tag the maintainers so they receive a notification as well. Maintainers will generally work with you on the final edits necessary for the submission through track changes and comments within the Google Doc itself. Once these have all been resolved maintainers will log a status update in the GitHub issue.
 
-## Ongoing Maintenance and Review
 
-We view this resource as capturing a snapshot in time and will endeavour to fully review all content a minimum of once annually to check for link rot, and content relevancy. The project team editors are committed to making quick fixes when raised throughout the year, while formal sprints and reviews coinciding with LIBER Annual Summer Conference and Winter events will be used for soliciting new content and undertaking more complex updates to the resource each year and creating new editions as necessary. 
-
-Join one of the [LIBER Working Groups Digital Scholarship and Digital Cultural Heritage WG](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/) or [Data Science in Libraries](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/) (open to all staff of [LIBER member institutions](https://libereurope.eu/liber-participants/)) to keep up with the developments and ongoing maintenance of this project!
 
