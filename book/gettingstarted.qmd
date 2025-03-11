@@ -3,11 +3,11 @@ title: "Getting Started in DS"
 date: 2024-06-04
 date-modified: 2025-02-10
 author:
-   name: Eleonora Gandolfi
-   id: jc
-   orcid: 0000-0001-8544-1670
-   email: openresearch@surrey.ac.uk
-   affiliation: 
+  - name: Eleonora Gandolfi
+    id: jc
+    orcid: 0000-0001-8544-1670
+    email: openresearch@surrey.ac.uk
+    affiliation: 
       - name: University of Surrey
         city: Guildford
         country: UK
