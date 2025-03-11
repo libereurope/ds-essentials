@@ -15,6 +15,29 @@ _Digital Scholarship & Data Science Topic Guides for Library Professionals_ is a
 - <span style="color:#f0ad00;">**Raise awareness**</span> of **local, national** and **international networks**, and associated training events, relevant to delivering state of the art services in libraries
 - <span style="color:#f0ad00;">**Furnish**</span> **current reports** and **competency skills frameworks** pertaining to digital scholarship and data science in libraries
  
+## Are **DS Topic Guides** for me?
+
+Are you someone working in or around research libraries with an interest in learning more about how to do cool and interesting things with digital collections and data at your institution? Wondering how data science techniques can help you in your work? Are you interested in gaining valuable digital literacy skills and knowledge to support emerging areas of modern scholarship such as Digital Humanities? Do you need some of the technology jargon you hear about these days demystified?
+
+Then this resource is for you!
+
+It is very important to us that the guides here are inclusive and intellectually accessible, challenging but not terrifying and as such we focus primarily on an introductory audience where no programming or particular digital skills are required.
+
+Though written from the research library professional perspective we think these guides will be useful for anyone currently (or aspiring to be) working in and around digital collections and data in heritage institutions:
+
+- Library & Information Science students
+- Project managers
+- Developers
+- Information specialists
+- Metadata Managers
+- Subject librarians
+- System librarians
+- Institutional leadership
+
+And so many more!
+
+
+
 ## Project History 
 
 The impetus for this project has its roots in LIBER member [British Library’s Digital Scholarship Training Programme](https://web.archive.org/web/20230513003720/https://www.bl.uk/projects/digital-scholarship-training-programme/), where for over a decade now, Digital Curators there have maintained bespoke learning resources on digital scholarship tools and methods for internal use as part of their staff training courses, talks reading group and Hack & Yacks. The team there has been looking for places to share these existing resources and expertise more widely with the sector in a dedicated collaborative learning space online.
