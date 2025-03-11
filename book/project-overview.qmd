@@ -41,3 +41,12 @@ Each Topic Guide is written by specific named contributors but we also welcome c
 ## Acknowledgements
 
 The project team would like to thank all of our LIBER working group members who have contributed to this resource and supported our endeavours here. We have taken great inspiration from other incredible training initiatives such as the [British Library Digital Scholarship Training Programme](https://web.archive.org/web/20230513003720/https://www.bl.uk/projects/digital-scholarship-training-programme/), [DH Literacy Guidebook](https://cmu-lib.github.io/dhlg/) and [The Programming Historian](https://cmu-lib.github.io/dhlg/) in the development of this resource and thank those projects for paving the way!
+
+## Contact us
+
+If you’d like to ask a question of the project team you can please send an email to Nora McGregor, [nora.mcgregor@bl.uk](mailto:nora.mcgregor@bl.uk) or any of Co-Chairs and select Members of the collaborating WGs listed here who act as the core project delivery team and editors of this resource.
+
+[Jodie Double](https://libereurope.eu/member/jodie-double/), Editor [DSDCH](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/)  
+[Péter Király](https://libereurope.eu/member/peter-kiraly-phd/), Editor [DSLib](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/)  
+[Nora McGregor](https://libereurope.eu/member/nora-mcgregor/), Editor [DSDCH](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/)  
+[Peter Verhaar](https://libereurope.eu/member/peter_verhaar/), Editor [DSLib](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/)
