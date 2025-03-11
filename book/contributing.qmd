@@ -1,4 +1,10 @@
-# **CONTRIBUTE TO OUR PROJECT** {.unnumbered .unlisted}
+---
+title: "Contribute to our Project"
+format: 
+   html:
+     page-layout: full
+sidebar: false
+---
 
 The first edition of _Digital Scholarship & Data Science Topic Guides for Library Professionals_, launched at the LIBER Annual Conference in Summer 2025, draws heavily on the existing skills framework and topics covered in the [British Library’s Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html), as well as those recommended by attendees of development workshops hosted by LIBER working groups throughout 2023/2024.
 
