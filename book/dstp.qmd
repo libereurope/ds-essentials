@@ -54,7 +54,7 @@ What are problems colleagues at your institution are facing (cataloguing backlog
 ### Get Buy-in (if you need to!)
 In some cases you may need buy-in from managers to allow staff time and space to dedicate to learning these new skills. It can be difficult to convince managers sometimes of the value of learning skills now which may take some years to truly embed or come to practical fruition. Digital Scholarship & Data Science Topic Guides contains loads of evidence to share with your management for why investing in digital scholarship and data science staff skills is key to sustainable digital transformation over time. Have a look at the [Getting Started in DS Topic Guide](https://libereurope.github.io/ds-essentials/gettingstarted.html), particularly the section on [Relevance to the Library Sector](https://libereurope.github.io/ds-essentials/gettingstarted.html#relevance-to-the-library-sector-case-studiesuse-cases) for the latest supporting reports and competency & skills frameworks on this.  
 
-## Try running a monthly "Hack & Yack"
+### Try running a monthly "Hack & Yack"
 Establishing a regular Hack & Yack style meeting is a really nice way to learn something new with other colleagues. At the British Library our Hack & Yack's are once a month for two hours on a set day and time. It is a casual, hands-on session where colleagues from across all departments of the institution come together to understand a current topic or digital method and work through an online tutorial at everyone's own pace but with support of colleagues. 
 
 We use it as an opportunity to explore new tools/techniques/applications relevant to digital research and keep our own skills up to speed. Note this is not a formal training session, we're all learning together and come to the tutorials with a variety of experience/knowledge/skills.  
@@ -63,7 +63,7 @@ Each Hack & Yack usually starts with one person, which may or may not be the org
 
 Within each of these Topic Guides is a **Hands-on activity and other self-guided tutorial(s)** section that would make a perfect start for your first Hack & Yacks! 
 
-## Start a discussion/reading group
+### Start a discussion/reading group
 Whether you call it a 'reading group', a discussion group, a lunchtime series - the point is to provide regular opportunities for people to get together, and learn and support each other through discussion. You might set an article, blog post or chapter, a video or podcast.
 
 Things we've found useful:
@@ -74,7 +74,7 @@ Make it ok for people not to have finished reading, watching or listening to the
 
 Each Topic Guide has a **Recommended Reading/Viewing** section and you can also find some good starting points under [Recommended Reading Lists](https://libereurope.github.io/ds-essentials/references.html).
 
-## Create an identity
+### Create an identity
 After your group of the willing has been running for awhile it's useful to create an identify for yourselves. Perhaps you consider yourselves a network, or an interest group or maybe you'd like to start formalising your gatherings under a "training programme" moniker. Whatever you decide, it helps to bring in new folks when there is an established identity and even maybe a logo in advertisements.
 
 
