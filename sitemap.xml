@@ -2,130 +2,126 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://libereurope.github.io/ds-essentials/dataviz.html</loc>
-    <lastmod>2025-03-11T13:20:58.374Z</lastmod>
+    <lastmod>2025-03-11T13:21:26.080Z</lastmod>
   </url>
   <url>
     <loc>https://libereurope.github.io/ds-essentials/lod.html</loc>
-    <lastmod>2025-03-11T13:20:58.446Z</lastmod>
+    <lastmod>2025-03-11T13:21:26.151Z</lastmod>
   </url>
   <url>
     <loc>https://libereurope.github.io/ds-essentials/llms.html</loc>
-    <lastmod>2025-03-11T13:20:58.445Z</lastmod>
+    <lastmod>2025-03-11T13:21:26.151Z</lastmod>
   </url>
   <url>
     <loc>https://libereurope.github.io/ds-essentials/atr.html</loc>
-    <lastmod>2025-03-11T13:20:58.373Z</lastmod>
+    <lastmod>2025-03-11T13:21:26.079Z</lastmod>
   </url>
   <url>
     <loc>https://libereurope.github.io/ds-essentials/contributing.html</loc>
-    <lastmod>2025-03-11T13:20:58.373Z</lastmod>
+    <lastmod>2025-03-11T13:21:26.079Z</lastmod>
   </url>
   <url>
     <loc>https://libereurope.github.io/ds-essentials/computer-vision.html</loc>
-    <lastmod>2025-03-11T13:20:58.373Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-essentials/contact.html</loc>
-    <lastmod>2025-03-11T13:20:58.373Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-essentials/digitalmapping.html</loc>
-    <lastmod>2025-03-11T13:20:58.374Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-essentials/programming.html</loc>
-    <lastmod>2025-03-11T13:20:58.446Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-essentials/updates.html</loc>
-    <lastmod>2025-03-11T13:20:58.447Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-essentials/project-overview.html</loc>
-    <lastmod>2025-03-11T13:20:58.446Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-essentials/copyright.html</loc>
-    <lastmod>2025-03-11T13:20:58.374Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-essentials/workingwdata.html</loc>
-    <lastmod>2025-03-11T13:20:58.447Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-essentials/index.html</loc>
-    <lastmod>2025-03-11T13:20:58.445Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-essentials/networks.html</loc>
-    <lastmod>2025-03-11T13:20:58.446Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-essentials/gettingstarted.html</loc>
-    <lastmod>2025-03-11T13:20:58.376Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-essentials/dstp.html</loc>
-    <lastmod>2025-03-11T13:20:58.375Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-essentials/python.html</loc>
-    <lastmod>2025-03-11T13:20:58.446Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-essentials/github.html</loc>
-    <lastmod>2025-03-11T13:20:58.376Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-essentials/crowdsourcing.html</loc>
-    <lastmod>2025-03-11T13:20:58.374Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-essentials/openresearch.html</loc>
-    <lastmod>2025-03-11T13:20:58.446Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-essentials/training-platforms.html</loc>
-    <lastmod>2025-03-11T13:20:58.446Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-essentials/topicguides.html</loc>
-    <lastmod>2025-03-11T13:20:58.446Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-essentials/iiif.html</loc>
-    <lastmod>2025-03-11T13:20:58.376Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-essentials/licensing.html</loc>
-    <lastmod>2025-03-11T13:20:58.445Z</lastmod>
+    <lastmod>2025-03-11T13:21:26.079Z</lastmod>
   </url>
   <url>
     <loc>https://libereurope.github.io/ds-essentials/ai-ml.html</loc>
-    <lastmod>2025-03-11T13:20:58.372Z</lastmod>
+    <lastmod>2025-03-11T13:21:26.079Z</lastmod>
   </url>
   <url>
-    <loc>https://libereurope.github.io/ds-essentials/introduction.html</loc>
-    <lastmod>2025-03-11T13:20:58.445Z</lastmod>
+    <loc>https://libereurope.github.io/ds-essentials/licensing.html</loc>
+    <lastmod>2025-03-11T13:21:26.151Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-essentials/iiif.html</loc>
+    <lastmod>2025-03-11T13:21:26.082Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-essentials/topicguides.html</loc>
+    <lastmod>2025-03-11T13:21:26.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-essentials/training-platforms.html</loc>
+    <lastmod>2025-03-11T13:21:26.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-essentials/openresearch.html</loc>
+    <lastmod>2025-03-11T13:21:26.151Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-essentials/crowdsourcing.html</loc>
+    <lastmod>2025-03-11T13:21:26.080Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-essentials/github.html</loc>
+    <lastmod>2025-03-11T13:21:26.082Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-essentials/python.html</loc>
+    <lastmod>2025-03-11T13:21:26.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-essentials/dstp.html</loc>
+    <lastmod>2025-03-11T13:21:26.081Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-essentials/gettingstarted.html</loc>
+    <lastmod>2025-03-11T13:21:26.082Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-essentials/networks.html</loc>
+    <lastmod>2025-03-11T13:21:26.151Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-essentials/index.html</loc>
+    <lastmod>2025-03-11T13:21:26.151Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-essentials/workingwdata.html</loc>
+    <lastmod>2025-03-11T13:21:26.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-essentials/copyright.html</loc>
+    <lastmod>2025-03-11T13:21:26.080Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-essentials/project-overview.html</loc>
+    <lastmod>2025-03-11T13:21:26.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-essentials/updates.html</loc>
+    <lastmod>2025-03-11T13:21:26.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-essentials/programming.html</loc>
+    <lastmod>2025-03-11T13:21:26.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-essentials/digitalmapping.html</loc>
+    <lastmod>2025-03-11T13:21:26.080Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-essentials/contact.html</loc>
+    <lastmod>2025-03-11T13:21:26.079Z</lastmod>
   </url>
   <url>
     <loc>https://libereurope.github.io/ds-essentials/reports.html</loc>
-    <lastmod>2025-03-11T13:20:58.446Z</lastmod>
+    <lastmod>2025-03-11T13:21:26.152Z</lastmod>
   </url>
   <url>
     <loc>https://libereurope.github.io/ds-essentials/collectionsasdata.html</loc>
-    <lastmod>2025-03-11T13:20:58.373Z</lastmod>
+    <lastmod>2025-03-11T13:21:26.079Z</lastmod>
   </url>
   <url>
     <loc>https://libereurope.github.io/ds-essentials/guidelines.html</loc>
-    <lastmod>2025-03-11T13:20:58.376Z</lastmod>
+    <lastmod>2025-03-11T13:21:26.082Z</lastmod>
   </url>
   <url>
     <loc>https://libereurope.github.io/ds-essentials/api.html</loc>
-    <lastmod>2025-03-11T13:20:58.373Z</lastmod>
+    <lastmod>2025-03-11T13:21:26.079Z</lastmod>
   </url>
   <url>
     <loc>https://libereurope.github.io/ds-essentials/references.html</loc>
-    <lastmod>2025-03-11T13:20:58.446Z</lastmod>
+    <lastmod>2025-03-11T13:21:26.152Z</lastmod>
   </url>
 </urlset>
