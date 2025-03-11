@@ -1,11 +1,11 @@
 # Digital Scholarship & Data Science Topic Guides for Library Professionals
 
-[Digital Scholarship & Data Science Essentials for Library Professionals](https://libereurope.github.io/ds-essentials/) is an open and collaboratively curated training reference resource. It aims to make it easier for LIBER library professionals and others to gain a concise overview of the new technologies that underpin digital scholarship and data science practice in research libraries today, and find trusted training materials recommendations to start their professional learning journey.
+[Digital Scholarship & Data Science Topic Guides for Library Professionals](https://libereurope.github.io/ds-essentials/) is an open and collaboratively curated training reference resource. It aims to make it easier for LIBER library professionals and others to gain a concise overview of the new technologies that underpin digital scholarship and data science practice in research libraries today, and find trusted training materials recommendations to start their professional learning journey.
 
 ## About
-_Digital Scholarship & Data Science Essentials for Library Professionals_ is a project that began in in 2023 as a joint collaboration between the Digital Scholarship & Digital Cultural Heritage ([DSDCH](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/)) and the Data Science in Libraries ([DSLib](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/)).
+_Digital Scholarship & Data Science Topic Guides for Library Professionals_ is a project that began in in 2023 as a joint collaboration between the Digital Scholarship & Digital Cultural Heritage ([DSDCH](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/)) and the Data Science in Libraries ([DSLib](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/)).
 
-In addressing some of these issues, _Digital Scholarship & Data Science Essentials for Library Professionals_ seeks to:
+In addressing some of these issues, _Digital Scholarship & Data Science Topic Guides for Library Professionals_ seeks to:
 
 - Present a central destination for newcomers to become more familiar and conversant with the foundational concepts, methods and tools of digital scholarship and data science practice in libraries.
 - Help library staff gain a better understanding of digital scholarship and data science practice in libraries by providing contextualised and gentle introductions to key topics through guides, self-guided training materials, project case studies, jargon busting and recommended reading lists
