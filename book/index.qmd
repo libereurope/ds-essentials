@@ -4,6 +4,7 @@ format:
    html:
      background: "#f8f9fa" 
      page-layout: full
+     sidebar: false
 ---
 
 ## What are _Digital Scholarship & Data Science Topic Guides for Library Professionals_ (**DS Topic Guides**)?
