@@ -5,6 +5,7 @@ format:
      background: "#f8f9fa" 
      page-layout: full
      sidebar: false
+     toc: false
 ---
 
 Over the past few decades, the development of excellent self-paced tutorials and training materials for undertaking digital scholarship and data science in libraries have proliferated online. 
