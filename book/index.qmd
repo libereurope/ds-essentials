@@ -24,25 +24,6 @@ Each Topic Guide aims to provide a gentle, quick and curated introduction to the
 
 [Take me to the Topic Guides](topicguides.qmd){.btn .btn-outline-primary .btn role="button"} 
 
-## Are **DS Topic Guides** for me?
-Are you someone working in or around research libraries with an interest in learning more about how to do cool and interesting things with digital collections and data at your institution? Wondering how data science techniques can help you in your work? Are you interested in gaining valuable digital literacy skills and knowledge to support emerging areas of modern scholarship such as Digital Humanities? Do you need some of the technology jargon you hear about these days demystified?
-
-Then this resource is for you!
-
-It is very important to us that the guides here are inclusive and intellectually accessible, challenging but not terrifying and as such we focus primarily on an introductory audience where no programming or particular digital skills are required.
-
-Though written from the research library professional perspective we think these guides will be useful for anyone currently (or aspiring to be) working in and around digital collections and data in heritage institutions:
-
-- Library & Information Science students
-- Project managers
-- Developers
-- Information specialists
-- Metadata Managers
-- Subject librarians
-- System librarians
-- Institutional leadership
-
-And so many more!
  
 
 
