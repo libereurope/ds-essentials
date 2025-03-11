@@ -13,7 +13,7 @@ author:
         country: UK
         url: https://www.bl.uk
 abstract: > 
-  A gentle introduction to AI & Machine Learning demystifying concepts and technologies through the examples of practical applications in library work today.
+  A short guide provided by the British Library Digital Research Team with tips on how to set-up a local training programme. 
 keywords:
   - TBD
   - TBD
@@ -33,7 +33,7 @@ This Topic Guide shares a few things we've learned along the way about establish
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)  
 
-You only need to take a look at a few of the Topic Guides, **Relevance to the Library Sector (Case Studies/Use Cases)** contains useful real-life applications of new technologies being put into action to understand the importance of supporting the development of digital skills amongst Library professionals. At the British Library we've started to capture individual staff digital transformation stories as well which help to demonstrate the tangible value to individuals and institutions.
+You only need to take a look at a few of the Topic Guides, **Relevance to the Library Sector (Case Studies/Use Cases)** for useful real-life applications of new technologies being put into action to understand the importance of supporting the development of digital skills amongst Library professionals. At the British Library we've started to capture individual staff digital transformation stories as well which help to demonstrate the tangible value to individuals and institutions.
 
 >_"The Digital Scholarship Training Programme has introduced me to new software, opened my eyes to digital opportunities, provided inspiration for me to improve, and helped me attain new skills"_ -Graham Jevon, British Library
 
@@ -43,7 +43,7 @@ Read more about [Graham Jevon's digital transformation journey](https://blogs.bl
 
 ## Hands-on activity and other self-guided tutorial(s)
 
-The following steps can be used as a guide towards building your own local training programme!
+If you've been thinking about getting your own local training programme up and running, whether a small casual interest group or a full-blown digital transformation initiative, the following practical steps can be used to help you on your way!
 
 ### Find your people
 Get a small group of willing colleagues at your institution together and set up a way for them to communicate regularly, preferably asynchronously/remotely. We use a corporate wide MS Teams channel for this at British Library but you could also set up things like a slack channel or even a whatsapp channel. Focus on your purpose of bringing people together, think about the messaging and keep it light, "learn new stuff together that can help make your job easier" usually suffices! Try not to be too targeted, cast the net wide as people of all interests/academic disciplines/job profiles, abilities and backgrounds will undoubtedly have something to contribute: digital scholarship and data science is a collaborative affair and your group will be all the better for its diversity.
