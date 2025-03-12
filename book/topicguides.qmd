@@ -1,8 +1,8 @@
-# **TOPIC GUIDES** {.unnumbered .unlisted}
+# **DS TOPIC GUIDES** {.unnumbered .unlisted}
 
-Written by [LIBER](https://libereurope.eu/) professionals working in research libraries across Europe, the aim of each guide is to provide a gentle and concise introduction, and personal recommendations of tutorials, reading, and communities of practice, to help colleagues better understand practical applications of digital scholarship and data science in the work of libraries today. 
+Written by [LIBER](https://libereurope.eu/) professionals working in research libraries across Europe, the aim of each guide is to provide a gentle and concise introduction to practical applications of digital scholarship and data science to the work of libraries today, and share personal recommendations for useful tutorials, recommended reading, and communities of practice to help colleagues on their learning journey.  
 
-## How to use DS Topic Guides
+## How to use this resource
 
 This resource has a dual purpose; it is written as a tool for self-study and quick reference, but also as a guide for individuals and institutions interested in establishing their own local training programmes. 
 
