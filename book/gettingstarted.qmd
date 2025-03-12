@@ -38,7 +38,7 @@ citation:
 
 ## Introduction
 
-In this Topic Guide we'll look at broad definitions of digital scholarship & Data Science in a research library context, and provide recommended resources for library professionals to learn more about how new technologies and approaches are changing our traditional work of curation, creation, collecting, sharing at cultural heritage institutions and the benefits of gaining new skills in this area!
+In this Topic Guide we'll look at broad definitions of digital scholarship & data science in a research library context, and provide recommended resources for library professionals to learn more about how new technologies and approaches are changing our traditional work of curation, creation, collecting, sharing at cultural heritage institutions and the benefits of gaining new skills in this area!
 
 ### What is "digital scholarship"?
 
@@ -143,11 +143,11 @@ There is no shortage of recommended reading lists out there, and again, each Top
 As you embark on learning more about digital scholarship and data science in a library context, you might want to explore and join existing communities of practice. 
 
 ### LIBER Working Groups
- 
- Working groups are open to staff at participating [LIBER Member institutions](https://libereurope.eu/liber-participants/):
- - [LIBER Data Science in Libraries](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/)
- - [LIBER Digital Scholarship & Digital Cultural Heritage](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/)
- - Or have a look at the other [LIBER Working Groups - LIBER Europe](https://libereurope.eu/working-groups/)
+Working groups are open to staff at participating [LIBER Member institutions](https://libereurope.eu/liber-participants/):
+
+* [LIBER Data Science in Libraries](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/)
+* [LIBER Digital Scholarship & Digital Cultural Heritage](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/)
+* Or have a look at the other [LIBER Working Groups - LIBER Europe](https://libereurope.eu/working-groups/)
  
 ### International Networks
  - [AI4LAM](https://sites.google.com/view/ai4lam)
