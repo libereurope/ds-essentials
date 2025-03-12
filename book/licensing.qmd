@@ -1,6 +1,12 @@
-# **LICENSING & RE-USE** {.unnumbered .unlisted}
+---
+title: "Licensing & Re-use"
+format: 
+   html:
+     page-layout: full
+sidebar: false
+---
 
-The project team behind this resource is committed to upholding the values of open source and open science and are keen for the Topic Guides and other content provided here to be used widely and adapted where necessary for local contexts. To enable this, _Digital Scholarship & Data Science Essentials for Library Professionals_, including all Topic Guides published here, are contributed under a [CC BY 4.0 Deed | Attribution 4.0 International | Creative Commons](https://creativecommons.org/licenses/by/4.0/) license.
+The project team behind this resource is committed to upholding the values of open source and open science and are keen for the Topic Guides and other content provided here to be used widely and adapted where necessary for local contexts. To enable this, _Digital Scholarship & Data Science Topic Guides for Library Professionals_, including all Topic Guides published here, are contributed under a [CC BY 4.0 Deed | Attribution 4.0 International | Creative Commons](https://creativecommons.org/licenses/by/4.0/) license.
 
 This means _you are free to_:
 
@@ -20,10 +26,10 @@ No additional restrictions — You may not apply legal terms or technological me
 
 Suggested citations are written in [APA](https://apastyle.apa.org/style-grammar-guidelines/references/examples/journal-article-references) (American Psychological Association) citation style for Journal Articles and are given on each individual guide:
 
-McGregor, Nora, “IIIF,” _Digital Scholarship & Data Science Essentials for Library Professionals_ (2024), \[DOI link\]  
+McGregor, Nora, “IIIF,” _Digital Scholarship & Data Science Topic Guides for Library Professionals_ (2024), \[DOI link\]  
 
 To cite the full resource:
 
-McGregor, N., Verhaar, P., Moopen, N., Double, J., Irollo, A., & Kiraly, P. (Eds.). (2024, March 12). _Digital Scholarship & Data Science Essentials for Library Professionals_. <https://libereurope.github.io/ds-essentials>
+McGregor, N., Verhaar, P., Double, J., Irollo, A., & Kiraly, P. (Eds.). (2025, March 12). _Digital Scholarship & Data Science Topic Guides for Library Professionals_. <https://libereurope.github.io/ds-essentials>
 
-##
+
