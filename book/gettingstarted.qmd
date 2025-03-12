@@ -46,9 +46,8 @@ Though there are many definitions of what constitutes "digital scholarship" out 
 
 Though closely aligned to, and generously informed by, the academic discipline Digital Humanities, "digital scholarship" allows us to consider more broadly the full range of innovative scholarly activities our users seek to undertake with our digital collections and data, across a diverse range of disciplines. 
 
-:::{.callout-note}
-"Digital scholarship" allows us to define a space for us heritage professionals, where research is undertaken, in our own right, during the course of our daily work, utilizing computational methods in the curation, creation, collecting and sharing of our digital collections and data, but is not confined to formal academic pursuits or a particular discipline. 
-:::
+>**"Digital scholarship" allows us to define a space for us heritage professionals, where research is undertaken, in our own right, during the course of our daily work, utilizing computational methods in the curation, creation, collecting and sharing of our digital collections and data, but is not confined to formal academic pursuits or a particular discipline.** 
+
 
 ### Is this all just "data science"?
 Not quite. Data science, also an academic field, can be defined as a set of computational methods for the identification of novel and actionable insights from data.  
