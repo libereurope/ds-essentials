@@ -34,6 +34,9 @@ citation:
   volume: 1
   issue: 1
   doi: TBD
+format: 
+  pdf: default
+
 ---
 
 ## Introduction
